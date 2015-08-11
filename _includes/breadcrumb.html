@@ -10,7 +10,15 @@
 {% assign crumbs = page.url | split: '/' %}
 {% for crumb in crumbs offset: 1 %}
 	{% if forloop.last %}
-	<li class="current">{% include translate.html name=page.title %}</li>
+		{% if page.title %}
+			<li class="current">{% include translate.html name=page.title %}</li>
+		{% elseif page.type == "year" %}
+			<li class="current">{{ page.date | date: "%Y" }}</li>
+		{% elseif page.type == "month" %}
+			<li class="current">{{ page.date | date: "%m" }}</li>
+		{% elseif page.type == "day" %}
+			<li class="current">{{ page.date | date: "%d" }}</li>
+		{% endif %}
 	{% else %}
 	<li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{% include translate.html name=crumb %}</a>
 {% endif %}
