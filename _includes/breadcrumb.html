@@ -9,7 +9,7 @@
 {% assign crumbs = page.url | split: '/' %}
 {% for crumb in crumbs offset: 1 %}
 	{% if forloop.last %}
-	<li class="current">{{ page.title }}</li>
+	<li class="current">{% include translate.html name=page.title %}</li>
 	{% else %}
 	<li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{% include translate.html name=crumb %}</a>
 {% endif %}
