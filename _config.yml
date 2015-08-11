@@ -226,3 +226,7 @@ jekyll-archives:
     year: '/:year/'
     month: '/:year/:month/'
     category: '/category/:name/'
+
+ftp_host: 'v0.ftp.upyun.com'
+ftp_dir: ''
+ftp_passive: false
