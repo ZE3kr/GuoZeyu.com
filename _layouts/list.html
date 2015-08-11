@@ -9,11 +9,11 @@ breadcrumb: true
 
 		<dl class="accordion" data-accordion>
 			{% for list in page.lists %}
-			<a href="{{ list.url }}">
-				<dd class="accordion-navigation">
+			<dd class="accordion-navigation">
+				<a href="{{ list.url }}">
 					<strong>{{ list.title }}</strong>
-				</dd>
-			</a>
+				</a>
+			</dd>
 			{% endfor %}
 		</dl>
 	</div><!-- /.small-12.columns -->

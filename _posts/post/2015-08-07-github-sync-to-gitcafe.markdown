@@ -8,7 +8,7 @@ image:
 
 tag: []
 
-category: photo
+category: article
 ---
 
 本文将提供一个把 GitHub 自动且实时地同步到 GitCafe 方案。
