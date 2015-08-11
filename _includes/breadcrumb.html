@@ -12,11 +12,11 @@
 	{% if forloop.last %}
 		{% if page.title %}
 			<li class="current">{% include translate.html name=page.title %}</li>
-		{% elseif page.type == "year" %}
+		{% elsif page.type == "year" %}
 			<li class="current">{{ page.date | date: "%Y" }}</li>
-		{% elseif page.type == "month" %}
+		{% elsif page.type == "month" %}
 			<li class="current">{{ page.date | date: "%m" }}</li>
-		{% elseif page.type == "day" %}
+		{% elsif page.type == "day" %}
 			<li class="current">{{ page.date | date: "%d" }}</li>
 		{% endif %}
 	{% else %}
