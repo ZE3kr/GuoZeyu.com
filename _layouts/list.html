@@ -10,7 +10,7 @@ breadcrumb: true
 		<dl class="accordion" data-accordion>
 			{% for list in page.lists %}
 			<dd class="accordion-navigation">
-				<a href="{{ list.url }}">
+				<a href="{{ list.url }}" onclick="location='{{ list.url }}'">
 					<strong>{{ list.title }}</strong>
 				</a>
 			</dd>
