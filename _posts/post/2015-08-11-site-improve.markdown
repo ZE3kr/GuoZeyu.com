@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "本网站已换用更快的服务器"
-date:   2015-08-07 17:50:00+08:00
+date:   2015-08-11 18:35:00+08:00
 image:
   title: unsplash.com/site.jpeg
 
