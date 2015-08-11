@@ -6,6 +6,7 @@
 <div style="width:100vw;overflow: hidden;">
 <nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs" style="display:inline-flex;white-space: nowrap;z-index:9999999;width:500%">
 <li><a href="/">{{ site.data.language.breadcrumb_start }}</a></li>
+{% for category in page.categories limit:1 %}<li><a href="/category/{{ category }}/">{% include translate.html name=category %}</a></li>{% endfor %}
 {% assign crumbs = page.url | split: '/' %}
 {% for crumb in crumbs offset: 1 %}
 	{% if forloop.last %}

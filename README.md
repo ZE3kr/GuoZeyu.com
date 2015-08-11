@@ -13,4 +13,4 @@ ZE3kr.tlo.xyz
 
 + [图片、视频等技术参数](https://ze3kr.tlo.xyz/specs/)
 + [关于本站/版权](https://ze3kr.tlo.xyz/about/)
-+ [捐助 Thrideo 的视频流量费](https://ze3kr.tlo.xyz/donate/)
++ [捐助本站视频流量费](https://ze3kr.tlo.xyz/donate/)

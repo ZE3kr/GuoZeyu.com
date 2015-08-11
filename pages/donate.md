@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "捐助 Thrideo 的视频流量费"
+title: "捐助视频流量费"
 permalink: "/donate/"
 breadcrumb: true
 ---

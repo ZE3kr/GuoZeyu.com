@@ -5,7 +5,7 @@ xmlpage: yes
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 	<channel>
-		<title>Thrideo</title>
+		<title>ZE3kr • 视频</title>
 		<atom:link href="{{ "/podcast.xml" | prepend: site.url }}" rel="self" type="application/rss+xml" />
 		<description>{{ site.description | xml_escape }}</description>
 		<link>{{ site.github.url }}/</link>

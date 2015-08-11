@@ -4,11 +4,11 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
 	{% if page.type == "tag" %}<title>{{ site.title }} /{{ site.data.language.tag }}/{{ page.title }}/</title>
-	{% elsif page.type == "category" %}<title>{{ site.title }} /{{ site.data.language.category }}/{% include translate.html name=page.title %}/</title>
+	{% elsif page.type == "category" %}<title>{{ site.title }} • {% include translate.html name=page.title %}</title>
 	{% elsif page.type == "year" %}<title>{{ site.title }} /{{ page.date | date: "%Y" }}/</title>
 	{% elsif page.type == "month" %}<title>{{ site.title }} /{{ page.date | date: "%Y/%m" }}/</title>
 	{% elsif page.type == "day" %}<title>{{ site.title }} /{{ page.date | date: "%Y/%m/%d" }}/</title>
-	{% else %}<title>{% if page.head_title %}{{ page.head_title }}{% elsif page.title %}{{ page.title }}{% if page.category == "video" && site.title == "ZE3kr" %} - Thrideo{% endif %} | {{ site.title }}{% endif %}</title>{% endif %}
+	{% else %}<title>{% if page.head_title %}{{ page.head_title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% for category in post.categories limit:1 %} • {% include translate.html name=category %}{% endfor %}{% endif %}</title>{% endif %}
 	<script>
 	{% if site.dev-mode %}{% else %}
 	if( window.location.href.substr(0,7) == "http://" ){
