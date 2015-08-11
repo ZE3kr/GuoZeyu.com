@@ -12,7 +12,7 @@
 				<a href="{{ page.date | date: "/%Y/%m/" }}"><time class="icon-calendar pr20" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished"> {{ page.date | date: "%Y-%m-%d" }}</time></a>
 				{% endif %}
 
-				{% for category in page.categories %}<a href="/category/{{ category }}/"><span class="icon-archive pr20"> {{ category | upcase }}</span></a>{% endfor %}
+				{% for category in page.categories %}<a href="/category/{{ category }}/"><span class="icon-archive pr20"> {% include translate.html name=category %}</span></a>{% endfor %}
 				<br>
 				<span class="pr20">{% for tag in page.tags %}<span class="icon-price-tag pr10"> {{tag}}</span> {% endfor %}</span>
 			</p>

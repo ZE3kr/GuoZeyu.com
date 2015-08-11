@@ -1,0 +1,20 @@
+---
+layout: default
+archive: true
+breadcrumb: true
+---
+<div id="blog-index" class="row">
+	<div class="small-12 columns t30">
+		<h1>{{ page.title }}</h1>
+
+		<dl class="accordion" data-accordion>
+			{% for list in page.lists %}
+			<a href="{{ list.url }}">
+				<dd class="accordion-navigation">
+					<strong>{{ list.title }}</strong>
+				</dd>
+			</a>
+			{% endfor %}
+		</dl>
+	</div><!-- /.small-12.columns -->
+</div><!-- /.row -->

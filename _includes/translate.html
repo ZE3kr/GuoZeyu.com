@@ -1,0 +1,2 @@
+{% comment %}
+Usage: {% include translate.html name="title" %}{% endcomment %}{% if site.data.language.[include.name] %}{{ site.data.language.[include.name] }}{% else %}{{ include.name | upcase }}{% endif %}

@@ -1,5 +1,6 @@
 - title: "分类"
   side: right
+  url: "/category/"
   dropdown:
   - title: "文章"
     url: "/category/article/"
@@ -7,6 +8,8 @@
     url: "/category/video/"
   - title: "图片"
     url: "/category/photo/"
+  - title: "短文"
+    url: "/category/post/"
   - title: "软件推荐"
     url: "/category/app-recommend/"
 - title: "关于"
