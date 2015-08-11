@@ -1,0 +1,36 @@
+info_website: "关于本站"
+archive: "归档"
+blog_archive: "博客归档"
+blog: "博客"
+comments_headline: "评论与对话"
+more: "更多 ›"
+more_articles: "更多文章"
+navigation_title: "导航"
+new_blog_entries: "新博客文章"
+next: "下一页"
+next_posts: "下一页"
+previous: "上一页"
+previous_posts: "上一页"
+read: "阅读"
+read_more: "阅读更多&nbsp;›"
+if_you_are_not_redirected_automatically: "如果你没有自动跳转,"
+click_here: "点击此处"
+next_post_in: "下一篇在"
+previous_post_in: "上一篇在"
+breadcrumb_start: "首页"
+edit: "编辑"
+this_content_is_open_source: "这是开源的内容。"
+help_improve_it: "帮助改善它"
+enter_search_term: "Enter search term and hit enter"
+
+view_photo: "查看图片&nbsp;›"
+watch_video: "观看视频&nbsp;›"
+loading_exif: "正在加载此图的 EXIF 信息..."
+hdr_enabled: "HDR 已开启"
+
+tag: 标签
+category: 分类
+
+photo: 图片
+
+page.title: Test

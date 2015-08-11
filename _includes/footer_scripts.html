@@ -1,0 +1,74 @@
+<script type="text/javascript" charset="utf-8" src="//cdn-tlo.b0.upaiyun.com/js/main3.js"></script>
+{% if page.header.image_fullwidth %}
+<script>
+$("#masthead").backstretch("{{ site.urlimg }}/{{ page.header.image_fullwidth }}!s", {fade: 700});
+$("#masthead-with-text").backstretch("{{ site.urlimg }}/{{ page.header.image_fullwidth }}!s", {fade: 700});
+$(document).ready(function(){
+	$("#masthead .backstretch img").attr("srcset", "{{ site.urlimg }}/{{ page.header.image_fullwidth }}!b 2000w, {{ site.urlimg }}/{{ page.header.image_fullwidth }}!2x 1600w, {{ site.urlimg }}/{{ page.header.image_fullwidth }}!1.5x 1200, {{ site.urlimg }}/{{ page.header.image_fullwidth }}!s 1000w, {{ site.urlimg }}/{{ page.header.image_fullwidth }}!1x 800w");
+	$("#masthead-with-text .backstretch img").attr("srcset", "{{ site.urlimg }}/{{ page.header.image_fullwidth }}!b 2000w, {{ site.urlimg }}/{{ page.header.image_fullwidth }}!2x 1600w, {{ site.urlimg }}/{{ page.header.image_fullwidth }}!1.5x 1200, {{ site.urlimg }}/{{ page.header.image_fullwidth }}!s 1000w, {{ site.urlimg }}/{{ page.header.image_fullwidth }}!1x 800w");
+});
+</script>
+{% endif %}
+
+{% if page.file %}{% else %}
+<script>
+$(function() {
+	if (typeof FastClick !== 'undefined') {
+		if (typeof document.body !== 'undefined') {
+			FastClick.attach(document.body);
+		}
+	}
+});
+</script>
+{% endif %}
+
+{% if page.exif %}
+<script src="//cdnjs-com.b0.upaiyun.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+<script type="text/javascript" src="//tlocdn.sinaapp.com/lang/{{ site.exif_lang }}/{{ page.image.title }}!exif.json-js"></script>
+{% endif %}
+{% if page.exif.gps %}
+<script>
+	var lat = {{ page.exif.gps.lat }};
+	var lon = {{ page.exif.gps.lon }};
+	var gps = 'isset';
+</script>
+{% endif %}
+{% if page.exif %}
+<script>
+$(document).ready(function(){
+	if( gps == 'isset' ) {
+		var map = L.map('map', {
+			center: [lat, lon],
+			zoom: 7
+		});
+
+		var layerEnd = '';
+
+		if( typeof( window.devicePixelRatio )!="undefined" )
+		{
+			if ( window.devicePixelRatio >1 )
+			{
+				var layerEnd = '@2x';
+			}
+		}
+
+		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}' + layerEnd + '.png?access_token=pk.eyJ1IjoiemUza3IiLCJhIjoiMDMyMDgwODU4OGIxM2E2Yjg2ZjQxYjY5OWMwM2UwMmIifQ.F0TscTIRSUHh5IOzXy_9Yg', {
+			attribution: '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+			maxZoom: 15,
+			minZoom: 2,
+			id: 'mapbox.streets'
+		}).addTo(map);
+
+		map.dragging.disable();
+		map.touchZoom.disable();
+		map.doubleClickZoom.disable();
+		map.scrollWheelZoom.disable();
+
+		L.marker([lat, lon]).addTo(map){% if page.location %}.bindPopup("<b>{{ page.location }}</b>").openPopup(){% endif %};
+	}
+});
+</script>
+{% endif %}
+{% if page.include_javascript %}
+<script src="{{ page.include_javascript }}" type="text/javascript"></script>
+{% endif %}

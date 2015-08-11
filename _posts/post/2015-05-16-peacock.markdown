@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "孔雀"
+date:   2015-05-16 18:30:00+08:00
+image:
+  title: ze3kr/2015/IMG_0134.JPG
+exif:
+  gps:
+    lat: 39.949699
+    lon: 116.260872
+
+tag:
+- 动物
+
+location: "北京市海淀外国语实验学校"
+
+category: photo
+---
+
+使用 GoPro 拍摄，等效 15mm 的超广角使得离得很近（约半米）也能照全被摄物体。

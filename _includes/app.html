@@ -1,0 +1,5 @@
+{% comment %}
+Usage: {% include app.html id="XXXXX" short="XXX" %}
+{% endcomment %}
+<h4><a href="https://itunes.apple.com/app/id{{ include.id }}?at=10lJIS" onclick="var ua = window.navigator.userAgent.toLowerCase();if(ua.match(/MicroMessenger/i) == 'micromessenger'){location='https://cdn-tlo.b0.upaiyun.com/html/redirecting7.html#https://itunes.apple.com/app/id{{ include.id }}?at=10lJIS'}else{location='https://itunes.apple.com/app/id{{ include.id }}?at=10lJIS'}" target="_black"><div class="svg-appstore-CN"></div></a></h4>
+{% if include.short %}短链接：<a href="https://itunes.apple.com/app/id{{ include.id }}?at=10lJIS" onclick="var ua = window.navigator.userAgent.toLowerCase();if(ua.match(/MicroMessenger/i) == 'micromessenger'){location='https://cdn-tlo.b0.upaiyun.com/html/redirecting7.html#https://itunes.apple.com/app/id{{ include.id }}?at=10lJIS'}else{location='https://itunes.apple.com/app/id{{ include.id }}?at=10lJIS'}" target="_black"><code>tlo.xyz/{{ include.short }}</code></a>{% endif %}

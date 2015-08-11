@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "松鼠"
+date:   2015-07-12 21:22:00+08:00
+image:
+  title: ze3kr/2015/_E3_9669.jpg
+exif: yes
+
+tag:
+- 动物
+
+location: "香格里拉普达措国家公园"
+
+category: photo
+---
+利用大光圈和长焦获得较好的虚化，突出主体
+
+{% include img.html title="" img="_E3_9659.jpg" %}
+
+{% include img.html title="" img="_E3_9682.jpg" %}

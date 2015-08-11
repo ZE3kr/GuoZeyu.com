@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "鸟"
+date:   2015-07-30 18:10:00+08:00
+image:
+  title: ze3kr/2015/07/ZE3_0538.jpg
+exif: yes
+
+
+tag:
+- 鸟
+
+location: "北京动物园"
+
+category: photo
+---

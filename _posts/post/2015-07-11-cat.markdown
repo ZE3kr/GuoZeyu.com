@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "野猫"
+date:   2015-07-11 14:03:00+08:00
+image:
+  title: ze3kr/2015/ZE3_0225.jpg
+exif: yes
+
+tag:
+- 动物
+
+location: "北京圆明园"
+
+category: photo
+---
+
+{% include img.html img="IMG_0593.JPG" %}
+
+{% include img.html img="ZE3_0226.jpg" %}
+
+{% include img.html img="ZE3_0228.jpg" %}

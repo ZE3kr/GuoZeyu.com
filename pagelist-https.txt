@@ -1,0 +1,5 @@
+---
+---
+{% for post in site.posts %}{% unless post.published == false %}{{ site.url }}{{ post.url }}
+{% endunless %}{% endfor %}{% for page in site.pages %}{% unless page.sitemap.exclude == "yes" %}{{ site.url }}{{ page.url | remove: "index.html" }}
+{% endunless %}{% endfor %}

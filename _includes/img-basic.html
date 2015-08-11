@@ -1,0 +1,7 @@
+{% comment %}
+Usage: {% include img.html title="title" img="path" %}
+{% endcomment %}
+<p>
+{% if include.title %}<h4 style="text-align: center; margin-bottom: 5px;">{{ include.title }}</h4>{% endif %}
+	<img src="{{ site.urlimg }}/{{ include.img }}!1x" srcset="{{ site.urlimg }}/{{ include.img }}!b 2000w, {{ site.urlimg }}/{{ include.img }}!2x 1600w, {{ site.urlimg }}/{{ include.img }}!s 1000w, {{ site.urlimg }}/{{ include.img }}!1.5x 1200w, {{ site.urlimg }}/{{ include.img }}!1x 800w, {{ site.urlimg }}/{{ include.img }}!0.5x 400w" class="img-photo" sizes="(min-width: 1000px) calc( 500px - 1.875rem ), (min-width: 40.063rem) calc( 50vw - 1.875rem ), calc( 100vw - 1.875rem )" alt="{{ include.title }}" style="width:100%"/>
+</p>
