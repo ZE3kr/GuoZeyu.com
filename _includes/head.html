@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	{% if page.type == "tag" %}<title>{{ site.title }} /{{ site.data.language.tag }}/{{ page.title }}/</title>
 	{% elsif page.type == "category" %}<title>{{ site.title }} • {% include translate.html name=page.title %}</title>
 	{% elsif page.type == "year" %}<title>{{ site.title }} /{{ page.date | date: "%Y" }}/</title>
@@ -97,7 +98,7 @@
 	{% if site.og_type %}<meta property="og:type" content="website" />{% endif %}
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 	{% if page.meta_description %}<meta property="og:description" content="{{ page.meta_description | strip_html | escape }}"/>{% elsif page.description %}<meta property="og:description" content="{{ page.description | strip_html | escape }}"/>{% else %}<meta property="og:description" content="{{ page.content | strip_html | truncate: 140 | escape }}"/>{% endif %}
-	<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 	{% if site.title %}<meta property="og:site_name" content="{{ site.title }}" />{% endif %}
 	{% if page.image.title %}<meta property="og:image" content="{{ site.urlimg }}/{{ page.image.title }}!1x" />{% endif %}
 
