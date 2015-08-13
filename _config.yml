@@ -16,7 +16,7 @@ slogan: "郭泽宇的主页"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "欢迎来到郭泽宇 (ZE3kr) 的主页，这是我主要网站。使用 OpenShift 部署，由 CloudFlare 提供安全功能及 HTTPS 加密并且使用 UPYUN 作为静态存储与 CDN 加速，是一个开源的网站。"
+description: "欢迎来到郭泽宇 (ZE3kr) 的主页，这是我主要网站。使用 OpenShift 部署，是一个开源的网站。"
 
 
 # This URL is the main adresse. Don't include a slash at the end.
