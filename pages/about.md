@@ -7,7 +7,7 @@ breadcrumb: true
 
 这是一个开源的网站 <a href="https://github.com/ZE3kr/ZE3kr.github.io"><strong>了解详情&nbsp;›</strong></a>
 
-本站使用 [GitHub Pages](https://pages.github.com) 部署，并且使用 [UPYUN](https://www.upaiyun.com) 作为图片/视频存储与 CDN 加速。
+本站使用 KeyCDN 部署，并且使用 [UPYUN](https://www.upaiyun.com) 作为图片/视频存储与 CDN 加速。
 
 感谢 [UPYUN](https://www.upaiyun.com) 的赞助，以及 Amazon 联盟、Apple iTunes 联盟提供的广告。
 
