@@ -13,7 +13,9 @@
 	<script>
 	{% if site.dev-mode %}{% else %}
 	if( window.location.href.substr(0,7) == "http://" ){
-		window.location.href='https:'+window.location.href.substr(7);
+		window.location.href='https://'+window.location.href.substr(7);
+		location.href=='https://'+window.location.href.substr(7);
+		location='https://'+window.location.href.substr(7);
 	}
 	{% endif %}
 
