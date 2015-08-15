@@ -9,7 +9,7 @@ exif: yes
 tag: 
 - 软件
 
-location: "华山"
+location: "陕西省 华山景区"
 ---
 
 上方的这张照片就是使用 Lightroom 的去朦胧功能修改过的照片，下方这张照片是使用去朦胧功能之前的样子
