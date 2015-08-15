@@ -6,8 +6,9 @@ image:
   title: ze3kr/2015/IMG_XXXX.JPG
 exif: yes
 
-
 tag: []
+
+# location: ""
 ---
 
 {% include img-small.html title="title" img="path" %}
