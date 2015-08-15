@@ -3,7 +3,7 @@ layout: post
 title:  "Lightroom 强大的去朦胧/雾霾功能"
 date:   2015-08-15 21:15:00+08:00
 image:
-  title: ZE3_1087-2.jpg
+  title: ze3kr/2015/ZE3_1087-2.jpg
 exif: yes
 
 tag: 
