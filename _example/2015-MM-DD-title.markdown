@@ -9,6 +9,8 @@ exif: yes
 tag: []
 
 # location: ""
+
+category: photo/app-recommend/post/article
 ---
 
 {% include img-small.html title="title" img="path" %}
