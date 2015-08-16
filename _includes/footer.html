@@ -8,8 +8,9 @@
 	<footer id="footer-content" class="bg-grau">
 	  <div id="footer">
 		<div class="row">
+		  {% if site.site-img %}<a href="/"><img src="{{ site.site-img }}!s1x" srcset="{{ site.site-img }}!s2x 2x, {{ site.site-img }}!s3x 3x" class="alignleft" width="150" height="150"></a>{% endif %}
 		  <div class="medium-6 large-5 columns">
-			<h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
+			<a href="/"><h5 class="shadow-black" style="text-transform:initial!important;font-weight: 700">{{ site.title }}</h5></a>
 
 			<p class="shadow-black">
 			  {{ site.description }}
@@ -69,7 +70,7 @@
 		<nav class="row">
 		  <section id="subfooter-left" class="b30 small-12 medium-6 columns">
 			<ul class="inline-list">
-			  <li>Using <a style="display:inline;" href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> </li>
+			  <li>{{ site.data.language.copyright }} © {% if site.copyright-start %}{{ site.copyright-start }}–{% endif %}{{ site.time | date: "%Y" }} {{ site.title }}. {% if site.copyright %}{{ site.copyright }}{% endif %}</li>
 			</ul>
 		  </section>
 
