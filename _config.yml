@@ -225,3 +225,10 @@ jekyll-archives:
     year: '/:year/'
     month: '/:year/:month/'
     category: '/category/:name/'
+
+miantags:
+- 科技
+- 博客
+- 视频
+- 播客
+- 郭泽宇

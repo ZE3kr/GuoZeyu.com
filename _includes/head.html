@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	{% if page.tags %}<meta name="keywords"content="{{ page.tags | join: ', ' }}{% if page.categories %}, {{ page.categories | join: ', ' }}{% endif %}, {{ site.title }}"/>{% elsif page.categories %}<meta name="keywords"content="{{ page.categories | join: ', ' }}, {{ site.title }}"/>{% else %}<meta name="keywords"content="{{ site.miantags | join: ', ' }}, {{ site.title }}"/>{% endif %}
 	{% if page.type == "tag" %}<title>{{ site.title }} /{{ site.data.language.tag }}/{{ page.title }}/</title>
 	{% elsif page.type == "category" %}<title>{{ site.title }} • {% include translate.html name=page.title %}</title>
 	{% elsif page.type == "year" %}<title>{{ site.title }} /{{ page.date | date: "%Y" }}/</title>
