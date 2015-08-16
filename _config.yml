@@ -42,7 +42,7 @@ logo: "logo.png"
 
 
 # Paginates all X entries
-paginate: 20
+paginate: 12
 
 
 # Pagination path › Important for blog page in /blog/ to work
