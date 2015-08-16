@@ -53,7 +53,7 @@ xmlpage: yes
 		{% for post in site.categories.video %}
 		<item>
 			<title>{{ post.title | xml_escape }}</title>
-			<enclosure url="https:{{ site.urlvideo }}/{{ post.catid }}/{{ post.file }}-540p.m4v" type="video/mp4" length="{% if post.length %}{{ post.length.540p }}{% else %}0{% endif %}"  />
+			<enclosure url="https:{{ site.urlvideo }}/{{ post.catid }}/{{ post.file }}-540p.mp4" type="video/mp4" length="{% if post.length %}{{ post.length.540p }}{% else %}0{% endif %}"  />
 			<description><![CDATA[{{ post.content | cdata_escape | replace:'http://','https://' }}{% if post.feat %}{{ post.feat | cdata_escape | markdownify }}{% endif %}<p>{% if post.copyright %}{% if post.copyright_link %}<a href="{{ post.copyright_link }}">{% endif %}&#xA9; {{ post.time | date: "%Y" }} {{ site.github.owner_name }}. {{ post.copyright | xml_escape }}{% if post.copyright_link %}</a>{% endif %}{% else %}{% if site.copyright_link %}<a href="{{ site.copyright_link }}">{% endif %}&#xA9;ZE3kr. {{ site.copyright | xml_escape }}{% if site.copyright_link %}</a>{% endif %}{% endif %}</p>]]></description>
 			<link>{{ post.url | prepend: site.github.url }}</link>
 			<guid isPermaLink="false">{{ post.id }}</guid>
