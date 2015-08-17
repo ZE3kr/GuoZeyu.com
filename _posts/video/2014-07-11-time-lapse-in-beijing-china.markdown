@@ -23,8 +23,9 @@ sec: "02"
 file: 2
 
 length:
-  540p: 10393191
+  540p: 10416704
 ---
+在北京的间隔拍摄，使用 iPhone 5s 的内置相机录制。
 
 {% include product/begin.html %}
 {% include product/iphone5s.html %}

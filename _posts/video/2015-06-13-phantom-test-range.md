@@ -24,8 +24,10 @@ sec: 10
 file: s1
 
 length:
-  540p: 11805093
+  540p: 15560308
 ---
+
+测试使用无人机航拍。
 
 {% include product/begin.html %}
 {% include product/phantom2.html %}

@@ -5,7 +5,6 @@ date:   2015-08-07 22:30:00+08:00
 image:
   title: unsplash.com/coding.jpeg
 
-
 tag: []
 
 category: article

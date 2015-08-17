@@ -21,8 +21,10 @@ sec: "25"
 file: 7
 
 length:
-  540p: 24045965
+  540p: 23723950
 ---
+
+使用 GoPro Hero 4 的大广角拍摄
 
 音乐来自 [Rho](http://freemusicarchive.org/music/Rho/Brace_For_Gravity/01-NS062-Your_Sunrise)
 

@@ -13,9 +13,10 @@ category:
 - app-recommend
 - article
 ---
-{% include app.html id="694647259" short="1z" %}
 
-这是一个很值得使用的软件。我已经用了它一年多了，有很多不同于其他照相软件的功能，下面我将一一介绍。
+这是一个很值得使用的软件，包含强大的手动自定义功能、分享功能以及惊人的 HDR 合成能力。
+
+{% include app.html id="694647259" short="1z" %}
 
 独创的 HDR
 ------
