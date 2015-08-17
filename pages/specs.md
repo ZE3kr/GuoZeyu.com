@@ -102,6 +102,8 @@ GPS 的地图尚不为矢量图，而是普通 JPEG 图片。目前并不支持�
 | 150 | 150 | s1x | JPEG/PNG |
 | 300 | 300 | s2x | JPEG/PNG |
 | 450 | 450 | s3x | JPEG/PNG |
+| 100 | 100 | s100x | JPEG |
+| 200 | 200 | s200px | JPEG |
 | 200 | 200 | sq | JPEG/PNG |
 | 1400 | 1400 | sq.jpg | JPEG |
 
