@@ -29,7 +29,7 @@ category: post
 
 {% include img-small.html title="重新排版后去掉了网站名" img="IMG_0782.PNG" %}
 
-{% include img-small.html title="重新排版后去掉了网站名" img="IMG_0781.PNG" %}
+{% include img-small.html title="重新排版后加上了广告" img="IMG_0781.PNG" %}
 
 ## 屏蔽好搜
 
@@ -57,7 +57,7 @@ Deny from env=bad_bot
 
 嗯，很成功，图片加载不了了，但是并没有完全屏蔽它。
 
-{% include img-small.html title="重新排版后去掉了网站名" img="IMG_0783.PNG" %}
+{% include img-small.html title="利用 Referer 屏蔽" img="IMG_0783.PNG" %}
 
 ### 利用好搜缺陷屏蔽它
 
