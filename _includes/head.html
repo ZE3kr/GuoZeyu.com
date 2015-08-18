@@ -10,6 +10,7 @@
 	{% elsif page.type == "year" %}<title>{{ site.title }} /{{ page.date | date: "%Y" }}/</title>
 	{% elsif page.type == "month" %}<title>{{ site.title }} /{{ page.date | date: "%Y/%m" }}/</title>
 	{% elsif page.type == "day" %}<title>{{ site.title }} /{{ page.date | date: "%Y/%m/%d" }}/</title>
+	{% elsif paginator.page and paginator.page != 1 %}<title>{{ site.title }} {{ site.data.language.page-before }} {{ paginator.page }} {{ site.data.language.page-end }}</title>
 	{% else %}<title>{% if page.head_title %}{{ page.head_title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% for category in page.categories limit:1 %} • {% include translate.html name=category %}{% endfor %}{% endif %}</title>{% endif %}
 	<script>
 	{% if site.dev-mode %}{% else %}

@@ -39,3 +39,6 @@ article: 文章
 
 copyright: "版权所有"
 more-information: "了解详情&nbsp;›"
+
+page-before: "第 "
+page-end: " 页"
