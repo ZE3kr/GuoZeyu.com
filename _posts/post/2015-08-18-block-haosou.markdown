@@ -37,7 +37,7 @@ category: post
 
 然后我发现了啥？好搜竟然不支持使用 `robots.txt` 文件协议单独屏蔽它，好搜跪着求我：“不要屏蔽我，我还想那你的内容赚钱，你要非要屏蔽就把所有的都屏蔽了吧！”
 
-当然，我是不怕这些的，我直接屏蔽你的 User Agent 不就好了。于是我在 `.htaccess` 文件夹下加入了如下内容：
+当然，我是不怕这些的，我直接屏蔽你的 User Agent 不就好了。于是我在 `.htaccess` 文件下加入了如下内容：
 
 {% highlight apache %}
 RewriteEngine on
