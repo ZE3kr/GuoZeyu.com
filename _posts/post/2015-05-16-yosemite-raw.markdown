@@ -29,4 +29,4 @@ Mac OS X 发布了 RAW 6.04 更新，兼容了以下新相机:
 - Panasonic LUMIX DMC-GF7
 - Pentax MX-1
 
-[查看完整的兼容列表](https://support.apple.com/en-us/HT203088) 
+{% include more.html url="https://support.apple.com/en-us/HT203088" external="true" %}

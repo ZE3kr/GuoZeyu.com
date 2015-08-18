@@ -106,7 +106,7 @@ category: article
 
 使用 CDN 的意思是尽可能把静态文件放在 CDN 服务器上，一个 CDN 包含很多个节点，用户下载 CDN 上的文件时会从物理位置最近或者是相同运营商的节点上下载，如果这个节点上已经有缓存则直接传给用户，如果没有缓存则从最近的数据中心下载并缓存，再传给用户。
 
-我的做法是把网站上所有图片、视频、CSS 样式表和 JavaScript 放在 CDN 上，网站本身不在 CDN 上。这样做能大大减少加载时间，而且成本不大。无论是个人博客还是行业网站，使用 CDN 都很有必要。如果没有钱买自己的 CDN，没关系，你可以免费使用常用开源 CSS 和 JavaScript 的 CDN，官网地址地址：[cdnjs.com](https://cdnjs.com)。然而官网没有中国的 CDN，如果你的用户在中国，请使用我制作的中国镜像：[cdnjs-com.b0.upaiyun.com](https://terminalon.com/page/cdnjs/)。
+我的做法是把网站上所有图片、视频、CSS 样式表和 JavaScript 放在 CDN 上，网站本身不在 CDN 上。这样做能大大减少加载时间，而且成本不大。无论是个人博客还是行业网站，使用 CDN 都很有必要。如果没有钱买自己的 CDN，没关系，你可以免费使用常用开源 CSS 和 JavaScript 的 CDN，官网地址地址：[cdnjs.com](https://cdnjs.com){:target="_blank"}。然而官网没有中国的 CDN，如果你的用户在中国，请使用我制作的中国镜像：[cdnjs-com.b0.upaiyun.com](https://terminalon.com/page/cdnjs/){:target="_blank"}。
 
 ### 妥善利用缓存机制
 

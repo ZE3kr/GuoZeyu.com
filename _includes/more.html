@@ -1,4 +1,4 @@
 {% comment %}
-Usage: {% include more.html url="url" %}
+Usage: {% include more.html url="url" external="true" %}
 {% endcomment %}
-<a href="{{ include.url }}"><strong>{{ site.data.language.more-information }}</strong></a>
+<a href="{{ include.url }}" {% if include.external %}target="_blank"{% endif %}><strong>{{ site.data.language.more-information }}</strong></a>

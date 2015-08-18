@@ -22,8 +22,7 @@ category: post
 
 ### 本次改版涉及到的网站列表:
 
-+ [ze3kr.tlo.xyz](//ze3kr.tlo.xyz)
-+ [thrideo.tlo.xyz](//thrideo.tlo.xyz)
++ [ze3kr.tlo.xyz](https://ze3kr.tlo.xyz){:target="_blank"}
 
 ## 更新后速度评测
 

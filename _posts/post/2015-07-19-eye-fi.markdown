@@ -17,7 +17,7 @@ Eyefi Mobi 是一张有 Wi-Fi 功能的 SD 卡。当配置好后，相机每照�
 
 ## 兼容性
 
-兼容绝大多数能安装 SD 卡的相机，特别是在佳能、卡西欧、尼康、索尼、富士、JVC、莱卡、奥林帕斯、松下、宾得、理光、适马、三洋等品牌中都做了特别的适配。请查看[所有兼容的相机列表](http://www.eyefi.com/cameras)
+兼容绝大多数能安装 SD 卡的相机，{% include more.html url="http://www.eyefi.com/cameras" external="true" %}
 
 比如佳能 5D Mark III、7D Mark II 等机型都不带 Wi-Fi 功能，但是都是 CF/SD 双卡槽，可以将照片同时存进两张卡中。考虑到 Eyefi Mobi 卡的速度以及容量不及 CF 卡。所以我设置在 Eyefi Mobi 卡中存储 JPEG 格式，在 CF 卡中存储 RAW 格式，JPEG 格式更适合手机分享到社交网络，RAW 格式适合后期编辑，十分方便。我在佳能相机中每拍下一张照片都会同时存储 JPEG 和 RAW 格式的照片至两张卡（相机中设置为“同时记录”即可），即使是使用 7D Mark II 的每秒十张连拍也没有丝毫问题，可见这张卡在专业相机上当作副卡是表现不错的，可以快速从手机分享刚刚拍摄的照片。
 

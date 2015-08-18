@@ -16,15 +16,15 @@ category: article
 
 > 首先，需要给 GitHub 项目改个名，如果你原先是 `<用户名>.github.io` 形式的话，请改成别的，改完后把 master 分支改名为 gh-pages。
 
-> 然后在 GitCafe 上创建一个存放处，存放处名称需要是你的用户名，见此：[GitCafe Pages 相关帮助](https://gitcafe.com/GitCafe/Help/wiki/Pages-%E7%9B%B8%E5%85%B3%E5%B8%AE%E5%8A%A9)，设置好自定义域名等等。
+> 然后在 GitCafe 上创建一个存放处，存放处名称需要是你的用户名，{% include more.html url="https://gitcafe.com/GitCafe/Help/wiki/Pages-%E7%9B%B8%E5%85%B3%E5%B8%AE%E5%8A%A9" external="true" %}，设置好自定义域名等等。
 
 > 待完成“步骤”后，修改域名解析。
 
 ## 步骤
 
-为了实现同步需要一个虚拟主机，本文讲解使用免费的 [OpenShift](https://www.openshift.com) 的方法。
+为了实现同步需要一个虚拟主机，本文讲解使用免费的 [OpenShift](https://www.openshift.com){:target="_blank"} 的方法。
 
-进入 [OpenShift](https://www.openshift.com) 注册账号。
+进入 [OpenShift](https://www.openshift.com){:target="_blank"} 注册账号。
 
 注册成功后再创建一个程序，由于我不特别会后端，索性选择 PHP5.4。
 
