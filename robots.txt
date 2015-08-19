@@ -2,6 +2,12 @@
 ---
 # www.robotstxt.org/
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+Sitemap: {{ site.url }}/sitemap.xml
 
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Disallow: /ze3kr.tlo.xyz
+Disallow: /terminalon.com
+Disallow: /fuckbilibili.com
+Disallow: /master-tlo.rhcloud.com
+Disallow: /video.terminalon.com
+Disallow: /api.terminalon.com
