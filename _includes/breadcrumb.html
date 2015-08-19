@@ -4,7 +4,7 @@
 *
 {% endcomment %}
 <div style="width:100vw;overflow:hidden;height:29px;">
-<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs" style="display:inline-flex;white-space: nowrap;z-index:9999999;width:500%;height:29px;">
+<ul class="breadcrumbs" aria-label="breadcrumbs" style="display:inline-flex;white-space: nowrap;z-index:9999999;width:500%;height:29px;">
 <li><a href="/">{{ site.data.language.breadcrumb_start }}</a></li>
 {% for category in page.categories limit:1 %}<li><a href="/category/{{ category }}/">{% include translate.html name=category %}</a></li>{% endfor %}
 {% assign crumbs = page.url | split: '/' %}
@@ -23,5 +23,5 @@
 	<li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{% include translate.html name=crumb %}</a>
 {% endif %}
 {% endfor %}
-</nav>
+</ul>
 </div>

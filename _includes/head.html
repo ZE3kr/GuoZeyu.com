@@ -3,8 +3,9 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta http-equiv="Cache-Control" content="max-age=600, no-transform, public" />
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	{% if page.tags %}<meta name="keywords"content="{{ page.tags | join: ', ' }}{% if page.categories %}, {% for category in page.categories %}{% include translate.html name=category %}, {% endfor %}{% endif %}{{ site.title }}"/>{% elsif page.categories %}<meta name="keywords"content="{% for category in page.categories %}{% include translate.html name=category %}, {% endfor %}{{ site.title }}"/>{% else %}<meta name="keywords"content="{{ site.miantags | join: ', ' }}, {{ site.title }}"/>{% endif %}
+	{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}{% if page.categories %}, {% for category in page.categories %}{% include translate.html name=category %}, {% endfor %}{% endif %}{{ site.title }}"/>{% elsif page.categories %}<meta name="keywords" content="{% for category in page.categories %}{% include translate.html name=category %}, {% endfor %}{{ site.title }}"/>{% else %}<meta name="keywords" content="{{ site.miantags | join: ', ' }}, {{ site.title }}"/>{% endif %}
 	{% if page.type == "tag" %}<title>{{ site.title }} /{{ site.data.language.tag }}/{{ page.title }}/</title>
 	{% elsif page.type == "category" %}<title>{{ site.title }} • {% include translate.html name=page.title %}</title>
 	{% elsif page.type == "year" %}<title>{{ site.title }} /{{ page.date | date: "%Y" }}/</title>
@@ -38,8 +39,8 @@
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
 
-	<link rel="stylesheet" charset="utf-8" href="//cdn-tlo.b0.upaiyun.com/css/styles_feeling_responsive.css" />
-	<link rel="stylesheet" charset="utf-8" href="//cdn-tlo.b0.upaiyun.com/css/svg9.css" />
+	<link rel="stylesheet" href="//cdn-tlo.b0.upaiyun.com/css/styles_feeling_responsive.css" />
+	<link rel="stylesheet" href="//cdn-tlo.b0.upaiyun.com/css/svg9.css" />
 	{% if page.exif %}<link rel="stylesheet" charset="utf-8" href="//cdnjs-com.b0.upaiyun.com/ajax/libs/leaflet/0.7.3/leaflet.css" />{% endif %}
 	{% if page.file %}<link rel="stylesheet" charset="utf-8" href="//cdnjs-com.b0.upaiyun.com/ajax/libs/video.js/4.12.8/video-js.css" />{% endif %}
 	<script async type="text/javascript" charset="utf-8" src="//cdnjs-com.b0.upaiyun.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
