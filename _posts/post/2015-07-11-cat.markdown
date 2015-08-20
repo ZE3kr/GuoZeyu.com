@@ -14,7 +14,7 @@ location: "北京圆明园"
 category: photo
 ---
 
-夜猫的照片
+野猫的照片
 
 {% include img.html img="IMG_0593.JPG" %}
 

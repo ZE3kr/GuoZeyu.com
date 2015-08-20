@@ -16,7 +16,7 @@ category:
 
 这是一个很值得使用的软件，包含强大的手动自定义功能、分享功能以及惊人的 HDR 合成能力。
 
-{% include app.html id="694647259" short="1z" %}
+{% include app.html id="694647259" short="e" %}
 
 独创的 HDR
 ------

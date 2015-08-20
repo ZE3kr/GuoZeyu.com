@@ -500,7 +500,7 @@ JS;
 	**/
 	if( isset( $camerasLink[ $exif['Model'] ] ) )
 	{
-		$link = 'https://cdn-tlo.b0.upaiyun.com/html/redirecting2.html#' . $camerasLink[ $exif['Model'] ];
+		$link = 'https://cdn-tlo.b0.upaiyun.com/html/redirecting21.html#' . $camerasLink[ $exif['Model'] ];
 		$cameraText = "<li><b>{$language['Camera']}:</b> <i><a href='{$link}' style='color:#0078A8;' target='_black'>{$exif['Make']} {$model}</a></i></li>";
 	}
 	else
@@ -533,7 +533,7 @@ HTML;
 
 		if( isset( $lensLink[ $exif['0xA434'] ] ) )
 		{
-			$link = 'https://cdn-tlo.b0.upaiyun.com/html/redirecting2.html#' . $lensLink[ $exif['0xA434'] ];
+			$link = 'https://cdn-tlo.b0.upaiyun.com/html/redirecting21.html#' . $lensLink[ $exif['0xA434'] ];
 			$html = $html."<li><b>{$language['Lens']}:</b> <i><a href='{$link}' style='color:#0078A8;' target='_black'>{$lens}</a></i></li>";
 		}
 		else
