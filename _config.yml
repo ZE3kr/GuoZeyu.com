@@ -203,7 +203,8 @@ sass:
 #
 # used in _includes/footer_scripts.html
 
-google_analytics_tracking_id: "UA-64737110-1"
+# google_analytics_tracking_id: "UA-64737110-1"
+baidu_analytics_tracking_id: "9e3ebbd1fc6c8df785d7b104cd74d2e4"
 
 mirror-url: "https://ze3kr-tlo.b0.upaiyun.com"
 mirror-domain: "ze3kr-tlo.b0.upaiyun.com"
@@ -236,3 +237,5 @@ copyright: "保留所有权利"
 copyright-start: "2014"
 
 site-img: "//tlimage.b0.upaiyun.com/ze3kr/ze3kr.png"
+
+https: yes

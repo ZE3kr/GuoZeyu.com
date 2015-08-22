@@ -14,7 +14,7 @@
 	{% elsif paginator.page and paginator.page != 1 %}<title>{{ site.title }} {{ site.data.language.page-before }} {{ paginator.page }} {{ site.data.language.page-end }}</title>
 	{% else %}<title>{% if page.head_title %}{{ page.head_title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% for category in page.categories limit:1 %} • {% include translate.html name=category %}{% endfor %}{% endif %}</title>{% endif %}
 	<script>
-	{% if site.dev-mode %}{% else %}
+	{% if site.https %}
 	if( window.location.href.substr(0,7) == "http://" ){
 		window.location.href='https://'+window.location.href.substr(7);
 		location.href=='https://'+window.location.href.substr(7);
@@ -22,6 +22,7 @@
 	}
 	{% endif %}
 
+	{% if site.mirror-domain %}
 	var ua = window.navigator.userAgent.toLowerCase();
 	if(ua.match(/MicroMessenger/i) == 'micromessenger'){
 		if( window.location.host != '{{ site.mirror-domain }}' ){
@@ -33,6 +34,7 @@
 			window.location.href="{{ page.url | prepend: site.url | replace:'index.html','' }}";
 		}
 	}
+	{% endif %}
 	</script>
 
 	{% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification}}" />{% endif %}
@@ -126,6 +128,17 @@
 	ga('create', '{{ site.google_analytics_tracking_id }}', 'auto');
 	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
+	</script>
+	{% endif %}
+	{% if site.baidu_analytics_tracking_id %}
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?{{ site.baidu_analytics_tracking_id }}";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
 	</script>
 	{% endif %}
 </head>
