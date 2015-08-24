@@ -38,13 +38,13 @@ category: article
 
 {% include img-small.html title="2. 普通 HTTPS 站点" img="https1.png" %}
 
-{% include img-small.html title="3. 使用过时加密方式的 HTTPS 站点" img="https2.png" %}
-
-{% include img-small.html title="4. 加密协议有问题的 HTTPS 站点" img="https3.png" %}
-
 其中第一种和第二种情况代表使用了足够安全的加密方式，只是证书的签名等级不同，与加密方式以及验证的安全性无关。
 
-第三种情况是使用了 SHA-1 签名的证书，由于 SHA-1 不是足够的安全，也就是说验证的安全性不够，但是这种证书伪造的成本越来越低，所以可能不安全。但是加密仍然是足够的。
+{% include img-small.html title="3. 使用过时加密方式的 HTTPS 站点" img="https2.png" %}
+
+第三种情况是使用了 SHA-1 签名的证书，由于 SHA-1 不是足够的安全，也就是说验证的安全性不够，由于这种证书伪造的成本越来越低，所以可能不安全。这种站点的加密仍然是足够的。
+
+{% include img-small.html title="4. 加密协议有问题的 HTTPS 站点" img="https3.png" %}
 
 第四种情况代表当前可能正在被中间人攻击。
 
@@ -66,7 +66,7 @@ Google 对 HTTPS 站点的抓取很友好，官方说使用 HTTPS 还会提高�
 
 ### 兼容性问题
 
-SNI 协议已经被大量的使用，但是仍然有一些设备是不兼容的，比如 Windows XP 的 IE8 及以前的浏览器都不兼容。截止到目前，中国兼容 SNI 的浏览器使用率已经达到了 90%，{% include more.html url="http://caniuse.com/#feat=sni" external="true" %}
+SNI 协议已经被大量的使用，但是仍然有一些设备是不兼容的，比如 Windows XP 的 IE8 及以前的浏览器都不兼容。截止到目前，中国支持 SNI 的浏览器使用率已经达到了 90%，{% include more.html url="http://caniuse.com/#feat=sni" external="true" %}
 
 ### 搜索引擎
 
@@ -88,7 +88,7 @@ HTTPS 只能在一定程度上防止篡改，但是并不能抵制一些强大�
 
 ### 使用 _**.htaccess**_ 强制 HTTPS
 
-下方为在 Apache 中配置
+下方为在 Apache 里的 `.htaccess` 中配置
 
 {% highlight apache %}
 RewriteEngine on
