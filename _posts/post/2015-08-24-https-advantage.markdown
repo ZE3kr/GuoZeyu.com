@@ -12,7 +12,7 @@ tag:
 
 category: article
 ---
-[我的主页](/)就全部强制 HTTPS。使用 HTTPS 有好处也有坏处，本文将说一些关于此的一些事。
+[我的主页](/)就全部强制 HTTPS。使用 HTTPS 有好处也有坏处，本文将说一些关于此的事。
 
 {% include list.html %}
 
