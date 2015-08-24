@@ -4,7 +4,6 @@ title:  "关于 HTTPS 的一些事"
 date:   2015-08-24 22:37:00+08:00
 image:
   title: ze3kr/2015/ZE3_1224.jpg
-exif: yes
 
 tag: 
 - HTTPS
@@ -87,11 +86,16 @@ HTTPS 只能在一定程度上防止篡改，但是并不能抵制一些强大�
 
 或许以后的浏览器只能访问 HTTPS 站点，就像 iOS 9 大力推动 HTTPS 一样，这样就能大大提高安全性，抵制中间人攻击。
 
-### 使用 `.htaccess ` 强制 HTTPS
+### 使用 _**.htaccess**_ 强制 HTTPS
+
+下方为在 Apache 中配置
 
 {% highlight apache %}
+RewriteEngine on
+
 RewriteCond %{HTTP:X-Forwarded-Proto} =http
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] # 禁用 HTTP 协议
+
 Header set Strict-Transport-Security "max-age=15552000; preload; includeSubDomains" env=HTTPS # 如果使用 HTTPS，那么启用 HSTS。includeSubDomains、preload 参数选择性开启，max-age 数值根据需要设置，单位是秒，越大越安全
 {% endhighlight %}
 
