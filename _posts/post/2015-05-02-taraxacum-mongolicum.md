@@ -7,7 +7,6 @@ image:
   title: ze3kr/2015/IMG_0090.JPG
 exif: yes
 
-
 tag:
 - 花
 - iPhone
