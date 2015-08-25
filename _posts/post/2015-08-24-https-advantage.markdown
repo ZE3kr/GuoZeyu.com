@@ -50,6 +50,10 @@ category: article
 
 关于 Chrome 的加密提示，{% include more.html url="https://support.google.com/chrome/answer/95617" external="true" %}
 
+无论如何，我都不推荐你使用 SHA-1 签名的证书，值得注意的是最新版 Safari 也可以选择不信任 SHA-1 签名的证书了，SHA-1 即将淘汰。
+
+{% include img-small.html title= "Safari 的新选项" img="2015-08-2523.15.42.png" %}
+
 ### 搜索引擎
 
 Google 对 HTTPS 站点的抓取很友好，官方说使用 HTTPS 还会提高排名。Google 也支持使用 SNI 协议的 HTTPS 站点。
