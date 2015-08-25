@@ -41,7 +41,7 @@
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
 
-	<link rel="stylesheet" href="//cdn-tlo.b0.upaiyun.com/css/styles_feeling_responsive.css" />
+	<link rel="stylesheet" href="//cdn-tlo.b0.upaiyun.com/css/styles_feeling_responsive_0.1.1.css" />
 	<link rel="stylesheet" href="//cdn-tlo.b0.upaiyun.com/css/svg9.css" />
 	{% if page.exif %}<link rel="stylesheet" charset="utf-8" href="//cdnjs-com.b0.upaiyun.com/ajax/libs/leaflet/0.7.3/leaflet.css" />{% endif %}
 	{% if page.file %}<link rel="stylesheet" charset="utf-8" href="//cdnjs-com.b0.upaiyun.com/ajax/libs/video.js/4.12.8/video-js.css" />{% endif %}
@@ -52,51 +52,7 @@
 	{% endif %}
 
 	<style>
-	body,p,h1,h2,h3,h4,h5,h6{
-		font-family: system-font, -webkit-system-font, -apple-system-font, "Source Sans Pro", "Source Han Sans SC", "Source Han Sans CN", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "微软雅黑", sans-serif!important;
-	}
-	@media only screen and (min-width:40.063em){
-		.tlo-map{
-			max-width: 400px;
-			min-width: 200px;
-			width: calc(100% - 400px)!important;
-		}
-		.tlo-map-block{
-			right: 0.9375rem;
-		}
-		.post-img{
-			margin: 5px 15px 15px 0!important;
-		}
-	}
-	.tlo-map{
-		height: 160px;
-		width: 100%;
-		display: none;
-	}
-	.leaflet-control-zoom-out,.leaflet-control-zoom-in{
-		width:40px!important;
-		height:40px!important;
-		font-size:35px!important;
-		font-family:"Helvetica Neue",Helvetica,Arial!important;
-		line-height:0.8!important;
-	}
-	#navigation{ z-index:1000000000 }
-	.leaflet-map-pane{ cursor:default!important; }
-	p{ line-height:1.8!important; font-weight: 300; }
-	code{ font-family:Consolas, "Liberation Mono", Menlo, Courier, monospace!important; }
-	.exif-li-i{
-		width:25%;
-		display:inline-block;
-		max-width:80px;
-	}
-	.leaflet-popup-content{
-		margin:4px 8px;
-	}
-	.leaflet-popup-close-button{
-		display:none!important
-	}
 	{% if page.exif.gps %}.tlo-map{display:block!important;}{% endif %}
-	.top-bar-section ul li .js-generated{display:none!important}
 	</style>
 
 	{% if site.google_author %}<link rel="author" href="{{ site.google_author }}"/>{% endif %}
