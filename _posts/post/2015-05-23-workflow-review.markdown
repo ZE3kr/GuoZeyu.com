@@ -17,6 +17,8 @@ Workflow 是一个 iOS 软件，使用起来类似于 Mac 上内置的 Automator
 
 {% include app.html id="915249334" short="f" %}
 
+{% include list.html %}
+
 功能
 ------
 它可以实现一系列接二连三的操作。比如：

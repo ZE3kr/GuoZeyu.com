@@ -15,6 +15,8 @@ Eyefi Mobi 是一张有 Wi-Fi 功能的 SD 卡。当配置好后，相机每照�
 
 {% include amazon.html request="asin=B00OZF748W" short="d" %}
 
+{% include list.html %}
+
 ## 兼容性
 
 兼容绝大多数能安装 SD 卡的相机，{% include more.html url="http://www.eyefi.com/cameras" external="true" %}

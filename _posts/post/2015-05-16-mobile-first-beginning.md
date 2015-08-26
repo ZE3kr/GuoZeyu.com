@@ -2,7 +2,7 @@
 layout: post
 title:  "移动优先 - 起源"
 date:   2015-05-16T17:30:00+08:00
-category: article
+category: post
 
 image:
   title: unsplash.com/type-away-numero-dos.jpeg

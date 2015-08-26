@@ -18,6 +18,8 @@ category:
 
 {% include app.html id="694647259" short="e" %}
 
+{% include list.html %}
+
 独创的 HDR
 ------
 这个软件内置自己的 HDR，完全不同于系统的 HDR 功能，它的 HDR 堪比在 PhotoShop 上合成后的效果，十分出彩。并且有多种 HDR 格式可供选择，而且可以进行手动 HDR，自己调整 HDR 的亮度，满足所有需求。（HDR 功能需要单独购买）

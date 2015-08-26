@@ -14,6 +14,8 @@ category: article
 
 最近，苹果公司向开发者发布了 iOS 9 的测试版，这个系统将在几个月后和大众界面。除了带来了许多新的功能之外，还提升了整个系统安全性。
 
+{% include list.html %}
+
 > 如果你正在开发一个新的程序，你仅应该使用 HTTPS。如果你已经有一个程序，你现在就应该尽可能多的使用 HTTPS，并准备好对剩下部分迁移的计划。另外，如果你的程序使用更高层级的 API 进行通信，则需要使用 TLS 1.2 或以上的版本。如果你试图建立一个不遵守这些需求的通信，就会引发错误。（If you’re developing a new app, you should use HTTPS exclusively. If you have an existing app, you should use HTTPS as much as you can right now, and create a plan for migrating the rest of your app as soon as possible. In addition, your communication through higher-level APIs needs to be encrypted using TLS version 1.2 with forward secrecy. If you try to make a connection that doesn't follow this requirement, an error is thrown.）<br><cite>[iOS 开发者资源](https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html){:target="_blank"}</cite>
 
 即使现在已有的程序在 iOS 9 中仍可以在非 HTTPS 情况下工作。但是相信在不久的将来，所有程序都会使用 HTTPS，而且 HTTP 将会完全淘汰。

@@ -17,6 +17,8 @@ category: article
 
 {% include amazon.html request="asin=B00PC9HFNY&CN=B00S7WRWL8" short="h" %}
 
+{% include list.html %}
+
 ## 什么是 4K
 
 4K 屏幕通常是指分辨率为 1080p 的 4 倍（即宽和高分别是两倍）的显示器。论 4K 屏幕和 1080p 清晰度的差别，就相当于 iPhone 4 与其上一代的差别，用过的人都知道，iPhone 4 的 Retina 屏幕与非 Retina 屏幕差距十分明显。特别是在显示文字是变得更加清晰、锐利。然而由于显示器要比手机大很多，如果大于 19 英寸的显示器也要做到 Retina 的效果，那就需要 4K 的超高分辨率。
