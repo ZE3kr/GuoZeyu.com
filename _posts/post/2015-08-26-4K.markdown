@@ -27,17 +27,21 @@ category: post
 
 这算是一款中端的 4K 显示器，作图、处理照片等均能胜任。16:9 的宽屏幕、60 Hz 的刷新率以及最低 6 ms 延迟，使其也适合当做游戏屏幕。
 
-如果在这个显示器上使用 HDMI 接口，最高只能到 3840 x 2160 @ 30 Hz，只有拥有 DisplayPort 接口的电脑，才有可能支持 3840 x 2160 @ 60 Hz。关于在 Mac 上对 4K 屏幕的支持情况，{% include more.html url="https://support.apple.com/zh-cn/HT202856" external="true" %}，Mac 下所有系列的最新款都能够支持 3840 x 2160 @ 30 Hz，配备 Retina 屏幕的 MacBook Pro 的最新机型、Mac Pro 和 5K iMac 都能支持 3840 x 2160 @ 60 Hz（需要启用此款显示器的 MST 功能)。
-
-为了达到 Retina 效果，需要放大显示。Mac 下支持的很好，几乎所有第三方 App 都能支持 Retina。Windows 8.1 之后也支持放大显示，可惜并不是很多第三方 App 支持 Retina，对于这些 App 则会有锯齿效果，显得不那么清晰。
-
-特别是如果你正在使用视网膜的 Mac，那么这个显示器若作为扩展屏幕则不会让你感到与原本显示器的太大差距。但假如你使用视网膜的 Mac，但却配的是 1080p 的屏幕，那么你会明显感觉到在 1080p 的屏幕上文字十分模糊。
-
 ### 视频
 
 视频转载自 YouTube，{% include more.html url="https://www.youtube.com/watch?v=d_csVhFSA1Q" external="true" %}
 
 {% include video.html title="DELL P2415Q 初体验" img="ze3kr/2015/4k1.jpg" path="other/1" %}
+
+### 兼容性
+
+如果在这个显示器上使用 HDMI 接口，最高只能到 3840 x 2160 @ 30 Hz，只有拥有 DisplayPort 接口的电脑，才有可能支持 3840 x 2160 @ 60 Hz。关于在 Mac 上对 4K 屏幕的支持情况，{% include more.html url="https://support.apple.com/zh-cn/HT202856" external="true" %}
+
+Mac 下所有系列的最新款都能够支持 3840 x 2160 @ 30 Hz，配备 Retina 屏幕的 MacBook Pro 的最新机型、Mac Pro 和 5K iMac 都能支持 3840 x 2160 @ 60 Hz（需要启用此款显示器的 MST 功能)。
+
+为了达到 Retina 效果，需要放大显示。Mac 下支持的很好，几乎所有第三方 App 都能支持 Retina。PC 上 Windows 8.1 及更新的版本也支持放大显示，可惜并不是很多第三方 App 支持 Retina，对于这些 App 则会有锯齿效果，显得不那么清晰。
+
+特别是如果你正在使用视网膜的 Mac，那么这个显示器若作为扩展屏幕则不会让你感到与原本显示器的太大差距。但假如你使用视网膜的 Mac，但却配的是 1080p 的屏幕，那么你会明显感觉到在 1080p 的屏幕上文字十分模糊。
 
 ### 屏幕参数
 
