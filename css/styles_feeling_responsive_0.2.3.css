@@ -122,7 +122,7 @@ code {
 	}
 
 	.post-video {
-		height: calc( 28.125vw - 1.0546875rem ) !important;
+		height: calc( 37.5vw - 1.0546875rem ) !important;
 		max-height: 358px;
 	}
 }
@@ -151,6 +151,7 @@ code {
 	}
 	.post-video {
 		max-width: none !important;
+		max-height: none !important;
 		width: 797px !important;
 		height: 448px !important;
 	}
@@ -158,4 +159,5 @@ code {
 
 .vjs-fullscreen {
 	max-width: none !important;
+	max-height: none !important;
 }
