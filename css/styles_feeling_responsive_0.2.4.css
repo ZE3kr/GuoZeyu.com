@@ -92,8 +92,6 @@ code {
 		margin-bottom: 0 !important;
 	}
 
-	.video-js{ height:545.625px !important }
-
 	.tlo-map {
 		max-width: 400px;
 		min-width: 200px;
@@ -125,6 +123,10 @@ code {
 		height: calc( 37.5vw - 1.0546875rem ) !important;
 		max-height: 358px;
 	}
+}
+
+@media only screen and (min-width:990px) {
+	.video-js{ height:545.625px !important }
 }
 
 @media only screen and (min-width:1600px) {
