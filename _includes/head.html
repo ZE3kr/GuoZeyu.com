@@ -41,15 +41,13 @@
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
 
-	<link rel="stylesheet" href="//cdn-tlo.b0.upaiyun.com/css/styles_feeling_responsive_0.2.0.css" />
+	<link rel="stylesheet" href="//cdn-tlo.b0.upaiyun.com/css/styles_feeling_responsive_0.2.1.css" />
 	<link rel="stylesheet" href="//cdn-tlo.b0.upaiyun.com/css/svg9.css" />
-	{% if page.exif %}<link rel="stylesheet" charset="utf-8" href="//cdnjs-com.b0.upaiyun.com/ajax/libs/leaflet/0.7.3/leaflet.css" />{% endif %}
-	{% if page.file %}<link rel="stylesheet" charset="utf-8" href="//cdnjs-com.b0.upaiyun.com/ajax/libs/video.js/4.12.8/video-js.css" />{% endif %}
+	<link rel="stylesheet" charset="utf-8" href="//cdnjs-com.b0.upaiyun.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+	<link rel="stylesheet" charset="utf-8" href="//cdnjs-com.b0.upaiyun.com/ajax/libs/video.js/4.12.8/video-js.css" />
 	<script async type="text/javascript" charset="utf-8" src="//cdnjs-com.b0.upaiyun.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	{% if page.file %}
 	<script async type="text/javascript" charset="utf-8" src="//cdnjs-com.b0.upaiyun.com/ajax/libs/video.js/4.12.13/video.js"></script>
 	<script async type="text/javascript" charset="utf-8" src="//cdnjs-com.b0.upaiyun.com/ajax/libs/video.js/4.12.13/lang/zh-CN.js"></script>
-	{% endif %}
 
 	<style>
 	{% if page.exif.gps %}.tlo-map{display:block!important;}{% endif %}
