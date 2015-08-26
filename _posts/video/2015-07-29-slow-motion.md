@@ -16,12 +16,12 @@ category: video
 catid: episode
 
 min: "04"
-sec: "26"
+sec: "19"
 
-file: 8
+file: 8v2
 
 length:
-  540p: 46721672
+  540p: 46742939
 ---
 
 慢动作，主要使用 1080p@60FPS 录制。

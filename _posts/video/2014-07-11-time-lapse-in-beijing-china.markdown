@@ -17,13 +17,13 @@ category: video
 
 catid: episode
 
-min: "01"
-sec: "02"
+min: "00"
+sec: "38"
 
-file: 2
+file: 2v2
 
 length:
-  540p: 10416704
+  540p: 5585450
 ---
 在北京的间隔拍摄，使用 iPhone 5s 的内置相机录制。
 

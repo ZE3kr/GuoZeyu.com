@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "云 间隔拍摄"
+title:  "新间隔拍摄"
 date:   2015-07-02 09:10:00+08:00
 subtitle: no
 vimeo: 132391868
@@ -16,12 +16,12 @@ category: video
 catid: episode
 
 min: "02"
-sec: "25"
+sec: "18"
 
-file: 7
+file: 7v2
 
 length:
-  540p: 23723950
+  540p: 23778722
 ---
 
 使用 GoPro Hero 4 的大广角拍摄
