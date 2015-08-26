@@ -10,7 +10,7 @@ tag:
 - 显示器
 - DELL
 
-category: post
+category: article
 ---
 
 4K，23.8 英寸的屏幕。具有Retina 效果、出色的色彩还原，清晰度堪比印刷品。
@@ -54,7 +54,7 @@ Mac 下所有系列的最新款都能够支持 3840 x 2160 @ 30 Hz，配备 Reti
 | 宽高比 | 宽屏幕 (16:9) |
 | 面板种类 | IPS |
 | 最佳分辨率 | 3840 x 2160 @ 60 Hz |
-| 亮度 | 300 cd/㎡ |
+| 亮度 | 最高 300 cd/㎡ |
 | 响应时间 | 最低 6 ms |
 | 颜色 | 10.7 亿色 |
 
@@ -70,6 +70,10 @@ Mac 下所有系列的最新款都能够支持 3840 x 2160 @ 30 Hz，配备 Reti
 #### 输出
 
 + USB 3.0 x 4
-+ DisplayPort x 2
++ DisplayPort
+
+### 关于屏幕尺寸
+
+我认为 24 英寸附近的 4K 屏幕的像素密度是基本接近于配备 Retina 屏幕的 Mac 的，相比之下我更推荐 24 英寸的 4K 显示器。而 27 英寸就需要 5K 或更高了。而目前能够传输 5K 分辨率的接口很少，所以 24 英寸 4K 是最合适的选择。
 
 {% include amazon.html request="asin=B00PC9HFNY&CN=B00S7WRWL8" short="h" %}
