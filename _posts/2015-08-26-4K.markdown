@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "DELL P2415Q 4K 屏幕体验"
+date:   2015-08-26 17:05:00+08:00
+image:
+  title: ze3kr/2015/4k2.jpg
+
+tag: 
+- 4K
+- 显示器
+- DELL
+
+category: post
+---
+
+4K，23.8 英寸的屏幕。具有Retina 效果、出色的色彩还原，清晰度堪比印刷品。
+
+{% include amazon.html request="asin=B00PC9HFNY&CN=B00S7WRWL8" short="h" %}
+
+## 4K ?
+
+4K 屏幕通常是指分辨率为 1080p 的 4 倍（即宽和高分别是两倍）的显示器。论 4K 屏幕和 1080p 清晰度的差别，就相当于 iPhone 4 与其上一代的差别，用过的人都知道，iPhone 4 的 Retina 屏幕与非 Retina 屏幕差距十分明显。特别是在显示文字是变得更加清晰、锐利。然而由于显示器要比手机大很多，如果大于 19 英寸的显示器也要做到 Retina 的效果，那就需要 4K 的超高分辨率。
+
+经过实际使用，4K 的屏幕果然没有让我失望，特别是文字和图片的展现十分出色。
+
+## 显示器
+
+这算是一款中端的 4K 显示器，作图、处理照片等均能胜任。16:9 的宽屏幕、60 Hz 的刷新率以及最低 6 ms 延迟，使其也适合当做游戏屏幕。
+
+如果在这个显示器上使用 HDMI 接口，最高只能到 3840 x 2160 @ 30 Hz，只有拥有 DisplayPort 接口的电脑，才有可能支持 3840 x 2160 @ 60 Hz。关于在 Mac 上对 4K 屏幕的支持情况，{% include more.html url="https://support.apple.com/zh-cn/HT202856" external="true" %}，Mac 下所有系列的最新款都能够支持 3840 x 2160 @ 30 Hz，配备 Retina 屏幕的 MacBook Pro 的最新机型、Mac Pro 和 5K iMac 都能支持 3840 x 2160 @ 60 Hz（需要启用此款显示器的 MST 功能)。
+
+为了达到 Retina 效果，需要放大显示。Mac 下支持的很好，几乎所有第三方 App 都能支持 Retina。Windows 8.1 之后也支持放大显示，可惜并不是很多第三方 App 支持 Retina，对于这些 App 则会有锯齿效果，显得不那么清晰。
+
+特别是如果你正在使用视网膜的 Mac，那么这个显示器若作为扩展屏幕则不会让你感到与原本显示器的太大差距。但假如你使用视网膜的 Mac，但却配的是 1080p 的屏幕，那么你会明显感觉到在 1080p 的屏幕上文字十分模糊。
+
+### 视频
+
+{% include video.html title="DELL P2415Q 初体验 (转)" img="ze3kr/2015/4k1.jpg" path="other/1" %}
+
+### 屏幕参数
+
+| 参数名称 | 对应值 |
+| 屏幕对角线尺寸 | 60.47 cm (23.80") |
+| 宽高比 | 宽屏幕 (16:9) |
+| 面板种类 | IPS |
+| 最佳分辨率 | 3840 x 2160 @ 60 Hz |
+| 亮度 | 300 cd/㎡ |
+| 响应时间 | 最低 6 ms |
+| 颜色 | 10.7 亿色 |
+
+### 接口
+
+#### 输入
+
++ DisplayPort
++ Mini DisplayPort
++ HDMI (MHL)
++ USB (用于配置显示器)
+
+#### 输出
+
++ USB 3.0 x 4
++ DisplayPort x 2
+
+{% include amazon.html request="asin=B00PC9HFNY&CN=B00S7WRWL8" short="h" %}

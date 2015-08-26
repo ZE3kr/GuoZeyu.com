@@ -1,0 +1,11 @@
+{% comment %}
+Usage: {% include video.html title="title" img="path" path="path" %}
+{% endcomment %}
+<p>
+{% if include.title %}<h4 style="text-align: center; margin-bottom: 5px;">{{ include.title }}</h4>{% endif %}
+<video id="video" preload="metadata" x-webkit-airplay="allow" class="video-js vjs-default-skin div-video img-photo video vjs-big-play-centered post-video" controls preload="none" poster="{{ site.urlimg }}/{{ include.img }}!1.5x" data-setup='{"language":"{{ site.language }}"}'>
+	<source src="{{ site.urlvideo }}/{{ include.path }}-720p.webm" type='video/webm' />
+	<source src="{{ site.urlvideo }}/{{ include.path }}-540p.mp4" type='video/mp4' />
+	<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+</video>
+</p>
