@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "新航拍视频"
+youtube: pPObt7opZf4
+vimeo: 137462394
 
 date:   2015-08-27 09:50:00+08:00
 video-image: thrideo/episode/aerial-photography.jpg

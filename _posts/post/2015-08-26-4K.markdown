@@ -35,9 +35,7 @@ category: article
 
 ### 视频
 
-视频转载自 YouTube，{% include more.html url="https://www.youtube.com/watch?v=d_csVhFSA1Q" external="true" %}
-
-{% include video.html title="DELL P2415Q 初体验" img="ze3kr/2015/4k1.jpg" path="other/1" %}
+{% include video.html title="DELL P2415Q 初体验" img="ze3kr/2015/4k1.jpg" youtube="d_csVhFSA1Q" path="other/1" %}
 
 ### 兼容性
 

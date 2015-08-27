@@ -4,8 +4,7 @@ title:  "北京 间隔拍摄"
 date:   2014-07-11 15:45:15
 subtitle: All these video was taken by iPhone who running iOS 8.
 vimeo: 100620198
-youku: XNzM5ODkzNTky
-youtube: mGPtY-hENNk
+youtube: Kh6zd14Tb1Q
 video-image: thrideo/episode/1.jpg
 
 tag:
