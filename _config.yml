@@ -35,7 +35,7 @@ improve_content: https://github.com/ZE3kr/ZE3kr.github.io/edit/gh-pages
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
 urlimg: "//tlimage.b0.upaiyun.com"
-urlvideo: "//video-cdn-api.terminalon.com"
+urlvideo: "//api.terminalon.com/video"
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
