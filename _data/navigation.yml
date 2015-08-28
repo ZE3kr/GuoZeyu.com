@@ -10,7 +10,7 @@
     url: "/category/photo/"
   - title: "短文"
     url: "/category/post/"
-  - title: "软件推荐"
+  - title: "App 推荐"
     url: "/category/app-recommend/"
 - title: "关于"
   url: "/about/"

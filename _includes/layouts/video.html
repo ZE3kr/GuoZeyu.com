@@ -5,7 +5,7 @@
 				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
 				<h1 itemprop="name">{{ page.title }}</h1>
 			</header>
-			<iframe class="video-js" style="width:100%;height:100%;" src="https://api.terminalon.com/video/embed/?path={{ page.catid }}%2f{{ page.file }}&poster={{ site.urlimg }}%2f{{ page.video-image }}!s{% if page.youtube %}&youtube={{ page.youtube }}{% endif %}{% if site.youtube %}&youtubeList={{ site.youtube }}{% endif %}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+			<iframe class="video-js" style="width:100%;background-color:#000;background-image:url({{ site.urlimg }}/{{ include.img }}!s);" src="https://api.terminalon.com/video/embed/?path={{ page.catid }}%2f{{ page.file }}&poster={{ site.urlimg }}%2f{{ page.video-image }}!s{% if page.youtube %}&youtube={{ page.youtube }}{% endif %}{% if site.youtube %}&youtubeList={{ site.youtube }}{% endif %}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 
 			<div class="row">
 				<div class="medium-8 medium-offset-2 end columns">
