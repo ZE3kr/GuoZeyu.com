@@ -13,7 +13,7 @@ tag:
 category: article
 ---
 
-4K，23.8 英寸的屏幕。具有Retina 效果、出色的色彩还原，清晰度堪比印刷品。
+4K，23.8 英寸的屏幕。具有 Retina 效果、出色的色彩还原，清晰度堪比印刷品。
 
 {% include amazon.html request="asin=B00PC9HFNY&CN=B00S7WRWL8" short="h" %}
 
