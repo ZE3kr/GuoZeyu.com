@@ -5,7 +5,7 @@ permalink: /about/
 breadcrumb: true
 ---
 
-这是一个开源的网站 <a href="https://github.com/ZE3kr/ZE3kr.github.io"><strong>了解详情&nbsp;›</strong></a>
+这是一个开源的网站 {% include more.html url="https://github.com/ZE3kr/ZE3kr.github.io" external="true" %}
 
 本站使用 OpenShift 部署，并且使用 [UPYUN](https://www.upaiyun.com) 作为图片/视频存储与 CDN 加速。
 
