@@ -6,3 +6,4 @@ Sitemap: {{ site.url }}/sitemap.xml
 
 User-agent: *
 Disallow: /ze3kr.tlo.xyz
+Disallow: /pagelist-
