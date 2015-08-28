@@ -179,8 +179,6 @@ og_description:                     ""
 #
 # used in _includes/comments.html
 
-disqus_shortname: 
-
 
 #      _____                
 #     / ___/____ ___________
@@ -203,10 +201,10 @@ sass:
 #
 # used in _includes/footer_scripts.html
 
-# google_analytics_tracking_id: "UA-64737110-1"
+# google_analytics_tracking_id: "UA-47292820-1"
 cnzz_analytics_tracking_id: "1256166681"
 
-mirror-url: "https://ze3kr-tlo.b0.upaiyun.com"
+mirror-url: "https://ze3kr-tlo.b0.upaiyun.com" # For wechat domain
 mirror-domain: "ze3kr-tlo.b0.upaiyun.com"
 
 exif_lang: "ZH"
@@ -233,7 +231,7 @@ miantags:
 - 播客
 - 郭泽宇
 
-copyright: "保留所有权利"
+copyright: "保留所有权利。"
 copyright-start: "2014"
 
 site-img: "//tlimage.b0.upaiyun.com/ze3kr/ze3kr.png"
@@ -243,3 +241,7 @@ https: yes
 #translate: yes
 
 youtube: PLgfZiNv4YNc6yysvMh8JP4jbA3BE3fLmk
+
+cdnjs_host: "//cdnjs-com.b0.upaiyun.com" # Default as "//cdnjs.cloudflare.com", also you can use our servers like "//cdnjs.tlo.network" and "//cdnjs-com.b0.upaiyun.com", the "//cdnjs-com.b0.upaiyun.com" is much faster in China, @see https://terminalon.com/cdnjs-china/
+cdn_host: "//cdn-tlo.b0.upaiyun.com" # Default as "//cdn.tlo.network", also you can use our servers like "//cdn-tlo.b0.upaiyun.com"
+
