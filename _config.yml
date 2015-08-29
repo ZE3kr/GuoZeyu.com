@@ -245,3 +245,4 @@ youtube: PLgfZiNv4YNc6yysvMh8JP4jbA3BE3fLmk
 cdnjs_host: "//cdnjs-com.b0.upaiyun.com" # Default as "//cdnjs.cloudflare.com", also you can use our servers like "//cdnjs.tlo.network" and "//cdnjs-com.b0.upaiyun.com", the "//cdnjs-com.b0.upaiyun.com" is much faster in China, @see https://terminalon.com/cdnjs-china/
 cdn_host: "//cdn-tlo.b0.upaiyun.com" # Default as "//cdn.tlo.network", also you can use our servers like "//cdn-tlo.b0.upaiyun.com"
 
+disqus: "ze3kr"

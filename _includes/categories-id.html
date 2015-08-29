@@ -1,0 +1,3 @@
+{% comment %}
+Usage: {% include categories-id.html name="title" %}
+{% endcomment %}{% if site.data.categories-id.[include.name] %}{{ site.data.categories-id.[include.name] }}{% else %}{{ site.data.categories-id.default }}{% endif %}

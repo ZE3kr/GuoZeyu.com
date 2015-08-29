@@ -72,6 +72,23 @@ $(document).ready(function(){
 {% if page.include_javascript %}
 <script src="{{ page.include_javascript }}" type="text/javascript"></script>
 {% endif %}
+{% if site.disqus %}
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES * * */
+var disqus_shortname = '{{ site.disqus }}';
+{% if page.comments %}{% if page.title %}var disqus_identifier = '{{ page.id }}';
+var disqus_title = '{{ page.title }}';
+var disqus_url = '{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}';
+var disqus_category_id = {% for category in page.categories limit:1 %}'{% include categories-id.html name=category %}'{% endfor %}{% endif %}{% endif %}
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+	var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+{% endif %}
 {% if site.translate %}
 <div id="google_translate_element"></div><script type="text/javascript">
 function googleTranslateElementInit() {

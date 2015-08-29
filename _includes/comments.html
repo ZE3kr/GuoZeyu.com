@@ -1,3 +1,4 @@
-{% if page.comments %}{% if page.title %}
-<h3 id="comments" class="t60"><a href="https://github.com/ZE3kr/ZE3kr.github.io/issues/new?title={{ site.data.language.comments_beginning | cgi_escape }}+{{ page.title | cgi_escape }}&amp;labels=comment" target="_blank">{{ site.data.language.comments_headline }}</a></h3>
-{% endif %}{% endif %}
+{% if page.comments %}{% if page.title %}{% if site.disqus %}
+<div id="disqus_thread"></div>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}{% endif %}{% endif %}
