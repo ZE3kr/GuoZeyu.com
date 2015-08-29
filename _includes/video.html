@@ -3,5 +3,5 @@ Usage: {% include video.html title="title" img="path" path="path" %}
 {% endcomment %}
 <p>
 {% if include.title %}<h4 style="text-align:center;margin-bottom:5px;">{{ include.title }}</h4>{% endif %}
-<iframe class="video-js post-video" style="width:100%;background-color:#000;background-image:url({{ site.urlimg }}/{{ include.img }}!s);background-size:contain;" src="https://api.terminalon.com/video/embed/?path={{ include.path }}&poster={{ site.urlimg }}%2f{{ include.img }}!s{% if include.youtube %}&youtube={{ include.youtube }}{% endif %}&language={{ site.language }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+<iframe class="video-js post-video" style="width:100%;background-color:#000;background-image:url({{ site.urlimg }}/{{ include.img }}!s);background-size:contain;" src="{{ site.urlvideo }}/embed/?path={{ include.path }}&poster={{ site.urlimg }}%2f{{ include.img }}!s{% if include.youtube %}&youtube={{ include.youtube }}{% endif %}&language={{ site.language }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
 </p>
