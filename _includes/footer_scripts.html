@@ -79,7 +79,7 @@ var disqus_shortname = '{{ site.disqus }}';
 {% if page.comments %}{% if page.title %}var disqus_identifier = '{{ page.id }}';
 var disqus_title = '{{ page.title }}';
 var disqus_url = '{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}';
-var disqus_category_id = {% for category in page.categories limit:1 %}'{% include categories-id.html name=category %}'{% endfor %}{% endif %}{% endif %}
+var disqus_category_id = {% for category in page.categories limit:1 %}'{% include categories-id.html name=category %}'{% endfor %}{% endif %}{% endif %};
 
 /* * * DON'T EDIT BELOW THIS LINE * * */
 (function() {
