@@ -3,6 +3,7 @@ layout: page
 title: "捐助视频流量费"
 permalink: "/donate/"
 breadcrumb: true
+no-comments: yes
 ---
 
 这是一个开源的网站 <a href="https://github.com/ZE3kr/ZE3kr.github.io"><strong>了解详情&nbsp;›</strong></a>
