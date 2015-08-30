@@ -3,7 +3,6 @@ layout: page
 title: 关于本站
 permalink: /about/
 breadcrumb: true
-no-comments: yes
 ---
 
 这是一个开源的网站 {% include more.html url="https://github.com/ZE3kr/ZE3kr.github.io" external="true" %}
