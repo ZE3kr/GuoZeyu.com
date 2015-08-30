@@ -5,7 +5,7 @@
 				<span itemprop="name">
 					{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
 					<h1>{{ page.title }}</h1>
-					{% if site.disqus %}{% if page.no-comments %}{% else %}{% if page.title %}<p class="subheadline"><a href="{{ post.url }}#disqus_thread">{{ site.data.language.comments }}</a></p>{% endif %}{% endif %}{% endif %}
+					{% if site.disqus %}{% if page.no-comments %}{% else %}{% if page.title %}<p class="subheadline"><a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">{{ site.data.language.comments }}</a></p>{% endif %}{% endif %}{% endif %}
 				</span>
 				{% if page.image.title %}
 				<figure>
