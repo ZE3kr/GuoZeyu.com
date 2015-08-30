@@ -19,7 +19,7 @@
 
 		{% if post.excerpt %}{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}{% endif %}
 
-		<span style="display:block;font-weight:bold;">{% if post.title %}{% if post.no-comments %}{% else %}{% if site.disqus %}<a href="{{ post.url }}#disqus_thread">{{ site.data.language.comments }}</a> • {% endif %}{% endif %}{% endif %}<a href="{{ post.url }}">{% if post.file %}{{ site.data.language.watch_video }}{% elsif post.exif %}{{ site.data.language.view_photo }}{% else %}{{ site.data.language.read_more }}{% endif %}</a></span>
+		<span style="display:block;font-weight:bold;">{% if post.title %}{% if post.no-comments %}{% else %}{% if site.disqus %}<a href="{{ site.url }}{{ post.url }}#disqus_thread">{{ site.data.language.comments }}</a> • {% endif %}{% endif %}{% endif %}<a href="{{ post.url }}">{% if post.file %}{{ site.data.language.watch_video }}{% elsif post.exif %}{{ site.data.language.view_photo }}{% else %}{{ site.data.language.read_more }}{% endif %}</a></span>
 	  </p>
 	</div><!-- /.small-12.columns -->
   </div><!-- /.row -->
