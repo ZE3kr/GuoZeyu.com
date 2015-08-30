@@ -157,6 +157,7 @@ code {
 		width: 797px !important;
 		height: 448px !important;
 	}
+	.video-js{ height:680.625px !important }
 }
 
 .vjs-fullscreen {
