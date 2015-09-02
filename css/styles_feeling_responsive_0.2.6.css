@@ -164,3 +164,11 @@ code {
 	max-width: none !important;
 	max-height: none !important;
 }
+
+#blog-index {
+	min-height: calc( 100vh - 540px );
+}
+
+article {
+	min-height: calc( 100vh - 600px );
+}
