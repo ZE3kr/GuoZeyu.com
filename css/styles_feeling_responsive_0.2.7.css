@@ -70,7 +70,7 @@ code {
 }
 
 .leaflet-popup-content {
-	margin: 4px 8px;
+	margin: 4px 8px!important;
 }
 
 .leaflet-popup-close-button {
