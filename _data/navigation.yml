@@ -18,6 +18,9 @@
 - title: "捐助"
   url: "/donate/"
   side: right
+- title: "TLO Network"
+  url: "https://tlo.xyz"
+  side: left
 - title: "Specs"
   url: "/specs/"
   side: left
