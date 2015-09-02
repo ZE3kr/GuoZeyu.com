@@ -20,6 +20,7 @@
   side: right
 - title: "TLO Network"
   url: "https://tlo.xyz"
+  nonew: yes
   side: left
 - title: "Specs"
   url: "/specs/"
