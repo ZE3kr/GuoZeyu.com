@@ -9,7 +9,7 @@ archive: true
 		<dl class="accordion" data-accordion>
 			{% for list in page.lists %}
 			<dd class="accordion-navigation">
-				<a href="{{ list.url }}" onclick="{% if list.new %}window.open('{{ list.url }}','','');{% else %}location='{{ list.url }}'{% endif %}" tar>
+				<a href="{{ list.url }}" onclick="{% if list.new %}window.open('{{ list.url }}','','');{% else %}location='{{ list.url }}'{% endif %}">
 					<strong>{{ list.title }}</strong>
 				</a>
 			</dd>
