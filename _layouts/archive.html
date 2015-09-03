@@ -5,7 +5,7 @@ breadcrumb: true
 no-comments: yes
 ---
 <div id="blog-index" class="row">
-	<div class="small-12 columns t30">
+	<div class="small-6 medium-offset-3 columns t30">
 		{% if page.type == "tag" %}<h1>/{{ site.data.language.tag }}/{{ page.title }}/</h1>{% endif %}
 		{% if page.type == "category" %}<h1>{% include translate.html name=page.title %}</h1>{% endif %}
 		{% if page.type == "year" %}<h1>/{{ page.date | date: "%Y" }}/</h1>{% endif %}
