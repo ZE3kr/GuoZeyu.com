@@ -36,4 +36,4 @@ MacID 还支持今日视图中的插件，更是可以随时随地解锁 Mac，�
 
 你还可以使用 Apple Watch 无线控制 Mac 哦。
 
-{% include app.html id="948478740" short="1Z" %}
+{% include app.html id="948478740" short="g" %}

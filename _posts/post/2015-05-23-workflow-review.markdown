@@ -54,4 +54,4 @@ Workflow 更适合处理更多的步骤，比如说它拥有 if else 条件语�
 ------
 购买此软件后，可以在 Apple Watch 上快速运行一个任务，大大减少了拿出手机去点按时间。如果你想要提高效率，并正在寻找一个可以用 Apple Watch 执行任务的第三方软件，那么这款软件正是你要找的。
 
-{% include app.html id="915249334" short="1I" %}
+{% include app.html id="915249334" short="f" %}

@@ -46,4 +46,4 @@ Eyefi Mobi 卡首次使用时，只需要在手机上下载一个软件，在软
 + 这张卡可以存储任何格式的照片，但是只有 JPEG 格式的照片以及 AVI、MP4、MPG、MTS 和 MOV 格式的视频能够被传输到手机，RAW 格式照片不会被传输到手机。
 + 如果你的相机只安装 Eyefi Mobi 卡，同时很需要 RAW 格式的照片，又需要将照片传输到手机，那么请选择“同时记录 RAW + JPEG”。
 
-{% include amazon.html request="asin=B00OZF748W" short="26" %}
+{% include amazon.html request="asin=B00OZF748W" short="d" %}

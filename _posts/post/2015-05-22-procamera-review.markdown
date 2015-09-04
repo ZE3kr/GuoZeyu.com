@@ -84,4 +84,4 @@ category:
 ------
 我这里的截图可能提供的是英文版截图，但实际上这款软件是完全支持中文的，可放心购买。
 
-{% include app.html id="694647259" short="1z" %}
+{% include app.html id="694647259" short="e" %}
