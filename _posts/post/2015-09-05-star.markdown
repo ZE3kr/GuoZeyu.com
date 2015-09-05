@@ -3,7 +3,7 @@ layout: post
 title:  "北京的星空"
 date:   2015-09-05 11:45:00+08:00
 image:
-  title: ze3kr/2015/2015-09-05-10.47.42.png
+  title: ze3kr/2015/ZE3_1261.jpg
 exif:
   gps:
     lat: 39.8358233
@@ -17,4 +17,4 @@ location: "北京市通州区"
 category: photo
 ---
 
-北京的星空
+这是北京的星空，由于天空中的粉尘和雾霾，以及城市的灯光，导致有长曝光的噪点。
