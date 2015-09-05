@@ -26,7 +26,7 @@ category:
 
 {% include img-small.html title="未开启 HDR 的照片" img="HDR_landscape-sunset_withoutHDR.jpg" %}
 
-{% include img-small.html title="开启 HDR 的照片" img="HDR_landscape-sunset_HDR-Preset-natural.JPG" %}
+{% include img-small.html title="使用 ProCamera 的 HDR 照片" img="HDR_landscape-sunset_HDR-Preset-natural.JPG" %}
 
 强大的自定义设置
 ------
@@ -58,11 +58,11 @@ category:
 
 {% include img-small.html title="曝光曲线编辑界面" img="Curves_example_germanTower_edited_screenshot.jpg" %}
 
-{% include img-small.html title="对比效果" img="Curves_example_germanTower_edited.jpg" %}
+{% include img-small.html title="改善后版本" img="Curves_example_germanTower_edited.jpg" %}
 
 除此之外，它还有众多滤镜，甚至还能调节每一种滤镜的参数，十分强大。
 
-{% include img-small.html title="改善后版本" img="Thailand_Temple_MagneticStormTool_Comparison.jpg" %}
+{% include img-small.html title="对比效果" img="Thailand_Temple_MagneticStormTool_Comparison.jpg" %}
 
 定时器
 ------
