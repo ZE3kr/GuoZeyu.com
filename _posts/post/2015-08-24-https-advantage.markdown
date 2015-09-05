@@ -109,7 +109,7 @@ HSTS（HTTP Strict Transport Security, HTTP 严格传输安全）是一种让浏
 Header set Strict-Transport-Security "max-age=315360000; preload; includeSubDomains" env=HTTPS
 {% endhighlight %}
 
-比如首次访问 `http://tlo.xyz` 时，浏览器会被 301 跳转到 `https://tlo.xyz` 下，然后就会收到这个 Header，在 10 年，tlo.xyz 下所有的域名都只会使用 HTTPS，包括二级域名 `ze3kr.tlo.xyz`。
+比如首次访问 `http://tlo.xyz` 时，浏览器会被 301 跳转到 `https://tlo.xyz` 下，然后就会收到这个 Header，在 10 年内，tlo.xyz 下所有的域名都只会使用 HTTPS，包括二级域名 `ze3kr.tlo.xyz`。
 
 但这一切还没有结束，假如浏览器第一次访问时，网站就已经被 HTTPS 劫持攻击了，那么这样做是毫无意义的，所以需要在启动 HSTS 后，包含 `preload` 参数，然后去提交，注意好要求 {% include more.html url="https://hstspreload.appspot.com" external="true" %}
 
