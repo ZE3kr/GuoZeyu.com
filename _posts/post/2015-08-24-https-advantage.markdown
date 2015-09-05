@@ -99,9 +99,28 @@ RewriteEngine on
 
 RewriteCond %{HTTP:X-Forwarded-Proto} =http
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] # 禁用 HTTP 协议
-
-Header set Strict-Transport-Security "max-age=15552000; preload; includeSubDomains" env=HTTPS # 如果使用 HTTPS，那么启用 HSTS。includeSubDomains、preload 参数选择性开启，max-age 数值根据需要设置，单位是秒，越大越安全
 {% endhighlight %}
+
+### HSTS 以及 HSTS Preload List
+
+HSTS（HTTP Strict Transport Security, HTTP 严格传输安全）是一种让浏览器强制 HTTPS 的方法，当用户访问 HTTPS 站点时，由服务器返回一个 Header，告知浏览器在这个域名下必须强制 HTTPS，在有效期内，浏览器访问此域名将只使用 HTTPS，下方为在 Apache 里的 `.htaccess` 中配置。
+
+{% highlight apache %}
+Header set Strict-Transport-Security "max-age=315360000; preload; includeSubDomains" env=HTTPS
+{% endhighlight %}
+
+比如首次访问 `http://tlo.xyz` 时，浏览器会被 301 跳转到 `https://tlo.xyz` 下，然后就会收到这个 Header，在 10 年，tlo.xyz 下所有的域名都只会使用 HTTPS，包括二级域名 `ze3kr.tlo.xyz`。
+
+但这一切还没有结束，假如浏览器第一次访问时，网站就已经被 HTTPS 劫持攻击了，那么这样做是毫无意义的，所以需要在启动 HSTS 后，包含 `preload` 参数，然后去提交，注意好要求 {% include more.html url="https://hstspreload.appspot.com" external="true" %}
+
+当你提交了之后，一段时间后就能在各大浏览器的源码里看到你的域名了。
+
++ Chromium 源码 {% include more.html url="https://code.google.com/p/chromium/codesearch#chromium/src/net/http/transport_security_state_static.json" external="true" %}
++ FireFox 源码 {% include more.html url="https://mxr.mozilla.org/mozilla-aurora/source/security/manager/ssl/nsSTSPreloadList.inc" external="true" %}
+
+现在，我的 `tlo.xyz` 和 `tlo.link` 两个域名已经可以在 Chromium 的源码里可以看到了哦，{% include more.html url="https://code.google.com/p/chromium/codesearch#chromium/src/net/http/transport_security_state_static.json&q=tlo&l=3540" external="true" %}
+
+{% include img-small.html title="截个图" img="2015-09-05-10.47.42.png" %}
 
 ## 小提示
 
