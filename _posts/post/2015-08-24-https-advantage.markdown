@@ -118,7 +118,7 @@ Header set Strict-Transport-Security "max-age=315360000; preload; includeSubDoma
 + Chromium 源码 {% include more.html url="https://code.google.com/p/chromium/codesearch#chromium/src/net/http/transport_security_state_static.json" external="true" %}
 + FireFox 源码 {% include more.html url="https://mxr.mozilla.org/mozilla-aurora/source/security/manager/ssl/nsSTSPreloadList.inc" external="true" %}
 
-现在，我的 `tlo.xyz` 和 `tlo.link` 两个域名已经可以在 Chromium 的源码里可以看到了哦，{% include more.html url="https://code.google.com/p/chromium/codesearch#chromium/src/net/http/transport_security_state_static.json&q=tlo&l=3540" external="true" %}
+现在，我的 `tlo.xyz` 和 `tlo.link` 两个域名已经可以在 Chromium 的源码里可以看到了哦，{% include more.html url="https://code.google.com/p/chromium/codesearch#search/&q=tlo.xyz&sq=package:chromium&type=cs" external="true" %}，同时也在 FireFox 的源码中 {% include more.html url="http://mxr.mozilla.org/mozilla-aurora/search?string=tlo.xyz" external="true" %}。
 
 {% include img-small.html title="截个图" img="2015-09-05-10.47.42.png" %}
 
