@@ -1,5 +1,0 @@
----
----
-{% for post in site.posts %}{% unless post.published == false %}{{ site.url | replace:'https://','http://' }}{{ post.url }}
-{% endunless %}{% endfor %}{% for page in site.pages %}{% unless page.sitemap.exclude == "yes" %}{{ site.url | replace:'https://','http://' }}{{ page.url | remove: "index.html" }}
-{% endunless %}{% endfor %}
