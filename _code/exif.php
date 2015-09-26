@@ -393,7 +393,7 @@ $lensLink = [
 	"EF-S15-85mm f/3.5-5.6 IS USM" => "asin=B002NEGTTM&CN=B004H3W8WE",
 ];
 
-$catchurl = 'http://tlimage.b0.upaiyun.com';// UPYUN 图片位置
+$catchurl = 'http://cdn-tlo.b0.upaiyun.com';// UPYUN 图片位置
 if( substr($_SERVER["REQUEST_URI"], 0, 6) == '/'.'lang/' )
 {
 	$path = substr($_SERVER["REQUEST_URI"], 8, strpos($_SERVER["REQUEST_URI"]."?", "?"));

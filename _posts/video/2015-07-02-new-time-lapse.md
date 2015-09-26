@@ -6,13 +6,11 @@ subtitle: no
 vimeo: 132391868
 youtube: WiOejIsf-44
 sound: no
-video-image: thrideo/episode/7.jpg
+video-image: ze3kr/video/2015-07-02.jpg
 
 tag: []
 
 category: video
-
-catid: episode
 ---
 
 使用 GoPro Hero 4 的大广角拍摄，分辨率达 4K。

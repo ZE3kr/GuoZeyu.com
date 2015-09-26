@@ -5,7 +5,7 @@ date:   2014-07-11 15:45:15
 subtitle: All these video was taken by iPhone who running iOS 8.
 vimeo: 100620198
 youtube: Kh6zd14Tb1Q
-video-image: thrideo/episode/1.jpg
+video-image: ze3kr/video/2014-07-11.jpg
 
 tag:
 - Time Lapse
@@ -13,8 +13,6 @@ tag:
 - Video
 
 category: video
-
-catid: episode
 ---
 在北京的间隔拍摄，使用 iPhone 5s 的内置相机录制。
 

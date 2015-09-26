@@ -9,7 +9,7 @@
 				</span>
 				{% if page.image.title %}
 				<figure>
-					<img src="{{ site.urlimg }}/{{ page.image.title }}!1x" srcset="{{ site.urlimg }}/{{ page.image.title }}!b 2000w, {{ site.urlimg }}/{{ page.image.title }}!2x 1600w, {{ site.urlimg }}/{{ page.image.title }}!s 1000w, {{ site.urlimg }}/{{ page.image.title }}!1.5x 1200w, {{ site.urlimg }}/{{ page.image.title }}!1x 800w, {{ site.urlimg }}/{{ page.image.title }}!0.5x 400w" alt="{{ page.title | escape_once }}" {% if page.exif %}sizes="(min-width: 1600px) calc( 1240px - 1.875rem ), (min-width: 1000px) calc( 1000px - 1.875rem ), calc( 100vw - 1.875rem )"{% else %}sizes="(min-width: 1600px) calc( 827px - 1.875rem ), (min-width: 1000px) calc( 667px - 1.875rem ), (min-width: 40.063rem) calc( 66.7vw - 1.875rem ), calc( 100vw - 1.875rem )"{% endif %} style="width:100%">
+					<img src="{{ site.urlimg }}/{{ page.image.title }}!800" srcset="{{ site.urlimg }}/{{ page.image.title }}!2000 2000w, {{ site.urlimg }}/{{ page.image.title }}!1400 1400w, {{ site.urlimg }}/{{ page.image.title }}!800 800w, {{ site.urlimg }}/{{ page.image.title }}!400 400w" alt="{{ page.title | escape_once }}" {% if page.exif %}sizes="(min-width: 1600px) calc( 1240px - 1.875rem ), (min-width: 1000px) calc( 1000px - 1.875rem ), calc( 100vw - 1.875rem )"{% else %}sizes="(min-width: 1600px) calc( 827px - 1.875rem ), (min-width: 1000px) calc( 667px - 1.875rem ), (min-width: 40.063rem) calc( 66.7vw - 1.875rem ), calc( 100vw - 1.875rem )"{% endif %} style="width:100%">
 					{% if page.image.caption_url && page.image.caption %}
 					<figcaption class="text-right">
 						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>

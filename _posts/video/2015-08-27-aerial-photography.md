@@ -5,7 +5,7 @@ youtube: pPObt7opZf4
 vimeo: 137462394
 
 date:   2015-08-27 09:50:00+08:00
-video-image: thrideo/episode/aerial-photography.jpg
+video-image: ze3kr/video/2015-07-02.jpg
 
 tag: 
 - 航拍
@@ -17,8 +17,6 @@ redirect_from:
 - /2015/06/phantom-test-range/
 
 category: video
-
-catid: episode
 ---
 
 使用无人机航拍，包含北京通州运河、迪庆香格里拉。

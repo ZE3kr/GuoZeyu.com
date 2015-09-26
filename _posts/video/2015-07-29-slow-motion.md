@@ -6,14 +6,12 @@ vimeo: 134894553
 youku: XMTI5NjgyODE1Mg
 youtube: Se-cNwFq8VU
 sound: no
-video-image: thrideo/episode/8.jpg
+video-image: ze3kr/video/2015-07-29.jpg
 
 tag: 
 - 慢动作
 
 category: video
-
-catid: episode
 ---
 
 慢动作，主要使用 1080p@60FPS 录制。
