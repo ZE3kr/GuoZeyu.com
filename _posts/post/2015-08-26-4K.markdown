@@ -35,7 +35,7 @@ category: article
 
 ### 视频
 
-{% include video.html title="DELL P2415Q 初体验" img="ze3kr/2015/4k1.jpg" youtube="d_csVhFSA1Q" path="other/1" %}
+{% include video.html title="DELL P2415Q 初体验" id="140501807" %}
 
 ### 兼容性
 
