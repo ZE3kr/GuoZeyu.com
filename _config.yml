@@ -247,3 +247,5 @@ cdn_host: "//cdn-tlo.b0.upaiyun.com" # Default as "//cdn.tlo.network", also you 
 disqus: "ze3kr"
 
 timezone: "Asia/Shanghai"
+
+id: "ze3kr"

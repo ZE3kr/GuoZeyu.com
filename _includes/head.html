@@ -41,7 +41,7 @@
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml"/>
-	<link rel="stylesheet" href="{{ site.cdn_host }}/custom-css/ze3kr_main_0.3.0.css" />
+	<link rel="stylesheet" href="{{ site.cdn_host }}/custom-css/{{ site.id }}_main_0.3.0.css" />
 	<link rel="stylesheet" href="{{ site.cdn_host }}/css/svg9.css" />
 	<link rel="stylesheet" charset="utf-8" href="{{ site.cdnjs_host }}/ajax/libs/leaflet/0.7.3/leaflet.css" />
 	<script async type="text/javascript" charset="utf-8" src="{{ site.cdnjs_host }}/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
