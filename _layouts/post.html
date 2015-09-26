@@ -4,7 +4,7 @@ format: post
 breadcrumb: true
 comments: true
 ---
-{% if page.file %}
+{% if page.category == "video" %}
 {% include layouts/video.html %}
 {% else %}
 {% include layouts/page.html %}
