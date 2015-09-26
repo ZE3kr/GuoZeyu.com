@@ -5,8 +5,6 @@ date:   2015-07-13 22:10:00+08:00
 image:
   title: ze3kr/2015/macid.png
 
-category: app-recommend
-
 category: 
 - app-recommend
 - article
