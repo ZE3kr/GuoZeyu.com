@@ -6,7 +6,7 @@ subtitle: no
 vimeo: 132391868
 youtube: WiOejIsf-44
 sound: no
-video-image: ze3kr/video/2015-07-02.jpg
+video-image: ze3kr/video/2015-07-02v2.jpg
 
 tag: []
 
