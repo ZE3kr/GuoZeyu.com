@@ -4,13 +4,15 @@ xmlpage: yes
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 	<channel>
-		<title>ZE3kr • 视频</title>
+		<title>ZE3kr</title>
+		<itunes:block>yes</itunes:block>
 		<atom:link href="{{ "/podcast.xml" | prepend: site.url }}" rel="self" type="application/rss+xml" />
 		<description>{{ site.description | xml_escape }}</description>
 		<link>{{ site.github.url }}/</link>
 		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<generator>Jekyll v{{ jekyll.version }}</generator>
+		<itunes:new-feed-url>https://ze3kr.tlo.xyz/podcast.xml</itunes:new-feed-url>
 
 		<language>{{ site.language }}</language>
 		<copyright>&#xA9;ZE3kr. {{ site.copyright | xml_escape }}</copyright>
@@ -27,7 +29,7 @@ xmlpage: yes
 		</itunes:owner>
 		<managingEditor>{{ site.email }} (ZE3kr)</managingEditor>
 		<webMaster>{{ site.email }} (ZE3kr)</webMaster>
-		<itunes:image href="https:{{ site.urlimg }}/thrideo/itunes/2015.jpg" />
+		<itunes:image href="https:{{ site.urlimg }}/thrideo/itunes/feed.jpg!sq.jpg" />
 
 		<itunes:category text="Sports &amp; Recreation">
 			<itunes:category text="Outdoor"/>
@@ -37,48 +39,11 @@ xmlpage: yes
 			<itunes:category text="Tech News"/>
 		</itunes:category>
 		<item>
-			<title>捐助 Thrideo</title>
-			<description>
-			<![CDATA[
-<p>请捐助 Thrideo，以便让我们支付播放视频需要支付昂贵的服务器流量。</p>
-<p><a href="https://ze3kr.tlo.xyz/donate/">https://ze3kr.tlo.xyz/donate/</a></p>
-			]]>
-			</description>
-			<pubDate>{% for post in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</pubDate>
+			<title>此播客已关闭，点击此处前往官网查看</title>
+			<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 			<guid isPermaLink="false">donate</guid>
 			<itunes:block>yes</itunes:block>
-			<enclosure url="https://ze3kr.tlo.xyz/donate/" type="text/xml" length="0" />
+			<enclosure url="https://ze3kr.tlo.xyz/category/video/" type="text/xml" length="0" />
 		</item>
-		{% for post in site.categories.video %}
-		<item>
-			<title>{{ post.title | xml_escape }}</title>
-			<enclosure url="https:{{ site.urlvideo }}/{{ post.catid }}/{{ post.file }}-540p.mp4" type="video/mp4" length="{% if post.length %}{{ post.length.540p }}{% else %}0{% endif %}"  />
-			<description><![CDATA[{{ post.content | cdata_escape | replace:'http://','https://' }}{% if post.feat %}{{ post.feat | cdata_escape | markdownify }}{% endif %}<p>{% if post.copyright %}{% if post.copyright_link %}<a href="{{ post.copyright_link }}">{% endif %}&#xA9; {{ post.time | date: "%Y" }} {{ site.github.owner_name }}. {{ post.copyright | xml_escape }}{% if post.copyright_link %}</a>{% endif %}{% else %}{% if site.copyright_link %}<a href="{{ site.copyright_link }}">{% endif %}&#xA9;ZE3kr. {{ site.copyright | xml_escape }}{% if site.copyright_link %}</a>{% endif %}{% endif %}</p>]]></description>
-			<link>{{ post.url | prepend: site.github.url }}</link>
-			<guid isPermaLink="false">{{ post.id }}</guid>
-			{% for tag in post.tags %}
-			<category>{{ tag | xml_escape }}</category>
-			{% endfor %}
-			{% for cat in post.categories %}
-			<category>{{ cat | xml_escape }}</category>
-			{% endfor %}
-			{% if post.sec %}<itunes:duration>{% if post.hour %}{{ post.hour }}{% else %}00{% endif %}:{% if post.min %}{{ post.min }}{% else %}00{% endif %}:{{ post.sec }}</itunes:duration>{% endif %}
-			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-			{% if post.explicit %}
-			<itunes:explicit>{{ post.explicit }}</itunes:explicit>
-			{% endif %}
-			{% if post.video-image %}
-			<itunes:image href="https:{{ site.urlimg }}/{{ post.video-image }}!sq.jpg" />
-			{% endif %}
-			{% if post.author %}
-			<itunes:author><![CDATA[{{ post.author | cdata_escape }}]]></itunes:author>
-			{% else %}
-			<itunes:author>ZE3kr</itunes:author>
-			{% endif %}
-			{% if post.subtitle %}
-			<itunes:subtitle>{{ post.content | truncate: 160 | xml_escape }}</itunes:subtitle>
-			{% endif %}
-		</item>
-		{% endfor %}
 	</channel>
 </rss>

@@ -6,7 +6,7 @@
 				<h1 itemprop="name">{{ page.title }}</h1>
 				{% if site.disqus %}{% if page.no-comments %}{% else %}{% if page.title %}<p class="subheadline"><a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">{{ site.data.language.comments }}</a></p>{% endif %}{% endif %}{% endif %}
 			</header>
-			<iframe class="video-js" style="width:100%;background-color:#000;background-image:url({{ site.urlimg }}/{{ page.video-image }}!s);background-size:contain;" src="{{ site.urlvideo }}/embed/?path={{ page.catid }}%2f{{ page.file }}&poster={{ site.urlimg }}%2f{{ page.video-image }}!s{% if page.youtube %}&youtube={{ page.youtube }}{% endif %}{% if site.youtube %}&youtubeList={{ site.youtube }}{% endif %}&language={{ site.language }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+			{% if page.vimeo %}<iframe class="video-js" style="width:100%;background-color:#000;background-image:url({{ site.urlimg }}/{{ page.video-image }}!s);background-size:contain;" src="https://player.vimeo.com/video/{{ page.vimeo }}?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;badge=0&amp;api=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>{% endif %}
 
 			<div class="row">
 				<div class="medium-8 medium-offset-2 end columns">

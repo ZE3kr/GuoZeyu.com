@@ -4,7 +4,8 @@ xmlpage: yes
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 	<channel>
-		<title>Thrideo</title>
+		<title>ZE3kr</title>
+		<itunes:block>yes</itunes:block>
 		<atom:link href="{{ "/podcast.xml" | prepend: site.url }}" rel="self" type="application/rss+xml" />
 		<description>{{ site.description | xml_escape }}</description>
 		<link>{{ site.github.url }}/</link>
@@ -38,11 +39,11 @@ xmlpage: yes
 			<itunes:category text="Tech News"/>
 		</itunes:category>
 		<item>
-			<title>此播客已关闭，点击此处获取新播客</title>
+			<title>此播客已关闭，点击此处前往官网查看</title>
 			<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 			<guid isPermaLink="false">donate</guid>
 			<itunes:block>yes</itunes:block>
-			<enclosure url="https://itunes.apple.com/podcast/id907999392?at=10lJIS" type="text/xml" length="0" />
+			<enclosure url="https://ze3kr.tlo.xyz/category/video/" type="text/xml" length="0" />
 		</item>
 	</channel>
 </rss>
