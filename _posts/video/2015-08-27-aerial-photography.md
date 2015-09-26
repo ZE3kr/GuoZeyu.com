@@ -5,7 +5,7 @@ youtube: pPObt7opZf4
 vimeo: 137462394
 
 date:   2015-08-27 09:50:00+08:00
-video-image: ze3kr/video/2015-07-02.jpg
+video-image: ze3kr/video/2015-08-27.jpg
 
 tag: 
 - 航拍
