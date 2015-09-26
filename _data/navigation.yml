@@ -15,9 +15,6 @@
 - title: "关于"
   url: "/about/"
   side: right
-- title: "捐助"
-  url: "/donate/"
-  side: right
 - title: "TLO Network"
   url: "https://tlo.xyz"
   nonew: yes

@@ -41,8 +41,7 @@
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml"/>
-
-	<link rel="stylesheet" href="{{ site.cdn_host }}/css/styles_feeling_responsive_0.2.8.css" />
+	<link rel="stylesheet" href="{{ site.cdn_host }}/custom-css/ze3kr_main_0.3.0.css" />
 	<link rel="stylesheet" href="{{ site.cdn_host }}/css/svg9.css" />
 	<link rel="stylesheet" charset="utf-8" href="{{ site.cdnjs_host }}/ajax/libs/leaflet/0.7.3/leaflet.css" />
 	<script async type="text/javascript" charset="utf-8" src="{{ site.cdnjs_host }}/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -59,7 +58,7 @@
 	<!-- Facebook Optimization -->
 	<meta property="og:locale" content="{{ site.language }}" />
 	{% if site.og_type %}<meta property="og:type" content="website" />{% endif %}
-	{% if page.content %}<meta property="og:description" content="{{ page.content | strip_html | truncate: 140 | escape }}"/>{% endif %}
+	{% if page.content %}<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>{% endif %}
 	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 	{% if site.title %}<meta property="og:site_name" content="{{ site.title }}" />{% endif %}
 	{% if page.image.title %}<meta property="og:image" content="{{ site.urlimg }}/{{ page.image.title }}!1x" />{% endif %}
