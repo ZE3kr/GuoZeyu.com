@@ -26,10 +26,6 @@ breadcrumb: true
 ## 社交网络
 
 + 新浪微博：[@ZE3kr](http://weibo.com/ze3kr)
-+ Instagram：[@ZE3kr](https://instagram.com/ze3kr/)
 + 知乎：[郭泽宇](http://www.zhihu.com/people/guo-ze-yu-8-94)
-+ 视频网站：[Thrideo](https://thrideo.tlo.xyz/)
-+ YouTube：[郭泽宇](https://www.youtube.com/channel/UCcvX7ZVfFHkhr5nLH6R_WFw)
-+ Twitch：[ZE3kr](http://www.twitch.tv/ze3kr)
-+ 优酷：[ZE3kr](http://i.youku.com/u/UNTUxMjQ4MjUy)
-+ Flickr：[ZE3kr](https://www.flickr.com/photos/ze3kr/)
++ Vimeo：[ZE3kr](https://vimeo.com/ze3kr)
++ YouTube：[郭泽宇](https://www.youtube.com/channel/UCcvX7ZVfFHkhr5nLH6R_WFw) // YouTube 上还有我的 4K 视频哦。

@@ -14,14 +14,6 @@ tag:
 category: video
 
 catid: episode
-
-min: "04"
-sec: "19"
-
-file: 8v2
-
-length:
-  540p: 43226265
 ---
 
 慢动作，主要使用 1080p@60FPS 录制。

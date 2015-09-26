@@ -19,14 +19,6 @@ redirect_from:
 category: video
 
 catid: episode
-
-min: "02"
-sec: "33"
-
-file: 9v2
-
-length:
-  sd: 25498406
 ---
 
 使用无人机航拍，包含北京通州运河、迪庆香格里拉。
