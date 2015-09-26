@@ -245,3 +245,5 @@ cdnjs_host: "//cdnjs-com.b0.upaiyun.com" # Default as "//cdnjs.cloudflare.com", 
 cdn_host: "//cdn-tlo.b0.upaiyun.com" # Default as "//cdn.tlo.network", also you can use our servers like "//cdn-tlo.b0.upaiyun.com"
 
 disqus: "ze3kr"
+
+timezone: "Asia/Shanghai"
