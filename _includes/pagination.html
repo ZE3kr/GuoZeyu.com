@@ -8,34 +8,32 @@
 
 
 {% for post in paginator.posts %}
-  <div class="row">
+<div class="row">
 	<div class="small-12 columns b30">
-	  {% if post.subheadline %}<p class="subheadline"><span class="subheader">{% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</span> – {{ post.subheadline }}</p>{% endif %}
-	  <h2><a href="{{ post.url }}">{% if post.category == "video" %}<i class="svg-play" style="height:1em;width:1em;display:inline-block;position:relative;top:0.1em;margin-right:0.2em;background-repeat:round;background-size:1em 1em;"></i>{% endif %}{% for category in post.categories limit:1 %}{% include translate.html name=category %} • {% endfor %}{{ post.title }}</a></h2>
-	  <p>
-		{% if post.exif %}<a href="{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.urlimg }}/{{ post.image.title }}!800" srcset="{{ site.urlimg }}/{{ post.image.title }}!2000 2000w, {{ site.urlimg }}/{{ post.image.title }}!1400 1400w, {{ site.urlimg }}/{{ post.image.title }}!800 800w, {{ site.urlimg }}/{{ post.image.title }}!400 400w" class="alignleft" style="width: 100%;" alt="{{ page.title escape_once }}" sizes="(min-width: 1600px) calc( 827px - 1.875rem ), (min-width: 1000px) calc( 667px - 1.875rem ), (min-width: 40.063rem) calc( 66.7vw - 1.875rem ), calc( 100vw - 1.875rem )"></a>
-		{% elsif post.image.title %}<a href="{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.urlimg }}/{{ post.image.title }}!s100" srcset="{{ site.urlimg }}/{{ post.image.title }}!s450 450w, {{ site.urlimg }}/{{ post.image.title }}!s200 200w, {{ site.urlimg }}/{{ post.image.title }}!s100x 100w" class="alignleft post-img" style="margin: 5px 15px 55px 0;" width="100" height="100" sizes="(min-width: 1600px) 150px, 100px" alt="{{ page.title escape_once }}"></a>{% endif %}
-		{% if post.video-image %}<a href="{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.urlimg }}/{{ post.video-image }}!800" srcset="{{ site.urlimg }}/{{ post.video-image }}!2000 2000w, {{ site.urlimg }}/{{ post.video-image }}!1400 1400w, {{ site.urlimg }}/{{ post.video-image }}!800 800w, {{ site.urlimg }}/{{ post.video-image }}!400 400w" class="alignleft" style="width: 100%;" alt="{{ page.title escape_once }}" sizes="(min-width: 1600px) calc( 827px - 1.875rem ), (min-width: 1000px) calc( 667px - 1.875rem ), (min-width: 40.063rem) calc( 66.7vw - 1.875rem ), calc( 100vw - 1.875rem )"></a>{% endif %}
+		{% if post.subheadline %}<p class="subheadline"><span class="subheader">{% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</span> – {{ post.subheadline }}</p>{% endif %}
+		<h2><a href="{{ post.url }}">{% if post.category == "video" %}<i class="svg-play" style="height:1em;width:1em;display:inline-block;position:relative;top:0.1em;margin-right:0.2em;background-repeat:round;background-size:1em 1em;"></i>{% endif %}{% for category in post.categories limit:1 %}{% include translate.html name=category %} • {% endfor %}{{ post.title }}</a></h2>
+		<p>
+			{% if post.image.title %}<a href="{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.urlimg }}/{{ post.image.title }}!s100" srcset="{{ site.urlimg }}/{{ post.image.title }}!s450 450w, {{ site.urlimg }}/{{ post.image.title }}!s200 200w, {{ site.urlimg }}/{{ post.image.title }}!s100x 100w" class="alignleft post-img" style="margin: 5px 15px 55px 0;" width="100" height="100" sizes="(min-width: 1600px) 150px, 100px" alt="{{ page.title escape_once }}"></a>{% endif %}
+			{% if post.video-image %}<a href="{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.urlimg }}/{{ post.video-image }}!s100" srcset="{{ site.urlimg }}/{{ post.video-image }}!s450 450w, {{ site.urlimg }}/{{ post.video-image }}!s200 200w, {{ site.urlimg }}/{{ post.video-image }}!s100x 100w" class="alignleft post-img" style="margin: 5px 15px 55px 0;" width="100" height="100" sizes="(min-width: 1600px) 150px, 100px" alt="{{ page.title escape_once }}"></a>{% endif %}
 
-		{% if post.excerpt %}{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}{% endif %}
+			{% if post.excerpt %}{{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}{% endif %}
 
-		<span style="display:block;font-weight:bold;">{% if post.title %}{% if post.no-comments %}{% else %}{% if site.disqus %}<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">{{ site.data.language.comments }}</a> • {% endif %}{% endif %}{% endif %}<a href="{{ post.url }}">{% if post.category == "video" %}{{ site.data.language.watch_video }}{% elsif post.exif %}{{ site.data.language.view_photo }}{% else %}{{ site.data.language.read_more }}{% endif %}</a></span>
-	  </p>
+			<span style="display:block;font-weight:bold;">{% if post.title %}{% if post.no-comments %}{% else %}{% if site.disqus %}<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">{{ site.data.language.comments }}</a> • {% endif %}{% endif %}{% endif %}<a href="{{ post.url }}">{% if post.category == "video" %}{{ site.data.language.watch_video }}{% elsif post.exif %}{{ site.data.language.view_photo }}{% else %}{{ site.data.language.read_more }}{% endif %}</a></span>
+		</p>
 	</div><!-- /.small-12.columns -->
-  </div><!-- /.row -->
+</div><!-- /.row -->
 {% endfor %}
 
 
 <nav id="pagination">
-	{% if paginator.previous_page %}
-	  {% if paginator.previous_page == 1 %}
-	  <a class="radius button small" href="/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous_posts }}</a>
-	  {% else %}
-	  <a class="radius button small" href="{{ paginator.previous_page_path }}" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a>
-	  {% endif %}
+	{% if paginator.previous_page %}{% if paginator.previous_page == 1 %}
+	<a class="radius button small" href="/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous_posts }}</a>
+	{% else %}
+	<a class="radius button small" href="{{ paginator.previous_page_path }}" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a>
+	{% endif %}
 	{% endif %}
 
 	{% if paginator.next_page %}
 	<a class="radius button small" href="{{ paginator.next_page_path }}" title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
 	{% endif %}
-  </nav>
+</nav>
