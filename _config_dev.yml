@@ -7,5 +7,4 @@
 
 url: "http://localhost:4000"
 dev-mode: yes
-
-gems: []
+https: no
