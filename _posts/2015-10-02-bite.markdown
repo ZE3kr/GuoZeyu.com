@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "洋辣子"
+date:   2015-10-02 11:00:00+08:00
+image:
+  title: ze3kr/2015/IMG_0917.jpeg
+exif: yes
+
+tag: 
+- 虫子
+- 绿色
+- 洋辣子
+
+location: "门头沟区"
+
+category: photo
+---
