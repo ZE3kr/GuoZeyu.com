@@ -2,25 +2,15 @@
 layout: post
 title:  ""
 
-date:   2015-MM-DD HH:MM:00+08:00
+date: 2015-MM-DD HH:MM:00+08:00
 vimeo: no
 youku: no
 youtube: no
 sound: no
-video-image: thrideo/XX/XX.jpg
+video-image: ze3kr/video/2015-XX-XX.jpg
 
 tag: []
 
 category: video
-
-catid: episode/special
-
-min: "XX"
-sec: "XX"
-
-file: 8
-
-length:
-  sd: 44247452
 ---
 

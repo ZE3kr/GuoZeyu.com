@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "星空超长曝光 拖线 @北京"
+date:   2015-10-04 18:45:00+08:00
+image:
+  title: ze3kr/2015/ZE3_2413.jpg
+exif: yes
+
+tag: 
+- 星空
+- 超长曝光
+- 拖线
+- 银河系
+
+location: "北京市 门头沟区"
+
+category: photo
+---
+
+这张照片曝光了 25 分钟，但是由于城市灯光亮以及 PM2.5 和 PM10 多，导致即使是 ISO100 也依然存在（大量的）噪点。所以我就不尝试去曝光 50 分钟了。
+
+{% include img.html title="银河1" img="ZE3_2408.jpg" %}
+
+银河1这张照片等效焦距为 24mm、光圈 f/4.5、ISO 6400、曝光 15 秒，在北京能拍到这个效果已经不错了，比[上一次拍摄]({% post_url post/2015-09-05-star %})要好多了。
+
+{% include img.html title="银河2" img="ZE3_2407.jpg" %}
