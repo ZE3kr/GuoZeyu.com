@@ -61,7 +61,8 @@
 	{% if page.content %}<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">{% endif %}
 	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	{% if site.title %}<meta property="og:site_name" content="{{ site.title }}">{% endif %}
-	{% if page.image.title %}<meta property="og:image" content="{{ site.urlimg }}/{{ page.image.title }}!800">{% endif %}
+	{% if page.image.title %}<meta property="og:image" content="https:{{ site.urlimg }}/{{ page.image.title }}!800">{% endif %}
+	{% if page.video-image %}<meta property="og:image" content="https:{{ site.urlimg }}/{{ page.video-image }}!800">{% endif %}
 
 	{% if site.alexa_verify_id %}<meta name="alexaVerifyID" content="{{ site.alexa_verify_id }}">{% endif %}
 
