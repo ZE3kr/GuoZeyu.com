@@ -9,8 +9,6 @@ $(document).ready(function(){
 });
 </script>
 {% endif %}
-
-{% if page.file %}{% else %}
 <script>
 $(function() {
 	if (typeof FastClick !== 'undefined') {
@@ -20,7 +18,6 @@ $(function() {
 	}
 });
 </script>
-{% endif %}
 
 {% if page.exif %}
 <script src="//cdnjs-com.b0.upaiyun.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
