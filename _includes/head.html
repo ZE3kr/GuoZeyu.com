@@ -29,11 +29,6 @@
 			window.location.href="{{ page.url | prepend: site.mirror-url | replace:'index.html','' }}";
 		}
 	}
-	else{
-		if( window.location.host == '{{ site.mirror-domain }}' ){
-			window.location.href="{{ page.url | prepend: site.url | replace:'index.html','' }}";
-		}
-	}
 	{% endif %}
 	</script>
 
