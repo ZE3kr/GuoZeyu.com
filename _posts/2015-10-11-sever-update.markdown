@@ -12,7 +12,9 @@ tag:
 category: post
 ---
 
-昨天，本网站开始换用 [KeyCDN](https://www.keycdn.com/?a=7126) 作为 CDN 加速。由于此网站没有备案号，所以只能使用外国的服务器，网站使用 OpenShift 部署（即 AWS 服务器），在此之前我并没有使用 CDN。由于加了 CDN 之后，网站变得更稳定、更快速了。
+昨天，本网站开始换用 [KeyCDN](https://www.keycdn.com/?a=7126) 作为 CDN 加速，同时也支持了 HTTP/2 协议，稳定、安全且迅速。
+
+由于此网站没有备案号，所以只能使用外国的服务器，网站使用 OpenShift 部署（即 AWS 服务器），在此之前网站的 HTML 本身并没有使用 CDN。现在由于加了 CDN 之后，网站变得更稳定、更快速了。
 
 ## 什么是 CDN
 
