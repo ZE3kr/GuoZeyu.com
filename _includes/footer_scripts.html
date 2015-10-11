@@ -1,3 +1,8 @@
+{% if site.piwik_analytics_tracking_id %}
+<!-- Piwik -->
+<noscript><p><img src="//url.tlo.network/piwik.php?idsite={{ site.piwik_analytics_tracking_id }}" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+{% endif %}
 <script type="text/javascript" charset="utf-8" src="//cdn-tlo.b0.upaiyun.com/js/main3.js"></script>
 {% if page.header.image_fullwidth %}
 <script>

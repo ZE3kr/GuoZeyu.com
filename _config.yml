@@ -249,3 +249,5 @@ disqus: "ze3kr"
 timezone: "Asia/Shanghai"
 
 id: "ze3kr"
+
+piwik_analytics_tracking_id: 1
