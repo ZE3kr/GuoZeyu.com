@@ -248,5 +248,5 @@ timezone: "Asia/Shanghai"
 
 id: "ze3kr"
 
-piwik_analytics_url: "//url.tlo.network"
+piwik_analytics_url: "//url.tlo.network/"
 piwik_analytics_tracking_id: "1"
