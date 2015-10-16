@@ -86,7 +86,7 @@
 	  _paq.push(['trackPageView']);
 	  _paq.push(['enableLinkTracking']);
 	  (function() {
-	    var u="//url.tlo.network/";
+	    var u="{{ site.piwik_analytics_url }}";
 	    _paq.push(['setTrackerUrl', u+'piwik.php']);
 	    _paq.push(['setSiteId', {{ site.piwik_analytics_tracking_id }}]);
 	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
