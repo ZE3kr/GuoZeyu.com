@@ -7,9 +7,8 @@
 {% if page.vimeo %}
 <script>
 $(function() {
-	var iframe = $('#main-player')[0];var player = $f(iframe);var status = $('.status');
-	player.addEvent('ready', function() {status.text('ready');player.addEvent('pause', onPause);player.addEvent('finish', onFinish);player.addEvent('playProgress', onPlayProgress);});
-	function onFinish() {_paq.push(['trackGoal', 1]);}
+	var iframe = $('#main-player')[0];var player = $f(iframe);
+	player.addEvent('ready', function() {player.addEvent('finish', function() { _paq.push( ['trackGoal', 1]); }); });
 });
 </script>
 {% endif %}
