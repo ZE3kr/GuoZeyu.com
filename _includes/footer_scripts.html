@@ -4,6 +4,15 @@
 <!-- End Piwik Code -->
 {% endif %}
 <script type="text/javascript" charset="utf-8" src="//cdn-tlo.b0.upaiyun.com/js/main3.js"></script>
+{% if page.vimeo %}
+<script>
+$(function() {
+	var iframe = $('#main-player')[0];var player = $f(iframe);var status = $('.status');
+	player.addEvent('ready', function() {status.text('ready');player.addEvent('pause', onPause);player.addEvent('finish', onFinish);player.addEvent('playProgress', onPlayProgress);});
+	function onFinish() {piwikTracker.trackGoal(1);}
+});
+</script>
+{% endif %}
 {% if page.header.image_fullwidth %}
 <script>
 $("#masthead").backstretch("{{ site.urlimg }}/{{ page.header.image_fullwidth }}!s", {fade: 700});
