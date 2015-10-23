@@ -1,0 +1,13 @@
+# - menu_name: ""
+
+- name: "RSS"
+  url: "/feed.xml"
+  title: "通过 RSS 订阅本网站"
+
+- name: "技术参数"
+  url: "/specs/"
+  title: "关于本网站的技术参数"
+
+- name: "隐私权"
+  url: "https://tlo.xyz/privacy-policy/zh-CN/"
+  title: "关于隐私权"
