@@ -20,6 +20,6 @@
   url: "https://shenghuo.alipay.com/send/payment/fill.htm?optEmail=network@tlo.xyz&title=Domate%20ZE3kr"
   title: "感谢！"
 
-- name: "捐助 (通过 Paypal)"
+- name: "捐助 (通过 PayPal/信用卡)"
   url: "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=network@tlo.xyz&item_name=Donate+ZE3kr&currency_code=USD"
   title: "感谢！"
