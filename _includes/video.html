@@ -3,5 +3,5 @@ Usage: {% include video.html title="title" id="12345678" %}
 {% endcomment %}
 <p>
 {% if include.title %}<h4 style="text-align:center;margin-bottom:5px;">{{ include.title }}</h4>{% endif %}
-<iframe class="post-video" style="width:100%;background-color:#000;" src="https://player.vimeo.com/video/{{ include.id }}?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0&amp;badge=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe>
+<iframe class="post-video" style="width:100%;background-color:#000;" src="https://player.vimeo.com/video/{{ include.id }}?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0&amp;badge=0&amp;api=1&amp;player_id=main-player" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no" id="main-player"></iframe>
 </p>
