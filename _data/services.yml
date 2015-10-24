@@ -11,3 +11,7 @@
 - name: "隐私权"
   url: "https://tlo.xyz/privacy-policy/zh-CN/"
   title: "关于隐私权"
+
+- name: "捐助"
+  url: "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=network@tlo.xyz&item_name=Donate+ZE3kr&currency_code=USD"
+  title: "感谢！"

@@ -1,23 +1,33 @@
 ---
 layout: post
-title:  "Workflow - 在 iPhone 和其他 iOS 设备上大大提高使用效率"
-date:   2015-05-23 18:30:00+08:00
+title:  "Workflow - 在 iOS 设备上大大提高使用效率"
+date:   2015-10-24 16:21:00+08:00
 
 image:
   title: unsplash.com/iphone.jpeg
 tag:
 - 软件推荐
 
+redirect_from:
+- /2015/05/workflow-review/
+
 category: 
 - app-recommend
 - article
 ---
 
-Workflow 是一个 iOS 软件，使用起来类似于 Mac 上内置的 Automator，十分便捷且强大，可以自定义各种功能。
+Workflow 是一个 iOS 软件，使用起来类似于 Mac 上内置的 Automator，十分便捷且强大，可以自定义各种功能。最近其发布了更新，支持了 Today Widget。
 
 {% include app.html id="915249334" short="f" %}
 
 {% include list.html %}
+
+演示视频
+------
+
+使用 Workflow 实现内部创建短链接（分别利用 Extensions 和 Today Widget）。
+
+{% include video.html id="143453841" %}
 
 功能
 ------
@@ -40,7 +50,7 @@ Workflow 更适合处理更多的步骤，比如说它拥有 if else 条件语�
 
 而 Launch Center Pro 则功能更少，相当于执行一个步骤的 Workflow，而且对于非 Geek 或 Pro User 来说很难使用，通常为了实现多个步骤要指定好多好多个 Callback。Launch Center Pro 的思想只是 URL Scheme，通过 URL Scheme 实现各种功能，十分复杂。
 
-支持 iOS 8 Extensions
+支持 iOS 8 Extensions 和更多
 ------
 通过iOS内置的分享表单，可以一个链接、图片、视频、文件、文本等一切内容作为输入去运行一个任务，快速实现所需要的功能。
 {% include img-small.html img="IMG_0194.PNG" %}
