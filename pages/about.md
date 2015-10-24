@@ -12,7 +12,7 @@ no-comments: yes
 
 感谢 [UPYUN](https://www.upaiyun.com) 的赞助，以及 Amazon 联盟、Apple iTunes 联盟提供的广告。
 
-本站的页面使用来自 [Phlow](http://phlow.de/){:target="_blank"} 的 [Feeling Responsive](http://phlow.github.io/feeling-responsive/){:target="_blank"} 主题，使用 [Jekyll](http://jekyllrb.com/){:target="_blank"} 生成的静态网页。（本网站的主题已经被我的十分混乱，各种汉化，自定义，建议你还是去原本的地方找主题。）
+本站的页面使用来自 [Phlow](http://phlow.de/){:target="_blank"} 的 [Feeling Responsive](http://phlow.github.io/feeling-responsive/){:target="_blank"} 主题，使用 [Jekyll](http://jekyllrb.com/){:target="_blank"} 生成的静态网页。（本网站的主题已经被我改的十分混乱，各种汉化，自定义，建议你还是去原本的地方找主题。）
 
 <del>本网站有缓存机制，页面的缓存时间最长为 30 分钟。</del>
 由于后台实现同步的方式比较奇葩，网站更新后可能有 1 分钟延迟。偶尔还可能 404 …
