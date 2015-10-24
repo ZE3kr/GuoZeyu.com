@@ -26,11 +26,18 @@ breadcrumb: true
 
 ## 社交网络
 
-+ 新浪微博：[@ZE3kr](http://weibo.com/ze3kr)
-+ 知乎：[郭泽宇](http://www.zhihu.com/people/guo-ze-yu-8-94)
-+ Vimeo：[ZE3kr](https://vimeo.com/ze3kr)
-+ YouTube：[郭泽宇](https://www.youtube.com/channel/UCcvX7ZVfFHkhr5nLH6R_WFw) // YouTube 上还有我的 4K 视频哦。
++ 新浪微博：[@ZE3kr](http://weibo.com/ze3kr){:target="_blank"}
++ 知乎：[郭泽宇](http://www.zhihu.com/people/guo-ze-yu-8-94){:target="_blank"}
++ Vimeo：[ZE3kr](https://vimeo.com/ze3kr){:target="_blank"}
++ YouTube：[郭泽宇](https://www.youtube.com/channel/UCcvX7ZVfFHkhr5nLH6R_WFw){:target="_blank"} (YouTube 上还有我的 4K 视频)
 
 ## 联系我
 
 + 给我发邮件即可，但我不一定会回。邮箱 [ze3kr@tlo.xyz](mailto:ze3kr@tlo.xyz)
+
+## 捐助
+
++ [通过手机支付宝](https://qr.alipay.com/ap9exv5cnp5mbofk4d){:target="_blank"} (在手机上访问 `https://tlo.link/D`)
++ [通过网页版支付宝](https://shenghuo.alipay.com/send/payment/fill.htm?optEmail=network@tlo.xyz&title=Domate%20ZE3kr){:target="_blank"}
++ [通过 PayPal/信用卡](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=network@tlo.xyz&item_name=Donate+ZE3kr&currency_code=USD){:target="_blank"}
+
