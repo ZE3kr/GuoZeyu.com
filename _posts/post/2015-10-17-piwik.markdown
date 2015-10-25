@@ -9,8 +9,6 @@ tag:
 - Piwik
 
 category: post
-
-ad: yes
 ---
 
 国内的统计服务不多，而且界面很差。国外的 Google Analytics 虽然很好使，但时常无法加载，而且统计中国用户的数据不全。
