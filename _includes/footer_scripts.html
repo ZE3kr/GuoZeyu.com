@@ -5,10 +5,23 @@
 {% endif %}
 <script type="text/javascript" charset="utf-8" src="//cdn-tlo.b0.upaiyun.com/js/main3.js"></script>
 <script type="text/javascript" charset="utf-8" src="//cdn-tlo.b0.upaiyun.com/js/froogaloop2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="//cdn-tlo.b0.upaiyun.com/js/jquery.iframetracker.js"></script>
 <script>
 $(function() {
 	var iframe = $('#main-player')[0];var player = $f(iframe);
 	player.addEvent('ready', function() {player.addEvent('finish', function() { _paq.push( ['trackGoal', 1]); }); });
+	if (typeof FastClick !== 'undefined') {
+		if (typeof document.body !== 'undefined') {
+			FastClick.attach(document.body);
+		}
+	}
+});
+jQuery(document).ready(function($){
+	$('.adsbygoogle').iframeTracker({
+		blurCallback: function(){
+			_paq.push( ['trackGoal', 5]);
+		}
+	});
 });
 </script>
 {% if page.header.image_fullwidth %}
@@ -21,15 +34,6 @@ $(document).ready(function(){
 });
 </script>
 {% endif %}
-<script>
-$(function() {
-	if (typeof FastClick !== 'undefined') {
-		if (typeof document.body !== 'undefined') {
-			FastClick.attach(document.body);
-		}
-	}
-});
-</script>
 
 {% if page.exif %}
 <script src="//cdnjs-com.b0.upaiyun.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
