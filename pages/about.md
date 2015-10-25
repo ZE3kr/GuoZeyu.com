@@ -38,6 +38,19 @@ no-comments: yes
 
 ## 捐助
 
-+ [通过手机支付宝](https://qr.alipay.com/ap9exv5cnp5mbofk4d){:target="_blank"} (在手机上访问 [`https://tlo.link/D`](https://qr.alipay.com/ap9exv5cnp5mbofk4d){:target="_blank"})
-+ [通过网页版支付宝](https://shenghuo.alipay.com/send/payment/fill.htm?optEmail=network@tlo.xyz&title=Domate%20ZE3kr){:target="_blank"}
-+ [通过 PayPal/信用卡](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=network@tlo.xyz&item_name=Donate+ZE3kr&currency_code=USD){:target="_blank"}
+点击下方付款方式直接进入捐助页面，或者你可以在另一个设备上输入短链接。
+
+### [手机支付宝](https://qr.alipay.com/ap9exv5cnp5mbofk4d)
+
+短链接：[`https://tlo.link/D`](https://qr.alipay.com/ap9exv5cnp5mbofk4d){:target="_blank"}
+
+打开支付宝客户端扫码：
+![支付宝](http://cdn-tlo.b0.upaiyun.com/ze3kr/pay/alipay.png){:width="200"}
+
+### [网页支付宝](https://shenghuo.alipay.com/send/payment/fill.htm?optEmail=network@tlo.xyz&title=Domate%20ZE3kr){:target="_blank"}
+
+短链接：[`https://tlo.link/I`](https://shenghuo.alipay.com/send/payment/fill.htm?optEmail=network@tlo.xyz&title=Domate%20ZE3kr){:target="_blank"}
+
+### [PayPal/信用卡](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=network@tlo.xyz&item_name=Donate+ZE3kr&currency_code=USD){:target="_blank"}
+
+短链接：[`https://tlo.link/J`](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=network@tlo.xyz&item_name=Donate+ZE3kr&currency_code=USD){:target="_blank"}
