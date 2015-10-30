@@ -251,7 +251,7 @@ id: "ze3kr"
 piwik_analytics_url: "//url.tlo.network/"
 piwik_analytics_tracking_id: "1"
 
-google_ad: 
-  client: "ca-pub-9930670561318745"
-  slot: "9169256715"
-  format: "auto"
+#google_ad: 
+#  client: "ca-pub-9930670561318745"
+#  slot: "9169256715"
+#  format: "auto"
