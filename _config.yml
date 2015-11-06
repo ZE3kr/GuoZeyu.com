@@ -235,7 +235,7 @@ copyright-start: "2012"
 
 site-img: "//cdn-tlo.b0.upaiyun.com/ze3kr/ze3kr.png"
 
-https: yes
+#https: yes
 
 #translate: yes
 
