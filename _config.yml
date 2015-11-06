@@ -21,7 +21,7 @@ description: "欢迎来到郭泽宇 (ZE3kr) 的主页，这是我主要网站。
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "https://ze3kr.tlo.xyz"
+url: "https://ze3kr.com"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
