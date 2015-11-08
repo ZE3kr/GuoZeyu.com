@@ -56,7 +56,7 @@ Clone 完毕后，修改一下这个文件（这里仅是用来示范，请自�
 
 修改成如下格式，将原本的GitHub前添加上用户名和密码（我是直接把 Password 打在这里了，如果你觉得不安全请使用 SSH 公私钥那种方式），再添加一行是你的 GitCafe 的 HTTPS 地址，也要添加上用户名和密码，格式如下：
 
-{% include img.html img="sync1.png" %}
+{% include img-small.html img="sync1.png" %}
 
 然后，执行下面这个指令，完成第一次同步：
 {% highlight bash %}
@@ -83,12 +83,12 @@ HTML;
 
 首先进入你的 GitHub 项目中的 Webhooks（Settings > Webhooks & Services > Add webhook），然后填写内容。Secret可以不填写，为了方便起见只好用一种不安全的方式——加一个 GET 请求。Payload URL里就填写刚才添加的 Openshift 程序的网址＋新创建的实现自动同步的文件目录＋GET 请求。
 
-{% include img.html img="sync2.png" %}
+{% include img-small.html img="sync2.png" %}
 
 等到下次 Push 后，进这里查看结果，查看是否成功。
 
-{% include img.html img="sync3.png" %}
+{% include img-small.html img="sync3.png" %}
 
 同样的，如果你想当 GitCafe 被 Push 后也同步到 GitHub，也只需要在 GitCafe 上配置好相同的 Webhooks。
 
-{% include img.html img="sync4.png" %}
+{% include img-small.html img="sync4.png" %}
