@@ -8,3 +8,4 @@ User-agent: *
 Disallow: /site
 Disallow: /pagelist-
 Disallow: /noindex-
+Disallow: /404.html
