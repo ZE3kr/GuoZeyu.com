@@ -13,7 +13,7 @@ category: article
 ---
 Eyefi Mobi 是一张有 Wi-Fi 功能的 SD 卡。当配置好后，相机每照完一张照片，手机上就能立即显示并分享它。
 
-{% include amazon.html request="asin=B00OZF748W" short="d" %}
+{% include amazon.html request="B00OZF748W" short="P" %}
 
 {% include list.html %}
 
