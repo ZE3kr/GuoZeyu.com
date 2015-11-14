@@ -21,4 +21,4 @@ category:
 
 而且其可以实现 HTTP、HTTPS、Socks 代理，最神奇的是还支持 Shadowsocks。支持各种自定义的代理规则，甚至包括 GEOIP 定位的 “智能规则”。具体使用我就不多说了，请大家自行研究。
 
-{% include app.html id="1040100637" short="M" %}
+{% include img-small.html title="截图" img="IMG_1097.png" %}
