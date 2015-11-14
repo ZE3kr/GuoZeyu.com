@@ -11,6 +11,8 @@ tag:
 category: 
 - app-recommend
 - post
+
+no-comments: true
 ---
 
 它利用了 iOS 9 的 Network Extention，可以直接控制设备的网络流量，当然也能实现加速国外网页浏览、屏蔽广告等作用。
