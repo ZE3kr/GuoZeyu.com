@@ -90,7 +90,7 @@
 		_paq.push(['setTrackerUrl', u+'piwik.php']);
 		_paq.push(['setSiteId', {{ site.piwik_analytics_tracking_id }}]);
 		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-		g.type='text/javascript'; g.async=true; g.defer=true; g.src='//analytics-tlo.b0.upaiyun.com/piwik.js'; s.parentNode.insertBefore(g,s);
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
 	})();
 	</script>
 	<!-- End Piwik Code -->
