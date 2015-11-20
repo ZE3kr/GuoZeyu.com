@@ -47,9 +47,9 @@ no-comments: yes
 打开支付宝客户端扫码：
 ![支付宝](http://cdn-tlo.b0.upaiyun.com/ze3kr/pay/alipay.png){:width="200"}
 
-### [网页支付宝](https://tlo.link/I){:target="_blank"}
+### [网页支付宝](/donate-redirect.html){:target="_blank"}
 
-短链接：[`https://tlo.link/I`](https://tlo.link/I){:target="_blank"}
+短链接：[`https://tlo.link/I`](/donate-redirect.html){:target="_blank"}
 
 ### [PayPal/信用卡](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=network@tlo.xyz&item_name=Donate+ZE3kr&currency_code=USD){:target="_blank"}
 
