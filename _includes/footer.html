@@ -8,8 +8,8 @@
 	<footer id="footer-content" class="bg-grau">
 	  <div id="footer">
 		<div class="row">
-		  {% if site.site-img %}<a href="/"><img src="{{ site.site-img }}!s100" srcset="{{ site.site-img }}!s200 2x, {{ site.site-img }}!s450 4.5x" class="alignleft" width="100" height="100" style="margin-left:1em;" alt="{{ site.title }}"></a>{% endif %}
 		  <div class="medium-6 large-5 columns">
+			{% if site.site-img %}<a href="/"><img src="{{ site.site-img }}!s100" srcset="{{ site.site-img }}!s200 2x, {{ site.site-img }}!s450 4.5x" class="alignleft" width="100" height="100" style="margin-left:1em;margin-top:1em;" alt="{{ site.title }}"></a>{% endif %}
 			<a href="/"><h5 class="shadow-black" style="text-transform:initial!important;font-weight:700">{{ site.title }}</h5></a>
 
 			<p class="shadow-black">
