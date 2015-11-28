@@ -255,3 +255,5 @@ piwik_analytics_tracking_id: "1"
 #  client: "ca-pub-9930670561318745"
 #  slot: "9169256715"
 #  format: "auto"
+
+banner: "<a href="/donate/">如果在一天内所有访问过这个网站的人都捐出了 3 元，就够这个网站运行一年了，所以请考虑为本站捐助，十分感谢！</a>"
