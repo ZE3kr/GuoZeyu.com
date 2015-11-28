@@ -16,7 +16,7 @@ slogan: "郭泽宇的主页"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "欢迎来到郭泽宇 (ZE3kr) 的主页，这是我主要网站。使用 OpenShift 部署，是一个开源的网站。"
+description: "欢迎来到郭泽宇 (ZE3kr) 的主页，这是我主要网站。汇集原创精选文章、视频、图片、短文和 App 推荐，以科技为主。"
 
 
 # This URL is the main adresse. Don't include a slash at the end.
@@ -256,4 +256,4 @@ piwik_analytics_tracking_id: "1"
 #  slot: "9169256715"
 #  format: "auto"
 
-banner: "<a href="/donate/">如果在一天内所有访问过这个网站的人都捐出了 3 元，就够这个网站运行一年了，所以请考虑为本站捐助，十分感谢！</a>"
+banner: '<a href="https://tlo.xyz/donate/zh/" style="font-weight: bold;font-style: italic;">为了让这个网站能够维持下去，保持更新和运维，请考虑捐助。</a>'
