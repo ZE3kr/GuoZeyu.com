@@ -5,7 +5,7 @@ permalink: /donate/
 breadcrumb: true
 no-comments: yes
 ---
-## 一键付款
+## [一键付款](https://tlo.link/a/mobile-redirect.php?default=https%3a%2f%2ftlo.link%2fa%2fnoreferer-redirect.php%3furl%3dhttps%253a%252f%252fshenghuo.alipay.com%252fsend%252fpayment%252ffill.htm%253foptEmail%253dnetwork%2540tlo.xyz%2526title%253dDomate%252520ZE3kr&mobile=https%3a%2f%2fqr.alipay.com%2fap9exv5cnp5mbofk4d){:target="_blank"}
 
 **[手机或电脑点此立即付款](https://tlo.link/a/mobile-redirect.php?default=https%3a%2f%2ftlo.link%2fa%2fnoreferer-redirect.php%3furl%3dhttps%253a%252f%252fshenghuo.alipay.com%252fsend%252fpayment%252ffill.htm%253foptEmail%253dnetwork%2540tlo.xyz%2526title%253dDomate%252520ZE3kr&mobile=https%3a%2f%2fqr.alipay.com%2fap9exv5cnp5mbofk4d){:target="_blank"}**（打开后直接转账付款）
 
