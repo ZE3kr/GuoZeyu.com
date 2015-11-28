@@ -5,6 +5,8 @@ permalink: /donate/
 breadcrumb: true
 no-comments: yes
 ---
+网站运维需要昂贵的费用，你每捐助 **3 元**，就够维持这个网站运行**一天**了。如果在一天内所有访问过这个网站的人都捐出了 3 元，就够这个网站运行一年了，所以请考虑为本站捐助，十分感谢！
+
 ## [一键付款](https://tlo.link/a/mobile-redirect.php?default=https%3a%2f%2ftlo.link%2fa%2fnoreferer-redirect.php%3furl%3dhttps%253a%252f%252fshenghuo.alipay.com%252fsend%252fpayment%252ffill.htm%253foptEmail%253dnetwork%2540tlo.xyz%2526title%253dDomate%252520ZE3kr&mobile=https%3a%2f%2fqr.alipay.com%2fap9exv5cnp5mbofk4d){:target="_blank"}
 
 **[手机或电脑点此立即付款](https://tlo.link/a/mobile-redirect.php?default=https%3a%2f%2ftlo.link%2fa%2fnoreferer-redirect.php%3furl%3dhttps%253a%252f%252fshenghuo.alipay.com%252fsend%252fpayment%252ffill.htm%253foptEmail%253dnetwork%2540tlo.xyz%2526title%253dDomate%252520ZE3kr&mobile=https%3a%2f%2fqr.alipay.com%2fap9exv5cnp5mbofk4d){:target="_blank"}**（打开后直接转账付款）
