@@ -5,7 +5,7 @@
   title: "通过 RSS 订阅本网站"
 
 - name: "技术参数"
-  url: "/specs/"
+  url: "https://docs.tlo.xyz/wiki/ZE3kr/%E6%8A%80%E6%9C%AF%E5%8F%82%E6%95%B0"
   title: "关于本网站的技术参数"
 
 - name: "隐私权"
@@ -13,5 +13,5 @@
   title: "关于隐私权"
 
 - name: "捐助"
-  url: "/about/#section-3"
+  url: "/donate/"
   title: "感谢！"
