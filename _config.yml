@@ -256,4 +256,4 @@ piwik_analytics_tracking_id: "1"
 #  slot: "9169256715"
 #  format: "auto"
 
-banner: '<a href="https://tlo.xyz/wiki/Donate/zh" style="font-weight: bold;font-style: italic;">为了让这个网站能够维持下去，保持更新和运维，请考虑捐助。</a>'
+banner: '<a href="https://tlo.xyz/wiki/%E6%8D%90%E6%AC%BE" style="font-weight: bold;font-style: italic;">为了让这个网站能够维持下去，保持更新和运维，请考虑捐款。</a>'
