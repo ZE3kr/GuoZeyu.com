@@ -86,8 +86,8 @@ var disqus_title = '{{ page.title }}';
 var disqus_url = '{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}';
 var disqus_category_id = {% for category in page.categories limit:1 %}'{% include categories-id.html name=category %}'{% endfor %};{% endif %}
 </script>
-<script type="text/javascript" async="" src="//{{ site.disqus }}.disqus.com/embed.js"></script>
-<script type="text/javascript" async="" src="//{{ site.disqus }}.disqus.com/count.js"></script>
+<script type="text/javascript" async src="//{{ site.disqus }}.disqus.com/embed.js"></script>
+<script type="text/javascript" async src="//{{ site.disqus }}.disqus.com/count.js"></script>
 {% endif %}
 {% if site.translate %}
 <div id="google_translate_element"></div><script type="text/javascript">
