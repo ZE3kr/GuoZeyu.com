@@ -203,8 +203,8 @@ sass:
 # google_analytics_tracking_id: "UA-47292820-1"
 # cnzz_analytics_tracking_id: "1256166681"
 
-mirror-url: "https://ze3kr-tlo.b0.upaiyun.com" # For wechat domain
-mirror-domain: "ze3kr-tlo.b0.upaiyun.com"
+# mirror-url: "https://ze3kr-tlo.b0.upaiyun.com" # For wechat domain
+# mirror-domain: "ze3kr-tlo.b0.upaiyun.com"
 
 exif_lang: "ZH"
 
