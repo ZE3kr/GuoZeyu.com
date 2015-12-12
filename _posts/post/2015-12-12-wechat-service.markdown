@@ -13,6 +13,6 @@ ZE3kr 是郭泽宇用于发布内容的作者名，发布的内容汇集以科�
 
 ## 关注此微信订阅号
 
-打开**微信扫一扫**，即可关注此订阅号。
+打开**微信扫一扫**，即可关注此订阅号，微信号 `ZE3kr_service` 。
 
 <div style="text-align:center;"><img src="//cdn-tlo.b0.upaiyun.com/ze3kr/wechat.png!800" alt="微信扫码" style="width: 250px;text-align: center;"></div>
