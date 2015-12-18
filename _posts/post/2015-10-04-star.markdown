@@ -21,6 +21,6 @@ category: photo
 
 {% include img.html title="银河1" img="ZE3_2408.jpg" %}
 
-银河1这张照片等效焦距为 24mm、光圈 f/4.5、ISO 6400、曝光 15 秒，在北京能拍到这个效果已经不错了，比[上一次拍摄]({% post_url post/2015-09-05-star %})要好多了。
+银河1这张照片等效焦距为 24mm、光圈 f/4.5、ISO 6400、曝光 15 秒，在北京能拍到这个效果已经不错了，比[上一次拍摄](/2015/10/star/)要好多了。
 
 {% include img.html title="银河2" img="ZE3_2407.jpg" %}

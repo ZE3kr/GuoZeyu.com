@@ -53,8 +53,11 @@ markdown: kramdown
 permalink: /:year/:month/:title/
 highlight: pygments
 excerpt_separator: "\n\n"
-include: ['.htaccess']
+include: 
+- ".htaccess"
 
+keep_files: 
+- "config.yaml"
 
 # The language setting is used in /includes/header.html for html-settings
 language: "zh-CN"
@@ -203,14 +206,15 @@ sass:
 # google_analytics_tracking_id: "UA-47292820-1"
 # cnzz_analytics_tracking_id: "1256166681"
 
-# mirror-url: "https://ze3kr-tlo.b0.upaiyun.com" # For wechat domain
-# mirror-domain: "ze3kr-tlo.b0.upaiyun.com"
+mirror-url: "https://ze3krtlo.sinaapp.com" # For wechat domain
+mirror-domain: "ze3krtlo.sinaapp.com"
 
 exif_lang: "ZH"
 
 gems:
   - jekyll-archives
   - jekyll-redirect-from
+  - jekyll-paginate
 
 jekyll-archives:
   enabled:

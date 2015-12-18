@@ -24,8 +24,14 @@
 
 	{% if site.mirror-domain %}
 	var ua = window.navigator.userAgent.toLowerCase();
-	if(ua.match(/MicroMessenger/i) == 'micromessenger'){
-		if( window.location.host != '{{ site.mirror-domain }}' ){
+	var match = ua.match(/MicroMessenger/i);
+	if( window.location.host == '{{ site.mirror-domain }}' ){
+		if(match != 'micromessenger'){
+			window.location.href="{{ page.url | prepend: site.url | replace:'index.html','' }}";
+		}
+	}
+	else{
+		if(match == 'micromessenger'){
 			window.location.href="{{ page.url | prepend: site.mirror-url | replace:'index.html','' }}";
 		}
 	}
