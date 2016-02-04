@@ -1,5 +1,0 @@
-{% comment %}
-Usage: {% include amazon.html request="asin=XXXXX&CN=XXXXX" short="XXX" %}
-{% endcomment %}
-<h4><a href="http://www.amazon.cn/gp/product/{{ include.request }}?tag=ze3kr-23" target="_black">在亚马逊上购买正品</b></a></h4>
-{% if include.short %}短链接：<a href="http://www.amazon.cn/gp/product/{{ include.request }}?tag=ze3kr-23" target="_black"><code>tlo.link/{{ include.short }}</code></a>{% endif %}

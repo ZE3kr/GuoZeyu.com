@@ -1,9 +1,0 @@
-{% comment %}
-Usage: {% include img-small-basic.html title="title" img="path" %}
-{% endcomment %}
-<p><center>
-<a href="{{ site.urlimg }}/{{ include.img }}" title="View big image" target="_blank">
-{% if include.title %}<h4 style="text-align: center; margin-bottom: 5px;">{{ include.title }}</h4>{% endif %}
-<img src="{{ site.urlimg }}/{{ include.img }}!a1x" srcset="{{ site.urlimg }}/{{ include.img }}!a2x 2x, {{ site.urlimg }}/{{ include.img }}!a3x 3x" class="img-photo" alt="{{ include.title }}" style="max-height:255px;max-width: 340px;width: initial!important;"/>
-</a>
-</center></p>
