@@ -27,6 +27,9 @@ font-size: 1.2em">已收到捐款共&nbsp;<span class="required pay-amount" styl
   <input type="hidden" name="action" value="check_availability" />
   <input type="submit" value="搜索" />
 </form>
+<h3>购买我们推荐的商品</h3>
+<a href="https://ze3kr.com/category/article/app-recommend/">App 推荐</a>
+<a href="https://ze3kr.com/tag/hardware/">硬件</a>
 <h3>通过微信转账</h3>
 关注微信号 `ZE3kr_service`，点击页面下方的 “捐款”。
 
