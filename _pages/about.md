@@ -16,6 +16,9 @@ dsq_thread_id:
 <a href="https://media.landcement.com/sites/2/20160131130804/ZE3kr.png" rel="attachment wp-att-797"><img class="aligncenter size-medium wp-image-797" src="https://media.landcement.com/sites/2/20160131130804/ZE3kr-450x450.png" alt="ZE3kr" width="450" height="450" /></a>
 <h2>关于网站</h2>
 网站使用 WordPress，使用由 <a href="https://tlo.hosting" target="_blank">TLO Hosting</a> 提供的服务器和域名注册服务。
+
+这个网站上的所有公开的文章和页面全部开源，所有历史版本都能够在 <a href="https://github.com/ZE3kr/ZE3kr" target="_blank">GitHub</a> 上找到，包括已删除的页面和文章。
+
 <h2>关于版权</h2>
 如无特殊声明，本站上文章的正文部分均保留所有权利，在获得许可前不允许以任何方式将正文内容转载。
 <h2>关于郭泽宇</h2>
