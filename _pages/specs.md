@@ -5,9 +5,10 @@ author: ZE3kr
 post_date: 2016-01-03 13:33:56
 post_excerpt: ""
 layout: page
-permalink: >
-  https://ze3kr.com/%e6%8a%80%e6%9c%af%e5%8f%82%e6%95%b0/
+permalink: https://ze3kr.com/specs/
 published: true
+dsq_thread_id:
+  - null
 ---
 <h2>视频格式</h2>
 此网站使用自己的 CDN 加速视频，仅支持 540p，使用 MP4 格式，码率 1000k。
