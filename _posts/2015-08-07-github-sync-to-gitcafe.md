@@ -13,8 +13,6 @@ permalink: >
 published: true
 dsq_thread_id:
   - "4079471239"
-dsq_needs_sync:
-  - "1"
 ---
 本文将提供一个把 GitHub 自动且实时地同步到 GitCafe 方案。
 

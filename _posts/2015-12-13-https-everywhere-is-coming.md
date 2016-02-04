@@ -9,9 +9,7 @@ permalink: >
   https://ze3kr.com/2015/12/https-everywhere-is-coming/
 published: true
 dsq_thread_id:
-  - "4434959359"
-dsq_needs_sync:
-  - "1"
+  - "4543289199"
 ---
 HTTPS 是一种网络安全传输协议，网址以 <code>https://</code> 开头，就代表是使用了这个协议。
 

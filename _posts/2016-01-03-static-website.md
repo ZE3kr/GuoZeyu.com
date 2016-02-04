@@ -9,9 +9,7 @@ permalink: >
   https://ze3kr.com/2016/01/static-website/
 published: true
 dsq_thread_id:
-  - ""
-dsq_needs_sync:
-  - "1"
+  - "4547993272"
 ---
 <p>静态网页，即<strong>纯 HTML 的网页</strong>，博客中的每一个页面均为一个 <code>.html</code> 文件。</p>
 

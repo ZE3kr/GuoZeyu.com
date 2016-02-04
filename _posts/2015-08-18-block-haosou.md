@@ -11,8 +11,6 @@ permalink: https://ze3kr.com/2015/08/block-haosou/
 published: true
 dsq_thread_id:
   - "4079477342"
-dsq_needs_sync:
-  - "1"
 ---
 现在的搜索引擎都在尝试转码桌面站点，把网页内容重新排版。百度等搜索引擎都在尝试做这个，目的是让用户有 “一致化” 的体验。但是如果有一家商业公司将重新排版网页用作商业目的，这可就不好了。
 

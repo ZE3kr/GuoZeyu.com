@@ -8,8 +8,8 @@ post_excerpt: ""
 layout: post
 permalink: https://ze3kr.com/2016/02/auto-scale/
 published: true
-dsq_needs_sync:
-  - "1"
+dsq_thread_id:
+  - "4540516067"
 ---
 <p>2016-01-30 这一天，TLO XYZ 的博客系统（包括 ze3kr.com）整个迁移到了 “一个” 新的服务器，准确的说，服务器已经不止一个。</p>
 

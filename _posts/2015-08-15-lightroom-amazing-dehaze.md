@@ -12,8 +12,6 @@ permalink: >
 published: true
 dsq_thread_id:
   - "4079438423"
-dsq_needs_sync:
-  - "1"
 ---
 上方的这张照片就是使用 Lightroom 的去朦胧功能修改过的照片，下方这张照片是使用去朦胧功能之前的样子
 

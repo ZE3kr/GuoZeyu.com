@@ -10,9 +10,7 @@ layout: post
 permalink: https://ze3kr.com/2015/08/using-srcset/
 published: true
 dsq_thread_id:
-  - "4434940840"
-dsq_needs_sync:
-  - "1"
+  - "4079477468"
 ---
 使用 srcset 属性可以解决一切响应式图片问题，但这里分为两种情况，确定和不确定宽度的照片。相比之下，不确定宽度的照片更复杂些。
 <h2>确定宽度的照片</h2>

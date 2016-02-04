@@ -9,8 +9,6 @@ permalink: https://ze3kr.com/2016/01/new-donate/
 published: true
 dsq_thread_id:
   - "4521792445"
-dsq_needs_sync:
-  - "1"
 ---
 <p>TLO XYZ 现在的付款功能由 Paymentwall 提供支持，同时支持多种付款方式（包括支付宝、银行卡等），非常方便。</p>
 

@@ -8,8 +8,8 @@ layout: post
 permalink: >
   https://ze3kr.com/2015/05/mobile-first-beginning/
 published: true
-dsq_needs_sync:
-  - "1"
+dsq_thread_id:
+  - "4295624698"
 ---
 现有的桌面上的操作系统大多都有浏览器，浏览器可以让我们方便的浏览一个网页。
 

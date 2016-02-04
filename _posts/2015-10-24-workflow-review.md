@@ -10,8 +10,6 @@ permalink: >
 published: true
 dsq_thread_id:
   - "4254394755"
-dsq_needs_sync:
-  - "1"
 ---
 Workflow 是一个 iOS 软件，使用起来类似于 Mac 上内置的 Automator，十分便捷且强大，可以自定义各种功能。最近其发布了更新，支持了 Today Widget。
 

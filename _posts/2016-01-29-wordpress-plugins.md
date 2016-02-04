@@ -11,9 +11,7 @@ permalink: >
   https://ze3kr.com/2016/01/wordpress-plugins/
 published: true
 dsq_thread_id:
-  - "4532490927"
-dsq_needs_sync:
-  - "1"
+  - "4540879499"
 ---
 <h2>Autoptimize</h2>
 

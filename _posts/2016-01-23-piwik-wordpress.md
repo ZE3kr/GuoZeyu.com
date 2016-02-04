@@ -11,9 +11,7 @@ permalink: >
   https://ze3kr.com/2016/01/piwik-wordpress/
 published: true
 dsq_thread_id:
-  - "4515150944"
-dsq_needs_sync:
-  - "1"
+  - "4543270898"
 ---
 <p>在配合使用之前，首先需要安装 Piwik。<a href="https://piwik.org/download/" target="_blank">前往 Piwik 官网下载软件包</a>，然后解压到服务器上。当然，如果你的服务器上支持一键安装 Piwik 那更好。需要 PHP 环境和 MySQL 数据库。安装只需要根据步骤一步步来就好了。最好和 WordPress 安装在一个主机下，这样更方便配合使用。</p>
 

@@ -7,8 +7,8 @@ post_excerpt: ""
 layout: post
 permalink: https://ze3kr.com/2016/01/iphone-hdr/
 published: true
-dsq_needs_sync:
-  - "1"
+dsq_thread_id:
+  - "4540382505"
 ---
 <a href="https://media.landcement.com/sites/2/20160201005651/IMG_1306.jpg" rel="attachment wp-att-986"><img class="aligncenter size-large wp-image-986" src="https://media.landcement.com/sites/2/20160201005651/IMG_1306-1600x1200.jpg" alt="IMG_1306" width="840" height="630" /></a>
 
