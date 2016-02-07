@@ -1,8 +1,9 @@
 ---
 ID: 1119
 post_title: >
-  iOS 9 软件推荐——Purify
-  Blocker，广告拦截插件
+  Purify
+  Blocker，广告拦截插件——iOS 9
+  软件推荐
 author: ZE3kr
 post_date: 2016-02-06 16:34:00
 post_excerpt: ""
@@ -10,6 +11,8 @@ layout: post
 permalink: >
   https://ze3kr.com/2016/02/purify-blocker/
 published: true
+dsq_needs_sync:
+  - "1"
 ---
 相信不少人都知道桌面浏览器上的广告拦截插件，这些插件能够移除所有网站上绝大多数的广告。同时因为不用加载那些广告，还能加快整个页面的加载速度，并且还能够省电。
 
