@@ -10,8 +10,11 @@ permalink: >
 published: true
 dsq_thread_id:
   - "4097391754"
+dsq_needs_sync:
+  - "1"
 ---
 这是一个很值得使用的软件，包含强大的手动自定义功能、分享功能以及惊人的 HDR 合成能力。
+
 [app_store_zh id="694647259" short="e"][/app_store_zh]
 
 <h2>独创的 HDR</h2>
