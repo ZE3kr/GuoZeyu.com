@@ -12,6 +12,8 @@ permalink: >
 published: true
 dsq_thread_id:
   - "4540879499"
+dsq_needs_sync:
+  - "1"
 ---
 <h2>Autoptimize</h2>
 
@@ -21,7 +23,7 @@ dsq_thread_id:
 
 <h2>Crayon Syntax Highlighter</h2>
 
-<p><a href="https://xn--oor13x.tlo.xyz/wp-content/uploads/sites/4/2016/01/屏幕快照-2016-01-29-09.55.25.png" rel="attachment wp-att-86"><img class="aligncenter size-medium wp-image-86" src="https://xn--oor13x.tlo.xyz/wp-content/uploads/sites/4/2016/01/屏幕快照-2016-01-29-09.55.25-450x259.png" alt="屏幕快照 2016-01-29 09.55.25" width="450" height="259" /></a></p>
+<a href="https://media.landcement.com/sites/2/20160201140310/2016-01-29-09.55.25.png" rel="attachment wp-att-1030"><img src="https://media.landcement.com/sites/2/20160201140310/2016-01-29-09.55.25-450x259.png" alt="2016-01-29-09.55.25" width="450" height="259" class="aligncenter size-medium wp-image-1030" /></a>
 
 <p>这个插件能够让 WordPress 上展示自动高亮的源代码，有多种主题可以选择，支持多种编程语言。</p>
 
@@ -39,7 +41,7 @@ dsq_thread_id:
 
 <h2>WP-Piwik</h2>
 
-<p>这个插件能够让你的整个网站拥有统计功能，支持 WordPress 的多站点，推荐在整个网络上启用。关于 Piwik 配合 WordPress，<a href="https://xn--oor13x.tlo.xyz/2016/01/piwik-wordpress/">请参见这篇文章</a>。</p>
+<p>这个插件能够让你的整个网站拥有统计功能，支持 WordPress 的多站点，推荐在整个网络上启用。关于 Piwik 配合 WordPress，<a href="https://ze3kr.com/2016/01/piwik-wordpress/">请参见这篇文章</a>。</p>
 
 <h2>Blubrry PowerPress</h2>
 
