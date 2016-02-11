@@ -9,10 +9,12 @@ post_date: 2016-02-06 16:34:00
 post_excerpt: ""
 layout: post
 permalink: >
-  https://ze3kr.com/2016/02/purify-blocker/
+  https://www.ze3kr.com/2016/02/purify-blocker/
 published: true
 dsq_thread_id:
   - "4556240165"
+dsq_needs_sync:
+  - "1"
 ---
 <p>相信不少人都知道桌面浏览器上的广告拦截插件，这些插件能够移除所有网站上绝大多数的广告。同时因为不用加载那些广告，还能加快整个页面的加载速度，并且还能够省电。</p>
 
