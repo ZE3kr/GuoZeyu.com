@@ -1,0 +1,25 @@
+---
+ID: 1153
+post_title: >
+  本站使用了 KeyCDN
+  作为前端加速，代替 CloudFlare
+author: ZE3kr
+post_date: 2016-02-11 15:23:56
+post_excerpt: ""
+layout: post
+permalink: >
+  https://www.ze3kr.com/2016/02/%e6%9c%ac%e7%ab%99%e4%bd%bf%e7%94%a8%e4%ba%86-keycdn-%e4%bd%9c%e4%b8%ba%e5%89%8d%e7%ab%af%e5%8a%a0%e9%80%9f%ef%bc%8c%e4%bb%a3%e6%9b%bf-cloudflare/
+published: true
+---
+由于之前在 CloudFlare 上感觉起来还是比较慢。要想加速，需要开启 CloudFlare 的 Cache Everything，这样存在很多问题，比如过滤 Cookie，而且 CloudFlare 在中国速度也不佳，于是现在换用了 KeyCDN。
+
+KeyCDN 会缓存页面上所有的内容，包括 HTML 页面。缓存周期为 1 周，自动使用 Let’s Encrypt 的 SSL。在中国有香港节点。我已经在后台配置好，当有以下操作时，清除全站缓存：
+<ul>
+	<li>有新文章发布</li>
+</ul>
+当有以下操作时，清除该页面的缓存：
+<ul>
+	<li>文章内容更新</li>
+	<li>页面内容更新</li>
+</ul>
+现在页面的速度，堪称完美！
