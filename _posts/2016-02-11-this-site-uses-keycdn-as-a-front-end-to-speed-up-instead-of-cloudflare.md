@@ -13,13 +13,9 @@ published: true
 ---
 由于之前在 CloudFlare 上感觉起来还是比较慢。要想加速，需要开启 CloudFlare 的 Cache Everything，这样存在很多问题，比如过滤 Cookie，而且 CloudFlare 在中国速度也不佳，于是现在换用了 KeyCDN。
 
-KeyCDN 会缓存页面上所有的内容，包括 HTML 页面。缓存周期为 1 周，自动使用 Let’s Encrypt 的 SSL。在中国有香港节点。我已经在后台配置好，当有以下操作时，清除全站缓存：
+KeyCDN 会缓存页面上所有的内容，包括 HTML 页面。缓存周期为 1 周，自动使用 Let’s Encrypt 的 SSL。在中国有香港节点。我已经在后台配置好，当有以下操作时，清除该页缓存和首页缓存：
 <ul>
-	<li>有新文章发布</li>
-</ul>
-当有以下操作时，清除该页面的缓存和首页缓存：
-<ul>
-	<li>文章内容更新</li>
-	<li>页面内容更新</li>
+	<li>文章内容更新/发布</li>
+	<li>页面内容更新/发布</li>
 </ul>
 现在页面的速度，堪称完美！
