@@ -1,6 +1,6 @@
 ---
 ID: 575
-post_title: 关于3
+post_title: 关于
 author: ZE3kr
 post_date: 2016-01-03 13:31:58
 post_excerpt: ""
