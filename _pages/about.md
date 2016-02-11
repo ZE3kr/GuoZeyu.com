@@ -1,11 +1,11 @@
 ---
 ID: 575
-post_title: 关于
+post_title: 关于1
 author: ZE3kr
 post_date: 2016-01-03 13:31:58
 post_excerpt: ""
 layout: page
-permalink: https://ze3kr.com/about/
+permalink: https://www.ze3kr.com/about/
 published: true
 dsq_thread_id:
   - ""
