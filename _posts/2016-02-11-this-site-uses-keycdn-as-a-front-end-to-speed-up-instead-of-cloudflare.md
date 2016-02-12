@@ -10,6 +10,10 @@ layout: post
 permalink: >
   https://www.ze3kr.com/2016/02/this-site-uses-keycdn-as-a-front-end-to-speed-up-instead-of-cloudflare/
 published: true
+dsq_thread_id:
+  - "4569615456"
+dsq_needs_sync:
+  - "1"
 ---
 由于之前在 CloudFlare 上感觉起来还是比较慢。要想加速，需要开启 CloudFlare 的 Cache Everything，这样存在很多问题，比如过滤 Cookie，而且 CloudFlare 在中国速度也不佳，于是现在换用了 KeyCDN。
 
@@ -19,3 +23,5 @@ KeyCDN 会缓存页面上所有的内容，包括 HTML 页面。缓存周期为 
 	<li>文章/页面被删除</li>
 </ul>
 现在页面的速度，堪称完美！
+
+你或许也想尝试这样做？现在只需要<a href="https://github.com/ZE3kr/keycdn-cache" target="_blank">安装我的插件并按照说明对其进行配置</a>即可。
