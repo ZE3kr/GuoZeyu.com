@@ -2,7 +2,7 @@
 ID: 1163
 post_title: >
   利用 KeyCDN 让 WordPress 启用全站
-  CDN1
+  CDN2
 author: ZE3kr
 post_date: 2016-02-12 10:21:30
 post_excerpt: ""
