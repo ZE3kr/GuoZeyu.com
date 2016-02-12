@@ -8,8 +8,10 @@ post_date: 2016-02-12 10:21:30
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.ze3kr.com/2016/02/%e5%88%a9%e7%94%a8-keycdn-%e8%ae%a9-wordpress-%e5%90%af%e7%94%a8%e5%85%a8%e7%ab%99-cdn/
+  https://www.ze3kr.com/2016/02/use-keycdn-to-make-wordpress-enabled-site-wide-cdn/
 published: true
+dsq_needs_sync:
+  - "1"
 ---
 如果要启用全站 CDN，就意味着所有页面都会被 CDN 缓存。所以就需要一个新的没有启用全站 CDN 的域名，这样才能访问 WordPress 的后台。同时还需要确保启用全站 CDN 的域名不会显示任何只有 Admin 才能显示的内容。
 
@@ -115,7 +117,7 @@ $_SERVER = str_replace('wp-admin.','www.',$_SERVER);</pre>
 第二个文件名为 <code>main.php</code>，内容是：
 
 <pre class="lang:php decode:true " title="main.php" >&lt;?php
-if(is_home()||is_search()||is_archive()||is_feed()){
+if(is_home()||is_search()||is_archive()||is_feed()||is_front_page()){
 	header('Cache-Tag: archive');
 } elseif(strstr($_SERVER['REQUEST_URI'],'/sitemap') &amp;&amp; strstr($_SERVER['REQUEST_URI'],'.xml')) {
 	header('Cache-Tag: archive');
@@ -162,7 +164,7 @@ add_filter ( 'style_loader_src' , 'keycdn_remove_admin' , 99 , 1 ) ;
 add_filter ( 'script_loader_src' , 'keycdn_remove_admin' , 99 , 1 ) ;
 </pre> 
 
-然后修改 <code>wp-config.php</code>，在文件的最顶部，<code><?php</code>的下一行添加上如下代码：
+然后修改 <code>wp-config.php</code>，在文件的最顶部，<code>&lt;?php</code>的下一行添加上如下代码：
  
 <pre class="lang:php decode:true " >// sets up KeyCDN
 $useHTTPS = false; // Support HTTPS?
