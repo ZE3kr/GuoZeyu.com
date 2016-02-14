@@ -22,7 +22,7 @@ dsq_thread_id:
 
 <a href="https://media.landcement.com/sites/2/20160214110952/img_1476-2.jpg" rel="attachment wp-att-1201"><img src="https://media.landcement.com/sites/2/20160214110952/img_1476-2-1600x1200.jpg" alt="img_1476-2.jpg" width="840" height="630" class="aligncenter size-large wp-image-1201"></a>
 
-重量比 1:2:6
+重量比 1:2:6，第一个镜头约 0.5kg
 
 主力镜头的焦距为 15-85mm，等效 24-135mm，广角、人像、风景轻松应付，重量轻，携带方便。光圈全开画质一般，f/8 画质不错。
 
