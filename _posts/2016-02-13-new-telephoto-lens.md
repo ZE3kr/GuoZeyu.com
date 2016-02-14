@@ -15,7 +15,6 @@ dsq_thread_id:
 
 <a href="https://media.landcement.com/sites/2/20160213123322/IMG_1387.jpg" rel="attachment wp-att-1191"><img src="https://media.landcement.com/sites/2/20160213123322/IMG_1387-1600x1200.jpg" alt="IMG_1387" width="840" height="630" class="aligncenter size-large wp-image-1191"></a>
 
-<a href="https://media.landcement.com/sites/2/20160214090134/ze3_2595-3.jpg"><img src="https://media.landcement.com/sites/2/20160214090134/ze3_2595-3.jpg" alt=""></a>&nbsp;
 <a href="https://media.landcement.com/sites/2/20160213123259/G0013872.jpg" rel="attachment wp-att-1187"><img src="https://media.landcement.com/sites/2/20160213123259/G0013872-1600x1200.jpg" alt="DCIM100GOPROG0013872." width="840" height="630" class="size-large wp-image-1187"></a>
 <h6>放大倍率测试</h6>
 前两张不是这个镜头拍摄。这四张焦距分别为 10mm，35mm，150mm 和 600mm。
