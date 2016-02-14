@@ -19,14 +19,14 @@ dsq_thread_id:
 <!--more-->
 <h2>目前镜头小总结</h2>
 目前用的 APS-C 画幅相机
-<a href="https://media.landcement.com/sites/2/20160214110952/img_1476-2.jpg" rel="attachment wp-att-1201"><img src="https://media.landcement.com/sites/2/20160214110952/img_1476-2-1600x1200.jpg" alt="img_1476-2.jpg" width="840" height="630" class="aligncenter size-large wp-image-1201" /></a>
-主力镜头的焦距为 15-85mm，等效 24-135mm，广角、人像、风景轻松应付，重量轻，携带方便。
+<a href="https://media.landcement.com/sites/2/20160214110952/img_1476-2.jpg" rel="attachment wp-att-1201"><img src="https://media.landcement.com/sites/2/20160214110952/img_1476-2-1600x1200.jpg" alt="img_1476-2.jpg" width="840" height="630" class="aligncenter size-large wp-image-1201"></a>
+主力镜头的焦距为 15-85mm，等效 24-135mm，广角、人像、风景轻松应付，重量轻，携带方便。光圈全开画质一般，f/8 画质不错。
 
-便携长焦（胖白）焦距为 70-300mm，红圈、高画质，等效 110-480mm，生态、人像、风景都不错，重量较轻，携带较方便，手持完全没问题。
+便携长焦（胖白）焦距为 70-300mm，红圈、高画质，等效 110-480mm，生态、人像、风景都不错，重量较轻，携带较方便，手持完全没问题。光圈全开画质不错，f/8 画质一流。
 
-大长焦焦距为 150-600mm，副厂黑科技、高画质，等效 240-960mm，体育、生态、打鸟都极好，重量较重，携带不方便，不适合手持。
+大长焦焦距为 150-600mm，副厂黑科技、高画质，等效 240-960mm，体育、生态、打鸟都极好，重量较重，携带不方便，不适合手持。光圈全开画质不错，f/8 画质更好。
 <h6>放大倍率测试</h6>
-前两张不是这个镜头拍摄。这四张焦距分别为 10mm，35mm，150mm 和 600mm。
+前两张不是这个镜头拍摄。这四张等效焦距分别为 15mm，55mm，240mm 和 960mm。
 <a href="https://media.landcement.com/sites/2/20160213123242/0wide.jpg" rel="attachment wp-att-1183"><img src="https://media.landcement.com/sites/2/20160213123242/0wide-1600x1200.jpg" alt="DCIM100GOPROGOPR3871." width="840" height="630" class="size-large wp-image-1183"></a>
 
 <a href="https://media.landcement.com/sites/2/20160213123247/1x.jpg" rel="attachment wp-att-1184"><img src="https://media.landcement.com/sites/2/20160213123247/1x-1600x1067.jpg" alt="1x" width="840" height="560" class="aligncenter size-large wp-image-1184"></a>
