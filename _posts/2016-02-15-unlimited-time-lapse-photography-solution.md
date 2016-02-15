@@ -1,9 +1,6 @@
 ---
 ID: 1225
-post_title: >
-  Unlimited time lapse photography
-  solution
-  https://www.kickstarter.com/projects/885592927/enlaps-world-1st-unlimited-time-lapse-photography/description
+post_title: '<a href="https://www.kickstarter.com/projects/885592927/enlaps-world-1st-unlimited-time-lapse-photography/description">Unlimited time lapse photography solution</a>'
 author: ZE3kr
 post_date: 2016-02-15 22:14:28
 post_excerpt: ""
