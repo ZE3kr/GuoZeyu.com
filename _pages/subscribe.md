@@ -5,7 +5,7 @@ author: ZE3kr
 post_date: 2015-12-25 19:56:15
 post_excerpt: ""
 layout: page
-permalink: https://ze3kr.com/subscribe/
+permalink: https://www.ze3kr.com/subscribe/
 published: true
 dsq_thread_id:
   - ""
@@ -15,8 +15,8 @@ dsq_thread_id:
 <textarea onclick="this.focus();this.select()" readonly="readonly" style="height:3em;resize:none;">https://ze3kr.com/feed/</textarea>
 如果你正在使用 Safari，请点击分享按钮，然后选择 “添加到共享的链接”。
 <h3>邮件订阅</h3>
-<a href="https://ifttt.com/recipes/177443-ze3kr" target="_blank"><img src="https://media.landcement.com/sites/2/20160209175013/177443-1.png" alt="IFTTT Recipe: ZE3kr 邮件订阅/每周更新 connects feed to email-digest" width="370px" style="max-width:100%"/></a>
-邮件订阅需要您拥有 IFTTT 账号，你需要选择一个时刻，每周的这个时刻由 IFTTT 自动发送一封本站这一周所有的更新邮件。
+<h4>全部内容</h4>
+<a href="https://ifttt.com/recipes/177443-ze3kr" target="_blank"><img src="https://media.landcement.com/sites/2/20160209175013/177443-1.png" width="370px" style="max-width:100%"/></a>
 <h3>微信订阅</h3>
 微信号：`ZE3kr_service`
 <img src="https://media.landcement.com/sites/2/20160131134410/wechat-200x200.png" alt="wechat" width="200" height="200" class="aligncenter size-thumbnail wp-image-828" />
