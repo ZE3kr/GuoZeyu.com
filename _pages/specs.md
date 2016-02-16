@@ -20,3 +20,6 @@ dsq_thread_id:
 <h3>WEBM 压缩方式</h3>
 视频：libvpx-VP9，平均码率 1000k，540p 画质
 音频：Vorbis 单声道，平均码率 64k
+
+<h4>压制参数</h4>
+`-b:v 1000k -s 960x540 -b:v 1000k -c:v libvpx-vp9 -c:a libvorbis -b:a 64k -g 200 -ac 1`
