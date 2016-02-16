@@ -21,5 +21,7 @@ dsq_thread_id:
 视频：libvpx-VP9，平均码率 1000k，540p 画质
 音频：Vorbis 单声道，平均码率 64k
 
+PS：没错，只有一个关键帧
+
 <h4>压制参数</h4>
-`-b:v 1000k -s 960x540 -b:v 1000k -c:v libvpx-vp9 -c:a libvorbis -b:a 64k -g 200 -ac 1`
+`-b:v 1000k -s 960x540 -b:v 1000k -c:v libvpx-vp9 -c:a libvorbis -b:a 64k -ac 1`
