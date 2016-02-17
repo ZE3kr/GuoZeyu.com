@@ -23,12 +23,14 @@ dsq_thread_id:
 
 <h4>压制参数</h4>
  
-<pre class="lang:sh decode:true " >ffmpeg -i &lt;source&gt; -c:v libvpx-vp9 -pass 1 -b:v 1000K -b:a 64k -ac 1 -s 960x540\
+<pre class="lang:sh decode:true ">
+ffmpeg -i &lt;source&gt; -c:v libvpx-vp9 -pass 1 -b:v 1000K -b:a 64k -ac 1 -s 960x540\
   -threads 1 -speed 4 -tile-columns 0 -frame-parallel 0\
-  -g 150 -aq-mode 0 -an\
+  -g 150 -aq-mode 0 -an -r 30000/1001\
   -f webm /dev/null
 
 ffmpeg -i &lt;source&gt; -c:v libvpx-vp9 -pass 2 -b:v 1000K -b:a 64k -ac 1 -s 960x540\
   -threads 1 -speed 0 -tile-columns 0 -frame-parallel 0\
-  -auto-alt-ref 1 -lag-in-frames 25\
-  -g 150 -aq-mode 0 -c:a libopus -b:a 64k -f webm out.webm</pre>
+  -auto-alt-ref 1 -lag-in-frames 25 -r 30000/1001\
+  -g 150 -aq-mode 0 -c:a libopus -b:a 64k -f web out.webm
+</pre>
