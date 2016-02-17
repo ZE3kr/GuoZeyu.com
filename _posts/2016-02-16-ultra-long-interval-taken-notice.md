@@ -18,3 +18,5 @@ dsq_needs_sync:
   - "1"
 ---
 正在拍摄一个超长时间的间隔拍摄，时长百余天，将于这个夏天发布。
+
+https://wp-admin.ze3kr.com/
