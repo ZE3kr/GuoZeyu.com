@@ -20,8 +20,6 @@ dsq_needs_sync:
 WEBM 是一个完全开源且自由免费的视频编码解决方案，由 Google 推出，主要用于网络视频。目前 YouTube 已经在生产环境中部署了 WEBM。关于 WEBM 的质量，我可以跟你说：不比 MP4 差，甚至超越了 MP4（MP4 包含各种专利等，WEBM 能做到这样已经非常棒了）。
 
 要用就用最新的，本站直接使用 VP9 作为视频编码，分辨率和码率与 MP4 完全一样～
-
-https://wp-admin.ze3kr.com/
 <h4>附：压制参数</h4>
 <pre class="lang:sh decode:true ">ffmpeg -i &lt;source&gt; -c:v libvpx-vp9 -pass 1 -b:v 1000K -threads 8 -speed 4 \
   -tile-columns 6 -frame-parallel 1 -b:a 64k\
