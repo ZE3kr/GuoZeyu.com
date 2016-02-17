@@ -6,14 +6,14 @@ post_date: 2015-08-27 17:41:34
 post_excerpt: ""
 layout: post
 permalink: >
-  https://ze3kr.com/2015/08/aerial-photography/
+  https://www.ze3kr.com/2015/08/aerial-photography/
 published: true
 enclosure:
   - |
     https://media.landcement.com/sites/2/20160131142342/9-540p.mp4
     20434377
     video/mp4
-    a:3:{s:8:"duration";s:7:"0:02:33";s:12:"itunes_image";s:75:"https://media.landcement.com/sites/2/20160131140908/2015-08-27-1200x675.jpg";s:5:"image";s:75:"https://media.landcement.com/sites/2/20160131140908/2015-08-27-1200x675.jpg";}
+    a:5:{s:8:"duration";s:7:"0:02:33";s:12:"itunes_image";s:75:"https://media.landcement.com/sites/2/20160131140908/2015-08-27-1200x675.jpg";s:5:"image";s:75:"https://media.landcement.com/sites/2/20160131140908/2015-08-27-1200x675.jpg";s:8:"webm_src";s:63:"https://media.landcement.com/sites/2/20160217181931/9-540p.webm";s:11:"webm_length";d:23523614;}
 dsq_thread_id:
   - "4079458371"
 ---
