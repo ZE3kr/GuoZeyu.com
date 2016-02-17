@@ -1,8 +1,6 @@
 ---
 ID: 1248
-post_title: >
-  16 年，本站将新增 WEBM
-  视频格式支持
+post_title: 本站将新增 WEBM 视频格式支持
 author: ZE3kr
 post_date: 2016-02-17 09:01:41
 post_excerpt: ""
