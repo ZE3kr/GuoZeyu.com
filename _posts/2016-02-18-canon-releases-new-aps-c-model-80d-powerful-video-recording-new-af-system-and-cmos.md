@@ -1,7 +1,7 @@
 ---
 ID: 1277
 post_title: >
-  佳能发布新 APS-C 机型
+  佳能发布新 APS-C 机型 EOS
   80D，强悍视频录制、全新的对焦系统和
   CMOS
 author: ZE3kr
