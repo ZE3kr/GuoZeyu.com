@@ -84,6 +84,8 @@ EOS 80D配备了佳能自主研发制造的新CMOS图像感应器，有效像素
 <h3>特殊场景模式</h3>
 看到这个模式我就呵呵了，再一次印证了 80D 不会是专业或准专业水准的相机。
 
+<a href="https://media.landcement.com/sites/2/20160218084510/info7-22.jpg" rel="attachment wp-att-1289"><img src="https://media.landcement.com/sites/2/20160218084510/info7-22.jpg" alt="info7-22" width="320" height="290" class="aligncenter size-full wp-image-1289" /></a>
+
 <blockquote>特殊场景模式中汇集了一些有代表性的拍摄场景，相机可以配合具体场景进行相应拍摄设置。可选场景有手持夜景、烛光、儿童等共10种。拍摄时操作简便，只要像使用智能手机一样，通过在液晶监视器上滑动手指，触摸选择图标，相机就可以根据被摄体及拍摄环境的特点找到合适的设置拍出好照片。</blockquote>
 
 <h2>购买建议</h2>
