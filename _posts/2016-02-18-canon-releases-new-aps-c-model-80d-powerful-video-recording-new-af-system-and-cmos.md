@@ -44,47 +44,40 @@ dsq_needs_sync:
 <a href="https://media.landcement.com/sites/2/20160218162813/Screenshot-2016-02-18-15.44.23.png" rel="attachment wp-att-1281"><img class="aligncenter size-medium wp-image-1281" src="https://media.landcement.com/sites/2/20160218162813/Screenshot-2016-02-18-15.44.23-450x239.png" alt="Screenshot 2016-02-18 15.44.23" width="450" height="239" /></a><a href="https://media.landcement.com/sites/2/20160218162806/Screenshot-2016-02-18-16.23.59.png" rel="attachment wp-att-1279"><img class="aligncenter size-medium wp-image-1279" src="https://media.landcement.com/sites/2/20160218162806/Screenshot-2016-02-18-16.23.59-450x239.png" alt="Screenshot 2016-02-18 16.23.59" width="450" height="239" /></a><a href="https://media.landcement.com/sites/2/20160218162802/Screenshot-2016-02-18-16.23.31.png" rel="attachment wp-att-1278"><img class="aligncenter size-medium wp-image-1278" src="https://media.landcement.com/sites/2/20160218162802/Screenshot-2016-02-18-16.23.31-450x239.png" alt="Screenshot 2016-02-18 16.23.31" width="450" height="239" /></a><a href="https://media.landcement.com/sites/2/20160218162810/Screenshot-2016-02-18-16.24.38.png" rel="attachment wp-att-1280"><img class="aligncenter size-medium wp-image-1280" src="https://media.landcement.com/sites/2/20160218162810/Screenshot-2016-02-18-16.24.38-450x239.png" alt="Screenshot 2016-02-18 16.24.38" width="450" height="239" /></a>
 
 哇塞！80D 好厉害，不过有哪些镜头支持它的 G组的自动对焦呢？
-
 <ul>
 	<li>EF 100-400mm f/4.5-5.6L IS II USM + 增倍镜 EF 1.4X III</li>
 	<li>EF 200-400mm f/4L IS USM EXTENDER 1.4X + 增倍镜 EF 2X III</li>
 </ul>
-
 额，感觉被忽悠了。那不支持的镜头在 F8 下有几个对焦点呢？
 
-<a href="https://media.landcement.com/sites/2/20160218163143/Screenshot-2016-02-18-16.31.20.png" rel="attachment wp-att-1282"><img src="https://media.landcement.com/sites/2/20160218163143/Screenshot-2016-02-18-16.31.20-450x239.png" alt="Screenshot 2016-02-18 16.31.20" width="450" height="239" class="aligncenter size-medium wp-image-1282" /></a>
+<a href="https://media.landcement.com/sites/2/20160218163143/Screenshot-2016-02-18-16.31.20.png" rel="attachment wp-att-1282"><img class="aligncenter size-medium wp-image-1282" src="https://media.landcement.com/sites/2/20160218163143/Screenshot-2016-02-18-16.31.20-450x239.png" alt="Screenshot 2016-02-18 16.31.20" width="450" height="239" /></a>
 
 一个，只有一个，连辅助对焦点都没有，不过至少相比 70D 已经好了些了。
 
 除此之外，全新的 45 点全十字对焦应该是各方面都不如 65 点全十字对焦了。
-<h2>全新 CMOS</h2>
-<blockquote>
-EOS 80D配备了佳能自主研发制造的新CMOS图像感应器，有效像素约2420万。CMOS半导体制造工程导入新的精细化工艺，并采用无间隙微透镜，缩短了微透镜与光电二极管的距离，提高了聚光率。且优化了像素结构，提高了信噪比。与DIGIC 6数字影像处理器联动，在暗光场景下也能得到高解像感，实现精细的表现。
-</blockquote>
+<h2>“全新” CMOS</h2>
+<blockquote>EOS 80D配备了佳能自主研发制造的新CMOS图像感应器，有效像素约2420万。CMOS半导体制造工程导入新的精细化工艺，并采用无间隙微透镜，缩短了微透镜与光电二极管的距离，提高了聚光率。且优化了像素结构，提高了信噪比。与DIGIC 6数字影像处理器联动，在暗光场景下也能得到高解像感，实现精细的表现。</blockquote>
 这个像素在 APS-C 相机中已经算高的了，然而，这次并没有提升 ISO 的上线，如果不做像素上的升级，ISO 上线能翻一番，到 51200。
 
-这个 CMOS 的测光是全新的 “7560像素 RGB+红外 测光感应器”，然而是否有什么用仍待考证。估计没啥用～
+然而这块 CMOS 和 760D 完全一样～
 <h2>其它改进</h2>
 <h3>100%的光学取景器</h3>
 佳能在EOS的2位数机型上首次配备了视野率约为100%的光学取景器，这个功能还是很重要的。而且 80D 取景器里也多了些新元素，我称其为 “（伪）电子水准仪”
 
-<a href="https://media.landcement.com/sites/2/20160218084510/info7-4.png" rel="attachment wp-att-1286"><img src="https://media.landcement.com/sites/2/20160218084510/info7-4.png" alt="info7-4" width="320" height="241" class="aligncenter size-full wp-image-1286" /></a>
+<a href="https://media.landcement.com/sites/2/20160218084510/info7-4.png" rel="attachment wp-att-1286"><img class="aligncenter size-full wp-image-1286" src="https://media.landcement.com/sites/2/20160218084510/info7-4.png" alt="info7-4" width="320" height="241" /></a>
 
 为什么是伪呢？因为它的能力有限：
 
-<a href="https://media.landcement.com/sites/2/20160218084510/info7-5.png" rel="attachment wp-att-1288"><img src="https://media.landcement.com/sites/2/20160218084510/info7-5.png" alt="info7-5" width="235" height="115" class="aligncenter size-full wp-image-1288" /></a>
+<a href="https://media.landcement.com/sites/2/20160218084510/info7-5.png" rel="attachment wp-att-1288"><img class="aligncenter size-full wp-image-1288" src="https://media.landcement.com/sites/2/20160218084510/info7-5.png" alt="info7-5" width="235" height="115" /></a>
 
 正版是这样的，看见正上方的水准仪了吗？双轴的。
 
-<a href="https://media.landcement.com/sites/2/20160218084510/info4-3.png" rel="attachment wp-att-1287"><img src="https://media.landcement.com/sites/2/20160218084510/info4-3.png" alt="info4-3" width="670" height="290" class="aligncenter size-full wp-image-1287" /></a>
-
+<a href="https://media.landcement.com/sites/2/20160218084510/info4-3.png" rel="attachment wp-att-1287"><img class="aligncenter size-full wp-image-1287" src="https://media.landcement.com/sites/2/20160218084510/info4-3.png" alt="info4-3" width="670" height="290" /></a>
 <h3>特殊场景模式</h3>
 看到这个模式我就呵呵了，再一次印证了 80D 不会是专业或准专业水准的相机。
 
-<a href="https://media.landcement.com/sites/2/20160218084510/info7-22.jpg" rel="attachment wp-att-1289"><img src="https://media.landcement.com/sites/2/20160218084510/info7-22.jpg" alt="info7-22" width="320" height="290" class="aligncenter size-full wp-image-1289" /></a>
-
+<a href="https://media.landcement.com/sites/2/20160218084510/info7-22.jpg" rel="attachment wp-att-1289"><img class="aligncenter size-full wp-image-1289" src="https://media.landcement.com/sites/2/20160218084510/info7-22.jpg" alt="info7-22" width="320" height="290" /></a>
 <blockquote>特殊场景模式中汇集了一些有代表性的拍摄场景，相机可以配合具体场景进行相应拍摄设置。可选场景有手持夜景、烛光、儿童等共10种。拍摄时操作简便，只要像使用智能手机一样，通过在液晶监视器上滑动手指，触摸选择图标，相机就可以根据被摄体及拍摄环境的特点找到合适的设置拍出好照片。</blockquote>
-
 <h2>购买建议</h2>
 如果你是非专业人士，在 7D Mark II 和 80D 之间选择的话，我推荐 80D，它有触摸屏和 Wi-Fi，确实方便了不少。7D Mark II 在对焦、连拍、耐久度都优于 80D，但是其它方面不一定比它强多少，像素还低一些。
 
