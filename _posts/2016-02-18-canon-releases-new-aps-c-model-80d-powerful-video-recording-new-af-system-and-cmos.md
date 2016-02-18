@@ -11,13 +11,12 @@ layout: post
 permalink: >
   https://www.ze3kr.com/2016/02/canon-releases-new-aps-c-model-80d-powerful-video-recording-new-af-system-and-cmos/
 published: true
+dsq_needs_sync:
+  - "1"
 ---
 80D 就是 70D 的升级版，在 APS-C 中算中高端，目前仅次于 7D Mark II。这次升级亮点不少，而且视频录制也成为 EOS 系列中最好的之一。不少原先在 7D Mark II 上独有的视频拍摄特性，都被添加在了 1DX Mark II 和 80D 上。其次这次升级还使用了全新的 45 点全十字对焦和 2420 万 CMOS。
 <h2>视频录制</h2>
-有一个全新的视频录制功能首次在 80D 上出现，下面我将讲一下：
-<h3>短片 HDR</h3>
-这个功能在一些手机上已经有了，但这是首次<!--more-->出现在 EOS 系列中（似乎是这样的），原理就是视频中的每一帧都是由多帧合成而成。这样的话，即使背光拍摄视频或者亮度有大反差时也能拍摄的很好，能显出宽容度很大的样子，再也不需要补光灯了。
-<blockquote>EOS 80D具备HDR短片功能，可以在对比度较高的场景中有效抑制高光溢出。其原理是使用约60p或50p的帧频，以1帧为单位，交替记录标准曝光的影像与曝光不足的影像，并在相机中进行合成，最终得到约30p或25p的MP4全高清短片。在拍摄具有景观照明的城市夜景，或以夕阳为背景的人像等时，也能够有效抑制亮部的高光溢出，展现出被摄体应有的细节。</blockquote>
+并没有什么全新的高级功能，都是以前就有的，或者是软件上的小升级。
 <h3>可有可无的新功能－短片创意滤镜</h3>
 然并卵，电脑后期都可以做的嘛
 <blockquote>通过短片创意滤镜功能，可以拍摄得到添加了特殊滤镜效果的短片。这得益于影像处理器的不断进化。包括原有的微缩景观效果短片在内，还有回忆、梦幻、老电影以及黑白分明共5种滤镜效果可供选择。</blockquote>
@@ -30,9 +29,10 @@ published: true
 <h3>其它功能</h3>
 这些功能已经在其他的 EOS 相机中有了，但却是曾经 70D 没有的功能。
 <ul>
+	<li>1080p 下支持 60 帧</li>
+	<li>短片 HDR</li>
 	<li>短片伺服自动对焦时可设置自动对焦速度</li>
 	<li>同时拥有耳机监听口和麦克风口</li>
-	<li>1080p 下支持 60 帧</li>
 </ul>
 <h2>全新对焦</h2>
 全新用了 45 点全十字对焦，这相比 70D 的 19 点已经提高了不少了，但是从数字上来看，似乎并不如原先发布的 7D Mark II 上的 65 点全十字对焦，然而实际真的如此吗？
@@ -66,3 +66,17 @@ EOS 80D配备了佳能自主研发制造的新CMOS图像感应器，有效像素
 这个像素在 APS-C 相机中已经算高的了，然而，这次并没有提升 ISO 的上线，如果不做像素上的升级，ISO 上线能翻一番，到 51200。
 
 这个 CMOS 的测光是全新的 “7560像素 RGB+红外 测光感应器”，然而是否有什么用仍待考证。估计没啥用～
+<h2>其它改进</h2>
+<h3>100%的光学取景器</h3>
+佳能在EOS的2位数机型上首次配备了视野率约为100%的光学取景器，这个功能还是很重要的。而且 80D 取景器里也多了些新元素，我称其为 “（伪）电子水准仪”
+<a href="https://media.landcement.com/sites/2/20160218084510/info7-4.png" rel="attachment wp-att-1286"><img src="https://media.landcement.com/sites/2/20160218084510/info7-4.png" alt="info7-4" width="320" height="241" class="aligncenter size-full wp-image-1286" /></a>
+为什么是伪呢？因为它的能力有限：
+<a href="https://media.landcement.com/sites/2/20160218084510/info7-5.png" rel="attachment wp-att-1288"><img src="https://media.landcement.com/sites/2/20160218084510/info7-5.png" alt="info7-5" width="235" height="115" class="aligncenter size-full wp-image-1288" /></a>
+正版是这样的，看见正上方的水准仪了吗？双轴的。
+<a href="https://media.landcement.com/sites/2/20160218084510/info4-3.png" rel="attachment wp-att-1287"><img src="https://media.landcement.com/sites/2/20160218084510/info4-3.png" alt="info4-3" width="670" height="290" class="aligncenter size-full wp-image-1287" /></a>
+<h3>特殊场景模式</h3>
+看到这个模式我就呵呵了，再一次印证了 80D 不会是专业或准专业水准的相机。
+
+<blockquote>特殊场景模式中汇集了一些有代表性的拍摄场景，相机可以配合具体场景进行相应拍摄设置。可选场景有手持夜景、烛光、儿童等共10种。拍摄时操作简便，只要像使用智能手机一样，通过在液晶监视器上滑动手指，触摸选择图标，相机就可以根据被摄体及拍摄环境的特点找到合适的设置拍出好照片。</blockquote>
+
+<a href="http://www.canon.com.cn/news/products/2016/pr_2016_02_18-15_00_00.html" target="_blank">关于 80D 的更多信息，可参考佳能官方新闻稿</a>
