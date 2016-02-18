@@ -42,8 +42,9 @@ dsq_needs_sync:
 对比一下不同对焦系统在 F8 下的对焦能力：
 
 <a href="https://media.landcement.com/sites/2/20160218162813/Screenshot-2016-02-18-15.44.23.png" rel="attachment wp-att-1281"><img class="aligncenter size-medium wp-image-1281" src="https://media.landcement.com/sites/2/20160218162813/Screenshot-2016-02-18-15.44.23-450x239.png" alt="Screenshot 2016-02-18 15.44.23" width="450" height="239" /></a>
-
-<a href="https://media.landcement.com/sites/2/20160218162806/Screenshot-2016-02-18-16.23.59.png" rel="attachment wp-att-1279"><img class="aligncenter size-medium wp-image-1279" src="https://media.landcement.com/sites/2/20160218162806/Screenshot-2016-02-18-16.23.59-450x239.png" alt="Screenshot 2016-02-18 16.23.59" width="450" height="239" /></a> <a href="https://media.landcement.com/sites/2/20160218162802/Screenshot-2016-02-18-16.23.31.png" rel="attachment wp-att-1278"><img class="aligncenter size-medium wp-image-1278" src="https://media.landcement.com/sites/2/20160218162802/Screenshot-2016-02-18-16.23.31-450x239.png" alt="Screenshot 2016-02-18 16.23.31" width="450" height="239" /></a> <a href="https://media.landcement.com/sites/2/20160218162810/Screenshot-2016-02-18-16.24.38.png" rel="attachment wp-att-1280"><img class="aligncenter size-medium wp-image-1280" src="https://media.landcement.com/sites/2/20160218162810/Screenshot-2016-02-18-16.24.38-450x239.png" alt="Screenshot 2016-02-18 16.24.38" width="450" height="239" /></a>
+<a href="https://media.landcement.com/sites/2/20160218162806/Screenshot-2016-02-18-16.23.59.png" rel="attachment wp-att-1279"><img class="aligncenter size-medium wp-image-1279" src="https://media.landcement.com/sites/2/20160218162806/Screenshot-2016-02-18-16.23.59-450x239.png" alt="Screenshot 2016-02-18 16.23.59" width="450" height="239" /></a>
+<a href="https://media.landcement.com/sites/2/20160218162802/Screenshot-2016-02-18-16.23.31.png" rel="attachment wp-att-1278"><img class="aligncenter size-medium wp-image-1278" src="https://media.landcement.com/sites/2/20160218162802/Screenshot-2016-02-18-16.23.31-450x239.png" alt="Screenshot 2016-02-18 16.23.31" width="450" height="239" /></a>
+<a href="https://media.landcement.com/sites/2/20160218162810/Screenshot-2016-02-18-16.24.38.png" rel="attachment wp-att-1280"><img class="aligncenter size-medium wp-image-1280" src="https://media.landcement.com/sites/2/20160218162810/Screenshot-2016-02-18-16.24.38-450x239.png" alt="Screenshot 2016-02-18 16.24.38" width="450" height="239" /></a>
 
 哇塞！80D 好厉害，不过有哪些镜头支持它的 G组的自动对焦呢？
 
@@ -69,11 +70,17 @@ EOS 80D配备了佳能自主研发制造的新CMOS图像感应器，有效像素
 <h2>其它改进</h2>
 <h3>100%的光学取景器</h3>
 佳能在EOS的2位数机型上首次配备了视野率约为100%的光学取景器，这个功能还是很重要的。而且 80D 取景器里也多了些新元素，我称其为 “（伪）电子水准仪”
+
 <a href="https://media.landcement.com/sites/2/20160218084510/info7-4.png" rel="attachment wp-att-1286"><img src="https://media.landcement.com/sites/2/20160218084510/info7-4.png" alt="info7-4" width="320" height="241" class="aligncenter size-full wp-image-1286" /></a>
+
 为什么是伪呢？因为它的能力有限：
+
 <a href="https://media.landcement.com/sites/2/20160218084510/info7-5.png" rel="attachment wp-att-1288"><img src="https://media.landcement.com/sites/2/20160218084510/info7-5.png" alt="info7-5" width="235" height="115" class="aligncenter size-full wp-image-1288" /></a>
+
 正版是这样的，看见正上方的水准仪了吗？双轴的。
+
 <a href="https://media.landcement.com/sites/2/20160218084510/info4-3.png" rel="attachment wp-att-1287"><img src="https://media.landcement.com/sites/2/20160218084510/info4-3.png" alt="info4-3" width="670" height="290" class="aligncenter size-full wp-image-1287" /></a>
+
 <h3>特殊场景模式</h3>
 看到这个模式我就呵呵了，再一次印证了 80D 不会是专业或准专业水准的相机。
 
