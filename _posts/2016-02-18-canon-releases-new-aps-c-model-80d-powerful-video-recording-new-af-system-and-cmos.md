@@ -60,6 +60,20 @@ dsq_needs_sync:
 这个像素在 APS-C 相机中已经算高的了，然而，这次并没有提升 ISO 的上线，如果不做像素上的升级，ISO 上线能翻一番，到 51200。
 
 然而这块 CMOS 和 760D 的完全一样～
+
+为什么说它们是一样的？因为从这里可以看出似乎是一样的：
+<ol>
+	<li>全是“7560像素 RGB+红外 测光感应器”</li>
+	<li>全支持短片HDR</li>
+	<li>像素，能扩展的感光度一样</li>
+	<li>都是三重除尘系统</li>
+</ol>
+但是，有两点不同：
+<ol>
+	<li>80D 上配备的有 Dual Pixel CMOS AF，但是 760D 是 Hybrid CMOS AF III。</li>
+	<li>80D 上的常用感光度高一档</li>
+</ol>
+值得在意的是对焦系统，Hybrid CMOS AF III 只在 750/760D 上出现过，性能表现出色，或许就是限制了的 Dual Pixel CMOS AF。<a href="https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3D-86nrBo7_T0" target="_blank">详情参考 YouTube 上的测试</a>
 <h2>其它改进</h2>
 <h3>100%的光学取景器</h3>
 佳能在EOS的2位数机型上首次配备了视野率约为100%的光学取景器，这个功能还是很重要的。而且 80D 取景器里也多了些新元素，我称其为 “（伪）电子水准仪”
