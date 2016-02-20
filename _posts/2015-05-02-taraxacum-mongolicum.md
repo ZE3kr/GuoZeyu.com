@@ -11,12 +11,11 @@ published: true
 dsq_thread_id:
   - "4124228433"
 ---
-<ul>
-    <li>相机：iPhone 6</li>
-    <li>光圈：f/2.2</li>
-    <li>快门速度：1/421sec</li>
-    <li>感光度：ISO-32</li>
-    <li>实际焦距：4.15mm</li>
-</ul>
+
++ 相机：iPhone 6
++ 光圈：f/2.2
++ 快门速度：1/421
++ 感光度：ISO-32
++ 实际焦距：4.15mm
 
 挑战 iPhone 的背景虚化极限能力。
