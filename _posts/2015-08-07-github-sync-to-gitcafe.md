@@ -17,20 +17,20 @@ dsq_thread_id:
 本文将提供一个把 GitHub 自动且实时地同步到 GitCafe 方案。
 
 如果你是 GitHub Pages 用户，你需要进行如下操作：
-<blockquote>首先，需要给 GitHub 项目改个名，如果你原先是 <code>&lt;用户名&gt;.github.io</code> 形式的话，请改成别的，改完后把 master 分支改名为 gh-pages。
 
-然后在 GitCafe 上创建一个存放处，存放处名称需要是你的用户名，设置好自定义域名等等。
+1. 首先，需要给 GitHub 项目改个名，如果你原先是 `[用户名].github.io` 形式的话，请改成别的，改完后把 master 分支改名为 gh-pages。
+2. 然后在 GitCafe 上创建一个存放处，存放处名称需要是你的用户名，设置好自定义域名等等。
+3. 待完成“步骤”后，修改域名解析。
 
-待完成“步骤”后，修改域名解析。</blockquote>
 <!--more-->
-<h2>步骤</h2>
-为了实现同步需要一个虚拟主机，本文讲解使用免费的 <a href="https://www.openshift.com" target="_blank">OpenShift</a> 的方法。
+## 步骤
+为了实现同步需要一个虚拟主机，本文讲解使用免费的 OpenShift 的方法。
 
-进入 <a href="https://www.openshift.com" target="_blank">OpenShift</a> 注册账号。
+进入 [OpenShift](https://www.openshift.com) 注册账号。
 
 注册成功后再创建一个程序，由于我不特别会后端，索性选择 PHP5.4。
 
-然后在本地安装上 OpenShift 的 <code>rhc</code>：
+然后在本地安装上 OpenShift 的 `rhc`：
 <pre class="lang:sh decode:true ">~ $ gem install rhc
 </pre>
 配置 <code>rhc</code>，需要输入刚注册时用户名、密码：
@@ -48,7 +48,7 @@ Clone 完毕后，修改一下这个文件（这里仅是用来示范，请自�
 </pre>
 修改成如下格式，将原本的GitHub前添加上用户名和密码（我是直接把 Password 打在这里了，如果你觉得不安全请使用 SSH 公私钥那种方式），再添加一行是你的 GitCafe 的 HTTPS 地址，也要添加上用户名和密码，格式如下：
 
-<a href="https://media.landcement.com/sites/2/20160131134452/sync1.png" rel="attachment wp-att-833"><img src="https://media.landcement.com/sites/2/20160131134452/sync1-450x289.png" alt="sync1" width="450" height="289" class="aligncenter size-medium wp-image-833" /></a>
+[img size="medium" id="833"][/img]
 
 然后，执行下面这个指令，完成第一次同步：
 <pre class="lang:sh decode:true ">~ $ cd $OPENSHIFT_DATA_DIR/ZE3kr.tlo.xyz
@@ -71,10 +71,11 @@ HTML;
 </pre>
 首先进入你的 GitHub 项目中的 Webhooks（Settings &gt; Webhooks &amp; Services &gt; Add webhook），然后填写内容。Secret可以不填写，为了方便起见只好用一种不安全的方式——加一个 GET 请求。Payload URL 里就填写刚才添加的 Openshift 程序的网址＋新创建的实现自动同步的文件目录＋GET 请求。
 
+[img size="medium" id="832"][/img]
 <a href="https://media.landcement.com/sites/2/20160131134448/sync2.png" rel="attachment wp-att-832"><img src="https://media.landcement.com/sites/2/20160131134448/sync2-450x319.png" alt="sync2" width="450" height="319" class="aligncenter size-medium wp-image-832" /></a>
 
 等到下次 Push 后，进这里查看结果，查看是否成功。
 
 同样的，如果你想当 GitCafe 被 Push 后也同步到 GitHub，也只需要在 GitCafe 上配置好相同的 Webhooks。
 
-<a href="https://media.landcement.com/sites/2/20160131134441/sync3.png" rel="attachment wp-att-831"><img src="https://media.landcement.com/sites/2/20160131134441/sync3-450x326.png" alt="sync3" width="450" height="326" class="aligncenter size-medium wp-image-831" /></a>
+[img size="medium" id="831"][/img]

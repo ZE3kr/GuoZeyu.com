@@ -27,4 +27,4 @@ enclosure:
 
 使用 GoPro Hero 4 的大广角拍摄，分辨率达 4K。
 
-音乐来自 <a href="http://freemusicarchive.org/music/Rho/Brace_For_Gravity/01-NS062-Your_Sunrise">Rho</a>
+音乐来自 [Rho](http://freemusicarchive.org/music/Rho/Brace_For_Gravity/01-NS062-Your_Sunrise)

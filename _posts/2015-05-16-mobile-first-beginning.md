@@ -29,11 +29,11 @@ dsq_thread_id:
 
 它能够更好的适应触摸屏，并且没有了字体小的问题，也不需要缩放。但是请要注意，这个页面已经不是刚才的那个页面了，也就意味着百度需要专门重新设计一个为 iPhone 版本的网页，成本是很高的。
 
-然而在 CSS 的帮助下，不需要准备两个网页就可以同时适配电脑和手机，它们加载到的页面相同，但是应用的样式表并不同。例如没有针对移动而优化的 <a href="https://www.wikipedia.org" target="_blank">Wikipedia 导航页</a>，iPhone 上的 Safari 访问时将会缩放显示，布局就如同电脑访问一样:
+然而在 CSS 的帮助下，不需要准备两个网页就可以同时适配电脑和手机，它们加载到的页面相同，但是应用的样式表并不同。例如没有针对移动而优化的 [Wikipedia 导航页](https://www.wikipedia.org/)，iPhone 上的 Safari 访问时将会缩放显示，布局就如同电脑访问一样:
 
 [img id="1012" size="medium"][/img]
 
-然而通过增加的 CSS 样式表（当然还包括 `head` 中的<code>viewport</code>），这个页面在手机上就会完美的显示了，就像下图:
+然而通过增加的 CSS 样式表（当然还包括 `head` 中的 `viewport`），这个页面在手机上就会完美的显示了，就像下图:
 
 [img id="1014" size="medium"][/img]
 

@@ -13,7 +13,8 @@ dsq_thread_id:
   - "4079477468"
 ---
 使用 srcset 属性可以解决一切响应式图片问题，但这里分为两种情况，确定和不确定宽度的照片。相比之下，不确定宽度的照片更复杂些。
-<h2>确定宽度的照片</h2>
+
+## 确定宽度的照片
 此处指的确定宽度照片，是指样式属性宽度设置为一个确定了多少 px 的照片。
 
 随着越来越多的高设备像素比（指 device pixel ratio，下同）显示器出现，网站需要更高像素的照片来适配这些显示器。
@@ -28,7 +29,8 @@ dsq_thread_id:
 <pre class="lang:default decode:true ">&lt;img src="200px.png" srcset="400px.png 2x, 600px.png 3x, 800px.png 4x"&gt;
 </pre>
 这样加上 srcset 属性，浏览器就会根据自己的设备像素比来加载不同的照片，不支持 srcset 属性的浏览器就默认加载 200px.png 这张照片。这个方法是向下兼容的。
-<h2>不确定宽度的照片</h2>
+
+## 不确定宽度的照片
 此处指的不确定宽度的照片，是指样式属性宽度设置为一个确定了多少百分比的照片。
 
 如果是不确定宽度的照片的话（或者是手机上不确定图片宽度，电脑上确定宽度等），也可以通过 srcset 解决。由于像素是不能确定的，所以很难达到照片本身和照片所占物理像素是一样的，因为用户的窗口大小是不确定的。
@@ -47,26 +49,31 @@ dsq_thread_id:
 sizes 属性里制定图片的宽度，不能使用百分比单位，但可以使用 vw、px 等单位（100vw 就是整个窗口的宽度)，也可以使用 calc 运算，同时支持媒体查询。要保证使用 sizes 里计算出来的宽度始终是图片所占屏幕宽度，剩下的事情都只需要浏览器完成了。
 
 以下几种典型案例示范：
-<h3>两边边框为百分比</h3>
+
+### 两边边框为百分比
 如果图片两侧边框（指图片边缘到窗口边缘长度）始终是占屏幕的一定的百分比时，那么图片总会有一个相对于整个窗口的百分比。比如图片两侧边框始终是整个窗口的 10%，那么 size 属性就可以如下设置：
 <pre class="lang:default decode:true">sizes="80vw"</pre>
 如果图片已经在一个宽度是整个窗口的 70% 的元素下，而且元素内图片两侧还留有 10% 的边框，那么 size 属性就可以如下设置：
 <pre class="lang:default decode:true">sizes="50vw"</pre>
-<h3>两边边框为确定的像素</h3>
+
+### 两边边框为确定的像素
 比如图片两侧边框始终是 10px，那么 size 属性就可以如下设置：
 <pre class="lang:default decode:true">sizes="calc( 100vw - 10px )"</pre>
 如果图片已经在一个宽度是整个窗口的 70% 的元素下，而且元素内图片两侧边框始终是 10p，那么 size 属性就可以如下设置：
 <pre class="lang:default decode:true">sizes="calc( 70vw - 10px )"</pre>
-<h3>图片有最大尺寸</h3>
+
+### 图片有最大尺寸
 比如图片两侧边框始终是 10px，但是图片最大只能是 1000px，那么 size 属性就可以如下设置：
 <pre class="lang:default decode:true">sizes="(min-width: 1020px) 1000px, calc( 100vw - 10px )"</pre>
 其中 `(min-width: 1020px) 1000px` 代表当屏幕像素宽度大于 1020px 时，图片宽度为 1000px。
-<h3>实际效果</h3>
+
+### 实际效果
 此处以我的网站为例，我的网站图片边框适中是 1.875rem，这个图片本身就是在一个元素下，这个元素默认宽度是整个窗口的 100%，但在屏幕宽度大于 40.063rem 的情况下，这个元素占整个窗口的 50%，并且这个元素有最大尺寸 500px，现在把 size 属性和用 w 标识符的 srcset 属性放在一起，就完美解决了。
 <pre class="lang:default decode:true ">&lt;img src="800px.png" sizes="(min-width: 1000px) calc( 500px - 1.875rem ), (min-width: 40.063rem) calc( 50vw - 1.875rem ), calc( 100vw - 1.875rem )" srcset="400px.png 400w, 800px.png 800w, 1600px.png 1600w, 2400px.png 2400w, 3200px.png 3200w" alt="" /&gt;
 </pre>
 然后你就可以在浏览器中测试了，达到了适配所有屏幕尺寸，所有设备像素比的效果。
-<h2>关于兼容性</h2>
+
+### 关于兼容性
 通常情况下，srcset 属性的 x 标识符支持的比 w 标识符更好，因为 w 标识符是一个新的属性。不过好消息是 Chrome 38+、Firefox 38+、Safari 9+、Opera 30+、Android 5.0+、iOS 9+（没错，IE/Edge、Windows Phone 截止到写文章之日都不支持） 都纷纷支持了 w 标识符，所以我认为现在很适合换用 srcset 属性的 w 标识符来做响应式图片了。而且这个方法是完美向下兼容的，即使不支持也没关系。
 
-你也可以<a href="http://caniuse.com/#feat=srcset" target="_blank">在 CanIUse.com 上查询</a>关于 secset 属性的完整的兼容性列表
+你也可以[在 CanIUse.com 上查询](http://caniuse.com/#feat=srcset)关于 secset 属性的完整的兼容性列表
