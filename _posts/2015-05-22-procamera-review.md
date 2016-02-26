@@ -15,7 +15,7 @@ dsq_needs_sync:
 ---
 这是一个很值得使用的软件，包含强大的手动自定义功能、分享功能以及惊人的 HDR 合成能力。
 
-[app_store_zh id="694647259" short="e"][/app_store_zh]
+[a id="694647259" short="e" type="appstore"][/a]
 
 ## 独创的 HDR
 这个软件内置自己的 HDR，完全不同于系统的 HDR 功能，它的 HDR 堪比在 PhotoShop 上合成后的效果，十分出彩。并且有多种 HDR 格式可供选择，而且可以进行手动 HDR，自己调整 HDR 的亮度，满足所有需求。（HDR 功能需要单独购买）

@@ -87,7 +87,7 @@ dsq_needs_sync:
 1. 80D 上配备的有 Dual Pixel CMOS AF，但是 760D 是 Hybrid CMOS AF III。
 2. 80D 上的常用感光度高一档
 
-值得在意的是对焦系统，Hybrid CMOS AF III 只在 750/760D 上出现过，性能表现出色，或许就是限制了的 Dual Pixel CMOS AF。<a href="https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3D-86nrBo7_T0" target="_blank">详情参考 YouTube 上的测试</a>
+值得在意的是对焦系统，Hybrid CMOS AF III 只在 750/760D 上出现过，性能表现出色，或许就是限制了的 Dual Pixel CMOS AF。[a href="https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3D-86nrBo7_T0"]详情参考 YouTube 上的测试[/a]
 
 ## 其它改进
 ### 100%的光学取景器
@@ -115,4 +115,4 @@ dsq_needs_sync:
 
 如果是在 5D Mark III、6D 和 80D 之间选择，你的预算不高，并且有录制视频的需求，还是推荐 80D，它的对焦和快门速度都要好于前两者。至于全画幅还是 APS-C，那就是另一个值得讨论的问题了。
 
-<a href="http://www.canon.com.cn/news/products/2016/pr_2016_02_18-15_00_00.html" target="_blank">关于 80D 的更多信息，可参考佳能官方新闻稿</a>
+[a href="http://www.canon.com.cn/news/products/2016/pr_2016_02_18-15_00_00.html"]关于 80D 的更多信息，可参考佳能官方新闻稿[/a]

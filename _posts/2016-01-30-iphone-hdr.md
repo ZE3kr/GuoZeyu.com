@@ -10,6 +10,7 @@ published: true
 dsq_thread_id:
   - "4540382505"
 ---
-<a href="https://media.landcement.com/sites/2/20160201005651/IMG_1306.jpg" rel="attachment wp-att-986"><img class="aligncenter size-large wp-image-986" src="https://media.landcement.com/sites/2/20160201005651/IMG_1306-1600x1200.jpg" alt="IMG_1306" width="840" height="630" /></a>
+[img id="985" exif="only"][/img]
+[img id="986" size="large" exif="on"][/img]
 
-两张照片均为 iPhone 6s 拍摄，<a href="https://ze3kr.com/2015/05/procamera-review/">使用软件 ProCamera 上的 HDR 拍摄</a>，后期<a href="https://ze3kr.com/2015/08/lightroom-amazing-dehaze/">在 Lightroom 上消雾霾</a>。
+两张照片均为 iPhone 6s 拍摄，[a id="81"]使用软件 ProCamera 上的 HDR 拍摄[/a]，后期[a id="168"]在 Lightroom 上消雾霾[/a]。

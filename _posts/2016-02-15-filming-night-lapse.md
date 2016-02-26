@@ -13,4 +13,4 @@ published: true
 
 ProCamera：
 
-[app_store_zh id="694647259" short="e"][/app_store_zh]
+[a id="694647259" short="e" type="appstore"][/a]
