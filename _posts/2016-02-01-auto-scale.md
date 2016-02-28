@@ -6,12 +6,15 @@ author: ZE3kr
 post_date: 2016-02-01 10:40:00
 post_excerpt: ""
 layout: post
-permalink: https://ze3kr.com/2016/02/auto-scale/
+permalink: >
+  https://www.ze3kr.com/2016/02/auto-scale/
 published: true
 dsq_thread_id:
-  - "4540516067"
+  - 'a:1:{i:0;s:10:"4540516067";}'
+dsq_needs_sync:
+  - "1"
 ---
-2016-01-30 这一天，TLO XYZ 的博客系统（包括 ze3kr.com）整个迁移到了 “一个” 新的服务器，准确的说，服务器已经不止一个。
+2016-01-30 这一天，TLO XYZ 的博客系统（包括 ze3kr.com）整个迁移到了 “一个” 新的服务器，准确的说，服务器已经不止一个，而是多个服务器负载均衡。
 
 我们的服务器选用的是 Amazon 提供的的服务器，使用多个 EC2 （环境：PHP+Apache）服务器和一个 RDS（环境：MySQL）。EC2 上的程序代码可以直接使用 Git 部署，方便至极。我们使用的博客系统软件是 WordPress，这个软件分别放到了多个 EC2 上，配置都完全相同（每次 Git Push 时都会同步）。每一个 EC2 都使用同一个 RDS 作为数据库，这样可以保证发布文章等操作都是实时的。
 
