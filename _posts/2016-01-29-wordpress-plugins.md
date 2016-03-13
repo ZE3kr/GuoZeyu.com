@@ -15,6 +15,10 @@ dsq_thread_id:
 dsq_needs_sync:
   - "1"
 ---
+## Full Site Cache Enabler for KeyCDN
+
+本人开发的插件，让（无备案的）**网站提速最明显的缓存插件**。全站 CDN，就近缓存所有内容，内容缓存在离用户最近的节点。无需额外服务器后端配置，让你的网站支持 HTTP/2、免费 HTTPS 加密（含免费证书）。有内容发布/更新时会实时清除需要清除的缓存。目前的 1.0 版本还处于初级阶段，即将推出的 2.0 版本极大的简化了配置，将于三月末推出。
+
 ## Autoptimize
 
 [img id="1029" size="medium"][/img]
