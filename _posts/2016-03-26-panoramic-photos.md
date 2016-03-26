@@ -6,7 +6,7 @@ post_date: 2016-03-26 14:37:20
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.ze3kr.com/2016/03/%e5%85%a8%e6%99%af%e7%85%a7%e7%89%87/
+  https://www.ze3kr.com/2016/03/panoramic-photos/
 published: true
 ---
 [img id="1454" exif="only"][/img]
