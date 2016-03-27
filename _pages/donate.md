@@ -14,7 +14,7 @@ font-size: 1.2em">已收到捐款共&nbsp;<span class="required pay-amount" styl
 <form action="https://pay.tlo.xyz/paymentwall/form.php" method="get">
   <p class="form-allowed-tags">必填项已用<span class="required">*</span>标注</p>
   <p><label>金额 <span class="required">*</span></label><input type="number" min="0" name="amount" required="required" placeholder="人民币"/></p>
-  <input type="hidden" name="from" value="https://wp-admin-botball.tlo.xyz/donate-zh/"/><input type="hidden" name="title" value="捐款给 Botball"/><input type="hidden" name="tag" value="botball"/><input type="hidden" name="currency" value="CNY"/>
+  <input type="hidden" name="from" value="https://wp-admin-botball.tlo.xyz/donate-zh/"/><input type="hidden" name="title" value="捐款给 ZE3kr"/><input type="hidden" name="tag" value="botball"/><input type="hidden" name="currency" value="CNY"/>
   <p><label>捐款金额不得低于手续费（约 2 人民币）。</label></p>
   <p><label>电子邮件</label><input type="email" name="email" placeholder="可不填" /></p>
   <p><label>备注</label><input type="text" name="note" placeholder="可不填" /></p>
