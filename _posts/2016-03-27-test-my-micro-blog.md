@@ -9,4 +9,4 @@ permalink: >
   https://www.ze3kr.com/2016/03/test-my-micro-blog/
 published: true
 ---
-测试一下
+测试一下哈哈
