@@ -6,7 +6,7 @@ post_date: 2016-03-27 11:21:54
 post_excerpt: ""
 layout: post
 permalink: >
-  https://www.ze3kr.com/2016/03/%e6%b5%8b%e8%af%95%e6%88%91%e7%9a%84%e5%be%ae%e5%8d%9a/
+  https://www.ze3kr.com/2016/03/test-my-micro-blog/
 published: true
 ---
 测试一下
