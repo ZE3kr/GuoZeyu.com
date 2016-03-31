@@ -25,7 +25,7 @@ dsq_thread_id:
 <h3>社交网络</h3>
 <ul>
 	<li>新浪微博：<a href="http://weibo.com/ze3kr" target="_blank">@ZE3kr</a></li>
-	<li>知乎：<a href="http://www.zhihu.com/people/guo-ze-yu-8-94" target="_blank">郭泽宇</a></li>
+	<li>知乎：<a href="http://www.zhihu.com/people/ze3kr" target="_blank">郭泽宇</a></li>
 	<li>Vimeo：<a href="https://vimeo.com/ze3kr" target="_blank">ZE3kr</a></li>
 	<li>YouTube：<a href="https://www.youtube.com/channel/UCcvX7ZVfFHkhr5nLH6R_WFw" target="_blank">郭泽宇</a> (YouTube 上还有我的 4K 视频)</li>
 </ul>
