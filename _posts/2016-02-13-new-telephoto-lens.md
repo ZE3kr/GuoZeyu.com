@@ -1,6 +1,6 @@
 ---
 ID: 1194
-post_title: 新买的长焦镜头
+post_title: 新买的长焦镜头1
 author: ZE3kr
 post_date: 2016-02-13 12:47:47
 post_excerpt: ""
@@ -10,6 +10,8 @@ permalink: >
 published: true
 dsq_thread_id:
   - "4575192143"
+dsq_needs_sync:
+  - "1"
 ---
 新买的长焦镜头，型号为 Sigma 150-600mm f/5-6.3 DG OS HSM Sports，[a href="http://www.the-digital-picture.com/Reviews/Sigma-150-600mm-f-5-6.3-DG-OS-HSM-Sports-Lens.aspx"]在 the-digital-picture.com 上的评测[/a]。镜头偏重，装上 7D2 后总重约 4.2 kg。打鸟神机配这个长焦，拍野生一定不错。
 
