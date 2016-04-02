@@ -1,6 +1,6 @@
 ---
 ID: 1194
-post_title: 新买的长焦镜头1
+post_title: 新买的长焦镜头
 author: ZE3kr
 post_date: 2016-02-13 12:47:47
 post_excerpt: ""
