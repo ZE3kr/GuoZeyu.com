@@ -10,7 +10,9 @@ permalink: >
   https://www.ze3kr.com/2016/04/guess-what-i-said/
 published: true
 dsq_thread_id:
-  - null
+  - ""
+dsq_needs_sync:
+  - "1"
 ---
 最近本人新开发了一个网页软件，中文名叫 “猜猜我说了什么”。它允许你输入一段话，等待完成计算后，分享当前页面给别人，别人就可以猜你刚才输入的内容。别人只能知道是才对还是猜错，没有介于两者之间的提示。
 
@@ -32,8 +34,8 @@ dsq_thread_id:
 
 <strong>SHA-256-short-v2</strong> 较慢速
 
-[img id="1490" size="medium"][/img]
+[img id="1493" size="small"][/img]
 
 <strong>SHA-256-short-v1</strong> 快速
 
-[img id="1491" size="medium"][/img]
+[img id="1491" size="small"][/img]
