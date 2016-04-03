@@ -34,8 +34,8 @@ dsq_needs_sync:
 
 <strong>SHA-256-short-v2</strong> 较慢速
 
-[img id="1493" size="small"][/img]
+[img id="1493" size="thumbnail"][/img]
 
 <strong>SHA-256-short-v1</strong> 快速
 
-[img id="1491" size="small"][/img]
+[img id="1491" size="thumbnail"][/img]
