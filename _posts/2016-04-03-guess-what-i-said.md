@@ -10,9 +10,7 @@ permalink: >
   https://www.ze3kr.com/2016/04/guess-what-i-said/
 published: true
 dsq_thread_id:
-  - ""
-dsq_needs_sync:
-  - "1"
+  - "4716439189"
 ---
 最近本人新开发了一个网页软件，中文名叫 “猜猜我说了什么”。它允许你输入一段话，等待完成计算后，分享当前页面给别人，别人就可以猜你刚才输入的内容。别人只能知道是才对还是猜错，没有介于两者之间的提示。
 
@@ -25,7 +23,7 @@ dsq_needs_sync:
 	<li>可以用来告诉别人你不想告诉它们的事。比如别人问你一个问题，你不想正面回答，想让它自己猜，那么这是最合适的选择（选择 v0 ~ v5 不同的算法，可以缩短或延长对方每猜一次所用需要时间）。对方猜出来了，那他就知道了，否则这永远是一个谜。</li>
 	<li>用来娱乐，比如发在微博里或者微信朋友圈中，让大家一起来猜，一定很有意思。如果有大微发那就更好玩了，全民一起猜（但估计很难知道谁是第一个猜出来的）。</li>
 </ol>
-多有意思，赶紧来体验吧：
+多有意思，赶紧来体验吧，选择一个你喜欢的速度即可：
 <ul>
 	<li><a href="https://app.tlo.xyz/Guess-What-I-Said/sha-256-short-v2-zh.html">SHA-256-short-v2</a> / 中等</li>
 	<li><a href="https://app.tlo.xyz/Guess-What-I-Said/sha-256-short-v4-zh.html">SHA-256-short-v4</a> / 慢但是安全</li>
