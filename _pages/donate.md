@@ -8,7 +8,7 @@ layout: page
 permalink: https://www.ze3kr.com/donate/
 published: true
 ---
-本网站上绝无任何广告，但是网站运维需要昂贵的费用，如果在一天内所有访问过这个网站的人都捐出了 3 元，就够整个网站运行一年了，为了让整个网站能够维持下去，保持更新和运维，请考虑捐助，十分感谢！
+本网站上绝无任何广告，但是网站运维需要昂贵的费用，如果在一天内所有访问过这个网站的人都捐出了 6 元，就够整个网站运行一年了，为了让整个网站能够维持下去，保持更新和运维，请考虑捐助，十分感谢！
 <p style="text-align:center;
 font-size: 1.2em">已收到捐款共&nbsp;<span class="required pay-amount" style="font-family: Monaco, 'MonacoRegular', 'Courier New', monospace !important;font-size: 2em;">--.--</span> 人民币</p>
 <form action="https://pay.tlo.xyz/paymentwall/form.php" method="get">
