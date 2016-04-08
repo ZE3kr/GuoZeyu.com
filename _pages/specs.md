@@ -28,16 +28,16 @@ dsq_thread_id:
 <h3>30帧 MP4</h3>
 <pre class="lang:sh decode:true ">ffmpeg -y -i input -c:v libx264 -r 30000/1001 -c:a aac -preset veryslow -s 960x540 -b:v 1000k -pass 1 -b:a 64k -ac 1 -f mp4 /dev/null
 
-ffmpeg -i input -c:v libx264 -r 30000/1001 -c:a aac -preset veryslow -s 960x540 -b:v 1000k -pass 2 -b:a 64k -ac 1 output.mp4</pre>
+ffmpeg -y -i input -c:v libx264 -r 30000/1001 -c:a aac -preset veryslow -s 960x540 -b:v 1000k -pass 2 -b:a 64k -ac 1 output.mp4</pre>
 <h3>60帧 MP4</h3>
 <pre class="lang:sh decode:true ">ffmpeg -y -i input -c:v libx264 -r 60000/1001 -c:a aac -preset veryslow -s 960x540 -b:v 1500k -pass 1 -b:a 64k -ac 1 -f mp4 /dev/null
 
-ffmpeg -i input -c:v libx264 -r 60000/1001 -c:a aac -preset veryslow -s 960x540 -b:v 1500k -pass 2 -b:a 64k -ac 1 output.mp4</pre>
+ffmpeg -y -i input -c:v libx264 -r 60000/1001 -c:a aac -preset veryslow -s 960x540 -b:v 1500k -pass 2 -b:a 64k -ac 1 output.mp4</pre>
 <h3>30帧 WEBM</h3>
-<pre class="lang:sh decode:true ">ffmpeg -i &lt;source&gt; -c:v libvpx-vp9 -pass 1 -b:v 1000K -threads 8 -speed 4 -tile-columns 6 -frame-parallel 1 -b:a 64k -ac 1 -s 960x540 -g 150 -r 30000/1001 -an -f webm /dev/null
+<pre class="lang:sh decode:true ">ffmpeg -y -i &lt;source&gt; -c:v libvpx-vp9 -pass 1 -b:v 1000K -threads 8 -speed 4 -tile-columns 6 -frame-parallel 1 -b:a 64k -ac 1 -s 960x540 -g 150 -r 30000/1001 -an -f webm /dev/null
 
-ffmpeg -i &lt;source&gt; -c:v libvpx-vp9 -pass 2 -b:v 1000K -threads 8 -speed 1 -tile-columns 6 -frame-parallel 1 -auto-alt-ref 1 -lag-in-frames 25 -ac 1 -s 960x540 -g 150 -r 30000/1001 -c:a libopus -b:a 64k -f webm out.webm</pre>
+ffmpeg -y -i &lt;source&gt; -c:v libvpx-vp9 -pass 2 -b:v 1000K -threads 8 -speed 1 -tile-columns 6 -frame-parallel 1 -auto-alt-ref 1 -lag-in-frames 25 -ac 1 -s 960x540 -g 150 -r 30000/1001 -c:a libopus -b:a 64k -f webm out.webm</pre>
 <h3>60帧 WEBM</h3>
-<pre class="lang:sh decode:true ">ffmpeg -i &lt;source&gt; -c:v libvpx-vp9 -pass 1 -b:v 1500K -threads 8 -speed 4 -tile-columns 6 -frame-parallel 1 -b:a 64k -ac 1 -s 960x540 -g 250 -r 60000/1001 -an -f webm /dev/null
+<pre class="lang:sh decode:true ">ffmpeg -y -i &lt;source&gt; -c:v libvpx-vp9 -pass 1 -b:v 1500K -threads 8 -speed 4 -tile-columns 6 -frame-parallel 1 -b:a 64k -ac 1 -s 960x540 -g 250 -r 60000/1001 -an -f webm /dev/null
 
-ffmpeg -i &lt;source&gt; -c:v libvpx-vp9 -pass 2 -b:v 1500K -threads 8 -speed 1 -tile-columns 6 -frame-parallel 1 -auto-alt-ref 1 -lag-in-frames 25 -ac 1 -s 960x540 -g 250 -r 60000/1001 -c:a libopus -b:a 64k -f webm out.webm</pre>
+ffmpeg -y -i &lt;source&gt; -c:v libvpx-vp9 -pass 2 -b:v 1500K -threads 8 -speed 1 -tile-columns 6 -frame-parallel 1 -auto-alt-ref 1 -lag-in-frames 25 -ac 1 -s 960x540 -g 250 -r 60000/1001 -c:a libopus -b:a 64k -f webm out.webm</pre>
