@@ -13,8 +13,8 @@ enclosure:
     https://media.landcement.com/sites/2/20160408225443/qingchuan2016.mp4
     27932490
     video/mp4
-    a:4:{s:12:"itunes_image";s:92:"https://media.landcement.com/sites/2/20160409070332/%E4%BB%8B%E7%BB%8D%E6%B5%B7%E5%A4%96.jpg";s:5:"image";s:92:"https://media.landcement.com/sites/2/20160409070332/%E4%BB%8B%E7%BB%8D%E6%B5%B7%E5%A4%96.jpg";s:8:"webm_src";s:70:"https://media.landcement.com/sites/2/20160408225344/qingchuan2016.webm";s:11:"webm_length";d:27419799;}
-dsq_needs_sync:
-  - "1"
+    a:4:{s:12:"itunes_image";s:102:"https://media.landcement.com/sites/2/20160409070332/%E4%BB%8B%E7%BB%8D%E6%B5%B7%E5%A4%96-1600x1200.jpg";s:5:"image";s:102:"https://media.landcement.com/sites/2/20160409070332/%E4%BB%8B%E7%BB%8D%E6%B5%B7%E5%A4%96-1600x1200.jpg";s:8:"webm_src";s:70:"https://media.landcement.com/sites/2/20160408225344/qingchuan2016.webm";s:11:"webm_length";d:27419799;}
+dsq_thread_id:
+  - "4731796110"
 ---
 这是我所在学校，我一人仅用时 4 天完成全部录制与剪辑。青川社会实践活动在4月9日开始。
