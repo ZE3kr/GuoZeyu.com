@@ -13,8 +13,8 @@ enclosure:
     https://media.landcement.com/sites/2/20160216213338/trailer-540p1.mp4
     5485001
     video/mp4
-    a:4:{s:12:"itunes_image";s:72:"https://media.landcement.com/sites/2/20160216213526/trailer-1200x675.jpg";s:5:"image";s:72:"https://media.landcement.com/sites/2/20160216213526/trailer-1200x675.jpg";s:8:"webm_src";s:69:"https://media.landcement.com/sites/2/20160216230447/trailer-540p.webm";s:11:"webm_length";d:5218080;}
-dsq_needs_sync:
-  - "1"
+    a:4:{s:8:"duration";s:8:"00:00:38";s:12:"itunes_image";s:72:"https://media.landcement.com/sites/2/20160216213526/trailer-1200x675.jpg";s:5:"image";s:72:"https://media.landcement.com/sites/2/20160216213526/trailer-1200x675.jpg";s:8:"webm_src";s:69:"https://media.landcement.com/sites/2/20160216230447/trailer-540p.webm";}
+dsq_thread_id:
+  - "4584286415"
 ---
 正在拍摄一个超长时间的间隔拍摄，时长百余天，将于这个夏天发布。
