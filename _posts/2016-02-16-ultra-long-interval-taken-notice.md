@@ -13,7 +13,7 @@ enclosure:
     https://media.landcement.com/sites/2/20160216213338/trailer-540p1.mp4
     5485001
     video/mp4
-    a:4:{s:8:"duration";s:8:"00:00:38";s:12:"itunes_image";s:72:"https://media.landcement.com/sites/2/20160216213526/trailer-1200x675.jpg";s:5:"image";s:72:"https://media.landcement.com/sites/2/20160216213526/trailer-1200x675.jpg";s:8:"webm_src";s:69:"https://media.landcement.com/sites/2/20160216230447/trailer-540p.webm";}
+    a:4:{s:8:"duration";s:8:"00:00:38";s:12:"itunes_image";s:71:"https://media.landcement.com/sites/2/20160217090330/trailer-540pv2.webm";s:5:"image";s:72:"https://media.landcement.com/sites/2/20160216213526/trailer-1200x675.jpg";s:8:"webm_src";s:69:"https://media.landcement.com/sites/2/20160216230447/trailer-540p.webm";}
 dsq_thread_id:
   - "4584286415"
 ---
