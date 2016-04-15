@@ -18,16 +18,17 @@ dsq_thread_id:
 网站使用 WordPress，使用由 <a href="https://tlo.hosting" target="_blank">TLO Hosting</a> 提供的服务器和域名注册服务。
 
 这个网站上的所有公开的文章和页面全部开源，所有历史版本都能够在 <a href="https://github.com/ZE3kr/ZE3kr" target="_blank">GitHub</a> 上找到，包括已删除的页面和文章。
-
 <h2>关于版权</h2>
-如无特殊声明，本站上文章的正文部分均保留所有权利，在获得许可前不允许以任何方式将正文内容转载。
+<del>如无特殊声明，本站上文章的正文部分均保留所有权利，在获得许可前不允许以任何方式将正文内容转载。</del>
+
+2016 年 4 月 15 日更新：如无特殊声明，本网站文字部分采用本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。视频保留所有权利，未经许可，不能重新上传或重新分发。
 <h2>关于郭泽宇</h2>
 <h3>社交网络</h3>
 <ul>
-	<li>新浪微博：<a href="http://weibo.com/ze3kr" target="_blank">@ZE3kr</a></li>
-	<li>知乎：<a href="http://www.zhihu.com/people/ze3kr" target="_blank">郭泽宇</a></li>
-	<li>Vimeo：<a href="https://vimeo.com/ze3kr" target="_blank">ZE3kr</a></li>
-	<li>YouTube：<a href="https://www.youtube.com/channel/UCcvX7ZVfFHkhr5nLH6R_WFw" target="_blank">郭泽宇</a> (YouTube 上还有我的 4K 视频)</li>
+ 	<li>新浪微博：<a href="http://weibo.com/ze3kr" target="_blank">@ZE3kr</a></li>
+ 	<li>知乎：<a href="http://www.zhihu.com/people/ze3kr" target="_blank">郭泽宇</a></li>
+ 	<li>Vimeo：<a href="https://vimeo.com/ze3kr" target="_blank">ZE3kr</a></li>
+ 	<li>YouTube：<a href="https://www.youtube.com/channel/UCcvX7ZVfFHkhr5nLH6R_WFw" target="_blank">郭泽宇</a> (YouTube 上还有我的 4K 视频)</li>
 </ul>
 <h3>联系我</h3>
 如果想要被添加到友链，或者开展合作，都可以联系我。
