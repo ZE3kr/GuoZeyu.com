@@ -21,7 +21,7 @@ dsq_thread_id:
 <h2>关于版权</h2>
 <del>如无特殊声明，本站上文章的正文部分均保留所有权利，在获得许可前不允许以任何方式将正文内容转载。</del>
 
-2016 年 4 月 15 日更新：如无特殊声明，本网站文字部分采用本作品采用<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。视频保留所有权利。
+2016 年 4 月 15 日更新：如无特殊声明，本网站文字、图片部分采用本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。视频保留所有权利。
 <h2>关于郭泽宇</h2>
 <h3>社交网络</h3>
 <ul>
