@@ -6,16 +6,11 @@ post_date: 2015-05-02 15:50:56
 post_excerpt: ""
 layout: post
 permalink: >
-  https://ze3kr.com/2015/05/taraxacum-mongolicum/
+  https://www.ze3kr.com/2015/05/taraxacum-mongolicum/
 published: true
 dsq_thread_id:
-  - "4124228433"
+  - 'a:1:{i:0;s:10:"4124228433";}'
 ---
-
-+ 相机：iPhone 6
-+ 光圈：f/2.2
-+ 快门速度：1/421
-+ 感光度：ISO-32
-+ 实际焦距：4.15mm
+[img id="859" exif="only"][/img]
 
 挑战 iPhone 的背景虚化极限能力。
