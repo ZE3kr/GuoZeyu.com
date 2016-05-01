@@ -8,24 +8,40 @@ layout: page
 permalink: https://www.ze3kr.com/license/
 published: true
 ---
-如无特殊声明，本网站文字、图片部分采用本作品采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。视频保留所有权利。
+所谓视频部分，就是指视频文件本身，不算本网站上提供的视频截图。
 
-对于文字和图片内容（包括视频截图和视频的说明文字），你可以在遵守协议的情况下分享，下面举几个<strong>你可以做</strong>的典型例子：
-<ol>
- 	<li>你可以分享本站的任意一个页面的<strong>链接本身和标题</strong>。</li>
- 	<li>直接引用本文内容（甚至是全文，你也可以在此基础上修改），并在文章署名本站。</li>
- 	<li>重新上传本站的图片，在图片引用的地方署名本站。</li>
- 	<li>在你自己的创作中用到本站的内容并署名本站。</li>
-</ol>
-但是，你需要<strong>遵循以下规则</strong>：
-<ol>
- 	<li>禁止商业使用</li>
- 	<li>指出你所分享的内容是否有变更，并指出修改过的地方</li>
- 	<li>对你分享的内容使用相同的许可协议</li>
-</ol>
-在你分享的文章后添加的内容的例子：
-
-本内容来自 <a href="https://wp-admin.ze3kr.com/">ZE3kr</a>，且没有被修改，使用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
-
-源代码：
-<pre class="lang:default decode:true">本内容来自 &lt;a href="https://wp-admin.ze3kr.com/"&gt;ZE3kr&lt;/a&gt;，且没有被修改，使用&lt;a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank"&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;/a&gt;进行许可。</pre>
+<strong>你应当认识到：</strong>
+<ul>
+ 	<li><strong>弃权</strong> — 若您获得著作权人准许，则下述所有条件都可予以免除。</li>
+ 	<li><strong>公有领域</strong> — 若在可适用法律下本作品或本作品的任何部分处于公有领域，则其处于公共领域的状态不受本许可协议影响。</li>
+ 	<li><strong>其他权利</strong> — 以下权利不受本许可协议影响：
+<ul>
+ 	<li>合理使用，或其他相关法律规定的著作权保护的限制或例外；</li>
+ 	<li>作者的人身权；</li>
+ 	<li>其他人拥有的与本作品本身或与本作品的使用方式有关的权利，例如商品化权或隐私权</li>
+</ul>
+</li>
+ 	<li><b>禁止直接链接到本站的媒体内容</b> —</li>
+</ul>
+<h2>本网站文字、图片部分</h2>
+<strong>你可自由：</strong>
+<ul>
+ 	<li><strong>分享</strong> — 复制、发行、展览、表演、放映、广播或通过信息网络传播本作品</li>
+ 	<li>创作演绎作品</li>
+</ul>
+<strong>惟须遵守下列条件：</strong>
+<ul>
+ 	<li><strong>署名</strong> — 您必须按照作者或者许可人指定的方式对作品进行署名。</li>
+ 	<li><strong>相同方式共享</strong> — 如果您改变、转换本作品或者以本作品为基础进行创作，您只能采用与本协议相同的许可协议发布基于本作品的演绎作品。</li>
+ 	<li><strong>声明</strong> — 在再使用或者发行本作品时，您必须向他人明示本作品使用的许可协议条款。提供链接是明示的最佳方法。</li>
+</ul>
+<h2>本网站视频部分</h2>
+<strong>你可自由：</strong>
+<ul>
+ 	<li>分享视频所在本站的网址链接本身</li>
+ 	<li>下载本站视频以离线观看</li>
+</ul>
+<strong>惟须遵守下列条件：</strong>
+<ul>
+ 	<li><strong>禁止分享</strong> — 禁止再分享视频文件、重新上传、重新发布、展览、表演、放映、广播或通过信息网络传播本作品。</li>
+</ul>
