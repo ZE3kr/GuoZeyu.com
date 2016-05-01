@@ -8,7 +8,7 @@ layout: page
 permalink: https://www.ze3kr.com/license/
 published: true
 ---
-如无特殊声明，本网站文字、图片部分采用本作品采用<a href="https://github.com/ZE3kr/ZE3kr/blob/master/LICENSE.md" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。视频保留所有权利。
+如无特殊声明，本网站文字、图片部分采用本作品采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。视频保留所有权利。
 
 对于文字和图片内容（包括视频截图和视频的说明文字），你可以在遵守协议的情况下分享，下面举几个<strong>你可以做</strong>的典型例子：
 <ol>
@@ -25,7 +25,7 @@ published: true
 </ol>
 在你分享的文章后添加的内容的例子：
 
-本内容来自 <a href="https://www.ze3kr.com/">ZE3kr</a>，且没有被修改，使用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+本内容来自 <a href="https://wp-admin.ze3kr.com/">ZE3kr</a>，且没有被修改，使用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
 
 源代码：
-<pre class="lang:default decode:true  ">本内容来自 &lt;a href="https://www.ze3kr.com/"&gt;ZE3kr&lt;/a&gt;，且没有被修改，使用&lt;a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank"&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;/a&gt;进行许可。</pre>
+<pre class="lang:default decode:true">本内容来自 &lt;a href="https://wp-admin.ze3kr.com/"&gt;ZE3kr&lt;/a&gt;，且没有被修改，使用&lt;a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" target="_blank"&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;/a&gt;进行许可。</pre>
