@@ -44,7 +44,7 @@ tags:
 <p>[img id="1693" size="large"][/img]</p>
 <p>这样做可以减少我的主服务器的带宽，至于如何让这些文件被访问，请看下面：</p>
 <h2>CDN 网络</h2>
-<p>本网站将文件存在了 S3 上，但为了防止恶意刷流量，S3 的数据必须要经过 CloudFlare 后才能被访问。具体可以通过添加桶策略的方式解决，<a href="https://git.tlo.xyz/snippets/1" target="_blank">详情参见代码</a>。</p>
+<p>本网站将文件存在了 S3 上，但为了防止恶意刷流量，S3 的数据必须要经过 CloudFlare 后才能被访问。具体可以通过添加桶策略的方式解决，<a href="https://git.tlo.xyz/ZE3kr/ZE3kr.com/snippets/5" target="_blank">详情参见代码</a>。</p>
 <p>这样做的目的主要是 CloudFlare 公布了它们自己的 IP 段，这样做桶策略就比较方便，并不是所有 CDN 提供商都公布自己的 IP 段的。而且，这样做还能避免国内访问被墙，还能增加 HTTPS 功能。在 CloudFlare 之上又有 KeyCDN 和 UPYUN 两个 CDN，分别为国外和国内准备。分别开启了 Origin Shield 和镜像存储功能，再次减少到 S3 的请求并提高速度。</p>
 <p>CloudFlare 是免费的，所以不怕被盗链。对于 KeyCDN 和 UPYUN，我使用了 Token 防盗链技术，Token 有效期不会超过两周。</p>
 <p>所以，如果想拿我网站上的图片进行外链，请将 URL 中的域名替换为 s3.tlo.link，并删除链接后面 <code>?</code> 及其之后的东西。否则，链接是不会长期有效的。</p>
