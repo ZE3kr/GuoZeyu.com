@@ -1,6 +1,6 @@
 pages:
   stage: deploy
-  before_script: 
+  script: 
   - 'git push --force --mirror git@github.com:ZE3kr/ZE3kr.com.git'
   only:
   - master
