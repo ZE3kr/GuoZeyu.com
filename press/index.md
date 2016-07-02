@@ -42,4 +42,5 @@ tags: []
 <li>2016 年 2 月 11 日，<a href="https://ze3kr.com/2016/02/this-site-uses-keycdn-as-a-front-end-to-speed-up-instead-of-cloudflare/">使用 KeyCDN 作为前端加速，代替 CloudFlare</a></li>
 <li>2016 年 4 月 2 日，网站迁移到了 Vultr 的 VPS 上，速度再一次加快：<a href="https://ze3kr.com/2016/04/%e6%9c%ac%e7%ab%99%e4%bd%bf%e7%94%a8php7-0/">使用 PHP 7</a> 和 MySQL 5.7。</li>
 <li>2016 年 5 月 8 日：不再使用 CloudFlare 或 KeyCDN 作为全站加速</li>
+<li>2016 年 7 月 2 日：网站重新开源，在 <a href="https://git.tlo.xyz/ZE3kr/ZE3kr.com" target="_blank">gitTLO</a> 和 <a href="https://github.com/ZE3kr/ZE3kr.com" target="_blank">GitHub</a> 上能够找到源代码</li>
 </ul>
