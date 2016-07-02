@@ -12,10 +12,10 @@ ZE3kr.com
 
 优雅的插入图片
 
-用法：[img id="media id (int)" size="thumbnail/medium/large/full）" exif="on/only"]Caption[/img]
+用法：`[img id="media id (int)" size="thumbnail/medium/large/full" exif="on/only"]Caption[/img]`
 
 ### 链接
 
 优雅的插入链接，包括 Aff 链接，站内链接等。
 
-例子：[a id="694647259" short="e" type="appstore"][/a]
+例子：`[a id="694647259" short="e" type="appstore"][/a]`
