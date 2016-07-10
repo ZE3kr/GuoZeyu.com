@@ -19,6 +19,7 @@ categories: []
 tags: []
 ---
 <p>所谓视频部分，就是指视频文件本身，不算本网站上提供的视频截图。本站针对视频和图片、文字有不同的协议，请注意。</p>
+<p>网站内容已开源至 <a href="https://github.com/ZE3kr/ZE3kr.com" target="_blank">GitHub</a> 和 <a href="https://git.tlo.xyz/ZE3kr/ZE3kr.com">gitTLO</a>，欢迎 Fork、下载、转载。</p>
 <p><strong>你应当认识到：</strong></p>
 <ul>
 <li><strong>弃权</strong> — 若您获得著作权人准许，则下述所有条件都可予以免除。</li>
@@ -33,7 +34,7 @@ tags: []
 <li><b>禁止在外站直接链接到本作品的多媒体内容</b> — 本站有技术手段去阻止你这样做</li>
 </ul>
 <h2>本网站文字、图片部分</h2>
-<p>采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
+<p>采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
 <p><strong>你可自由：</strong></p>
 <ul>
 <li><strong>分享</strong> — 复制、发行、展览、表演、放映、广播或通过信息网络传播本作品</li>
