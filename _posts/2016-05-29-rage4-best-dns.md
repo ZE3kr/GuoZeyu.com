@@ -47,6 +47,13 @@ tags:
 <p>CloudXNS 和 Rage4 都能统计解析量，都能精确到国家，CloudXNS 更是能精确到省份和运营商。CloudFlare 虽然没有解析量统计，但提供了更详尽的访客统计（前提是你得开了 CDN）；Route53 尚且不清楚有没有这个功能。</p>
 <h2>速度测试</h2>
 <p>速度测试是随机挑的 IP，做的 Ping 测试，Ping 的速度很大程度上就决定了解析的速度。</p>
+<p>如果大家想要自己测试，可直接测试下方域名：</p>
+<ul>
+<li>CloudFlare: <code>gordon.ns.cloudflare.com</code></li>
+<li>Rage4: <code>ns1.ze3kr.com</code></li>
+<li>CloudXNS: <code>lv3ns1.ffdns.net</code></li>
+<li>Route53: <code>ns-1084.awsdns-07.org</code></li>
+</ul>
 <h3>国内速度</h3>
 <h4>CloudXNS</h4>
 <p>在国内，速度还是一流的</p>
