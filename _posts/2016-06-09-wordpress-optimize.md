@@ -31,7 +31,7 @@ tags:
 <p>使用插件来配置缓存是最简单的方法。在此推荐 <a href="https://wordpress.org/plugins/wp-super-cache/" target="_blank">WP Super Cache</a>，这是 WordPress.com 出品的缓存插件，就页面缓存来说，功能非常全面，它支持多种缓存模式，包括 mod_rewrite，如果你使用 Nginx，那么<a href="https://git.tlo.xyz/ZE3kr/ZE3kr.com/snippets/6" target="_blank">可以使用我这个配置文件</a>。</p>
 <p>同时，为浏览器返回正确的 <code>Cache-Control</code> 也是十分有必要的，尤其是 CSS 和 JS 文件。</p>
 <h3>1.1 建立分布式缓存系统</h3>
-<p>比如我的网站使用美国和日本的 VPS，主服务器在美国，配置了 Nginx，PHP 和 MySQL；另一个日本的服务器只配置了 Nginx。在日本和美国服务器上都配置好缓存，并用 lsyncd 同步缓存内容。每次访问时 Nginx 检查缓存，仅当没有缓存时代理，这样可以大大减少首页面的延迟。</p>
+<p>比如我的网站使用北美东岸（主要）、北美西岸、欧洲和亚洲的 VPS，主服务器配置了 Nginx，PHP 和 MySQL；其余的服务器只配置了 Nginx。在这些服务器上都配置好缓存，并用 lsyncd 同步缓存内容。每次访问时 Nginx 检查缓存，仅当没有缓存时代理，这样可以大大减少首页面的延迟。</p>
 <h2>2. 使用 CDN</h2>
 <h3>2.1 使用全站 CDN</h3>
 <p>使用全站 CDN，可以免去在自己的服务器上配置缓存的问题，还可以为服务器增加 HTTPS、HTTP/2 等功能，同时还能过滤非法流量，防御 DDOS（前提是你的 IP 没有被暴露，或者你设置好了白名单）。</p>
@@ -52,7 +52,6 @@ tags:
 <h3>3.2 数据库性能</h3>
 <p>数据库是 WordPress 性能的瓶颈之一，在数据库上优化能提高一定的速度。</p>
 <p>一般情况下，如果正确的使用 WordPress，并不需要清理数据库。但可能会有某些插件可能在数据库中创建了太多没用的表，这时服务器的响应速度就会大大降低（约 1～3 倍），推荐使用 <a href="https://wordpress.org/plugins/wp-optimize/" target="_blank">WP-Optimize</a> 进行清理。</p>
-<p>使用最新版本的 MySQL，可以获得更高的性能，比如 <a href="https://www.mysql.com/why-mysql/benchmarks/" target="_blank">5.7 就比 5.6 快了 3 倍</a>。其次，正确配置数据库参数，也能有效的提高性能。</p>
 <p>不是太多的文章数量，是不太会的影响加载速度（1 万篇文章以下速度其实都还能接受，不过你写那么多文章干嘛，质量比数量更重要嘛）。</p>
 <h2>4. 图片优化</h2>
 <p>图片占据着网页中很大一部分的大小，同时也关系着用户体验。</p>
