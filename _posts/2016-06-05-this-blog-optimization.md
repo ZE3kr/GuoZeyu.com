@@ -28,7 +28,7 @@ tags:
 <h2>Web 服务器</h2>
 <p>本网站拥有四个 Web 服务器，分别在<del datetime="2016-07-17T02:14:04+00:00">纽约（2048 M 双核）和东京（768 M 单核）</del>北美东岸（主要）、北美西岸、欧洲和亚洲，均使用 Ubuntu 16.04 LTS，并开启了自动更新。使用 LEMP （Linux + Nginx + MySQL + PHP）配置。写这篇文章时，Nginx 版本是 1.10.0，支持 HTTP/2 协议；MySQL 版本是 5.7，<a href="https://www.mysql.com/why-mysql/benchmarks/" target="_blank">比上一代快了 3 倍</a>；PHP 版本是 7.0，<a href="https://www.zend.com/en/resources/php7_infographic" target="_blank">也比上一代快了 3 倍</a>。</p>
 <p>MySQL 和 PHP 仅是在主要的服务器有，因为主要的服务器配置最高。在访问网站时，访客会被分区解析到其他地区，连接到最近的服务器。具体效果如下，北半球的 Ping 延迟可以控制在 50 ms 以内，南半球 150 ms 左右。</p>
-<p>[img id="1692" size="large"][/img]</p>
+<p>[img id="1778" size="large"]中心服务器[/img]</p>
 <p>如果只有东京服务器，那么欧洲的速度会极慢，北美的速度也不会太好。如果只有纽约服务器，那么亚洲这边就很慢。相比之下，美国西岸似乎是一个不错的选择，整个美国的速度都不错，其他各地速度也都不太慢，但是在中国，线路也能给你绕死，本来也就 100ms 的事，有时能给你整到 700ms 甚至 1 秒以上，还不如纽约。虽然中国连东京有几个运营商也绕道，但绕不超过 300ms，稳定性还是要好一些。</p>
 <h2>Nginx 配置</h2>
 <p>Nginx 的配置在东京和纽约的服务器都差不多，均开启了 HTTP/2，且都开启了反向代理，连向真正的后端 PHP 的端口。后端的 PHP 端口有两个，一个是无 SSL 加密的，供纽约服务器本地代理；另一个端口是有 SSL 加密的，供东京服务器代理。至于为什么要这样做，其实只是为了更好的动静分离，之后还会再讲关于这方面的内容。</p>
@@ -46,6 +46,7 @@ tags:
 <h2>CDN 网络</h2>
 <p>本网站将文件存在了 S3 上，但为了防止恶意刷流量，S3 的数据必须要经过 CloudFlare 后才能被访问。具体可以通过添加桶策略的方式解决，<a href="https://git.tlo.xyz/ZE3kr/ZE3kr.com/snippets/5" target="_blank">详情参见代码</a>。</p>
 <p>这样做的目的主要是 CloudFlare 公布了它们自己的 IP 段，这样做桶策略就比较方便，并不是所有 CDN 提供商都公布自己的 IP 段的。而且，这样做还能避免国内访问被墙，还能增加 HTTPS 功能。在 CloudFlare 之上又有 KeyCDN 和 UPYUN 两个 CDN，分别为国外和国内准备。分别开启了 Origin Shield 和镜像存储功能，再次减少到 S3 的请求并提高速度。</p>
+<p>[img id="1779" size="large"]缓存服务器（CDN）[/img]</p>
 <p>CloudFlare 是免费的，所以不怕被盗链。对于 KeyCDN 和 UPYUN，我使用了 Token 防盗链技术，Token 有效期不会超过两周。</p>
 <p>所以，如果想拿我网站上的图片进行外链，请将 URL 中的域名替换为 s3.tlo.link，并删除链接后面 <code>?</code> 及其之后的东西。否则，链接是不会长期有效的。</p>
 <h2>统计功能优化</h2>
