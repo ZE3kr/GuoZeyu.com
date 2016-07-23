@@ -31,7 +31,7 @@ tags:
 <p>使用插件来配置缓存是最简单的方法。在此推荐 <a href="https://wordpress.org/plugins/wp-super-cache/" target="_blank">WP Super Cache</a>，这是 WordPress.com 出品的缓存插件，就页面缓存来说，功能非常全面，它支持多种缓存模式，包括 mod_rewrite，如果你使用 Nginx，那么<a href="https://git.tlo.xyz/ZE3kr/ZE3kr.com/snippets/6" target="_blank">可以使用我这个配置文件</a>。</p>
 <p>同时，为浏览器返回正确的 <code>Cache-Control</code> 也是十分有必要的，尤其是 CSS 和 JS 文件。</p>
 <h3>1.1 建立分布式缓存系统</h3>
-<p>比如我的网站使用北美东岸（主要）、北美西岸、欧洲和亚洲的 VPS，主服务器配置了 Nginx，PHP 和 MySQL；其余的服务器只配置了 Nginx。在这些服务器上都配置好缓存，并用 lsyncd 同步缓存内容。每次访问时 Nginx 检查缓存，仅当没有缓存时代理，这样可以大大减少首页面的延迟。</p>
+<p>比如我的网站使用北美东岸（主要）和亚洲的 VPS，主服务器配置了 Nginx，PHP 和 MySQL；亚洲的服务器只配置了 Nginx。在这些服务器上都配置好缓存，并用 lsyncd 同步缓存内容。每次访问时 Nginx 检查缓存，仅当没有缓存时代理，这样可以大大减少首页面的延迟。</p>
 <h2>2. 使用 CDN</h2>
 <h3>2.1 使用全站 CDN</h3>
 <p>使用全站 CDN，可以免去在自己的服务器上配置缓存的问题，还可以为服务器增加 HTTPS、HTTP/2 等功能，同时还能过滤非法流量，防御 DDOS（前提是你的 IP 没有被暴露，或者你设置好了白名单）。</p>
