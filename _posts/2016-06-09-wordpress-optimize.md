@@ -33,7 +33,7 @@ tags:
 <p>同时，为浏览器返回正确的 <code>Cache-Control</code> 也是十分有必要的，尤其是 CSS 和 JS 文件。</p>
 <h3>1.2 配置对象缓存</h3>
 <p>对象缓存比页面缓存更灵活，使用范围更广，但速度肯定不如页面缓存。在此推荐 APCu 缓存系统。在 Ubuntu/Debian 安装方法如下：</p>
-<pre>apt install php-apcu</pre>
+<pre class="lang:sh decode:true ">$ apt install php-apcu</pre>
 <p>然后重启 Web server，<a href="https://wordpress.org/plugins/apcu/installation/" target="_blank">安装 APCu Object Cache Backend</a> 即可。</p>
 <h3>1.3 建立分布式缓存系统</h3>
 <p>比如我的网站使用北美东岸（主要）和亚洲的 VPS，主服务器配置了 Nginx，PHP 和 MySQL；亚洲的服务器只配置了 Nginx。在这些服务器上都配置好缓存，并用 lsyncd 同步缓存内容。每次访问时 Nginx 检查缓存，仅当没有缓存时代理，这样可以大大减少首页面的延迟。</p>

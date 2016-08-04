@@ -20,7 +20,7 @@ categories:
 tags:
 - WordPress
 ---
-<h2>WP KeyCDN</h2>
+<h2>Full Site Cache for KeyCDN</h2>
 <p>本人开发的插件，让（无备案的）<strong>网站提速最明显的缓存插件</strong>。全站 CDN，就近缓存所有内容，内容缓存在离用户最近的节点。无需额外服务器后端配置，让你的网站支持 HTTP/2、免费 HTTPS 加密（含免费证书）。有内容发布/更新时会实时清除需要清除的缓存。</p>
 <p>[img id="1569" size="medium"][/img]</p>
 <p>[img id="1570" size="medium"][/img]</p>

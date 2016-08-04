@@ -34,7 +34,7 @@ tags:
 <p>安装后默认是允许注册的，如果你不想让外人注册，你需要直接去 Web 后台禁用。如果你想要开放注册，那么最好先想好新注册用户能干什么，比如和我一样：只允许新用户创建 Issues 和 Snippets，那就在 Web 后台将 Default projects limit 设置为 <code>0</code>，然后编辑后台的配置文件，禁止新用户创建 Group。同时建议在 Web 后台启用 reCAPTCHA 和 Akismet，防止恶意注册和恶意发 Issues。既然允许注册，那么也建议<a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/integration/omniauth.md" target="_blank">使用 OmniAuth</a> 来支持第三方 OAuth 的方式登陆。</p>
 <h2>GitLab Runner</h2>
 <p><a href="https://gitlab.com/gitlab-org/gitlab-ci-multi-runner" target="_blank">GitLab Runner</a> 十分强大，但是并不是内置的，它可以极其方便的实现自动部署等非常有用的功能。安装配置好 Runner 后，在项目根目录下添加一个名为 <code>.gitlab-ci.yml</code> 的文件，以 master 分支为例，为了实现每次 commit 到 master 都将文件部署到 <code>/var/gitlab/myapp</code> ，那么文件内容应该是这样的：</p>
-<pre>pages:
+<pre class="lang:yaml decode:true">pages:
 stage: deploy
 script:
 - mkdir -p /var/gitlab/myapp
@@ -42,7 +42,7 @@ script:
 only:
 - master</pre>
 <p>注意，你需要先创建 <code>/var/gitlab</code> 文件夹，并设置这个文件夹的用户组为 <code>gitlab-runner:gitlab-runner</code></p>
-<pre>sudo chown -R gitlab-runner:gitlab-runner /var/gitlab</pre>
+<pre class="lang:sh decode:true">$ sudo chown -R gitlab-runner:gitlab-runner /var/gitlab</pre>
 <p><code>.gitlab-ci.yml</code> 核心的部分就是 <code>script:</code> ，这里的脚本都是由用户 <code>gitlab-runner</code> 执行的，你可以根据需要修改，后文中也给了几种范例。</p>
 <p>然后 commit，去设置页面里里激活这个项目的 Runner。建议在设置里设置 Builds 为 <code>git clone</code> 而不是 <code>git fetch</code> ，因为后者常常出现奇奇怪怪的问题，前者的速度瓶颈主要在于网络传输。</p>
 <h3>部署 Runner 在同一个主机上，Or not？</h3>
@@ -52,19 +52,19 @@ only:
 <p>以下几种 Web 的部署方式所消耗的系统资源都不多，而且由于使用了 <code>nice</code> ，并不会阻塞其他任务，可以部署在同一台主机上。</p>
 <h4>Jekyll</h4>
 <p>修改之前那个 <code>.gitlab-ci.yml</code> 文件的 <code>git checkout</code> 一行，替换为：</p>
-<pre>nice jekyll build --incremental -d /var/gitlab/myapp</pre>
+<pre class="">nice jekyll build --incremental -d /var/gitlab/myapp</pre>
 <h4>检查 PHP 的编译错误</h4>
 <p>也是添加以下代码到 <code>.gitlab-ci.yml</code> 即可自动检查所有 PHP 文件的编译错误，编译通过的文件不会显示，只会显示编译错误的：</p>
-<pre>if find . -type f -name "*.php" -exec nice php -l {} \; | grep -v "No syntax errors"; then false; else echo "No syntax errors"; fi</pre>
+<pre class="">if find . -type f -name "*.php" -exec nice php -l {} \; | grep -v "No syntax errors"; then false; else echo "No syntax errors"; fi</pre>
 <h4>自动与 GitHub 同步</h4>
 <p>以下过程需要 root 权限登陆到主机，或者在每行命令前添加 <code>sudo</code>。</p>
 <p>首先，需要先给 <code>gitlab-runner</code> 用户一个单独的 SSH Key：</p>
-<pre>ssh-keygen -f /home/gitlab-runner/.ssh/id_rsa</pre>
+<pre class="lang:sh decode:true">$ ssh-keygen -f /home/gitlab-runner/.ssh/id_rsa</pre>
 <p>然后，创建 <code>/home/gitlab-runner/.ssh/known_hosts</code> ，内容是：</p>
 <pre>github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==</pre>
 <p>之后，获取 <code>/home/gitlab-runner/.ssh/id_rsa.pub</code> 文件内容，<a href="https://github.com/settings/keys" target="_blank">在 GitHub 上添加这个 SSH Key</a>。</p>
 <p>由于是使用 root 帐号，弄完了之后不要忘了修改用户组：</p>
-<pre>sudo chown -R gitlab-runner:gitlab-runner /home/gitlab-runner/.ssh</pre>
+<pre class="lang:sh decode:true ">$ sudo chown -R gitlab-runner:gitlab-runner /home/gitlab-runner/.ssh</pre>
 <p>然后，同样是通过 <code>.gitlab-ci.yml</code> 实现自动同步：</p>
 <pre>git push --force --mirror git@github.com:[Organization]/[Project].git</pre>
 <p>修改 <code>[Organization]</code> 和 <code>[Project]</code> 为你自己的名称即可。</p>
