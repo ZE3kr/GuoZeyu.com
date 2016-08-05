@@ -69,7 +69,7 @@ ProductIds 506 GeoLite-Legacy-IPv6-Country # 安装 IPv4 和 IPv6 国家模块
 
 DatabaseDirectory /usr/share/GeoIP
 </pre>
-<p>然后安装 geoipupdate，执行 <code>sudo apt install geoipupdate &amp;&amp; mkdir -p /etc/powerdns/key &amp;&amp; geoipupdate -v</code> ，你的数据库就已经下载完毕了。</p>
+<p>然后安装 geoipupdate，执行 <code>sudo apt install geoipupdate &amp;&amp; mkdir -p /usr/share/GeoIP &amp;&amp; geoipupdate -v</code> ，你的数据库就已经下载完毕了。</p>
 <h3>配置 PowerDNS</h3>
 <p>创建文件 <code>/etc/powerdns/pdns.d/geoip.conf</code> 内容是：</p>
 <pre class="lang:ini decode:true">launch=geoip
