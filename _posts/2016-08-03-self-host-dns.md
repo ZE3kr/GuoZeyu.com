@@ -44,7 +44,7 @@ tags: []
 <p>安装方法<a href="https://doc.powerdns.com/md/authoritative/installation/" target="_blank">见此</a>，需要先安装 <code>pdns-server</code> ，然后再安装 <code>pdns-backend-$backend</code> 。Backend 是你可以自己选的，常用的有 <code>BIND</code> 和 <code>Generic MySQL</code> ，需要 GEODNS 可以用 <code>GEOIP</code> ，所有列表<a href="https://doc.powerdns.com/md/authoritative/" target="_blank">见此</a>。如果想做网页版控制后台，使用 MySQL 的可能比较方便。如果只是通过文件形式控制，那么 BIND 和 GEOIP 都可以。</p>
 <p>我使用 GEOIP 版本的，GEOIP 版本可拓展性强，使用 YAML 文件，更灵活、优雅，本文就讲讲 GEOIP 版本：</p>
 <p>在 Ubuntu 上安装（系统软件源里就有）：</p>
-<pre class="lang:sh decode:true">$ sudo apt install pens-server
+<pre class="lang:sh decode:true">$ sudo apt install pdns-server
 $ sudo apt install pdns-backend-geoip
 </pre>
 <p>然后修改配置文件：</p>
