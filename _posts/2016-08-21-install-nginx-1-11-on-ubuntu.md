@@ -38,7 +38,7 @@ configure arguments: --with-cc-opt='-g -O2 -fPIE -fstack-protector-strong -Wform
 <p>此时，你的服务器就没有 Nginx 的 HTTP/2 bug 了，既然使用了最新版的 Nginx，那么就能够配置 ECDSA/RSA 双证书了。</p>
 <h2>使用 Let's Encrypt 签发免费多域名证书</h2>
 <p>Let's Encrypt 提供完全面为免费，并且是自动化签发的证书，一张证书最多能签 100 个域名，暂不支持通配。</p>
-<p>为了配置双证书，你首先应该签发下来两张证书，以下以 acme.sh 为例，首先先建立目录（以下所有案例均使用 <code>example.com</code> 作为例子，如有需要可自行替换）：</p>
+<p>为了配置双证书，你首先应该签发下来两张证书，以下以 <a href="https://github.com/Neilpang/acme.sh" target="_blank">acme.sh</a> 为例，首先先建立目录（以下所有案例均使用 <code>example.com</code> 作为例子，实际使用需自行替换）：</p>
 <pre class="lang:sh decode:true">$ mkdir -p /etc/letsencrypt
 $ mkdir -p /etc/letsencrypt/rsa
 $ mkdir -p /etc/letsencrypt/ecdsa</pre>
@@ -105,4 +105,3 @@ ssl_stapling_verify on;</pre>
 <p>[img id="1906" size="large"][/img]</p>
 <p>至此，ECDSA/RSA 双证书配置完成，你可以在浏览器里查看到证书类型：</p>
 <p>[img id="1908" size="large"][/img]</p>
-<p>ECDSA</p>
