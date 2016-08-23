@@ -53,7 +53,7 @@ $ sudo apt install pdns-backend-geoip
 <h3>安装地理位置数据库</h3>
 <p>注意，你应该已经有 MaxMind GeoIP Lite 数据库，如果没有，通过如下方式安装：</p>
 <p>创建文件 <code>/etc/GeoIP.conf</code> 内容是：</p>
-<pre class="lang:ini decode:true"># The following UserId and LicenseKey are required placeholders:
+<pre class="lang:ini decode:true "># The following UserId and LicenseKey are required placeholders:
 UserId 999999
 LicenseKey 000000000000
 
@@ -65,7 +65,7 @@ LicenseKey 000000000000
 # * 506 - GeoLite Legacy Country
 # * 517 - GeoLite Legacy ASN
 # * 533 - GeoLite Legacy City
-ProductIds 506 GeoLite-Legacy-IPv6-Country # 安装 IPv4 和 IPv6 国家模块
+ProductIds 506 GeoLite-Legacy-IPv6-Country
 
 DatabaseDirectory /usr/share/GeoIP
 </pre>
