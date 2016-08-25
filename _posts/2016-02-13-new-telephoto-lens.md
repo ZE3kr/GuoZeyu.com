@@ -16,7 +16,7 @@ wordpress_url: https://www.ze3kr.com/?p=1194
 date: '2016-02-13 12:47:47 -0500'
 date_gmt: '2016-02-13 04:47:47 -0500'
 categories:
-- 未归类
+- 短文
 tags: []
 ---
 <p>新买的长焦镜头，型号为 Sigma 150-600mm f/5-6.3 DG OS HSM Sports，[a href="http://www.the-digital-picture.com/Reviews/Sigma-150-600mm-f-5-6.3-DG-OS-HSM-Sports-Lens.aspx"]在 the-digital-picture.com 上的评测[/a]。镜头偏重，装上 7D2 后总重约 4.2 kg。打鸟神机配这个长焦，拍野生一定不错。</p>

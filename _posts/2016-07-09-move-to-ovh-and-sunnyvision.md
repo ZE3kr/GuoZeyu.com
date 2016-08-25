@@ -16,7 +16,7 @@ wordpress_url: https://ze3kr.com/?p=1742
 date: '2016-07-09 11:01:00 -0400'
 date_gmt: '2016-07-09 03:01:00 -0400'
 categories:
-- 文章
+- 短文
 tags:
 - 网站
 - 网络

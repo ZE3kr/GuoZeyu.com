@@ -18,9 +18,9 @@ date_gmt: '2016-05-01 01:28:57 -0400'
 categories: []
 tags: []
 ---
+<blockquote>此页面属于一种著作权许可使用合同，供他人转载时方便直接链接至此</p></blockquote>
 <p>所谓视频部分，就是指视频文件本身，不算本网站上提供的视频截图。本站针对视频和图片、文字有不同的协议，请注意。</p>
-<p>网站内容已开源至 <a href="https://github.com/ZE3kr/ZE3kr.com" target="_blank">GitHub</a> 和 <a href="https://git.tlo.xyz/ZE3kr/ZE3kr.com">gitTLO</a>，欢迎 Fork、下载、转载。</p>
-<p><strong>你应当认识到：</strong></p>
+<p><strong>首先你应当认识到：</strong></p>
 <ul>
 <li><strong>弃权</strong> — 若您获得著作权人准许，则下述所有条件都可予以免除。</li>
 <li><strong>公有领域</strong> — 若在可适用法律下本作品或本作品的任何部分处于公有领域，则其处于公共领域的状态不受本许可协议影响。</li>
@@ -45,6 +45,7 @@ tags: []
 <li><strong>署名</strong> — 您必须按照作者或者许可人指定的方式对作品进行署名。</li>
 <li><strong>相同方式共享</strong> — 如果您改变、转换本作品或者以本作品为基础进行创作，您只能采用与本协议相同的许可协议发布基于本作品的演绎作品。</li>
 <li><strong>声明</strong> — 在再使用或者发行本作品时，您必须向他人明示本作品使用的许可协议条款。提供链接是明示的最佳方法。</li>
+<li><strong>非商业使用</strong> — 不得将本作品进行商业使用。</li>
 </ul>
 <h2>本网站视频部分</h2>
 <p>保留所有权利。</p>
