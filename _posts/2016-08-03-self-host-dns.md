@@ -239,7 +239,7 @@ $ pdnsutil show-zone example.com
 </pre>
 <p>最后一个指令所返回的结果就是你需要在域名注册商设置的记录，不推荐都设置，只设置 ECDSAP256SHA256 - SHA256 digest 就行了。</p>
 <p>最后在线检查设置即可 <a href="http://dnssec-debugger.verisignlabs.com/" target="_blank">测试地址1</a> <a href="http://dnsviz.net" target="_blank">测试地址2</a>，可能有几天缓存时间。</p>
-<p>我的检查 <a href="http://dnssec-debugger.verisignlabs.com/ze3kr.com" target="_blank">结果1</a> <a href="http://dnsviz.net/d/ze3kr.com/dnssec/" target="_blank">结果2</a></p>
+<p>我的检查 <a href="https://ze3kr.com/wp-content/uploads/sites/2/2016/08/ze3kr.com-2016-08-03-09_14_58-UTC.png" target="_blank">结果1</a> <a href="http://dnsviz.net/d/ze3kr.com/dnssec/" target="_blank">结果2</a></p>
 <h3>其他一些有趣的东西</h3>
 <p>你可以在 YAML 里写上这个，为了方便你调试：</p>
 <pre class="">"*.ip.example.com":
@@ -290,4 +290,4 @@ ns2.ze3kr.com.		172800	IN	AAAA	2001:470:8c29::1
 <p>如何实现宕机自动切换？实现这个的流程是：</p>
 <p>监控服务发现宕机 -&gt; 向服务器发送已经宕机的请求 -&gt; 服务器对宕机处理，解析到备用 IP/暂停解析</p>
 <p>监控服务发现服务正常 -&gt; 向服务器发送服务正常的请求 -&gt; 服务器对服务正常处理，恢复解析</p>
-<p>我为此建立了两个 YAML file，然后一个是默认使用的，一个是香港服务器宕机时使用的，当监控服务发现香港服务器宕机后并给我发请求后，所有解析到香港的一律换到 OVH 的 IP（只是在 OVH 上换解析，香港的已经挂了的话反正也解析不了了）。我是通过 PHP 调用 phpseclib 来自己 ssh 到 root 用户执行这个操作的的，root 用户还额外限制了登陆 IP，所以还算比较安全。</p>
+<p>可以建立两个 YAML file，一个是默认使用，一个是服务器宕机时使用的，当监控服务发现服务器宕机后，重新加载另一个 YAML file，然后这就是宕机模式了。</p>
