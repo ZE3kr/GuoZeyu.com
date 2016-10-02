@@ -22,11 +22,12 @@ tags:
 - 网络
 - WordPress
 - 安全
+- VPS
 ---
 <p>维护这个网站已经有一段时间了，是时候谈一谈这个网站的具体细节了。</p>
 <p>我有多个网站，好几个不同的域名，不过这篇文章就只从 ze3kr.com 这一个网站做具体的介绍。跳过域名注册和 DNS 解析，直接从网站 Web 服务用的主机开始。<!--more--></p>
 <h2>Web 服务器</h2>
-<p>本网站拥有两个 Web 服务器，主服务器使用 OVH 的 VPS，还有一个香港的 VPS 作为代理服务器，均使用 Ubuntu 16.04 LTS，并开启了自动更新，使用 LEMP （Linux + Nginx + MySQL + PHP）配置。写这篇文章时，Nginx 版本是 1.10.0，支持 HTTP/2 协议；MySQL 版本是 5.7，<a href="https://www.mysql.com/why-mysql/benchmarks/" target="_blank">比上一代快了 3 倍</a>；PHP 版本是 7.0，<a href="https://www.zend.com/en/resources/php7_infographic" target="_blank">也比上一代快了 3 倍</a>。</p>
+<p>本网站拥有两个 Web 服务器，主服务器使用 OVH 的 VPS，还有一个台湾的 VPS 作为代理服务器，均使用 Ubuntu 16.04 LTS，并开启了自动更新，使用 LEMP （Linux + Nginx + MySQL + PHP）配置。写这篇文章时，Nginx 版本是 1.10.0，支持 HTTP/2 协议；MySQL 版本是 5.7，<a href="https://www.mysql.com/why-mysql/benchmarks/" target="_blank">比上一代快了 3 倍</a>；PHP 版本是 7.0，<a href="https://www.zend.com/en/resources/php7_infographic" target="_blank">也比上一代快了 3 倍</a>。</p>
 <p>MySQL 和 PHP 仅是在主要的服务器有，因为主要的服务器配置最高。在访问网站时，访客会被分区解析到其他地区，连接到最近的服务器。</p>
 <p>[img id="1692" size="large"]中心服务器[/img]</p>
 <p>如果只有亚洲（东岸）的服务器，那么欧洲的速度会极慢，北美的速度也不会太好。如果只有北美东岸服务器，那么亚洲这边就很慢。相比之下，美国西岸似乎是一个不错的选择，整个美国的速度都不错，其他各地速度也都不太慢，但是在中国，线路也可能能给你绕死，本来也就 100ms 的事，有时能给你整到 700ms 甚至 1 秒以上，还不如纽约。</p>

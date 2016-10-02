@@ -17,7 +17,8 @@ date: '2016-08-09 20:32:16 -0400'
 date_gmt: '2016-08-09 12:32:16 -0400'
 categories:
 - 开发
-tags: []
+tags:
+- 网络
 ---
 <p>在今年 5 月 4 日，Apple 就开始要求新的应用程序支持 IPv6 DNS64/NAT64 网络，这意味着苹果开始力推 IPv6 网络，在<a href="https://developer.apple.com/library/mac/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#//apple_ref/doc/uid/TP40010220-CH213-SW1" target="_blank">苹果的官网上</a>就有介绍一些 IPv6 的优势，主要来说就是对移动网络更加友好，并能提高一些性能，减少一些传输上的开销。</p>
 <p>最近，我也将我的所有服务器全面部署 IPv6，完全支持 IPv6-Only 网络。</p>
@@ -36,7 +37,7 @@ tags: []
 <p>如果你的根域名不支持 IPv6，那么你可以联系根域名那里让他们去支持，或者换一个根域名。如果你的一级域名不支持 IPv6，那就联系 DNS 解析商让他们支持，或者直接换走。</p>
 <h2>让网站、API 等服务器支持 IPv6</h2>
 <h3>方案一，直接配置 IPv6</h3>
-<p>也就是让你自己的服务器支持 IPv6，这需要联系你的服务器提供商，让他们给你分配一个 IPv6 地址，如果还是不支持 IPv6，那么可以使用 IPv6 Tunnel Broker，比如 Hurricane Electric 的免费 Tunnel Broker，这样肯定没有服务商给你的原生的 IPv6 好（但也未必），但是在服务商支持原生 IPv6 之前只能先用着。Tunnel Broker <strong>相当于建立在网络层（第三层）上的代理</strong>，需要你的服务器的操作系统支持，而且服务器必须要有一个固定的 IPv4 地址。为了使用它你需要再系统里重新配置网卡（所以共享主机就没戏了），然后就能按照正常方法使用 IPv6 了，简直零成本支持 IPv6。</p>
+<p>也就是让你自己的服务器支持 IPv6，这需要联系你的服务器提供商，让他们给你分配一个 IPv6 地址，如果还是不支持 IPv6，那么可以使用 IPv6 Tunnel Broker，比如 Hurricane Electric 的免费 Tunnel Broker，这样肯定没有服务商给你的原生的 IPv6 好（但也未必），但是在服务商支持原生 IPv6 之前只能先用着。Tunnel Broker <strong>相当于建立在网络层（第三层）上的代理</strong>，需要你的服务器的操作系统支持，而且服务器必须要有一个固定的 IPv4 地址。为了使用它你需要在系统里重新配置网卡（所以共享主机就没戏了），然后就能按照正常方法使用 IPv6 了，简直零成本支持 IPv6。</p>
 <p>很可惜，我目前的两个服务器暂时都没有原生的 IPv6 可以用，于是只能用 Tunnel Broker 了，使用后发现虽然是免费的，但是效果也不错：下载时似乎没有限速，我 100M 的独享带宽在原生的 IPv4 上下载速度为 12Mbyte/s，在 IPv6 上还几乎是这个速度。Ping 延迟还是会有一些增加的，主要是因为 Tunnel Broker 的服务器连接到你的服务器会有一些延迟，它相当于一个代理，所以创建时一定要选择离你服务器最近的 Tunnel Broker，而不是里用户最近的 Tunnel Broker。</p>
 <p>在服务器支持了 IPv6 后，确保域名上也新设置了 AAAA 记录解析到了 IPv6 地址上。</p>
 <h3>方案二，上 CDN/HTTP Proxy</h3>
