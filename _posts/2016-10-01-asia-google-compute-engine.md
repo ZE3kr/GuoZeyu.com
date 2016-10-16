@@ -97,4 +97,4 @@ traceroute to google.com (64.233.189.113), 64 hops max
 <h3>不支持多 IP 与 IPv6</h3>
 <p>GCE 上不能通过加钱的方式去购买多个 IPv4 地址，所以一个实例只能有一个 IPv4 地址，需要多个 IPv4 需求的可以尝试多个实例。</p>
 <p>同时，GCE 不支持 IPv6，这实在是很可惜的。</p>
-<h3></h3>
+<p>[modified github="ZE3kr/ZE3kr"]增加适用场景的介绍[/modified]</p>

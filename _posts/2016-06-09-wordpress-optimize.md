@@ -29,7 +29,7 @@ tags:
 <h2>配置缓存</h2>
 <p>WordPress 是一个动态的系统，如果不配置缓存，每次请求都需要服务器去读取数据库，生成页面内容，对于不同性能的主机，这可能就需要 20ms~1000ms 甚至更慢。如果能够正确配置缓存，就可以明显的加速，并且减少主机的运算资源。</p>
 <h3>配置页面缓存</h3>
-<p>使用插件来配置缓存是最简单的方法。在此推荐 <a href="https://wordpress.org/plugins/wp-super-cache/" target="_blank">WP Super Cache</a>，这是 WordPress.com 出品的缓存插件，就页面缓存来说，功能非常全面，它支持多种缓存模式，包括 mod_rewrite，如果你使用 Nginx，那么<a href="https://git.tlo.xyz/ZE3kr/ZE3kr.com/snippets/6" target="_blank">可以使用我这个配置文件</a>，这样可以直接跳过 PHP 而直接服务静态文件，页面相应速度有显著提升。</p>
+<p>使用插件来配置缓存是最简单的方法。在此推荐 <a href="https://wordpress.org/plugins/wp-super-cache/" target="_blank">WP Super Cache</a>，这是 WordPress.com 出品的缓存插件，就页面缓存来说，功能非常全面，它支持多种缓存模式，包括 mod_rewrite，如果你使用 Nginx，那么<a href="https://git.tlo.xyz/ZE3kr/ZE3kr/snippets/6" target="_blank">可以使用我这个配置文件</a>，这样可以直接跳过 PHP 而直接服务静态文件，页面相应速度有显著提升。</p>
 <p>同时，为浏览器返回正确的 <code>Cache-Control</code> 也是十分有必要的，尤其是 CSS 和 JS 文件。</p>
 <h3>配置对象缓存</h3>
 <p>对象缓存比页面缓存更灵活，使用范围更广，但速度肯定不如页面缓存。在此推荐 APCu 缓存系统。在 Ubuntu/Debian 安装方法如下：</p>

@@ -31,11 +31,15 @@ $ sudo apt install nginx</pre>
 <p>安装时可能会询问是否替换原来默认的配置文件，选择 N 即可。</p>
 <p>此时安装的 Nginx 已经包含了几乎所有的必要和常用模块，比如包括但不限于 GeoIP Module、HTTP Substitutions Filter Module、HTTP Echo Module。我安装的 Nginx 的 OpenSSL 版本是 1.0.2g-fips，所以并不支持 CHACHA20，想要支持 CHACHA20 只能使用<a href="https://github.com/cloudflare/sslconfig" target="_blank"> CloudFlare 的 Patch</a> 然后自己编译。安装完成后就可以验证 Nginx 版本了：</p>
 <pre class="lang:sh decode:true">$ nginx -V
-nginx version: nginx/1.11.3
-built with OpenSSL 1.0.2g-fips  1 Mar 2016
+nginx version: nginx/1.11.5
+built with OpenSSL 1.0.2g  1 Mar 2016
 TLS SNI support enabled
-configure arguments: --with-cc-opt='-g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2' --with-ld-opt='-Wl,-Bsymbolic-functions -fPIE -pie -Wl,-z,relro -Wl,-z,now' --prefix=/usr/share/nginx --conf-path=/etc/nginx/nginx.conf --http-log-path=/var/log/nginx/access.log --error-log-path=/var/log/nginx/error.log --lock-path=/var/lock/nginx.lock --pid-path=/run/nginx.pid --http-client-body-temp-path=/var/lib/nginx/body --http-fastcgi-temp-path=/var/lib/nginx/fastcgi --http-proxy-temp-path=/var/lib/nginx/proxy --http-scgi-temp-path=/var/lib/nginx/scgi --http-uwsgi-temp-path=/var/lib/nginx/uwsgi --with-debug --with-pcre-jit --with-ipv6 --with-http_ssl_module --with-http_stub_status_module --with-http_realip_module --with-http_auth_request_module --with-http_addition_module --with-http_dav_module --with-http_geoip_module --with-http_gunzip_module --with-http_gzip_static_module --with-http_image_filter_module --with-http_v2_module --with-http_sub_module --with-http_xslt_module --with-stream --with-stream_ssl_module --with-mail --with-mail_ssl_module --with-threads --add-module=/build/nginx-arw1Xp/nginx-1.11.3/debian/modules/nginx-auth-pam --add-module=/build/nginx-arw1Xp/nginx-1.11.3/debian/modules/nginx-dav-ext-module --add-module=/build/nginx-arw1Xp/nginx-1.11.3/debian/modules/nginx-echo --add-module=/build/nginx-arw1Xp/nginx-1.11.3/debian/modules/nginx-upstream-fair --add-module=/build/nginx-arw1Xp/nginx-1.11.3/debian/modules/ngx_http_substitutions_filter_module</pre>
+configure arguments: --with-cc-opt='-g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2' --with-ld-opt='-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' --prefix=/usr/share/nginx --conf-path=/etc/nginx/nginx.conf --http-log-path=/var/log/nginx/access.log --error-log-path=/var/log/nginx/error.log --lock-path=/var/lock/nginx.lock --pid-path=/run/nginx.pid --modules-path=/usr/lib/nginx/modules --http-client-body-temp-path=/var/lib/nginx/body --http-fastcgi-temp-path=/var/lib/nginx/fastcgi --http-proxy-temp-path=/var/lib/nginx/proxy --http-scgi-temp-path=/var/lib/nginx/scgi --http-uwsgi-temp-path=/var/lib/nginx/uwsgi --with-debug --with-pcre-jit --with-ipv6 --with-http_ssl_module --with-http_stub_status_module --with-http_realip_module --with-http_auth_request_module --with-http_v2_module --with-http_dav_module --with-http_slice_module --with-threads --with-http_addition_module --with-http_geoip_module=dynamic --with-http_gunzip_module --with-http_gzip_static_module --with-http_image_filter_module=dynamic --with-http_sub_module --with-http_xslt_module=dynamic --with-stream=dynamic --with-stream_ssl_module --with-mail=dynamic --with-mail_ssl_module --add-dynamic-module=/build/nginx-bz8zMQ/nginx-1.11.5/debian/modules/nginx-auth-pam --add-module=/build/nginx-bz8zMQ/nginx-1.11.5/debian/modules/nginx-dav-ext-module --add-dynamic-module=/build/nginx-bz8zMQ/nginx-1.11.5/debian/modules/nginx-echo --add-dynamic-module=/build/nginx-bz8zMQ/nginx-1.11.5/debian/modules/nginx-upstream-fair --add-dynamic-module=/build/nginx-bz8zMQ/nginx-1.11.5/debian/modules/ngx_http_substitutions_filter_module</pre>
+<h3></h3>
 <p>此时，你的服务器就没有 Nginx 的 HTTP/2 bug 了，既然使用了最新版的 Nginx，那么就能够配置 ECDSA/RSA 双证书了。</p>
+<h3>Nginx 升级的小坑</h3>
+<p>在我升级的时候，遇到了 GeoIP 模块无法使用的问题，经研究发现是新版本将 GeoIP 改成动态调用模块的方式实现了，在 Nginx 根配置中添加下方代码得以解决：</p>
+<pre class="lang:ini decode:true">load_module "modules/ngx_http_geoip_module.so";</pre>
 <h2>使用 Let's Encrypt 签发免费多域名证书</h2>
 <p>Let's Encrypt 提供完全面为免费，并且是自动化签发的证书，一张证书最多能签 100 个域名，暂不支持通配。</p>
 <p>为了配置双证书，你首先应该签发下来两张证书，以下以 <a href="https://github.com/Neilpang/acme.sh" target="_blank">acme.sh</a> 为例，首先先建立目录（以下所有案例均使用 <code>example.com</code> 作为例子，实际使用需自行替换）：</p>
@@ -105,3 +109,4 @@ ssl_stapling_verify on;</pre>
 <p>[img id="1906" size="large"][/img]</p>
 <p>至此，ECDSA/RSA 双证书配置完成，你可以在浏览器里查看到证书类型：</p>
 <p>[img id="1908" size="large"][/img]</p>
+<p>[modified github="ZE3kr/ZE3kr"]更新 Nginx 输出的版本信息（1.11.5），添加更新后修复 GeoIP 问题的说明[/modified]</p>

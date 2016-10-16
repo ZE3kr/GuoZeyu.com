@@ -19,10 +19,10 @@ categories: []
 tags: []
 ---
 <h2>网站</h2>
-<p>使用 WordPress 搭建，使用两个服务器，几乎完全静态化。主机使用 LNMP 配置，使用 OVH 的 8GB 内存版本，在亚洲东部和北美东部都有服务器，<a href="https://github.com/ZE3kr/ZE3kr.com" target="_blank">GitHub 上</a>有所有文章的源代码，你可以按照协议自由使用。</p>
+<p>使用 WordPress 搭建，使用两个服务器，几乎完全静态化。主机使用 LNMP 配置，使用 OVH 的 8GB 内存版本，在亚洲东部和北美东部都有服务器，<a href="https://github.com/ZE3kr/ZE3kr" target="_blank">GitHub 上</a>有所有文章的源代码，你可以按照协议自由使用。</p>
 <h3>兼容性与先进技术</h3>
 <ul>
-<li>网站（包括其所有的资源，下同） HTTPS 几乎支持所有的浏览器（不需要 SNI 支持，最低 TLSv1）</li>
+<li>网站（包括其所有的资源，下同） HTTPS 几乎支持所有的浏览器（如果是来自中国大陆的访问可完全不需要 SNI 支持，否则 CDN 资源需要 SNI 支持）</li>
 <li>网站开启了 HSTS，并已进入各大浏览器的 Preload List，包括子域名</li>
 <li>网站域名可以在纯 IPv6 的递归解析服务器上解析到 IP 地址</li>
 <li>网站能够在纯 IPv6 情况下正常加载所有基本内容（Gravatar 除外，下同）</li>

@@ -22,7 +22,7 @@ tags: []
 <p><img src="https://cdntlo.b0.upaiyun.com/my-uploads/drm-free.svg" width="125" height="125" /></p>
 <p>我之所以这样做是为了让我的作品根据<a href="https://ze3kr.com/license/">协议</a>能被更多的创造者<strong>免费</strong>使用，或者方便任何人进行在法律允许的情况下<a href="https://zh.wikisource.org/wiki/中华人民共和国著作权法#.E7.AC.AC.E5.9B.9B.E8.8A.82.E3.80.80.E6.9D.83.E5.88.A9.E7.9A.84.E9.99.90.E5.88.B6" target="_blank">合理使用</a>。</p>
 <p>我<strong>目前不去指望任何人捐助，也不想放置任何广告</strong>，因为就目前来看维护这个网站所花费的还不是那么多，<strong>如果能正确的使用协议，分享此网站上的内容，那是对我最大的支持</strong>。</p>
-<p>为了方便大家使用我的内容，本网站文字内容已<strong>开源</strong>至 <a href="https://github.com/ZE3kr/ZE3kr.com" target="_blank">GitHub</a> 和 <a href="https://git.tlo.xyz/ZE3kr/ZE3kr.com">gitTLO</a>，欢迎 Fork、下载、转载。</p>
+<p>为了方便大家使用我的内容，本网站文字内容已<strong>开源</strong>至 <a href="https://github.com/ZE3kr/ZE3kr" target="_blank">GitHub</a> 和 <a href="https://git.tlo.xyz/ZE3kr/ZE3kr">gitTLO</a>，欢迎 Fork、下载、转载。</p>
 <p>本网站图片均使用无 DRM 保护的 JPEG 和 PNG 格式，由于带宽成本问题，暂不再提供原图下载；本网站的每个视频均同时有 MP4 和 WEBM 两种格式，其中后者更加开放自由，且拥有更好的画质，更为推荐。</p>
 <p><!--</p>
 <h2>捐助方式</h2>

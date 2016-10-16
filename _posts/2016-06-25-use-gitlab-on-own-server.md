@@ -30,7 +30,7 @@ tags:
 <p><!--more--></p>
 <p>能够 Host 在自己的服务器上的软件/服务其实有很多，比如 GitHub Enterprise，Bitbucket Server。不过再此还是推荐完全开源、免费、由社区维护的 GitLab Community Edition，没有任何限制，只是相比 Enterprise Edition 少了些本来也用不着的功能。</p>
 <h2>安装及遇到的坑</h2>
-<p>具体安装方法<a href="https://about.gitlab.com/downloads/" target="_blank">见文档</a>，目前官方推荐的系统环境是 Ubuntu 16.04 LTS，安装起来非常简便，整个 Web 环境都会配置好。安装后的更多配置请<a href="http://docs.gitlab.com/omnibus/" target="_blank">参见文档</a>。如果你的主机上跑了不只一个 Web 程序，那就需要对现有的 Web 软件做修改，<a href="https://git.tlo.xyz/ZE3kr/ZE3kr.com/snippets/7" target="_blank">具体可参见我的代码（Nginx）</a>或者官方的文档。我的代码中使用了 <code>sub_filter</code> 来实现替换默认的标题，实现更好的 SEO，更加品牌化。</p>
+<p>具体安装方法<a href="https://about.gitlab.com/downloads/" target="_blank">见文档</a>，目前官方推荐的系统环境是 Ubuntu 16.04 LTS，安装起来非常简便，整个 Web 环境都会配置好。安装后的更多配置请<a href="http://docs.gitlab.com/omnibus/" target="_blank">参见文档</a>。如果你的主机上跑了不只一个 Web 程序，那就需要对现有的 Web 软件做修改，<a href="https://git.tlo.xyz/ZE3kr/ZE3kr/snippets/7" target="_blank">具体可参见我的代码（Nginx）</a>或者官方的文档。我的代码中使用了 <code>sub_filter</code> 来实现替换默认的标题，实现更好的 SEO，更加品牌化。</p>
 <p>然后为了能达到更好的使用效果，还应该配置 SMTP 发件服务器，我使用的是 AWS SES；然后还需要一个支持 IMAP 的收件服务器实现 Reply by email，我使用的是 Gmail，收邮件的限制总比发邮件的限制少吧～这些的具体设置方法官方文档里都有。</p>
 <p>安装后默认是允许注册的，如果你不想让外人注册，你需要直接去 Web 后台禁用。如果你想要开放注册，那么最好先想好新注册用户能干什么，比如和我一样：只允许新用户创建 Issues 和 Snippets，那就在 Web 后台将 Default projects limit 设置为 <code>0</code>，然后编辑后台的配置文件，禁止新用户创建 Group。同时建议在 Web 后台启用 reCAPTCHA 和 Akismet，防止恶意注册和恶意发 Issues。既然允许注册，那么也建议<a href="https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/integration/omniauth.md" target="_blank">使用 OmniAuth</a> 来支持第三方 OAuth 的方式登陆。</p>
 <h2>GitLab Runner</h2>
