@@ -19,9 +19,10 @@ categories:
 - 开发
 tags: []
 ---
-<p>在我安装 Nginx 1.11 之前，一直都是使用 Ubuntu 16.04.01 自带的软件源中的 Nginx 1.10，但是这个版本的 Nginx 的 HTTP/2 模块中存在 Bug，<a href="https://imququ.com/post/nginx-http2-post-bug.html" target="_blank">具体见此</a>，于是我不得不升级 1.11。<br />
+<p>在我安装 Nginx 1.11 之前，一直都是使用 Ubuntu 16.04.01 自带的软件源中的 Nginx 1.10，<del>但是这个版本的 Nginx 的 HTTP/2 模块中存在 Bug，<a href="https://imququ.com/post/nginx-http2-post-bug.html" target="_blank">具体见此</a>，</del>（此 Bug 已经在 Nginx 1.10.2 中修复）<del>，于是我不得不升级 1.11。</del>但是升级 Nginx 1.11 仍然能从双证书功能中获益。<br />
 <!--more--></p>
-<p>我有不止一个服务器，如果都使用自己编译的 Nginx，那么太麻烦了，于是我决定使用添加软件源的方法，通过 <code>apt</code> 升级，方法如下：</p>
+<p>关于双证书，<strong>仅建议使用独立 IP 的人去使用</strong>，如果没有独立 IP，那么就需要启用 SNI 功能——然而几乎所有支持 SNI 功能的浏览器也都支持了 ECC 证书，所以可以跳过升级步骤，直接换 Let's Encrypt 的 ECC 证书。</p>
+<p>我有不止一个服务器，如果都使用自己编译的 Nginx，那么太麻烦了，于是我决定使用添加软件源的方法，通过 <code>apt</code> 升级，方法如下：</p>
 <p>首先需要先添加 Nginx mainline 的软件源：</p>
 <pre class="lang:sh decode:true">$ sudo add-apt-repository ppa:nginx/development
 $ sudo apt update</pre>
@@ -35,8 +36,7 @@ nginx version: nginx/1.11.5
 built with OpenSSL 1.0.2g  1 Mar 2016
 TLS SNI support enabled
 configure arguments: --with-cc-opt='-g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2' --with-ld-opt='-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' --prefix=/usr/share/nginx --conf-path=/etc/nginx/nginx.conf --http-log-path=/var/log/nginx/access.log --error-log-path=/var/log/nginx/error.log --lock-path=/var/lock/nginx.lock --pid-path=/run/nginx.pid --modules-path=/usr/lib/nginx/modules --http-client-body-temp-path=/var/lib/nginx/body --http-fastcgi-temp-path=/var/lib/nginx/fastcgi --http-proxy-temp-path=/var/lib/nginx/proxy --http-scgi-temp-path=/var/lib/nginx/scgi --http-uwsgi-temp-path=/var/lib/nginx/uwsgi --with-debug --with-pcre-jit --with-ipv6 --with-http_ssl_module --with-http_stub_status_module --with-http_realip_module --with-http_auth_request_module --with-http_v2_module --with-http_dav_module --with-http_slice_module --with-threads --with-http_addition_module --with-http_geoip_module=dynamic --with-http_gunzip_module --with-http_gzip_static_module --with-http_image_filter_module=dynamic --with-http_sub_module --with-http_xslt_module=dynamic --with-stream=dynamic --with-stream_ssl_module --with-mail=dynamic --with-mail_ssl_module --add-dynamic-module=/build/nginx-bz8zMQ/nginx-1.11.5/debian/modules/nginx-auth-pam --add-module=/build/nginx-bz8zMQ/nginx-1.11.5/debian/modules/nginx-dav-ext-module --add-dynamic-module=/build/nginx-bz8zMQ/nginx-1.11.5/debian/modules/nginx-echo --add-dynamic-module=/build/nginx-bz8zMQ/nginx-1.11.5/debian/modules/nginx-upstream-fair --add-dynamic-module=/build/nginx-bz8zMQ/nginx-1.11.5/debian/modules/ngx_http_substitutions_filter_module</pre>
-<h3></h3>
-<p>此时，你的服务器就没有 Nginx 的 HTTP/2 bug 了，既然使用了最新版的 Nginx，那么就能够配置 ECDSA/RSA 双证书了。</p>
+<p><del>此时，你的服务器就没有 Nginx 的 HTTP/2 bug 了，</del>既然使用了最新版的 Nginx，那么就能够配置 ECDSA/RSA 双证书了。</p>
 <h3>Nginx 升级的小坑</h3>
 <p>在我升级的时候，遇到了 GeoIP 模块无法使用的问题，经研究发现是新版本将 GeoIP 改成动态调用模块的方式实现了，在 Nginx 根配置中添加下方代码得以解决：</p>
 <pre class="lang:ini decode:true">load_module "modules/ngx_http_geoip_module.so";</pre>
@@ -109,4 +109,4 @@ ssl_stapling_verify on;</pre>
 <p>[img id="1906" size="large"][/img]</p>
 <p>至此，ECDSA/RSA 双证书配置完成，你可以在浏览器里查看到证书类型：</p>
 <p>[img id="1908" size="large"][/img]</p>
-<p>[modified github="ZE3kr/ZE3kr"]更新 Nginx 输出的版本信息（1.11.5），添加更新后修复 GeoIP 问题的说明[/modified]</p>
+<p>[modified github="ZE3kr/ZE3kr"]补充关于双证书的说明，以及 Nginx 1.10.2 中 Bug 已经修复的说明[/modified]</p>
