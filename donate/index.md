@@ -2,7 +2,7 @@
 layout: page
 status: publish
 published: true
-title: 捐助
+title: 支持本站
 author:
   display_name: ZE3kr
   login: ZE3kr
@@ -18,11 +18,9 @@ date_gmt: '2016-07-10 00:08:08 -0400'
 categories: []
 tags: []
 ---
-<p>这是一个<strong>无 DRM 保护</strong>的网站，这意味着网站上的所有内容是<strong>在技术上没有任何限制的</strong>，本原创内容会被轻易的盗取，包括但不限于文字内容、图片内容甚至是视频内容。</p>
-<p><img src="https://cdntlo.b0.upaiyun.com/my-uploads/drm-free.svg" width="125" height="125" /></p>
-<p>我之所以这样做是为了让我的作品根据<a href="https://ze3kr.com/license/">协议</a>能被更多的创造者<strong>免费</strong>使用，或者方便任何人进行在法律允许的情况下<a href="https://zh.wikisource.org/wiki/中华人民共和国著作权法#.E7.AC.AC.E5.9B.9B.E8.8A.82.E3.80.80.E6.9D.83.E5.88.A9.E7.9A.84.E9.99.90.E5.88.B6" target="_blank">合理使用</a>。</p>
-<p>我<strong>目前不去指望任何人捐助，也不想放置任何广告</strong>，因为就目前来看维护这个网站所花费的还不是那么多，<strong>如果能正确的使用协议，分享此网站上的内容，那是对我最大的支持</strong>。</p>
-<p>为了方便大家使用我的内容，本网站文字内容已<strong>开源</strong>至 <a href="https://github.com/ZE3kr/ZE3kr" target="_blank">GitHub</a> 和 <a href="https://git.tlo.xyz/ZE3kr/ZE3kr">gitTLO</a>，欢迎 Fork、下载、转载。</p>
+<p>就目前来看维护这个网站所花费的还不是那么多，所以本网站提供免费的服务，暂不接受捐款。<strong>如果能够正确的使用<a href="https://ze3kr.com/license/">协议</a>或是<a href="https://zh.wikisource.org/wiki/中华人民共和国著作权法#.E7.AC.AC.E5.9B.9B.E8.8A.82.E3.80.80.E6.9D.83.E5.88.A9.E7.9A.84.E9.99.90.E5.88.B6" target="_blank">合理使用</a>将本站分享给更多的人，是对我最大的帮助！</strong></p>
+<p>本站启用了 Pingback，当你链接到本站后本站评论区会自动显示你的文章。考虑到很多 CMS 不支持 Pingback 功能，我会不定期的检查本站访客来源地址，手动添加 Pingback，这算是对你们分享的回报吧，希望能够<strong>互相支持、互相带来流量</strong>！</p>
+<p>为了方便大家使用我的内容，本网站文字内容已<strong>开源</strong>至 <a href="https://github.com/ZE3kr/ZE3kr" target="_blank">GitHub</a> 和 <a href="https://git.tlo.xyz/ZE3kr/ZE3kr">gitTLO</a>，可以找到 Markdown 版本的内容，欢迎 Fork、下载、转载。</p>
 <p>本网站图片均使用无 DRM 保护的 JPEG 和 PNG 格式，由于带宽成本问题，暂不再提供原图下载；本网站的每个视频均同时有 MP4 和 WEBM 两种格式，其中后者更加开放自由，且拥有更好的画质，更为推荐。</p>
 <p><!--</p>
 <h2>捐助方式</h2>
