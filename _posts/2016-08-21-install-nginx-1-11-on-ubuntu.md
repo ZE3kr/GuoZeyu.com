@@ -69,9 +69,9 @@ $ mkdir -p /etc/letsencrypt/ecdsa</pre>
 <p>卸载 <code>acme.sh</code> 自带的 cron，自己重新配置：</p>
 <pre class="lang:sh decode:true">$ acme.sh --uninstallcronjob
 $ vim /etc/cron.d/renew-letsencrypt</pre>
-<p>输入以下内容：</p>
-<pre class="lang:sh decode:true">15 02 * * * root acme.sh --cron --certhome /etc/letsencrypt/rsa
-20 02 * * * root acme.sh --cron --ecc --certhome /etc/letsencrypt/ecdsa</pre>
+<p>输入以下内容，注意替换 `acme.sh` 的路径为你安装的绝对路径：</p>
+<pre class="lang:sh decode:true">15 02 * * * root /path/to/acme.sh --cron --certhome /etc/letsencrypt/rsa
+20 02 * * * root /path/to/acme.sh --cron --ecc --certhome /etc/letsencrypt/ecdsa</pre>
 <p>然后就完成了，证书会自动续签。</p>
 <h3>给证书添加域名</h3>
 <p>因为 Let's Encrypt 使用的不是通配符域名，所以会经常遇到有新的子域的情况，此时就需要给证书添加域名，最简单的添加方法如下：</p>
@@ -109,4 +109,4 @@ ssl_stapling_verify on;</pre>
 <p>[img id="1906" size="large"][/img]</p>
 <p>至此，ECDSA/RSA 双证书配置完成，你可以在浏览器里查看到证书类型：</p>
 <p>[img id="1908" size="large"][/img]</p>
-<p>[modified github="ZE3kr/ZE3kr"]补充关于双证书的说明，以及 Nginx 1.10.2 中 Bug 已经修复的说明[/modified]</p>
+<p>[modified github="ZE3kr/ZE3kr"]将 cron 的路径改为绝对路径；补充关于双证书的说明，以及 Nginx 1.10.2 中 Bug 已经修复的说明[/modified]</p>
