@@ -26,7 +26,6 @@ Activité Pop 有震动闹钟功能，不仅如此，它还拥有智能唤醒功
 
 续航时间长达 8 个月，使用标准纽扣电池。
 
-<!-- ## 视频
+## 视频
 
-<video src="/images/2015/activite-pop.mp4" type="video/mp4" controls="controls" width="100%" height="100%">
-</video> -->
+<div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/12d9fb47f8bf1560187d3b57c26816f1?preload=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>

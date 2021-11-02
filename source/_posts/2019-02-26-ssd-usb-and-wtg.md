@@ -99,8 +99,7 @@ macOS、Windows 和 Linux 都可以被安装在 U盘或者移动硬盘上。但 
 
 安装成功后，你可以在电脑启动时选择从 U 盘启动，或者在虚拟机里从 U 盘启动。这里展示一下在 Mac 上启动 WTG 以及 macOS 上的 VMware Fusion 中启动 WTG。
 
-<!-- <video src="/images/2019/ssd-4-1080p.mp4" type="video/mp4" controls="controls" width="100%" height="100%">
-</video> -->
+<div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/d99af30ada995905d245761ca8ea3fd9?muted=true&preload=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
 
 MacBook Pro 开机启动到 Windows To Go。(视频 3MB)
 
@@ -114,8 +113,7 @@ MacBook Pro 开机启动到 Windows To Go。(视频 3MB)
 
 **建议将驱动保存在另一个 Windows 可以识别的 U盘上**（见本文的 “磁盘格式的选择”）。然后再次开机进入 WTG 后就能安装了。
 
-<!-- <video src="/images/2019/ssd-6.mp4" type="video/mp4" controls="controls" width="100%" height="100%">
-</video> -->
+<div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/aaf2fac6d0f2848c78c39c6e633b9af7?muted=true&preload=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
 
 macOS 使用 VMware Fusion 进入 WTG。(视频 3MB)
 
