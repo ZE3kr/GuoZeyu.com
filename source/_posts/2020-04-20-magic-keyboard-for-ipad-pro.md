@@ -140,11 +140,11 @@ _三指手势_屏幕录制
 
 同样的，默认 iPadOS 会开启触摸板惯性，关闭此功能会更接近在 macOS 上的使用体验。
 
-<div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://iframe.videodelivery.net/26a655bb13c602c45ade0bc57c12eb64?muted=true&preload=true&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+<div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://iframe.videodelivery.net/26a655bb13c602c45ade0bc57c12eb64?controls=false&muted=true&preload=true&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
 
 开启**触摸板惯性**
 
-<div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://iframe.videodelivery.net/465c56565c440f3271f2b8ee4352df8a?muted=true&preload=true&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+<div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://iframe.videodelivery.net/465c56565c440f3271f2b8ee4352df8a?controls=false&muted=true&preload=true&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
 
 关闭**触摸板惯性**
 
