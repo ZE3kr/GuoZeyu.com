@@ -2036,6 +2036,7 @@ fieldset[disabled] .button {
 }
 
 .content figure figcaption {
+  margin-top: 0.25em;
   font-style: italic;
 }
 

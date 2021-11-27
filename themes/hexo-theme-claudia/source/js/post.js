@@ -180,12 +180,6 @@ var $posts = {
         scrollerInstance.bindScrollEvent()
 
         var img = document.querySelectorAll('.post-content img')
-        $claudia.fadeInImage(img)
-
-        document.getElementById('postTopic').addEventListener('click', this.smoothScrollToTop)
-
-        window.Valine && this.addValineComment()
-
         img.forEach(function (elem) {
             if (
                 elem.src && typeof elem.src.slice === "function" &&
@@ -206,7 +200,24 @@ var $posts = {
                     prefix + 'tiny 200w'
             }
             elem.sizes = '(min-width: 1216px) 800px, (min-width: 1024px) 700px, (min-width: 769px) calc( 75vw - 24px ), calc( 100vw - 24px )'
+
+            if (elem.alt){
+                var figure = document.createElement("figure")
+                figure.appendChild(elem.cloneNode())
+                var figcaption = document.createElement("figcaption")
+                const text = document.createTextNode(elem.alt);
+                figcaption.appendChild(text)
+                figure.appendChild(figcaption)
+
+                elem.parentElement.insertBefore(figure, elem)
+                elem.parentElement.removeChild(elem)
+            }
         })
+        $claudia.fadeInImage(document.querySelectorAll('.post-content img'))
+
+        document.getElementById('postTopic').addEventListener('click', this.smoothScrollToTop)
+
+        window.Valine && this.addValineComment()
     }
 }
 
