@@ -1,0 +1,9 @@
+{
+  "name": "hexo-theme-claudia",
+  "version": "2.0.0",
+  "peerDependencies": {
+    "hexo": "^5.0.2",
+    "hexo-renderer-pug": "^1.0.0",
+    "hexo-renderer-sass": "^0.4.0"
+  }
+}
