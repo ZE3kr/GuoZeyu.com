@@ -179,11 +179,34 @@ var $posts = {
 
         scrollerInstance.bindScrollEvent()
 
-        $claudia.fadeInImage(document.querySelectorAll('.post-content img'))
+        var img = document.querySelectorAll('.post-content img')
+        $claudia.fadeInImage(img)
 
         document.getElementById('postTopic').addEventListener('click', this.smoothScrollToTop)
 
         window.Valine && this.addValineComment()
+
+        img.forEach(function (elem) {
+            if (
+                elem.src && typeof elem.src.slice === "function" &&
+                ( 
+                    elem.src.slice(0, 49) === "https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/" || 
+                    elem.src.slice(0, 28) === "https://images.tloxygen.com/"
+                ) &&
+                elem.src.slice(-6) === "/large"
+            ) {
+                const prefix = elem.src.slice(0, -5);
+                elem.srcset =
+                    prefix + 'max 3200w, ' +
+                    prefix + 'wide 2400w, ' +
+                    prefix + 'larger 1600w, ' +
+                    prefix + 'large 1200w, ' +
+                    prefix + 'medium 800w, ' +
+                    prefix + 'small 400w, ' +
+                    prefix + 'tiny 200w'
+            }
+            elem.sizes = '(min-width: 1216px) 800px, (min-width: 1024px) 700px, (min-width: 769px) calc( 75vw - 24px ), calc( 100vw - 24px )'
+        })
     }
 }
 

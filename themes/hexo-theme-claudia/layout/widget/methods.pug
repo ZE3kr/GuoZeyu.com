@@ -15,3 +15,23 @@
         //     return matchImg[1]
         // }
     }
+    function getSrcset(imageUrl) {
+        if (
+            typeof imageUrl.slice === "function" &&
+            ( 
+                imageUrl.slice(0, 49) === "https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/" || 
+                imageUrl.slice(0, 28) === "https://images.tloxygen.com/"
+            ) &&
+            imageUrl.slice(-6) === "/large"
+        ) {
+            const prefix = imageUrl.slice(0, -5);
+            return prefix + 'max 3200w, ' +
+                prefix + 'wide 2400w, ' +
+                prefix + 'larger 1600w, ' +
+                prefix + 'large 1200w, ' +
+                prefix + 'medium 800w, ' +
+                prefix + 'small 400w, ' +
+                prefix + 'tiny 200w'
+        }
+        return ""
+    }
