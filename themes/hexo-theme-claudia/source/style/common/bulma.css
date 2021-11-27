@@ -2018,9 +2018,9 @@ fieldset[disabled] .button {
 }
 
 .content figure {
-  width: calc(100% + 32px);
+  width: calc(100% + 3rem);
   position: relative;
-  right: 16px;
+  right: 1.5rem;
   text-align: center;
 }
 
@@ -4366,11 +4366,6 @@ fieldset[disabled] .select select:hover {
 @media screen and (min-width: 769px), print {
   .field.is-horizontal {
     display: flex;
-  }
-  .content figure {
-    width: unset;
-    position: unset;
-    right: unset;
   }
 }
 
@@ -11589,6 +11584,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   }
 }
 
+.post-content img {
+  max-height: 100vw;
+}
+
 @media screen and (min-width: 769px), print {
   .hero-buttons {
     display: flex;
@@ -11596,6 +11595,39 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   }
   .hero-buttons .button:not(:last-child) {
     margin-right: 1.5rem;
+  }
+  .column.is-9, .column.is-9-tablet {
+    padding: 0.75rem 1.5rem;
+  }
+  .column.is-3, .column.is-3-tablet {
+    padding: 0.75rem 0.75rem 0.75rem 0;
+  }
+  .post-content img {
+    max-height: 75vw;
+  }
+  .recent-post-ellipses {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: calc( 33.33333vw - 85px );
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .post-content img {
+    max-height: 714px;
+  }
+  .recent-post-ellipses {
+    width: 210px;
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .post-content img {
+    max-height: 858px;
+  }
+  .recent-post-ellipses {
+    width: 191px;
   }
 }
 

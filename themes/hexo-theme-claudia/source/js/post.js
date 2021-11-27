@@ -188,12 +188,16 @@ var $posts = {
                     elem.src.slice(0, 49) === "https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/" || 
                     elem.src.slice(0, 28) === "https://images.tloxygen.com/"
                 ) &&
-                elem.src.slice(-6) === "/large"
+                (
+                    elem.src.slice(-6) === "/large" ||
+                    elem.src.slice(-6) === "/extra"
+                )
             ) {
                 const prefix = elem.src.slice(0, -5);
                 elem.srcset =
                     prefix + 'max 3200w, ' +
                     prefix + 'wide 2400w, ' +
+                    prefix + 'extra 2000w, ' +
                     prefix + 'larger 1600w, ' +
                     prefix + 'large 1200w, ' +
                     prefix + 'medium 800w, ' +
@@ -201,15 +205,15 @@ var $posts = {
                     prefix + 'tiny 200w'
                 url = prefix + 'max'
             }
-            elem.sizes = '(min-width: 1216px) 800px, (min-width: 1024px) 700px, (min-width: 769px) 75vw, 100vw'
+            elem.sizes = '(min-width: 1216px) 858px, (min-width: 1024px) 714px, (min-width: 769px) 75vw, 100vw'
 
             if (elem.alt){
-                var link = document.createElement("a")
-                link.href = url
-                link.target = "_blank"
-                link.appendChild(elem.cloneNode())
+                // var link = document.createElement("a")
+                // link.href = url
+                // link.target = "_blank"
+                // link.appendChild(elem.cloneNode())
                 var figure = document.createElement("figure")
-                figure.appendChild(link)
+                figure.appendChild(elem.cloneNode())
                 var figcaption = document.createElement("figcaption")
                 const text = document.createTextNode(elem.alt);
                 figcaption.appendChild(text)
