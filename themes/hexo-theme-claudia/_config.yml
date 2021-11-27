@@ -1,4 +1,4 @@
-title: 郭泽宇的个人网站
+title: 郭泽宇的个人主页
 
 # main menu navigation
 menu:
@@ -21,7 +21,7 @@ user:
   name: ZE3kr
   avatar: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/small
   location: PEK
-  description: 郭泽宇的个人主页
+# description: 郭泽宇的个人主页
   footnotes: |-
     <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备17005542号-3</a>
     <!-- Matomo -->
