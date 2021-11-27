@@ -181,6 +181,7 @@ var $posts = {
 
         var img = document.querySelectorAll('.post-content img')
         img.forEach(function (elem) {
+            let url = elem.src
             if (
                 elem.src && typeof elem.src.slice === "function" &&
                 ( 
@@ -198,12 +199,17 @@ var $posts = {
                     prefix + 'medium 800w, ' +
                     prefix + 'small 400w, ' +
                     prefix + 'tiny 200w'
+                url = prefix + 'max'
             }
-            elem.sizes = '(min-width: 1216px) 800px, (min-width: 1024px) 700px, (min-width: 769px) calc( 75vw - 24px ), calc( 100vw - 24px )'
+            elem.sizes = '(min-width: 1216px) 800px, (min-width: 1024px) 700px, (min-width: 769px) 75vw, 100vw'
 
             if (elem.alt){
+                var link = document.createElement("a")
+                link.href = url
+                link.target = "_blank"
+                link.appendChild(elem.cloneNode())
                 var figure = document.createElement("figure")
-                figure.appendChild(elem.cloneNode())
+                figure.appendChild(link)
                 var figcaption = document.createElement("figcaption")
                 const text = document.createTextNode(elem.alt);
                 figcaption.appendChild(text)

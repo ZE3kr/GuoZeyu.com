@@ -2018,8 +2018,9 @@ fieldset[disabled] .button {
 }
 
 .content figure {
-  margin-left: 2em;
-  margin-right: 2em;
+  width: calc(100% + 32px);
+  position: relative;
+  right: 16px;
   text-align: center;
 }
 
@@ -4365,6 +4366,11 @@ fieldset[disabled] .select select:hover {
 @media screen and (min-width: 769px), print {
   .field.is-horizontal {
     display: flex;
+  }
+  .content figure {
+    width: unset;
+    position: unset;
+    right: unset;
   }
 }
 
