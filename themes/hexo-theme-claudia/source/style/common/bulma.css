@@ -2018,9 +2018,9 @@ fieldset[disabled] .button {
 }
 
 .content figure {
-  width: calc(100% + 3rem);
+  width: calc(100% + 2rem);
   position: relative;
-  right: 1.5rem;
+  right: 1rem;
   text-align: center;
 }
 
@@ -11610,6 +11610,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     overflow: hidden;
     text-overflow: ellipsis;
     width: calc( 33.33333vw - 85px );
+  }
+  .content figure {
+    width: calc(100% + 3rem);
+    right: 1.5rem;
   }
 }
 
