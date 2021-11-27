@@ -45,6 +45,8 @@ $coverBlurEffect: 20px;
 
         // fix white spacer
         font-size: 0;
+
+        height: 360px;
       }
 
       .post-cover-img {
@@ -53,10 +55,14 @@ $coverBlurEffect: 20px;
 
         will-change: transform;
         transition: transform 500ms;
+
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
       }
 
       &:hover .post-cover-img {
-        transform: scale(1.04);
+        transform: translateY(-50%) scale(1.04);
       }
     }
 
