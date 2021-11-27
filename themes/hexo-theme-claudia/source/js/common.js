@@ -44,8 +44,10 @@ window.$claudia = {
         var parent = image.parentElement //TODO: Not finish yes, must be a pure function
         var parentWidth = Math.round(parent.getBoundingClientRect().width)
         var childImgWidth = Math.round(image.getBoundingClientRect().width)
+        var parentHeight = Math.round(parent.getBoundingClientRect().height)
+        var childImgHeight = Math.round(image.getBoundingClientRect().height)
 
-        var isCovered = parentWidth === childImgWidth
+        var isCovered = parentWidth === childImgWidth && parentHeight === childImgHeight
         var blurImg = parent.previousElementSibling //TODO: Not finish yes, must be a pure function
 
         isCovered ? blurImg.classList.add('is-hidden') : blurImg.classList.remove('is-hidden')

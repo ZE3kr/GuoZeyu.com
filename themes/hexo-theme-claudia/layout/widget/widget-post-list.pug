@@ -13,7 +13,7 @@ article.post-container.is-flex.is-justify-content-center.section.container.is-ma
                             if imgURL
                                 header.is-relative.is-flex
                                     div.post-cover-backdrop.is-hidden
-                                        img(src= imgURL alt="loading.." srcset= getSrcset(imgURL) sizes="(min-width: 931px) 600px, (min-width: 769px) calc( ( 100vw - 16px ) / 3 * 2 - 10px ), (min-width: 640px) 600px, calc( 100vw - 40px )")
+                                        img(src= getThumbnail(imgURL) alt="loading..")
                                     a.post-cover-link.has-text-centered.skeleton(href= postURL)
                                         img.post-cover-img.js-img-fadeIn(src= imgURL alt="loading.." srcset= getSrcset(imgURL) sizes="(min-width: 931px) 600px, (min-width: 769px) calc( ( 100vw - 16px ) / 3 * 2 - 10px ), (min-width: 640px) 600px, calc( 100vw - 40px )", data-backdrop="true")
                             section.content.post-card-content.p-4.pb-5
