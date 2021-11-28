@@ -1877,6 +1877,9 @@ header .container {
   .container {
     max-width: 960px;
   }
+  header .container {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 1215px) {
@@ -1890,19 +1893,13 @@ header .container {
 
 @media screen and (max-width: 1407px) {
   .container.is-fullhd:not(.is-max-desktop):not(.is-max-widescreen) {
-    max-width: 1344px;
-  }
-  header .container.is-fullhd:not(.is-max-desktop):not(.is-max-widescreen) {
-    margin: 0 auto;
+    max-width: 960px;
   }
 }
 
 @media screen and (min-width: 1216px) {
-  .container:not(.is-max-desktop) {
+  .container:not(.is-max-desktop), .container.is-fullhd:not(.is-max-desktop):not(.is-max-widescreen) {
     max-width: 1152px;
-  }
-  header .container:not(.is-max-desktop) {
-    margin: 0 auto;
   }
 }
 
