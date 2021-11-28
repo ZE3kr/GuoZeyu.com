@@ -141,9 +141,10 @@ theme_config:
 
   widgets:
     - tag
-    - recent_posts
     - category
     - profile
+
+  iframe: https://p.guozeyu.com/widget.html
 
   links:
     - title: 米饭粑
