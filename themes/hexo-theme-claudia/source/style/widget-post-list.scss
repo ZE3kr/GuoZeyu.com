@@ -46,12 +46,12 @@ $coverBlurEffect: 20px;
         // fix white spacer
         font-size: 0;
 
-        height: 360px;
+        height: $coverMaxHeight;
         max-height: 50vw;
       }
 
       .post-cover-img {
-        max-height: $coverMaxHeight;
+        max-height: 100%;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 
         will-change: transform;
