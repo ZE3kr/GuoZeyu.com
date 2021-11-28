@@ -134,7 +134,8 @@ theme_config:
 
   # main menu navigation
   menu:
-    Home: /
+    博客首页: /
+    作品集: https://p.guozeyu.com
     About: /about
   # Archive: /archives
 
