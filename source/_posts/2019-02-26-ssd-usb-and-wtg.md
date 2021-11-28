@@ -99,9 +99,10 @@ macOS、Windows 和 Linux 都可以被安装在 U盘或者移动硬盘上。但 
 
 安装成功后，你可以在电脑启动时选择从 U 盘启动，或者在虚拟机里从 U 盘启动。这里展示一下在 Mac 上启动 WTG 以及 macOS 上的 VMware Fusion 中启动 WTG。
 
-<div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/d99af30ada995905d245761ca8ea3fd9?muted=true&preload=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
-
-MacBook Pro 开机启动到 Windows To Go。(视频 3MB)
+<figure>
+  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/d99af30ada995905d245761ca8ea3fd9?muted=true&preload=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <figcaption>MacBook Pro 开机启动到 Windows To Go。</figcaption>
+</figure>
 
 以上视频是在 Mac 上开机直接进入 WTG。如果你的 Mac 配备了 T2 安全芯片，那么你需要[关闭启动安全性检查](https://support.apple.com/zh-cn/HT208330)（无安全性、允许从外部介质启动）才能够从外部设备启动 Windows。你可以考虑开启固件密码以继续保证安全性（没有 T2 芯片的 Mac 也可以开启固件密码）。提示：请牢记固件密码，固件密码一旦忘记只能返厂修。
 
@@ -113,9 +114,10 @@ MacBook Pro 开机启动到 Windows To Go。(视频 3MB)
 
 **建议将驱动保存在另一个 Windows 可以识别的 U盘上**（见本文的 “磁盘格式的选择”）。然后再次开机进入 WTG 后就能安装了。
 
-<div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/aaf2fac6d0f2848c78c39c6e633b9af7?muted=true&preload=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
-
-macOS 使用 VMware Fusion 进入 WTG。(视频 3MB)
+<figure>
+  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/aaf2fac6d0f2848c78c39c6e633b9af7?muted=true&preload=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <figcaption>macOS 使用 VMware Fusion 进入 WTG。</figcaption>
+</figure>
 
 如果你有虚拟机，你也可以在虚拟机里从 U 盘启动。
 
