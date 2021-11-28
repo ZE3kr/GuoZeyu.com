@@ -1,7 +1,43 @@
 extends widget/base
+block append head
+  link(rel='stylesheet', href= url_for('/style/post.css'))
+  link(rel='stylesheet', href= url_for('/style/themes/highlight-theme-light.css'))
+  script(src= url_for("/js/highlight.pack.js"))
+  meta(name="description", content=truncate( strip_html(page.content), {length: 360, omission: '..'} ))
+  if theme.comment_valine && theme.comment_valine.enable
+      script(src="//unpkg.com/valine/dist/Valine.min.js")
+block topic
+    div#postTopic.is-full-height
+        - var title = truncate( page.title, {length: 65, omission: '..'} ) || ''
+        p.is-full-height.is-flex-shrink-0.is-flex.is-align-items-center.is-justify-content-center= title
+        p.is-full-height.is-flex-shrink-0.is-flex.is-align-items-center.is-justify-content-center= __('click_back_to_the_top')
 
 block content
-  article#page
-    h1= page.title
-    != page.content
-  #paginator!= paginator()
+    include widget/methods
+    -
+        function parseContent(content) {
+            return content.replace(/<img([\w\W]+?)>/g, function(img) {
+                var srcset = ''
+                var src = ''
+                var alt = ''
+                img.replace(/src="([^"]+)"/, function(str) {
+                    src = str.slice(5, -1)
+                    srcset = getSrcset(src)
+                })
+                img.replace(/alt="([^"]+)"/, function(str) {
+                    alt = str.slice(5, -1)
+                })
+                var imgtag = `<img src="${src}" srcset="${srcset}" alt="${alt}" sizes="(min width: 1216px) 858px, (min width: 1024px) 714px, (min width: 769px) 75vw, 100vw">`
+                if (alt) {
+                    return `<figure>${imgtag}<figcaption>${alt}</figcaption></figure>`
+                }
+                return imgtag
+            })
+        }
+    - var tocContent = toc(page.content, {list_number: false})
+    main.container.is-max-widescreen.content.section.post-page.pt-4.px-4
+        .columns.is-flex-desktop.is-justify-content-center.is-flex-direction-row-reverse
+            .column.is-3.is-hidden-mobile(class= tocContent.length < 1 && 'is-hidden')!= tocContent
+            .column.is-9
+                h1.mt-0.mb-1.is-family-serif#postTitle= page.title
+                article.mt-2.post-content!= parseContent(page.content)
