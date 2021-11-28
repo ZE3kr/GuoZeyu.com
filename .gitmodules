@@ -1,0 +1,3 @@
+[submodule "themes/hexo-theme-claudia"]
+	path = themes/hexo-theme-claudia
+	url = https://github.com/ZE3kr/hexo-theme-Claudia.git
