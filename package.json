@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo clean && hexo generate && mv public/cloudflare/redirect public/_redirect; mv public/cloudflare/headers public/_headers",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server"

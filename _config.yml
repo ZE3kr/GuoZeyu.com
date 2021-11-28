@@ -106,10 +106,6 @@ deploy:
   repo: "ze3kr@bj1-aliyun.tloxygen.com:git/guozeyu.com.git"
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
-- type: git
-  repo: "git@github.com:ZE3kr/guozeyu.com.git"
-  branch: gh-pages
-  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 responsive_images:
   pattern: '**/*.+(png|jpg|jpeg)'
