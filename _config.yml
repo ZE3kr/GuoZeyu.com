@@ -149,16 +149,22 @@ theme_config:
   links:
     - title: 米饭粑
       url: https://www.mf8.biz/
+      domain: mf8.biz
     - title: 免费资源部落
-      url: https://www.freehao123.com
+      url: https://www.freehao123.com/
+      domain: freehao123.com
     - title: 小u的小站
-      url: https://www.superfashi.com
+      url: https://www.superfashi.com/
+      domain: superfashi.com
     - title: 数字移民
       url: https://blog.shuziyimin.org/
+      domain: shuziyimin.org
     - title: 杰克部落
       url: https://renjikai.com/
+      domain: renjikai.com
     - title: Urox
       url: http://i.urox.cn/
+      domain: urox.cn
 
   # social config
   social:
@@ -173,21 +179,6 @@ theme_config:
   # description: 郭泽宇的个人主页
     footnotes: |-
       <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备17005542号-3</a>
-      <!-- Matomo -->
-      <script>
-        var _paq = window._paq = window._paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-          var u="https://matomo.tloxygen.com/";
-          _paq.push(['setTrackerUrl', u+'matomo.php']);
-          _paq.push(['setSiteId', '3']);
-          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-          g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-        })();
-      </script>
-      <!-- End Matomo Code -->
 
   # documents: https://github.com/utterance/utterances
   # API config: https://utteranc.es/
@@ -212,7 +203,7 @@ theme_config:
   appearance: auto # Default value is auto
 
   # Miscellaneous
-  # favicon: /images/favicon.png
+  favicon: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/thumbnail
 
   # picture of about page
   about_pic: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/small
