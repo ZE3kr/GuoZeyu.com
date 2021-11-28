@@ -119,3 +119,10 @@ responsive_images:
     large:
       width: 2000
       withoutEnlargement: true
+
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: false
+  hub:
