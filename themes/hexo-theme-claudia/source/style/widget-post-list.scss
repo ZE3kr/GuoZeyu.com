@@ -33,7 +33,7 @@ $coverBlurEffect: 20px;
 
           object-fit: cover;
           transform: scale(1.2);
-          filter: blur($coverBlurEffect) ;
+          filter: blur($coverBlurEffect);
         }
       }
 

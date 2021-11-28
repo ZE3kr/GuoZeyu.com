@@ -1862,6 +1862,10 @@ fieldset[disabled] .button {
   width: auto;
 }
 
+header .container {
+  margin: 0 1rem;
+}
+
 .container.is-fluid {
   max-width: none !important;
   padding-left: 32px;
@@ -1879,11 +1883,17 @@ fieldset[disabled] .button {
   .container.is-widescreen:not(.is-max-desktop) {
     max-width: 1152px;
   }
+  header .container.is-widescreen:not(.is-max-desktop) {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 1407px) {
   .container.is-fullhd:not(.is-max-desktop):not(.is-max-widescreen) {
     max-width: 1344px;
+  }
+  header .container.is-fullhd:not(.is-max-desktop):not(.is-max-widescreen) {
+    margin: 0 auto;
   }
 }
 
@@ -1891,11 +1901,17 @@ fieldset[disabled] .button {
   .container:not(.is-max-desktop) {
     max-width: 1152px;
   }
+  header .container:not(.is-max-desktop) {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 1408px) {
   .container:not(.is-max-desktop):not(.is-max-widescreen) {
     max-width: 1344px;
+  }
+  header .container:not(.is-max-desktop):not(.is-max-widescreen) {
+    margin: 0 auto;
   }
 }
 
@@ -11586,6 +11602,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .post-content img {
   max-height: 100vw;
+  background: #ffffff;
 }
 
 @media screen and (min-width: 769px), print {
