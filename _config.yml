@@ -130,11 +130,13 @@ feed:
   hub:
 
 theme_config:
-  title: 郭泽宇的个人主页
+  title: 郭泽宇的博客
+  short: 博客
+  short2: ZE3kr 的博客
 
   # main menu navigation
   menu:
-    博客首页: /
+    博客: /
     作品集: https://p.guozeyu.com
     About: /about
   # Archive: /archives
