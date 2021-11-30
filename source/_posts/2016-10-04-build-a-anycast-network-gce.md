@@ -26,7 +26,7 @@ GCE 上所实现的这个功能是基于第七层的网络代理，所以其拓�
 
 此外，目前使用负载均衡是唯一能让其原生支持 IPv6 的方法。具体可以参见其文档：[IPv6 Termination for HTTP(S), SSL Proxy, and TCP Proxy Load Balancing](https://cloud.google.com/compute/docs/load-balancing/ipv6)
 
-![预留 IPv6 地址的截图](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/52580111-68c9-4b63-a007-49b707f16100/large)
+![预留 IPv6 地址的截图](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/52580111-68c9-4b63-a007-49b707f16100/large)
 
 ## 配置方法
 
@@ -34,7 +34,7 @@ GCE 上所实现的这个功能是基于第七层的网络代理，所以其拓�
 
 首先，需要前往到 GCE 后台，建立至少两个不同地区的实例，我专门为测试 Anycast 功能建立了两个新的实例：
 
-![为 Anycast 建立的两个实例](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/0353378c-82b5-44eb-fdcd-05cafc50c800/large)
+![为 Anycast 建立的两个实例](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/0353378c-82b5-44eb-fdcd-05cafc50c800/large)
 
 每个地区也可以建立多个实例以提高可用性，而我只给每个地区建立了一个实例，这两个实例分别叫 anycast-asia 和 anycast-us。
 
@@ -42,7 +42,7 @@ GCE 上所实现的这个功能是基于第七层的网络代理，所以其拓�
 
 然后，需要给每个地区的实例[建立一个实例组](https://console.cloud.google.com/compute/instanceGroups/add)：
 
-![实例组配置页面](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/4c590a68-e98a-450d-392c-85958e7c1500/large)
+![实例组配置页面](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/4c590a68-e98a-450d-392c-85958e7c1500/large)
 
 需要注意的是，实例组配置页面中位置里的 “多地区（Multi-zone）” 是指同一个**地区**（Region）的不同**可用区域**（Zone），而不是多个不同的地区，所以这实际上是翻译的错误，应该叫做 “多可用区域” 才对。
 
@@ -58,19 +58,19 @@ GCE 上所实现的这个功能是基于第七层的网络代理，所以其拓�
 
 完成前两步之后，就需要建立负载均衡的规则了，需要选择 “HTTP(S) 负载平衡” 来实现 Anycast 的功能。
 
-![三种负载均衡模式](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/6574fd57-514c-4319-1550-c8c1bf83a000/large)
+![三种负载均衡模式](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/6574fd57-514c-4319-1550-c8c1bf83a000/large)
 
 在负载均衡的配置界面，把这两个实例组都添加到 “后端” 中。 该功能还需要创建一个运行状态检查（相当于监控功能），当主机宕机后能实现切换。
 
-![暂时先不开启 CDN 功能](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/8dcf1a51-670a-4292-feb8-6d87e7e26000/large)
+![暂时先不开启 CDN 功能](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/8dcf1a51-670a-4292-feb8-6d87e7e26000/large)
 
-![保留默认的 “主机路径和规则”](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/75e45756-92ae-422c-0d69-8df497efa600/large)
+![保留默认的 “主机路径和规则”](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/75e45756-92ae-422c-0d69-8df497efa600/large)
 
-![目前是需要 HTTP 的例子，如果需要 HTTPS，还需要指定一个证书。](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/3390be79-2e20-4a09-2506-c4fe0cea8d00/large)
+![目前是需要 HTTP 的例子，如果需要 HTTPS，还需要指定一个证书。](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/3390be79-2e20-4a09-2506-c4fe0cea8d00/large)
 
 创建成功后，可以看到如下界面，其中的 IP 地址就是 Anycast IP 了。 \[img id="2009" size="large"\]\[/img\]
 
-![成功创建了一个 Anycast IP](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/8b9fc433-8d84-4b7c-c3de-6f443e763300/large)
+![成功创建了一个 Anycast IP](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/8b9fc433-8d84-4b7c-c3de-6f443e763300/large)
 
 ### Nginx 的配置
 
@@ -130,17 +130,17 @@ Via: 1.1 google
 
 Ping 测试发现速度很快，看来反代的操作是放在 Google 的边缘服务器上了。**速度堪比 Google 啊！**
 
-![对 Anycast IP 的国外速度测试](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/44b63586-f953-451d-8549-1ffa3295d400/large)
+![对 Anycast IP 的国外速度测试](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/44b63586-f953-451d-8549-1ffa3295d400/large)
 
 中国的速度那更是一流的快，Google 有香港的边缘节点，所以基本上是直接走的香港节点，比原本的连接台湾可用区快不少。（只有部分 IP 段是完全直连的）
 
-![对 Anycast IP 的国内速度测试](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/1ffc3042-5f7f-41e2-816f-87cd4a9b3100/large)
+![对 Anycast IP 的国内速度测试](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/1ffc3042-5f7f-41e2-816f-87cd4a9b3100/large)
 
 ### HTTP GET 测试
 
 在开启 CDN 功能之前，负载均衡器是不会对任何内容缓存的，所以会发现 Connect 的速度很快，但是 TTFB 延迟还是有不少。
 
-![对 Anycast IP 进行 HTTP GET 测试](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/43b7f72f-09f1-4c65-72ae-58c640921c00/large)
+![对 Anycast IP 进行 HTTP GET 测试](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/43b7f72f-09f1-4c65-72ae-58c640921c00/large)
 
 可以预测，如果启用了 HTTPS 功能，其 TLS 所需要的等待时间也会很短，TTFB 时间不变，总时长不会延长太多。
 
@@ -156,11 +156,11 @@ Age: 10
 
 经过多次执行这个指令，会发现有一定几率 Age 字段消失，这可能是流量指到了同一个地区的不同可用区上。但总之，是缓存命中率不高，即使之前曾访问过了。
 
-![开启 CDN 后进行 HTTP GET 测试](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/17c182ca-f880-487e-e1fb-74a01d63ed00/large)
+![开启 CDN 后进行 HTTP GET 测试](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/17c182ca-f880-487e-e1fb-74a01d63ed00/large)
 
 多次运行测试确保有缓存之后，发现速度似乎并没有太多明显的提升。能够明显的看出改善的是：巴黎和阿姆斯特丹的 TTFB 延迟从 200ms 减少到了 100ms，然而还是不尽人意。可能的原因是：Google 并没有将内容缓存到离访客最近的边缘节点上，而是别的节点上。 [CDN 缓存服务器的位置列表](https://cloud.google.com/cdn/docs/locations) 
 
-![缓存服务器的位置](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/4dcd6c19-bcaa-4d1a-2b5f-db00454a7c00/large)
+![缓存服务器的位置](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/4dcd6c19-bcaa-4d1a-2b5f-db00454a7c00/large)
 
 ## 统计与日志
 
@@ -170,15 +170,15 @@ Age: 10
 
 在网页后台的 Network，Load balancing，advanced menu 的 Backend service 下，可以查看实时的流量情况： 
 
-![图形还是很漂亮的](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/e67b48a2-54bc-4950-c44d-187de69d2b00/large)
+![图形还是很漂亮的](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/e67b48a2-54bc-4950-c44d-187de69d2b00/large)
 
 ### 延迟日志
 
 在网页后台的 Stackdriver，Trace 下，可以看到延迟日志： 
 
-![延迟日志截图 1](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/4f9e9e5f-fea7-4d71-2a56-224606de8600/large)
+![延迟日志截图 1](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/4f9e9e5f-fea7-4d71-2a56-224606de8600/large)
 
-![延迟日志截图 2](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/0386e758-48cd-48fa-3b25-124a520f5700/large)
+![延迟日志截图 2](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/0386e758-48cd-48fa-3b25-124a520f5700/large)
 
 这里的延迟包含了网络延迟和服务器响应延迟
 

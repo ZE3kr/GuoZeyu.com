@@ -14,13 +14,13 @@ date: 2016-02-06 16:34:00
 
 <!-- more -->
 
-![iOS 内容拦截器设置截图](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/1cc005cb-7c2d-4102-d602-442279d92e00/large)
+![iOS 内容拦截器设置截图](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/1cc005cb-7c2d-4102-d602-442279d92e00/large)
 
-![在内容拦截器中打开 Purify Blocker](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/006c411b-04ee-45b7-1e5a-5bd09052b900/large)
+![在内容拦截器中打开 Purify Blocker](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/006c411b-04ee-45b7-1e5a-5bd09052b900/large)
 
 在 iOS 9 上，内容拦截器是系统级别提供的功能，它限制了这些所谓的 “插件”，所以这种软件都十分的安全。 Purify Blocker 刚推出时，曾到过 App Store 付费排行榜第一（美国）。它是相当流行且轻量级的广告拦截插件，它除了能够拦截广告、统计脚本，你还可以选择让它拦截社交按钮、评论、图像、JavaScript 和自定义字体。
 
-![软件内截图](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/2b7cee01-3caf-41f0-75df-e82a2b536800/large)
+![软件内截图](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/2b7cee01-3caf-41f0-75df-e82a2b536800/large)
 
 ## 为何要使用收费的广告拦截插件？
 

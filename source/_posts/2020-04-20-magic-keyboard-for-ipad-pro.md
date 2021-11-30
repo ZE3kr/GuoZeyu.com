@@ -96,21 +96,21 @@ date: 2020-04-20 15:43:16
 
 ## 图片
 
-![外包装，非常紧凑](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/4d67c3b3-0c12-4a49-5378-2093229ada00/large)
+![外包装，非常紧凑](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/4d67c3b3-0c12-4a49-5378-2093229ada00/large)
 
-![很简洁的使用说明](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/05d1ee81-be9e-47b9-0df5-02a4f1f0ac00/large)
+![很简洁的使用说明](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/05d1ee81-be9e-47b9-0df5-02a4f1f0ac00/large)
 
-![悬浮高度实测为 10mm - 23mm](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/4f910fed-a2df-4e83-7c09-653d3283b500/large)
+![悬浮高度实测为 10mm - 23mm](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/4f910fed-a2df-4e83-7c09-653d3283b500/large)
 
-![新的凹陷 Apple Logo 设计](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/32fdfc0a-2c1e-4eb8-e200-a81ecd618100/large)
+![新的凹陷 Apple Logo 设计](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/32fdfc0a-2c1e-4eb8-e200-a81ecd618100/large)
 
-![平放时 Logo 若隐若现（安装 iPad Pro 2018 的效果，兼容但不完美）](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/cdcc94d6-c0c5-4853-5a42-285568906800/large)
+![平放时 Logo 若隐若现（安装 iPad Pro 2018 的效果，兼容但不完美）](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/cdcc94d6-c0c5-4853-5a42-285568906800/large)
 
-![与 15-inch MacBook Pro 和 Magic Trackpad for Mac 对比（无标注）](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/ee7787a6-ea62-4351-b6f1-df04b231cc00/large)
+![与 15-inch MacBook Pro 和 Magic Trackpad for Mac 对比（无标注）](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/ee7787a6-ea62-4351-b6f1-df04b231cc00/large)
 
-![与 2018 15-inch MacBook Pro 对比（标注后可以清晰看出，iPad 版本大致**小四倍**）](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/d2a97a56-dfda-47ca-49a0-ff39f3209600/large)
+![与 2018 15-inch MacBook Pro 对比（标注后可以清晰看出，iPad 版本大致**小四倍**）](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/d2a97a56-dfda-47ca-49a0-ff39f3209600/large)
 
-![背光对比，均开启最大亮度，亮度相近。](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/1873d285-f8db-4a01-d53a-33c7b90f7a00/large)
+![背光对比，均开启最大亮度，亮度相近。](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/1873d285-f8db-4a01-d53a-33c7b90f7a00/large)
 
 ## 功能配置
 
@@ -118,7 +118,7 @@ date: 2020-04-20 15:43:16
 
 我的触摸板默认没有开启三指切换多任务的手势。需要进入设置、主屏幕与程序坞、多任务中找到 “手势” 开关开启。开启后在屏幕上四指也会出发多任务。
 
-![三指手势配置屏幕截图](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/3d44d880-d321-4319-6309-215ac3cb4800/large)
+![三指手势配置屏幕截图](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/3d44d880-d321-4319-6309-215ac3cb4800/large)
 
 <figure>
   <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://iframe.videodelivery.net/5f6b04e0879e5840ff556e22c066dabd?muted=true&preload=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
@@ -127,7 +127,7 @@ date: 2020-04-20 15:43:16
 
 ### 指针动画和触摸板惯性
 
-![设两个设置位于辅助功能、指针控制中](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/457851cf-3a12-4d62-11db-00c439240200/large)
+![设两个设置位于辅助功能、指针控制中](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/457851cf-3a12-4d62-11db-00c439240200/large)
 
 若开启**指针动画**，当移动到按钮上方时，指针会消失，取而代之的是按钮高亮的吸附效果。此功能可以关闭，关闭后更接近在 macOS 上的使用体验。
 

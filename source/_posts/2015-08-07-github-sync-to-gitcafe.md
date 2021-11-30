@@ -50,7 +50,7 @@ Clone 完毕后，修改一下这个文件（这里仅是用来示范，请自�
 
 修改成如下格式，将原本的GitHub前添加上用户名和密码（我是直接把 Password 打在这里了，如果你觉得不安全请使用 SSH 公私钥那种方式），再添加一行是你的 GitCafe 的 HTTPS 地址，也要添加上用户名和密码，格式如下：
 
-![Git 配置](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/8df86d2f-4336-4b16-a9c2-ac4d445ebb00/large)
+![Git 配置](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/8df86d2f-4336-4b16-a9c2-ac4d445ebb00/large)
 
 然后，执行下面这个指令，完成第一次同步：
 

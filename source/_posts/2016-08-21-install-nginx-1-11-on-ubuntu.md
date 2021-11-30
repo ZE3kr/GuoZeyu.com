@@ -144,8 +144,8 @@ ssl_stapling_verify on;
 
 最后不要忘了 `nginx -s reload`，然后 [前往 SSL Labs](https://www.ssllabs.com/ssltest/index.html) 检查配置，可以看到旧的浏览器使用了 RSA 证书（我的服务器有独立 IP，所以无 SNI 支持的也能访问）：
 
-![支持的客户端](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5d7521dc-aac5-42ad-4fa4-55df51692000/large)
+![支持的客户端](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5d7521dc-aac5-42ad-4fa4-55df51692000/large)
 
 至此，ECDSA/RSA 双证书配置完成，你可以在浏览器里查看到证书类型：
 
-![ECDSA 证书](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/e8b62e3d-921d-453e-1b56-20cd930fa500/large)
+![ECDSA 证书](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/e8b62e3d-921d-453e-1b56-20cd930fa500/large)

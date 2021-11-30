@@ -18,9 +18,9 @@ date: 2015-08-18 23:10:44
 
 ## 截图证据
 
-![重新排版后去掉了网站名](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/c2ef969f-998b-47a8-7f20-73125288f600/large)
+![重新排版后去掉了网站名](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/c2ef969f-998b-47a8-7f20-73125288f600/large)
 
-![重新排版后加上了广告](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/b5683152-6b52-418d-c862-d2efa6fc1200/large)
+![重新排版后加上了广告](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/b5683152-6b52-418d-c862-d2efa6fc1200/large)
 
 ## 屏蔽好搜
 
@@ -41,7 +41,7 @@ Deny from env=bad_bot
 
 嗯，很成功，图片加载不了了，但是并没有完全屏蔽它。
 
-![利用 Referer 屏蔽](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/b5683152-6b52-418d-c862-d2efa6fc1200/large)
+![利用 Referer 屏蔽](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/b5683152-6b52-418d-c862-d2efa6fc1200/large)
 
 ### 利用好搜缺陷屏蔽它
 
