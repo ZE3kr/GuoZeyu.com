@@ -148,7 +148,7 @@ theme_config:
     - category
     - profile
 
-  iframe: https://p.guozeyu.com/widget.html
+  iframe: https://p.guozeyu.com/widget/
 
   links:
     - title: 米饭粑
