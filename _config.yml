@@ -92,7 +92,7 @@ pagination_dir: page
 ## include:/exclude: options only apply to the 'source/' folder
 include:
   - _headers
-  - _redirect
+  - _redirects
 exclude:
 ignore:
 
@@ -178,7 +178,7 @@ theme_config:
 
   user:
     name: ZE3kr
-    avatar: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/small
+    avatar: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/small
     location: 北京
   # description: 郭泽宇的个人主页
     footnotes: |-
@@ -207,7 +207,7 @@ theme_config:
   appearance: auto # Default value is auto
 
   # Miscellaneous
-  favicon: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/thumbnail
+  favicon: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/thumbnail
 
   # picture of about page
-  about_pic: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/small
+  about_pic: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/small
