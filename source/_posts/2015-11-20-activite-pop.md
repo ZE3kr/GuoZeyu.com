@@ -3,7 +3,7 @@ title: Withings Activité Pop 智能手表推荐，睡眠跟踪、运动记录�
 tags:
   - 智能设备
   - 硬件
-id: '220'
+id: 220
 categories:
   - - 科技
 date: 2015-11-20 17:27:29
@@ -31,5 +31,5 @@ Activité Pop 有震动闹钟功能，不仅如此，它还拥有智能唤醒功
 ## 视频
 
 <figure>
-  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/12d9fb47f8bf1560187d3b57c26816f1?preload=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.videodelivery.net/12d9fb47f8bf1560187d3b57c26816f1?preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
 </figure>
