@@ -178,7 +178,7 @@ theme_config:
 
   user:
     name: ZE3kr
-    avatar: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/small
+    avatar: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/medium
     location: 北京
   # description: 郭泽宇的个人主页
     footnotes: |-
@@ -210,4 +210,4 @@ theme_config:
   favicon: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/thumbnail
 
   # picture of about page
-  about_pic: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/small
+  about_pic: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/large
