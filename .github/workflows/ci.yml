@@ -12,4 +12,4 @@ jobs:
         host: bj1-aliyun.tloxygen.com
         username: ze3kr
         key: ${{ secrets.KEY }}
-        script: cd git/guozeyu.com && git reset --hard && git pull && npm install && npm run build && rm -r /var/www/static/p.guozeyu.com/ && mv public/ /var/www/static/p.guozeyu.com/
+        script: cd git/guozeyu.com && git reset --hard && git pull && npm install && npm run build && rm -r /var/www/static/guozeyu.com/ && mv public/ /var/www/static/guozeyu.com/
