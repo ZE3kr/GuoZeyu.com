@@ -1,4 +1,4 @@
-export async function onRequest(request) {
+export async function onRequest({ request }) {
   try {
     const url = new URL(request.url)
     url.protocol = 'https:'
@@ -6,6 +6,6 @@ export async function onRequest(request) {
     url.pathname = '/matomo.php'
     return fetch(url.toString(), request, { cf: { resolveOverride: url.hostname } })
   } catch (err) {
-    return new Response(`${JSON.stringify(request)} ${err.message}\n${err.stack}`, { status: 500 })
+    return new Response(`${err.message}\n${err.stack}`, { status: 500 })
   }
 }

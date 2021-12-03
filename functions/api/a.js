@@ -1,4 +1,4 @@
-export async function onRequest(request) {
+export async function onRequest({ request }) {
   try {
     const url = new URL(request.url)
     url.protocol = 'https:'
