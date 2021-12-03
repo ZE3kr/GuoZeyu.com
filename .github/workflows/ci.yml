@@ -12,4 +12,4 @@ jobs:
         host: bj1-aliyun.tloxygen.com
         username: ze3kr
         key: ${{ secrets.KEY }}
-        script: whoami
+        script: cd git/guozeyu.com && npm install && npm build
