@@ -104,10 +104,6 @@ theme: hexo-theme-claudia
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-- type: git
-  repo: "ze3kr@bj1-aliyun.tloxygen.com:git/guozeyu.com.git"
-  branch: master
-  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 responsive_images:
   pattern: '**/*.+(png|jpg|jpeg)'
