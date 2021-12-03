@@ -3,7 +3,6 @@ export async function onRequest(request) {
   url.protocol = 'https:'
   url.hostname = 'matomo.tloxygen.com'
   url.pathname = '/matomo.php'
-  request.url = url.toString()
   fetch(url.toString(), request, { cf: { resolveOverride: url.hostname } })
   return new Response(null, { status: 204 })
 }
