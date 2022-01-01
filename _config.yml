@@ -147,6 +147,9 @@ theme_config:
   iframe: https://p.guozeyu.com/widget/
 
   links:
+    - title: 站长在用的便宜稳定 VPS
+      url: https://my.frantech.ca/aff.php?aff=5211
+      domain: buyvm.net
     - title: 米饭粑
       url: https://www.mf8.biz/
       domain: mf8.biz
