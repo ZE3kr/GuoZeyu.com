@@ -1,5 +1,5 @@
 ---
-title: 5G 毫米波有多快? 2000Mbps! 快来看看你的 iPhone 是否支持毫米波
+title: 毫米波 5G 有多快? 2000Mbps! 快来看看你的 iPhone 是否支持毫米波
 tags:
   - Apple
   - iPhone
@@ -8,17 +8,17 @@ categories:
 date: 2022-02-20 23:59:59
 ---
 
-本文对比了 5G C-Band 和 5G 毫米波的速度差异，提供了如何判断 iPhone 是否使用毫米波的方法，5G 不同图标的含义，对比了 5G 低频、中频和毫米波，并提供了 iPhone/iPad 不同型号对毫米波支持的情况。
+本文对比了中频 5G 和毫米波 5G 的速度差异，提供了如何判断 iPhone 是否使用毫米波的方法，5G 不同图标的含义，对比了 5G 的低频、中频和毫米波，并提供了 iPhone/iPad 不同型号对毫米波支持的情况。
 
-今天使用手上的 iPhone 12 mini 测试了一下家里的 5G (mid-band) 和户外的 5G (毫米波)，对比如下：
+今天使用手上的 iPhone 12 mini 测试了一下家里的中频 5G 和户外的毫米波 5G，对比如下：
 
 <!-- more -->
 
-![5G 毫米波 (28Ghz)](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/a8a88cbe-db0b-4d74-442d-7fedd95d2600/extra)
+![毫米波 5G (28 GHz)](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/a8a88cbe-db0b-4d74-442d-7fedd95d2600/extra)
 
 可以看到，5G 毫米波 (高频，mmWave) 轻松跑到了 2000Mbps。理论上毫米波是可以达到 3000Mbps 的，但我试了多次最高也就 2000Mbps。
 
-![5G 中频 (3.7Ghz)](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5dcea8be-761c-44cc-245a-50ea468a0b00/extra)
+![中频 5G (3.7 GHz)](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5dcea8be-761c-44cc-245a-50ea468a0b00/extra)
 
 中频 (Mid-Band) 的 5G 速度可能因为信号原因，只跑到了 400Mbps。理论上 中频 也是可以到 1000Mbps 的。
 
@@ -48,13 +48,13 @@ date: 2022-02-20 23:59:59
 
 ## 5G 图标
 
-根据[苹果官网](https://support.apple.com/zh-cn/HT211828)，可以看到 5G 是有多种图标的。如果只显示 5G，则是连接到了最普通的 5G，速度比较慢。若看到了 5G+、5G UW 和 5G UC 则说明连接到了高频 5G (mid-band 或毫米波)，速度更快。根据苹果的说法，只有通过在美国购买的 iPhone 在美国才能使用高频 5G 网络。但实际上，显示 5G+、5G UW 和 5G UC 并不代表使用了毫米波 (有可能只是 mid-band)。此外，在其他国家即使连接到了 mid-band，也只显示 5G。
+根据[苹果官网](https://support.apple.com/zh-cn/HT211828)，可以看到 5G 是有多种图标的。如果只显示 5G，则是连接到了最普通的 5G，速度比较慢。若看到了 5G+、5G UW 和 5G UC 则说明可能连接到了高频 5G，速度更快。根据苹果的说法，只有通过在美国购买的 iPhone 在美国才能使用高频 5G 网络。但实际上，显示 5G+、5G UW 和 5G UC 并不代表使用了毫米波 5G  (也可能只是中频 5G)。此外，在其他国家即使连接到了中频 5G，也只显示 5G。
 
 ![5G 图标一览](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/b854be96-8d2f-41ab-1410-6f125d1dc600/extra)
 
 ## 5G 常见的三种频段：低频、中频、毫米波
 
-低频的范围在 1 Ghz 以内，中频在 1-6 Ghz，毫米波则在 24-40 Ghz。
+低频的范围在 1 GHz 以内，中频在 1-6 GHz，毫米波则在 24-40 GHz。
 
 低频 5G，也叫 5G Nationwide (Verizon)、Extended Range 5G (T-Mobile)、5G (AT&T)。是覆盖最广的 5G，但速度也不是很理想，有的时候甚至不如 4G/LTE 的速度。目前现有的很多 4G 基站都可以比较轻松的升级为低频 5G。在我看来只是准 5G 网络。
 
