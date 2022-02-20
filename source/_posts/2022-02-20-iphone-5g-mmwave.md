@@ -8,7 +8,7 @@ categories:
 date: 2022-02-20 23:59:59
 ---
 
-本文对比了 5G C-Band 和 5G 毫米波的速度差异，提供了如何判断 iPhone 是否使用毫米波的方法，5G 不同图标的含义，并提供了 iPhone/iPad 不同型号对毫米波支持的情况。
+本文对比了 5G C-Band 和 5G 毫米波的速度差异，提供了如何判断 iPhone 是否使用毫米波的方法，5G 不同图标的含义，对比了 5G 低频、中频和毫米波，并提供了 iPhone/iPad 不同型号对毫米波支持的情况。
 
 今天使用手上的 iPhone 12 mini 测试了一下家里的 5G (mid-band) 和户外的 5G (毫米波)，对比如下：
 
@@ -56,11 +56,13 @@ date: 2022-02-20 23:59:59
 
 低频的范围在 1 Ghz 以内，中频在 1-6 Ghz，毫米波则在 24-40 Ghz。
 
-低频 5G，也叫 5G Nationwide (Verizon)、Extended Range 5G (T-Mobile)、5G (AT&T)。是覆盖最广的 5G，但速度也不是很理想，有的时候甚至不如 4G/LTE 的速度。
+低频 5G，也叫 5G Nationwide (Verizon)、Extended Range 5G (T-Mobile)、5G (AT&T)。是覆盖最广的 5G，但速度也不是很理想，有的时候甚至不如 4G/LTE 的速度。目前现有的很多 4G 基站都可以比较轻松的升级为低频 5G。在我看来只是准 5G 网络。
 
-中频和毫米波 5G，也叫 5G Ultra Wideband (Verizon)、Ultra Capacity 5G (T-Mobile)、5G+ (AT&T)。
+中频和毫米波 5G，也叫 5G Ultra Wideband (Verizon)、Ultra Capacity 5G (T-Mobile)、5G+ (AT&T)。是真正意义上的 5G 网络。
 
 目前在中国，所有运营商的 5G 均使用中频。相比毫米波，中频在相同的基站数量情况下，覆盖的更广。这是因为中频的波长更长，传播时相比毫米波更不容易被障碍物遮挡。
+
+LTE-Advance，也叫 5G Evolution (AT&T)。是指使用了载波聚合、4x4 MIMO 和 256 QAM 等技术的 4G 网络。这种网络根本不是 5G 网络，只是比较快的 4G 网络。
 
 ## iPhone 不同型号支持的 5G 一览
 
