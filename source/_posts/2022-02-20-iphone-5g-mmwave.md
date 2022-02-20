@@ -16,13 +16,13 @@ date: 2022-02-20 23:59:59
 
 ![毫米波 5G (28 GHz)](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/a8a88cbe-db0b-4d74-442d-7fedd95d2600/extra)
 
-可以看到，5G 毫米波 (高频，mmWave) 轻松跑到了 2000Mbps。理论上毫米波是可以达到 3000Mbps 的，但我试了多次最高也就 2000Mbps。
+可以看到，毫米波 5G (高频，mmWave) 轻松跑到了 2000Mbps。理论上毫米波是可以达到 3000Mbps 的，但我试了多次最高也就 2000Mbps。
 
 ![中频 5G (3.7 GHz)](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5dcea8be-761c-44cc-245a-50ea468a0b00/extra)
 
-中频 (Mid-Band) 的 5G 速度可能因为信号原因，只跑到了 400Mbps。理论上 中频 也是可以到 1000Mbps 的。
+中频 5G (Mid-Band) 的速度可能因为信号原因，只跑到了 400Mbps。理论上 中频 也是可以到 1000Mbps 的。
 
-就本次测试看来，5G 毫米波要比中频快 5 倍左右。
+就本次测试看来，毫米波 5G 要比中频 5G 快 5 倍左右。在各自的理想情况下，毫米波 5G 可以比中频 5G 快 2-3 倍。
 
 ## 如何判断 iPhone 是否使用毫米波？
 
@@ -42,7 +42,7 @@ date: 2022-02-20 23:59:59
 
 ![5G - Nr ConnectionStats - Band](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/611c5513-5f69-4c97-3de7-c4fee2a24700/extra)
 
-若数字小于 100 (如上图)，则说明没有使用毫米波。若显示大于 100 (常见的有 257-262)，则说明已经连接到了 5G 毫米波。具体使用的频率可以参考[这个表格](https://en.wikipedia.org/wiki/5G_NR_frequency_bands#Frequency_bands)。
+若数字小于 100 (如上图)，则说明没有使用毫米波。若显示大于 100 (常见的有 257-262)，则说明已经连接到了毫米波 5G。具体使用的频率可以参考[这个表格](https://en.wikipedia.org/wiki/5G_NR_frequency_bands#Frequency_bands)。
 
 并非所有 iPhone 都支持毫米波。比如所有国行 iPhone 12 和 13 系列就均不支持毫米波。
 
