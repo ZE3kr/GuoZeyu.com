@@ -10,19 +10,19 @@ date: 2022-02-20 23:59:59
 
 本文对比了中频 5G 和毫米波 5G 的速度差异，提供了判断 iPhone 是否使用毫米波的方法，讲述了 5G 不同图标的含义，对比了 5G 的低频、中频和毫米波，并列举了 iPhone/iPad 不同型号对毫米波支持的情况。
 
-今天使用手上的 iPhone 12 mini 测试了一下家里的中频 5G 和户外的毫米波 5G，对比如下：
+今天分别使用手上的国行和美版 iPhone 对比了一下中频和毫米波 5G。都是相同运营商 (Verizon Prepaid) 相同套餐 (Unlimited Plus)，使用实体 SIM 卡。
 
 <!-- more -->
 
 ![毫米波 5G (28 GHz)](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/a8a88cbe-db0b-4d74-442d-7fedd95d2600/extra)
 
-可以看到，毫米波 5G (高频，mmWave) 轻松跑到了 2000Mbps。理论上毫米波是可以达到 3000Mbps 的，但我试了多次最高也就 2000Mbps。
+可以看到，毫米波 5G (高频，mmWave) 轻松跑到了 2000Mbps。理论上毫米波是可以达到 3000Mbps 的，但我试了多次最高 “也就” 2000Mbps。
 
-![中频 5G (3.7 GHz)](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5dcea8be-761c-44cc-245a-50ea468a0b00/extra)
+![中频 5G (3.7 GHz)](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/0e1f4e4b-93b8-4807-273c-35d6de27fe00/extra)
 
-中频 5G (Mid-Band) 的速度可能因为信号原因，只跑到了 400Mbps。理论上 中频 也是可以到 1000Mbps 的。
+中频 5G (Mid-Band) “只” 跑到了 929Mbps。
 
-就本次测试看来，毫米波 5G 要比中频 5G 快 5 倍左右。在各自的理想情况下，毫米波 5G 可以比中频 5G 快 2-3 倍。
+就本次测试看来，毫米波 5G 要比中频 5G 快 2 倍左右。在各自的理想情况下，毫米波 5G 可以比中频 5G 快 2-3 倍。
 
 ## 如何判断 iPhone 是否使用毫米波？
 
@@ -44,11 +44,11 @@ date: 2022-02-20 23:59:59
 
 若数字小于 100 (如上图)，则说明没有使用毫米波。若显示大于 100 (常见的有 257-262)，则说明已经连接到了毫米波 5G。具体使用的频率可以参考[这个表格](https://en.wikipedia.org/wiki/5G_NR_frequency_bands#Frequency_bands)。
 
-并非所有 iPhone 都支持毫米波。比如所有国行 iPhone 12 和 13 系列就均不支持毫米波。
+并非所有支持 5G 的 iPhone 都支持毫米波 5G。目前只有在美国购买的 iPhone 12 和 13 系列在美国才能使用毫米波 5G 网络。
 
 ## 5G 图标
 
-根据[苹果官网](https://support.apple.com/zh-cn/HT211828)，可以看到 5G 是有多种图标的。如果只显示 5G，则是连接到了最普通的 5G，速度比较慢。若看到了 5G+、5G UW 和 5G UC 则说明可能连接到了高频 5G，速度更快。根据苹果的说法，只有通过在美国购买的 iPhone 在美国才能使用高频 5G 网络。但实际上，显示 5G+、5G UW 和 5G UC 并不代表使用了毫米波 5G  (也可能只是中频 5G)。此外，在其他国家即使连接到了中频 5G，也只显示 5G。
+根据[苹果官网](https://support.apple.com/zh-cn/HT211828)，可以看到 5G 是有多种图标的。如果只显示 5G，则是连接到了最普通的 5G，速度比较慢。若看到了 5G+、5G UW 和 5G UC 则说明可能连接到了毫米波 5G，速度更快。但实际上，显示 5G+、5G UW 和 5G UC 并不代表使用了毫米波 5G (也可能只是中频 5G)。此外，在美国之外的其他国家即使连接到了中频 5G，也只显示 5G。
 
 ![5G 图标一览](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/b854be96-8d2f-41ab-1410-6f125d1dc600/extra)
 
