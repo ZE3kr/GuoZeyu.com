@@ -32,7 +32,7 @@ date: 2022-02-20 23:59:59
 
 随后我们就可以看到下图所示的 Field Test Mode:
 
-![iPhone Field Test Mode](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5dcea8be-761c-44cc-245a-50ea468a0b00/extra)
+![iPhone Field Test Mode](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/893f8af5-75fb-4dec-d4ad-bff5b76bd200/extra)
 
 然后点击右上方更多，然后选择 5G 中的 Nr ConnectionStats。若看不到 5G，则说明当前没有 5G 信号。
 
