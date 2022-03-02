@@ -129,6 +129,7 @@ theme_config:
   title: 郭泽宇的博客 (@ZE3kr)
   short: Blog (Chinese)
   short2: ZE3kr 的博客
+  piwik: 3
 
   # main menu navigation
   menu:
