@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 郭泽宇的个人网站  (@ZE3kr)
+title: 郭泽宇的博客 (@ZE3kr)
 subtitle: ''
 description: ''
 keywords:
@@ -126,8 +126,8 @@ feed:
   hub:
 
 theme_config:
-  title: 郭泽宇的博客
-  short: Blog
+  title: 郭泽宇的博客 (@ZE3kr)
+  short: Blog (Chinese)
   short2: ZE3kr 的博客
 
   # main menu navigation
