@@ -9,7 +9,7 @@ description: ''
 keywords:
 author: James Guo
 language: zh-CN
-timezone: '(@ZE3kr)'
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -127,7 +127,7 @@ feed:
 
 theme_config:
   title: 郭泽宇的博客
-  short: 博客
+  short: Blog
   short2: ZE3kr 的博客
 
   # main menu navigation
