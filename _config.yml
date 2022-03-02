@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 郭泽宇的个人网站
+title: 郭泽宇的个人网站  (@ZE3kr)
 subtitle: ''
 description: ''
 keywords:
-author: 郭泽宇
+author: James Guo
 language: zh-CN
-timezone: ''
+timezone: '(@ZE3kr)'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -176,9 +176,9 @@ theme_config:
     github: ZE3kr
 
   user:
-    name: ZE3kr
+    name: 郭泽宇
     avatar: /cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/medium
-    location: 北京
+    location: 圣路易斯
   # description: 郭泽宇的个人主页
     footnotes: |-
       <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备17005542号-3</a>
