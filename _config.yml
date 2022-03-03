@@ -137,7 +137,10 @@ theme_config:
     作品集: https://ze3kr.com
     About: /about
   # Archive: /archives
-  
+
+  license: |-
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" target="_blank" rel="noopener nofollow">CC BY-SA 4.0</a>
+
   highlight: true
   
   widgets:
