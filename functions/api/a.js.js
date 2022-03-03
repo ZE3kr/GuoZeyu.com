@@ -4,7 +4,9 @@ export async function onRequest({ request }) {
     url.protocol = 'https:'
     url.hostname = 'matomo.tloxygen.com'
     url.pathname = '/matomo.js'
-    return fetch(url.toString(), request, { cf: { resolveOverride: url.hostname } })
+    const ip = request.headers.get('CF-Connecting-IP')
+    request.headers.set('TLO-Connecting-IP', ip)
+    return fetch(url.href, request, { cf: { resolveOverride: url.hostname } })
   } catch (err) {
     return new Response(`${err.message}\n${err.stack}`, { status: 500 })
   }
