@@ -135,7 +135,7 @@ theme_config:
   menu:
     博客: /
     作品集: https://ze3kr.com
-    About: /about
+    About: /about/
   # Archive: /archives
 
   license: |-
