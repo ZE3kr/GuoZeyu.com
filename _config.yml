@@ -151,6 +151,9 @@ theme_config:
   iframe: https://ze3kr.com/widget/
 
   links:
+    - title: 域名注册
+      url: https://tloxygen.com
+      domain: tloxygen.com
     - title: 便宜稳定 VPS
       url: https://my.frantech.ca/aff.php?aff=5211
       domain: buyvm.net
