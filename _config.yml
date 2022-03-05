@@ -134,8 +134,8 @@ theme_config:
   # main menu navigation
   menu:
     主页: /
-    English: https://ze3kr.com/
     About: /about/
+    English: https://ze3kr.com/
   # Archive: /archives
 
   license: |-
