@@ -134,7 +134,7 @@ theme_config:
   # main menu navigation
   menu:
     博客: /
-    作品集: https://ze3kr.com
+    English: https://ze3kr.com/
     About: /about/
   # Archive: /archives
 
