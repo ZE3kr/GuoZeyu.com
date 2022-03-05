@@ -51,7 +51,6 @@ HTTPS 能够加密数据传输，防止中间人截取或是修改。能够实�
 第四种情况是使用了 SHA-1 签名的证书，由于 SHA-1 不是足够的安全，也就是说验证的安全性不够，由于这种证书伪造的成本越来越低，所以可能不安全。这种站点的加密仍然是足够的。
 
 ![5. 加密协议有问题的 HTTPS 站点](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/1e3aad9e-45ec-4e04-f534-70f6268d7c00/large)
-\[img id="1019" size="medium"\]5. 加密协议有问题的 HTTPS 站点\[/img\]
 
 第五种情况代表当前可能正在被中间人攻击（因为没有提供任何 Certificate Transparency 信息，而且还使用了 SHA-1）。
 

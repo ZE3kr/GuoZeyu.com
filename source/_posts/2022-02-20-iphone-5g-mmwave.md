@@ -4,8 +4,10 @@ tags:
   - Apple
   - iPhone
 categories:
-  - - 科技
+  - 科技
 date: 2022-02-20 23:59:59
+languages:
+  en-US: https://ze3kr.com/2022/iphone-5g-mmwave/
 ---
 
 本文对比了中频 5G 和毫米波 5G 的速度差异，提供了判断 iPhone 是否使用毫米波的方法，讲述了 5G 不同图标的含义，对比了 5G 的低频、中频和毫米波，并列举了 iPhone/iPad 不同型号对毫米波支持的情况。

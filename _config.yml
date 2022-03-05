@@ -126,9 +126,9 @@ feed:
   hub:
 
 theme_config:
-  title: 郭泽宇的博客 (@ZE3kr)
-  short: Blog (Chinese)
-  short2: ZE3kr 的博客
+  title: 郭泽宇 (@ZE3kr)
+  short: 博客
+  short2: ZE3kr
   piwik: 3
 
   # main menu navigation

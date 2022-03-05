@@ -4,8 +4,10 @@ tags:
   - WordPress
 id: '3651'
 categories:
-  - - 开发
+  - 开发
 date: 2018-12-07 07:14:57
+languages:
+  en-US: https://ze3kr.com/2018/wordpress-5-0-update/
 ---
 
 WordPress 5.0 正式版已于 2018-12-07 发布，自建 WordPress 用户可以在 WordPress 后台的 Web 管理页面中进行升级。本次更新的最明显的两个特点就是：1. 后台管理使用了全新的编辑器，2. 新增了 2019 年的主题，该主题适配这个全新的编辑器。

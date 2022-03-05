@@ -3,8 +3,10 @@ title: SSD U盘、Windows To Go 与 Mac
 tags: []
 id: '3776'
 categories:
-  - - 科技
+  - 科技
 date: 2019-02-26 16:49:52
+languages:
+  en-US: https://ze3kr.com/2019/ssd-usb-and-wtg/
 ---
 
 最近，我先后购买了 SSD U盘和 SSD 硬盘。我在我的 SSD U盘上安装了 Windows To Go，并在 Mac 设备上良好使用。本文将分享一下我的体验。

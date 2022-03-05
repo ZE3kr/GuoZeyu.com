@@ -68,7 +68,7 @@ GCE 上所实现的这个功能是基于第七层的网络代理，所以其拓�
 
 ![目前是需要 HTTP 的例子，如果需要 HTTPS，还需要指定一个证书。](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/3390be79-2e20-4a09-2506-c4fe0cea8d00/large)
 
-创建成功后，可以看到如下界面，其中的 IP 地址就是 Anycast IP 了。 \[img id="2009" size="large"\]\[/img\]
+创建成功后，可以看到如下界面，其中的 IP 地址就是 Anycast IP 了。
 
 ![成功创建了一个 Anycast IP](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/8b9fc433-8d84-4b7c-c3de-6f443e763300/large)
 
