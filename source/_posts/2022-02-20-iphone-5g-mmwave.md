@@ -8,6 +8,7 @@ categories:
 date: 2022-02-20 23:59:59
 languages:
   en-US: https://ze3kr.com/2022/02/iphone-5g-mmwave/
+excerpt: 本文对比了中频 5G 和毫米波 5G 的速度差异，提供了判断 iPhone 是否使用毫米波的方法，讲述了 5G 不同图标的含义，对比了 5G 的低频、中频和毫米波，并列举了 iPhone/iPad 不同型号对毫米波支持的情况。最近分别使用手头上的国行和美版 iPhone 对比了一下中频和毫米波 5G。都是相同运营商 (Verizon Prepaid) 的相同套餐 (Unlimited Plus)，使用实体 SIM 卡，在完全相同的地理位置进行的测试。
 ---
 
 本文对比了中频 5G 和毫米波 5G 的速度差异，提供了判断 iPhone 是否使用毫米波的方法，讲述了 5G 不同图标的含义，对比了 5G 的低频、中频和毫米波，并列举了 iPhone/iPad 不同型号对毫米波支持的情况。
