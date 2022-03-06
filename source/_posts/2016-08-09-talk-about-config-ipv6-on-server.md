@@ -41,7 +41,7 @@ $ dig -t AAAA `dig <domain> ns +short` +short
 
 ### 方案二，上 CDN/HTTP Proxy
 
-刚才所介绍的方案是直接支持，或者使用 Tunnel Broker 建立在网络层的代理。当然还有另一种代理的方式，那就是建立在应用层（第七层）上的，建立在第七层上的其实就是 HTTP Proxy，不过大多数提供 HTTP Proxy 功能的地方都能够缓存静态内容，所以也就是 CDN。 最佳解决方案是直接使用免费的 CloudFlare，然后开启 CDN 功能，这需要更换 DNS 服务器 (现在你可以使用[CNAME/IP 接入](https://cf.tlo.xyz)，甚至还可以配置 IPv4 回源，仅使用 IPv6 CDN)，不过这样的话连 DNS 在内的所有服务都能支持 IPv6 了，类似的还有 Akamai，它们在代理了之后都能给你 IPv6 支持。 但是如果使用这种方案，原先收集用户真实 IP 的功能就会失效，包括防火墙和 Web 应用程序在内。但只需要配置稍作一些修改，就又能收集访客 IP 了。
+刚才所介绍的方案是直接支持，或者使用 Tunnel Broker 建立在网络层的代理。当然还有另一种代理的方式，那就是建立在应用层（第七层）上的，建立在第七层上的其实就是 HTTP Proxy，不过大多数提供 HTTP Proxy 功能的地方都能够缓存静态内容，所以也就是 CDN。 最佳解决方案是直接使用免费的 CloudFlare，然后开启 CDN 功能，这需要更换 DNS 服务器，甚至还可以配置 IPv4 回源，仅使用 IPv6 CDN)，不过这样的话连 DNS 在内的所有服务都能支持 IPv6 了，类似的还有 Akamai，它们在代理了之后都能给你 IPv6 支持。 但是如果使用这种方案，原先收集用户真实 IP 的功能就会失效，包括防火墙和 Web 应用程序在内。但只需要配置稍作一些修改，就又能收集访客 IP 了。
 
 * * *
 
@@ -51,7 +51,7 @@ $ dig -t AAAA `dig <domain> ns +short` +short
 
 ### CDN
 
-*   CloudFlare ([CNAME/IP 接入](https://cf.tlo.xyz))
+*   CloudFlare
 *   Akamai
 
 ### VPS
@@ -85,5 +85,3 @@ $ dig -t AAAA `dig <domain> ns +short` +short
 ![测试截图](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/37eb5ae8-e9c1-425a-69c8-095c250da200/large)
 
 直至现在，支持 IPv6-Only 网络访问在生产中仍然不是必须的，因为实际上很少存在 IPv6-Only 的网络，一般都兼容 IPv4，很多大网站也完全不支持 IPv6。苹果所说的要求支持 IPv6-Only，只是程序内部要使用 IPv6 通信，程序中不能有 IPv4 地址，能够在只分配了 IPv6 地址的运营商使用（然而实际上这些运营商还是支持 IPv4 的）。
-
-本文已经被选录至《[敲开网络世界的大门](https://j.youzan.com/fzAiLY)》

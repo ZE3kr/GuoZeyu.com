@@ -85,7 +85,6 @@ SaaS 还有很多，太多的东西都是 SaaS 了，所以这里只能算举几
 
 #### 虚拟主机
 
-*   [TlOxygen](https://domain.tloxygen.com)
 *   [BlueHost](https://www.bluehost.com/shared)
 
 #### 云主机

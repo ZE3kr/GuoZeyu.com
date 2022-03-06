@@ -118,5 +118,3 @@ Header set Strict-Transport-Security "max-age=315360000; preload; includeSubDoma
 ## 小提示
 
 *   一旦设置了强制 HTTPS 协议或者启用了 HSTS 后很难再退回 HTTP 协议（尤其是后者），如果突然关闭了 HTTPS 协议，用户可能在很长一段时间内无法访问网站，或者证书报错，大量流失用户。所以决定强制 HTTPS 前请仔细做好考虑。
-
-本文已经被选录至《[敲开网络世界的大门](https://j.youzan.com/fzAiLY)》
