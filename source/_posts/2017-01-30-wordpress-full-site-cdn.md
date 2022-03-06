@@ -9,6 +9,8 @@ id: '2562'
 categories:
   - - 开发
 date: 2017-01-30 08:00:23
+languages:
+  en-US: https://ze3kr.com/2017/01/wordpress-full-site-cdn/
 ---
 
 配置全站 CDN 可以缓存 HTML 页面和加快页面首次加载所耗时间。本文重点讲述 WordPress 的全站缓存，国内外 CDN 混用的解决方案，以及让页面也在 CDN 上缓存的正确做法。本文主要介绍 CloudFront，同时也对 Cloudflare、又拍云、百度云加速、KeyCDN、Google Cloud CDN 这几家 CDN 进行对比。

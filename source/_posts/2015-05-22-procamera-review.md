@@ -7,6 +7,8 @@ id: '81'
 categories:
   - - App 推荐
 date: 2015-05-22 17:03:14
+languages:
+  en-US: https://ze3kr.com/2015/05/procamera-review/
 ---
 
 这是一个很值得使用的软件，包含强大的手动自定义功能、分享功能以及惊人的 HDR 合成能力。[前往 App Store 获取](https://apps.apple.com/cn/app/procamera-capture-the-moment/id694647259?at=10lJIS)

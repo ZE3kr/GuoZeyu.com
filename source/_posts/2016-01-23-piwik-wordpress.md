@@ -6,6 +6,8 @@ id: '70'
 categories:
   - - 开发
 date: 2016-01-23 08:00:00
+languages:
+  en-US: https://ze3kr.com/2016/01/piwik-wordpress/
 ---
 
 在配合使用之前，首先需要安装 Matomo (原 Piwik)。[前往 Matomo 官网下载软件包](https://matomo.org/download/)，然后解压到服务器上。当然，如果你的服务器上支持一键安装 Matomo 那更好。需要 PHP 环境和 MySQL 数据库。安装只需要根据步骤一步步来就好了。最好和 WordPress 安装在一个主机下，这样更方便配合使用。

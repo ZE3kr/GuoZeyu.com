@@ -11,6 +11,8 @@ id: '1731'
 categories:
   - - 开发
 date: 2016-06-25 21:12:08
+languages:
+  en-US: https://ze3kr.com/2016/06/use-gitlab-on-own-server/
 ---
 
 我的服务器上部署的代码、配置文件等内容大多是使用 Git 进行版本控制。为了能够使用、配置起来更方便，通常使用一整套系统去管理。很显然，在一些代码和配置文件里会有一些机密的内容，如一些密钥什么的，所以必须不能公开。GitHub.com 虽然提供了 Private 存放处功能，但是由于此功能是付费的，而且对于 Organization 的 Plan 还是极贵，并不十分划算；就算能有免费的 Private 存放处，把自己的很多重要的密钥放在第三方服务器上还是很不安全，所以能够 Host 在自己的主机上的，并且能够替代 GitHub.com 的软件/服务就是不错的选择。 本文将讲一下我在自己服务器上安装 GitLab 遇到的坑，进阶使用，包括使用 `.gitlab-ci.yml` 文件实现自动 Build，实时同步镜像到 GitHub。
@@ -99,7 +101,3 @@ git push --force --mirror git@github.com:[Organization]/[Project].git
 ## 谈谈安装在自己服务器上的 GitLab 的好处
 
 文件都存储在自己的服务器里，安全性比较有保障，自己有最高权限，不会遇到项目被删的情况。部署时延迟极低，可靠性也高，不会遇到自己服务器没问题但是第三方服务宕机导致无法部署的窘况。 可以根据情况部署到离自己最近的服务器，或者是内部服务器，像 GitHub 的服务器就在美国东岸，亚洲这边连接并不快，国内也不稳定。 最关键的是，如果你本来就有个 VPS 什么的，也有很大的空闲，那么相当于你可以免费获得私有存放处，但是[要注意性能需求](http://docs.gitlab.com/ce/install/requirements.html#hardware-requirements)，没有足够的空闲还是不要启用。 由于能够配置好实时同步镜像到 GitHub，GitLab 还有那么多 GitHub 没有的功能，其实已经可以完全使用 GitLab 作为主要的版本控制工具，GitHub 只是存一份镜像备用。
-
-## 最后
-
-欢迎大家访问我的 [gitTLO](https://git.tlo.xyz) 体验效果，使用的正是 GitLab。

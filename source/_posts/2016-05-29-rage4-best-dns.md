@@ -8,6 +8,8 @@ id: '1668'
 categories:
   - - 科技
 date: 2016-05-29 14:43:00
+languages:
+  en-US: https://ze3kr.com/2016/05/rage4-best-dns/
 ---
 
 DNS（[域名系统](https://zh.wikipedia.org/wiki/域名系统)）是因特网的一项服务。它能够将域名指向一个 IP（服务器），这样你就可以通过域名来访问一个网站。能够通过域名访问的网站，都需要一个 DNS 服务器。这里指的是给站长的域名使用的权威 DNS 而并非缓存 DNS。本文包括 CloudXNS、Route 53、Cloudflare、Google Cloud DNS、Rage4 以及阿里云解析的全面对比。

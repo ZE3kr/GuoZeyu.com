@@ -6,6 +6,8 @@ id: '4020'
 categories:
   - - 开发
 date: 2015-12-13 09:19:00
+languages:
+  en-US: https://ze3kr.com/2015/12/https-everywhere-is-coming/
 ---
 
 HTTPS 是一种网络安全传输协议，网址以 `https://` 开头，就代表是使用了这个协议。 苹果最新发布的移动端操作系统 iOS 9，除了带来了许多新的功能之外，还提升了整个系统安全性，正如[iOS 开发者资源](https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html)所说

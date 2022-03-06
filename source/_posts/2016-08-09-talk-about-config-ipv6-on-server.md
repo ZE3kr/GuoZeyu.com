@@ -6,6 +6,8 @@ id: '1804'
 categories:
   - - 开发
 date: 2016-08-09 20:32:16
+languages:
+  en-US: https://ze3kr.com/2016/08/talk-about-config-ipv6-on-server/
 ---
 
 在今年 5 月 4 日，Apple 就开始要求新的应用程序支持 IPv6 DNS64/NAT64 网络，这意味着苹果开始力推 IPv6 网络，在[苹果的官网上](https://developer.apple.com/library/mac/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#//apple_ref/doc/uid/TP40010220-CH213-SW1)就有介绍一些 IPv6 的优势，主要来说就是对移动网络更加友好，并能提高一些性能，减少一些传输上的开销。 最近，我也将我的所有服务器全面部署 IPv6，完全支持 IPv6-Only 网络。

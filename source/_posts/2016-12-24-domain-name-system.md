@@ -7,6 +7,8 @@ id: '2313'
 categories:
   - - 开发
 date: 2016-12-24 20:18:24
+languages:
+  en-US: https://ze3kr.com/2016/12/domain-name-system/
 ---
 
 DNS（域名解析系统）的工作使命，就是服务于与域名相关的内容的底层。是域名（如：`example.com`）的核心组成部分。绝大多数与域名相关的东西，都离不开它。比如：

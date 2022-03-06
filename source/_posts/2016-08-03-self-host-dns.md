@@ -7,6 +7,8 @@ id: '1832'
 categories:
   - - 开发
 date: 2016-08-03 09:24:21
+languages:
+  en-US: https://ze3kr.com/2016/08/self-host-dns/
 ---
 
 最近我越来越喜欢自建一些东西，比如 GitLab。今天我又把 DNS 服务器改成自建的了，分享一下经验（PS：现在为了实现[根域名 CDN](https://guozeyu.com/2017/01/wordpress-full-site-cdn/)，我用换成了 Route 53）：
@@ -127,7 +129,7 @@ domains:
           content: ns2.example.com.
           ttl: 86400
       - mx:
-          content: 100 mx1.example.com. # 权重 \[空格\] 主机名
+          content: 100 mx1.example.com. # 权重 [空格] 主机名
           ttl: 7200
       - mx:
           content: 100 mx2.example.com.
@@ -159,18 +161,18 @@ domains:
     # unknown also is default
     # %co.%cn.geo.example.com
     # 默认
-    unknown.unknown.geo.example.com: \*newyork # 默认解析到美国
+    unknown.unknown.geo.example.com: *newyork # 默认解析到美国
     # 洲
-    unknown.as.geo.example.com: \*japan # 亚洲解析到日本
-    unknown.oc.geo.example.com: \*japan # 大洋洲解析到日本
-    unknown.eu.geo.example.com: \*france # 欧洲解析到法国
-    unknown.af.geo.example.com: \*france # 非洲解析到法国
+    unknown.as.geo.example.com: *japan # 亚洲解析到日本
+    unknown.oc.geo.example.com: *japan # 大洋洲解析到日本
+    unknown.eu.geo.example.com: *france # 欧洲解析到法国
+    unknown.af.geo.example.com: *france # 非洲解析到法国
     # 国家
-    chn.as.geo.example.com: \*beijing # 中国解析北京
-    gbr.eu.geo.example.com: \*uk # 英国解析到英国
+    chn.as.geo.example.com: *beijing # 中国解析北京
+    gbr.eu.geo.example.com: *uk # 英国解析到英国
   services:
     # GEODNS
-    www.example.com: \[ '%co.%cn.geo.example.com', 'unknown.%cn.geo.example.com', 'unknown.unknown.geo.example.com'\]
+    www.example.com: [ '%co.%cn.geo.example.com', 'unknown.%cn.geo.example.com', 'unknown.unknown.geo.example.com']
 ```
 
 这个配置，就相当于把 www.example.com 给分区解析，由于目前这个解析存在一些问题，导致不能同时在根域名和子域名下设置 GEODNS，这个 Bug 我[已经提交反馈](https://github.com/PowerDNS/pdns/issues/4276)了。 如果你想只把解析精度设在洲级别，那么就直接 %cn.geo.example.com 这样少写一级就行了。如果你需要精确到城市，那么多写一级就行，但是需要在配置文件中添加 GeoIP 城市的数据库。然而免费的城市数据库的城市版本并不精准，你还需要去购买商业数据库，这又是一个额外开销。

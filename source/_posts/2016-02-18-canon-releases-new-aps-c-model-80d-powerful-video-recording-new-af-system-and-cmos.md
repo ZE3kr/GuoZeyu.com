@@ -6,6 +6,8 @@ id: '1277'
 categories:
   - - 科技
 date: 2016-02-18 16:45:10
+languages:
+  en-US: https://ze3kr.com/2016/02/canon-releases-new-aps-c-model-80d-powerful-video-recording-new-af-system-and-cmos/
 ---
 
 80D 就是 70D 的升级版，在 APS-C 中算中高端，目前仅次于 7D Mark II。这次升级亮点不少，而且视频录制也成为 EOS 系列中最好的之一。不少原先在 7D Mark II 上独有的视频拍摄特性，都被添加在了 1DX Mark II 和 80D 上。其次这次升级还使用了全新的 45 点全十字对焦和 2420 万 CMOS。[在亚马逊上购买正品](https://www.amazon.cn/gp/product/B01HPBXKXU?tag=ze3kr-23)
