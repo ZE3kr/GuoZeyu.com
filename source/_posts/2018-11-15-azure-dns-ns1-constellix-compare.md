@@ -9,7 +9,7 @@ categories:
   - 短文
 date: 2018-11-15 11:45:54
 languages:
-  en-US: https://ze3kr.com/2018/azure-dns-ns1-constellix-compare/
+  en-US: https://ze3kr.com/2018/11/azure-dns-ns1-constellix-compare/
 ---
 
 最近 DNSPod 的解析服务器[宕机了一段时间](https://www.ithome.com/0/394/009.htm)，导致许多 DNSPod 用户的网站无法访问。本文将推荐几个提供 100% SLA 的海外 GeoDNS 服务，可用于替代不稳定的 DNSPod。并介绍一下使用多家 DNS 提供商来提高服务可用性的方法。

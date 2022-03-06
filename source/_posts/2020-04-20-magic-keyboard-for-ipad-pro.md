@@ -8,7 +8,7 @@ categories:
   - 科技
 date: 2020-04-20 15:43:16
 languages:
-  en-US: https://ze3kr.com/2020/magic-keyboard-for-ipad-pro/
+  en-US: https://ze3kr.com/2020/04/magic-keyboard-for-ipad-pro/
 ---
 
 刚刚收到了 Magic Keyboard (妙控键盘) for iPad Pro (11-inch)。Apple 在今年年初悄无声息的发布了配备双摄的 iPad Pro 2020 款，性能变化不大，主要是起配 128GB、价格下调。最主要的更新就是适配鼠标和触摸板的 iPadOS 13.4 以及刚刚开卖的 Magic Keyboard for iPad Pro。新的键盘同时支持 2018 和 2020 款 iPad Pro。这一代有着更好的支撑模式，改进了键盘，新增了 Type-C 充电，并增配了类似 Mac 的多点触控板。
