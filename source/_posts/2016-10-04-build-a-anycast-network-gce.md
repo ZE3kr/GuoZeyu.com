@@ -10,7 +10,7 @@ categories:
 date: 2016-10-04 09:27:00
 ---
 
-2018 年 2 月更新：由于已经有[免费的 CloudFlare CNAME/IP 接入](https://cf.tlo.xyz)，同样也是 Anycast，本站已经不再使用 Google Cloud CDN。 [在上一篇文章](https://guozeyu.com/2016/10/asia-google-compute-engine/)中，我简单的介绍了 Google Compute Engine（简称 GCE）的基础使用。这篇文章我将介绍如何利用 GCE 建立一个 Anycast 网络，并测试了其速度。 想要实现这个功能，就需要使用 [Cross-Region Load Balancing](https://cloud.google.com/compute/docs/load-balancing/http/cross-region-example)（跨地区的负载均衡），此功能就相当于一个 HTTP(S) 的反向代理，所以只能针对 HTTP/HTTPS 请求进行负载均衡。
+[在上一篇文章](https://guozeyu.com/2016/10/asia-google-compute-engine/)中，我简单的介绍了 Google Compute Engine（简称 GCE）的基础使用。这篇文章我将介绍如何利用 GCE 建立一个 Anycast 网络，并测试了其速度。 想要实现这个功能，就需要使用 [Cross-Region Load Balancing](https://cloud.google.com/compute/docs/load-balancing/http/cross-region-example)（跨地区的负载均衡），此功能就相当于一个 HTTP(S) 的反向代理，所以只能针对 HTTP/HTTPS 请求进行负载均衡。
 <!-- more -->
 
 ## 简要概述

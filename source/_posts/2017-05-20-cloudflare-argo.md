@@ -12,8 +12,6 @@ date: 2017-05-20 19:52:23
 本网站曾经一直将国外解析到 CloudFront 实现为国外加速，最近看到 Cloudflare 支持了 [Argo](https://blog.cloudflare.com/argo/) 这一新功能，于是就把国外的 CDN 从 CloudFront 换到了 Cloudflare 并开启了 Argo 来试一下效果，官方宣称无缓存时能明显降低 TTFB（首字节延迟），有缓存时也能提高缓存命中率。本文还会将其与 Cloudflare 的另一个企业级的 CDN 加速黑科技——Railgun 进行对比。
 <!-- more -->
 
-> 使用代理商 [cf.tlo.xyz](https://cf.tlo.xyz) 接入域名到 Cloudflare，可以实现 CNAME/IP 接入，还支持 Railgun。
-
 # Cloudflare Argo
 
 ## 提升缓存命中率，Argo Tiered Cache
