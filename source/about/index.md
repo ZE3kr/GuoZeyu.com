@@ -19,10 +19,6 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 
 如无特殊声明，本网站文字、图片、视频部分采用本作品采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)进行许可。
 
-## 隐私策略
-
-本网站使用[自建的 Matomo](https://guozeyu.com/2016/01/piwik-wordpress/) 件进行统计，会使用一小段匿名 Cookie 以用于标识访客 ID，这段 Cookie 绝不会传送给第三方。
-
 ## 订阅
 
 你可以使用 RSS 阅读器订阅本站 (推荐)，本站的 RSS 地址是:
@@ -36,3 +32,7 @@ https://guozeyu.com/atom.xml
 或者，你也可以订阅本站对应的微信订阅号: `ZE3kr_service`
 
 ![微信订阅号](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/32e4b926-2826-4106-bb24-9aa2ceeed900/extra)
+
+## 隐私策略
+
+本网站使用[自建的 Matomo](https://guozeyu.com/2016/01/piwik-wordpress/) 件进行统计，会使用一小段匿名 Cookie 以用于标识访客 ID，这段 Cookie 绝不会传送给第三方。
