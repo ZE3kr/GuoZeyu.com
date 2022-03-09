@@ -5,8 +5,8 @@ tags: []
 categories:
   - - uncategorized
 comments: false
-date: 2016-01-03 13:31:58
-layout: about
+date: false
+layout: post
 languages:
   en-US: https://ze3kr.com/about/
 ---
@@ -22,3 +22,17 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 ## 隐私策略
 
 本网站使用[自建的 Matomo](https://guozeyu.com/2016/01/piwik-wordpress/) 件进行统计，会使用一小段匿名 Cookie 以用于标识访客 ID，这段 Cookie 绝不会传送给第三方。
+
+## 订阅
+
+你可以使用 RSS 阅读器订阅本站 (推荐)，本站的 RSS 地址是:
+
+```
+https://guozeyu.com/atom.xml
+```
+
+你也可以在 Telegram 上订阅本站的频道: [ZE3krChannel](https://t.me/ZE3krChannel)
+
+或者，你也可以订阅本站对应的微信订阅号: `ZE3kr_service`
+
+![微信订阅号](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/32e4b926-2826-4106-bb24-9aa2ceeed900/extra)
