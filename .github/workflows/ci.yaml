@@ -9,7 +9,13 @@ jobs:
     - name: executing remote ssh commands using ssh key
       uses: appleboy/ssh-action@master
       with:
-        host: bj1-aliyun.tloxygen.com,hk1-gcp.tloxygen.com,us1-buyvm.tloxygen.com,us1-gcp.tloxygen.com
+        host: us1-buyvm.tloxygen.com
         username: ze3kr
         key: ${{ secrets.KEY }}
-        script: /usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull
+        fingerprint: us1-buyvm.tloxygen.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGkVUbweurqnsdLAwXlBYiGYXRpZO5nhozC3jB5KZ0WM
+        script: |-
+          /usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull &
+          ssh us1-gcp.tloxygen.com 'nginx -s reload' &
+          ssh hk1-gcp.tloxygen.com 'nginx -s reload' &
+          ssh bj1-aliyun.tloxygen.com 'nginx -s reload' &
+          wait
