@@ -12,7 +12,7 @@ jobs:
         host: us1-buyvm.tloxygen.com
         username: ze3kr
         key: ${{ secrets.KEY }}
-        fingerprint: us1-buyvm.tloxygen.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGkVUbweurqnsdLAwXlBYiGYXRpZO5nhozC3jB5KZ0WM
+        fingerprint: SHA256:mE3DP8yWRkRX+NIPZzDo6APiN7gINvp4l4gz6lbAw3c
         script: |-
           /usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull &
           ssh us1-gcp.tloxygen.com 'nginx -s reload' &
