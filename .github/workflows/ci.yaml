@@ -17,4 +17,4 @@ jobs:
           /usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull &&
           ssh us1-gcp.tloxygen.com '/usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull' &&
           ssh hk1-gcp.tloxygen.com '/usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull' &&
-          ssh bj1-aliyun.tloxygen.com '/usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull' &&
+          ssh bj1-aliyun.tloxygen.com '/usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull'
