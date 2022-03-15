@@ -79,6 +79,11 @@ geoip2 /usr/share/GeoIP/GeoLite2-Country.mmdb {
     auto_reload 1d;
     $geoip2_data_country_code default=CN country iso_code;
 }
+
+map $geoip2_data_country_code $tlo_domain {
+    default    "tlo.xyz";
+    "CN"       "tloxygen.com";
+}
 ```
 
 在 `server` 中：
@@ -207,3 +212,23 @@ location @tracker {
 ![仅启用 HTTP/2，首屏耗时 1.48 秒](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/9566e452-56ce-4ed2-a31f-5bfc0344c200/extra)
 
 ![启用 HTTP/2 Server Push，首屏耗时 1.20 秒](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/cc555174-d1c3-4432-e72a-ec7407faa900/extra)
+
+具体 Nginx 中 `server` 的配置如下
+
+```
+listen 443 ssl http2;
+listen [::]:443 ssl http2;
+
+location ~* \.(?:html)$ {
+    http2_push /style/common/bulma.css;
+    http2_push /style/base.css;
+    http2_push /style/common/helper.css;
+    http2_push /style/post.css;
+    http2_push /style/widget-header.css;
+    http2_push /style/widget-post-list.css;
+    http2_push /style/themes/highlight-theme-light.css;
+    http2_push /js/common.js;
+    http2_push /js/sdk.latest.js;
+    http2_push /js/post.js;
+}
+```
