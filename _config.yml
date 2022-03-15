@@ -104,7 +104,10 @@ theme: hexo-theme-claudia
 deploy:
   type: git
   repo:
-    buyvm: /home/ze3kr/sync/GuoZeyu.com.git,main
+    local: ~/sync/GuoZeyu.com.git,main
+    us2-gcp: ze3kr@us2-gcp.tloxygen.com:~/sync/GuoZeyu.com.git,main
+    aliyun: ze3kr@bj1-aliyun.tloxygen.com:~/sync/GuoZeyu.com.git,main
+    hk1-gcp: ze3kr@hk1-gcp.tloxygen.com:~/sync/GuoZeyu.com.git,main
 
 responsive_images:
   pattern: '**/*.+(png|jpg|jpeg)'
