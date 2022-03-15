@@ -14,8 +14,4 @@ jobs:
         key: ${{ secrets.KEY }}
         fingerprint: SHA256:mE3DP8yWRkRX+NIPZzDo6APiN7gINvp4l4gz6lbAw3c
         script: |-
-          /usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull &
-          ssh us2-gcp.tloxygen.com '/usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull' &
-          ssh hk1-gcp.tloxygen.com '/usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull' &
-          ssh bj1-aliyun.tloxygen.com '/usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull' &
-          wait
+          /usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull
