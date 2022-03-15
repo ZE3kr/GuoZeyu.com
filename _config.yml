@@ -102,6 +102,9 @@ theme: hexo-theme-claudia
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
+  type: git
+  repo:
+    buyvm: /home/ze3kr/sync/GuoZeyu.com.git,main
 
 responsive_images:
   pattern: '**/*.+(png|jpg|jpeg)'
