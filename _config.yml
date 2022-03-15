@@ -109,19 +109,6 @@ deploy:
     aliyun: ze3kr@bj1-aliyun.tloxygen.com:~/sync/GuoZeyu.com.git,main
     hk1-gcp: ze3kr@hk1-gcp.tloxygen.com:~/sync/GuoZeyu.com.git,main
 
-responsive_images:
-  pattern: '**/*.+(png|jpg|jpeg)'
-  sizes:
-    small:
-      width: 800
-      withoutEnlargement: true
-    medium:
-      width: 1200
-      withoutEnlargement: true
-    large:
-      width: 2000
-      withoutEnlargement: true
-
 feed:
   enable: true
   type: atom
