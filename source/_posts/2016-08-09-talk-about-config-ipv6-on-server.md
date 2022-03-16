@@ -25,7 +25,7 @@ $ dig -t AAAA `dig <domain> ns +short` +short
 
 然后查看输出的 IP 中是否全是 IPv6 地址，如果什么也没有输出，说明 DNS 服务器不支持 IPv6。 正确配置 IPv6 的例子：
 
-![根域名 com 和一级域名 example.com 都正确配置了支持 IPv6 的 DNS 服务器](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/1396604b-98eb-4174-f1f5-d836d712d900/large)
+![根域名 com 和一级域名 example.com 都正确配置了支持 IPv6 的 DNS 服务器](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/1396604b-98eb-4174-f1f5-d836d712d900/large)
 
 如果想要自建 DNS 服务器，可以参考[自建 PowerDNS 方法](https://guozeyu.com/2016/08/self-host-dns/)。 如果你的根域名不支持 IPv6，那么你可以联系根域名那里让他们去支持，或者换一个根域名。如果你的一级域名不支持 IPv6，那就联系 DNS 解析商让他们支持，或者直接换走。
 
@@ -84,6 +84,6 @@ $ dig -t AAAA `dig <domain> ns +short` +short
 
 当你配置好后，你可以[在 IPv6 Test 上测试你的网站](http://ipv6-test.com/validate.php)。
 
-![测试截图](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/37eb5ae8-e9c1-425a-69c8-095c250da200/large)
+![测试截图](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/37eb5ae8-e9c1-425a-69c8-095c250da200/large)
 
 直至现在，支持 IPv6-Only 网络访问在生产中仍然不是必须的，因为实际上很少存在 IPv6-Only 的网络，一般都兼容 IPv4，很多大网站也完全不支持 IPv6。苹果所说的要求支持 IPv6-Only，只是程序内部要使用 IPv6 通信，程序中不能有 IPv4 地址，能够在只分配了 IPv6 地址的运营商使用（然而实际上这些运营商还是支持 IPv4 的）。

@@ -181,7 +181,7 @@ domains:
 
 前往你的域名注册商，进入后台修改设置，给域名添加上子域名服务器记录，如图：
 
-![添加子域名服务器记录](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/a9a5c6e0-33cb-41e8-db6c-985a1a111000/large)
+![添加子域名服务器记录](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/a9a5c6e0-33cb-41e8-db6c-985a1a111000/large)
 
 由于要设置的 NS 是在自己服务器下的，所以务必要在域名注册商上向上级域名（如 .com）注册你的 NS 服务器 IP 地址，这样上级域名就能解析道 NS 的 IP，自建 DNS 才能使用，比如 icann.org 下就有一个属于自己的 NS：
 

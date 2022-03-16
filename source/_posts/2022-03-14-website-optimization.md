@@ -26,7 +26,7 @@ tags:
 + 目录自动生成
 + 现代化的设计语言
 
-![Claudia 主题封面](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/6a4ff3fe-9196-4213-3786-231e2ee98100/extra)
+![Claudia 主题封面](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/6a4ff3fe-9196-4213-3786-231e2ee98100/extra)
 
 我对其增加的功能主要如下：
 
@@ -165,7 +165,7 @@ location @proxy {
     proxy_hide_header Expect-CT;
     proxy_http_version 1.1;
     proxy_set_header Connection "";
-    if ($uri ~* '^/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/(.*)$') { 
+    if ($uri ~* '^https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/(.*)$') { 
         add_header X-Cache-Status "MISS";
         proxy_pass https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/$1;
         break;
@@ -185,7 +185,7 @@ AVIF 格式比 WebP 的压缩效率更好，而 WebP 格式比 JPEG 的压缩效
 
 本站使用[自建的 Matomo](/2016/01/piwik-wordpress/)网站统计。Matomo 是一个基于 PHP 和 MySQL 的非常强大的开源统计软件。
 
-![Matomo 后台管理界面截屏](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/ca0956f1-59f1-4f16-712a-ecdd7c808c00/extra)
+![Matomo 后台管理界面截屏](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/ca0956f1-59f1-4f16-712a-ecdd7c808c00/extra)
 
 除此之外，本站还通过 JavaScript 实现了对视频播放，图像查看和搜索的统计。本站还使用了 Nginx 的 post_action 功能实现了异步发送统计，具体在 `server` 中的配置如下：
 
@@ -209,9 +209,9 @@ location @tracker {
 
 本站还启用了 HTTP/2 Server Push，用户在访问网站时，服务器会一次性直接推送首屏渲染必要的 CSS 和 JS 文件，由于用户不需要在获取到 HTML 页面后再去获取 CSS 和 JS 文件，首屏渲染的时间大大缩短。实测在模拟 Fast 3G 环境下，启用 HTTP/2 Server Push 后首屏时间减少了约 0.3 秒：
 
-![仅启用 HTTP/2，首屏耗时 1.48 秒](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/9566e452-56ce-4ed2-a31f-5bfc0344c200/extra)
+![仅启用 HTTP/2，首屏耗时 1.48 秒](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/9566e452-56ce-4ed2-a31f-5bfc0344c200/extra)
 
-![启用 HTTP/2 Server Push，首屏耗时 1.20 秒](/cdn-cgi/imagedelivery/6T-behmofKYLsxlrK0l_MQ/cc555174-d1c3-4432-e72a-ec7407faa900/extra)
+![启用 HTTP/2 Server Push，首屏耗时 1.20 秒](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/cc555174-d1c3-4432-e72a-ec7407faa900/extra)
 
 具体 Nginx 中 `server` 的配置如下
 
