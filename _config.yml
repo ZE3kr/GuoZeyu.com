@@ -149,6 +149,9 @@ theme_config:
     - title: 便宜稳定 VPS
       url: https://my.frantech.ca/aff.php?aff=5211
       domain: buyvm.net
+    - title: 烧饼博客
+      url: https://u.sb/
+      domain: u.sb
     - title: 米饭粑
       url: https://www.mf8.biz/
       domain: mf8.biz
