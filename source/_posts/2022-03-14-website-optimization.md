@@ -72,7 +72,7 @@ tags:
 
 #### 双 CDN 配置
 
-我双 CDN 并没有使用分区解析，因为如果用户配置的 DNS 服务区非用户所在地服务器，分区解析会导致错误的结果。因此，我采用了 Nginx 根据客户端 IP 的国家进行 CDN 域名的替换，具体配置——在 `http` 中：
+我双 CDN 并没有使用分区解析，因为如果用户配置的 DNS 服务器非用户所在地服务器，分区解析会导致错误的结果。因此，我采用了 Nginx 根据客户端 IP 的国家进行 CDN 域名的替换，具体配置——在 `http` 中：
 
 ```
 geoip2 /usr/share/GeoIP/GeoLite2-Country.mmdb {
@@ -96,7 +96,7 @@ sub_filter '//videodelivery.net/' "//video.${tlo_domain}/";
 
 ### 图像 CDN
 
-本站的图片均使用 Cloudflare Images 进行压缩与存储，并通过 Nginx 进行代理与缓存。Nginx 配置如下，实现了根据设备兼容性优先提供 AVIF、WebP 和 JPEG。由于 Cloudflare Images 在国内的速度不佳，并且其是按照访问量收费，我对其进行了代理与缓存。使用 Cloudflare Images 的主要原因是看重它的图像压缩，它可以在访问时自动将图片调整分辨率和格式，并使用全球 CDN 进行缓存。当用户访问相对路径 `/cdn-cgi/imagedelivery/` 时，网站就会加载相应的图片，还省去了与新的域名建立 HTTP 连接的时间。
+本站的图片均使用 Cloudflare Images 进行压缩与存储，并通过 Nginx 进行代理与缓存。Nginx 配置如下，实现了根据设备兼容性优先提供 AVIF、WebP 和 JPEG。这是因为 Cloudflare Images 在国内的速度不佳。此外 Cloudflare Images 可以在访问时自动将图片调整分辨率和格式。当用户访问相对路径 `/cdn-cgi/imagedelivery/` 时，网站就会加载相应的图片，还省去了与新的域名建立 HTTP 连接的时间。
 
 #### Nginx 配置
 
@@ -175,11 +175,11 @@ location @proxy {
 
 通过 `proxy_store`，图片将会在第一次请求后永久的存储在本地，并在下次访问时从本地提供。在存储时，图片的变体名和格式会作为文件名的一部分进行存储。在访问时，服务器会根据客户端发送的 `http_accept` 请求头去查找对应文件。
 
-AVIF 格式比 WebP 的压缩效率更好，而 WebP 格式比 JPEG 的压缩效率更好。然而对于兼容性而言，JPEG > WebP > AVID。尽量不要在网站上使用 GIF，如果需要展示动画，可以使用静音自动循环播放的 `<video>` 代替。
+AVIF 格式比 WebP 的压缩效率更好，而 WebP 格式比 JPEG 的压缩效率更好。然而对于兼容性而言，JPEG > WebP > AVIF。尽量不要在网站上使用 GIF，如果需要展示动画，可以使用静音自动循环播放的 `<video>` 代替。
 
 ## 自动部署
 
-本站[使用 GitHub Action 在服务区上运行 SSH 脚本](https://github.com/ZE3kr/GuoZeyu.com/blob/17ec424703392867527f85aa9ce198a45859b4e9/.github/workflows/ci.yaml)实现自动部署。在服务区上配置了 `post-merge` 的 git hooks，在有改动后自动运行脚本。
+本站[使用 GitHub Action 在服务器上运行 SSH 脚本](https://github.com/ZE3kr/GuoZeyu.com/blob/17ec424703392867527f85aa9ce198a45859b4e9/.github/workflows/ci.yaml)实现自动部署。在服务器上配置了 `post-merge` 的 git hooks，在有改动后自动运行脚本。
 
 ## 统计
 
