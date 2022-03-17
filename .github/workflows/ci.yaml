@@ -4,6 +4,7 @@ jobs:
 
   build:
     name: Build
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using ssh key
