@@ -23,9 +23,9 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 
 你可以使用 RSS 阅读器订阅本站 (推荐)，本站的 RSS 地址是:
 
-```
-https://guozeyu.com/atom.xml
-```
+[`https://guozeyu.com/feed.atom`](https://guozeyu.com/feed.atom)
+
+[在阅读器中打开](feed://guozeyu.com/feed.atom)
 
 你也可以在 Telegram 上订阅本站的频道: [ZE3krChannel](https://t.me/ZE3krChannel)
 
