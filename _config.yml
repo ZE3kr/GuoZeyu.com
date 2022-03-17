@@ -4,7 +4,7 @@
 
 # Site
 title: 郭泽宇的博客 (@ZE3kr)
-subtitle: ''
+subtitle: '郭泽宇的博客 (@ZE3kr)'
 description: ''
 keywords:
 author: James Guo
@@ -112,8 +112,12 @@ deploy:
 
 feed:
   enable: true
-  type: atom
-  path: atom.xml
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
   limit: false
   hub:
 
