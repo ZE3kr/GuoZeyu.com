@@ -145,12 +145,12 @@ theme_config:
 
   links_title: 支持本站
   links:
-    - title: 在本站注册域名
+    - title: 在本站注册/转移域名
       url: https://tloxygen.com
-      domain: tlo.xyz
+      domain: TlO.xyz
     - title: VPS Referral
       url: https://my.frantech.ca/aff.php?aff=5211
-      domain: buyvm.net
+      domain: BuyVM.net
     - title: 支付宝/微信/Zelle
       url: /transfer/
       domain: 转账
@@ -168,7 +168,7 @@ theme_config:
     location: 圣路易斯
     description: 🎯 专注中
     footnotes: |-
-      <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备17005542号-3</a>
+      <a href="https://beian.miit.gov.cn/" target="_blank" class="has-text-grey">京ICP备17005542号-3</a>
 
   # documents: https://github.com/utterance/utterances
   # API config: https://utteranc.es/
