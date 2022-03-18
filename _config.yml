@@ -5,7 +5,7 @@
 # Site
 title: 郭泽宇的博客 (@ZE3kr)
 subtitle: ''
-description: ''
+description: '这里发布以科技、编程、摄影为主的原创文章、视频、图片等。'
 keywords:
 author: James Guo
 language: zh-CN
@@ -166,7 +166,7 @@ theme_config:
     name: 郭泽宇
     avatar: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5fc70f27-598b-4e55-cb22-7d79afeb8300/medium
     location: 圣路易斯
-  # description: 郭泽宇的个人主页
+    description: 🎯 专注中
     footnotes: |-
       <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备17005542号-3</a>
 
