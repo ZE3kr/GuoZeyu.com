@@ -127,6 +127,7 @@ theme_config:
   menu:
     主页: /
     About: /about/
+    友链: /links/
     English: https://ze3kr.com/
   # Archive: /archives
 
@@ -142,31 +143,17 @@ theme_config:
 
   iframe: https://ze3kr.com/widget/
 
+  links_title: 支持本站
   links:
-    - title: 域名注册
+    - title: 在本站注册域名
       url: https://tloxygen.com
-      domain: tloxygen.com
-    - title: 便宜稳定 VPS
+      domain: tlo.xyz
+    - title: VPS Referral
       url: https://my.frantech.ca/aff.php?aff=5211
       domain: buyvm.net
-    - title: 烧饼博客
-      url: https://u.sb/
-      domain: u.sb
-    - title: 米饭粑
-      url: https://www.mf8.biz/
-      domain: mf8.biz
-    - title: 小u的小站
-      url: https://www.superfashi.com/
-      domain: superfashi.com
-    - title: 数字移民
-      url: https://blog.shuziyimin.org/
-      domain: shuziyimin.org
-    - title: 杰克部落
-      url: https://renjikai.com/
-      domain: renjikai.com
-    - title: Urox
-      url: http://i.urox.cn/
-      domain: urox.cn
+    - title: 支付宝/微信/Zelle
+      url: /transfer/
+      domain: 转账
 
   # social config
   social:
