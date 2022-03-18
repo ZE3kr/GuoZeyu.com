@@ -7,6 +7,7 @@ categories:
 date: 2019-02-26 16:49:52
 languages:
   en-US: https://ze3kr.com/2019/02/ssd-usb-and-wtg/
+cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/3c40f228-fe6c-4fd9-fc85-45ef9fcfff00/large
 ---
 
 最近，我先后购买了 SSD U盘和 SSD 硬盘。我在我的 SSD U盘上安装了 Windows To Go，并在 Mac 设备上良好使用。本文将分享一下我的体验。

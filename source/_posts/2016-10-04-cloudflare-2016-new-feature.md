@@ -8,6 +8,7 @@ categories:
 date: 2016-10-04 09:26:00
 languages:
   en-US: https://ze3kr.com/2016/10/build-a-anycast-network-gce/
+cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5058d61b-4d56-41f8-fbe5-301aff832000/large
 ---
 
 Cloudflare 在 2016 年末终于增加了两个重磅的功能，分别是：

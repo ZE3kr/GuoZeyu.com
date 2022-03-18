@@ -10,6 +10,7 @@ categories:
 date: 2016-10-01 11:00:48
 languages:
   en-US: https://ze3kr.com/2016/10/asia-google-compute-engine/
+cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/f231a98f-2a32-49d6-6f14-754617953e00/large
 ---
 
 2017 年 4 月更新：由于 GCE 在国内经常不稳定，本站主机已经换到了 [TlOxygen 的虚拟主机](https://domain.tloxygen.com/web-hosting/index.php)上了。 最近想要寻找按流量计费、连接中国速度比较快的 VPS，最终选择了 Google Compute Engine（下文简称 GCE）的亚洲区。GCE 的后台配置页面虽不能在中国访问，但是其 GCE 实例是可以在中国访问的。 创建一个新的 GCE 的流程十分简单，只需要自定义配置、选择操作系统、配置 SSH Key，然后选择创建就好了，整个流程十分像 VPS，但是可自定义的功能却远比 VPS 多。

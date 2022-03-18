@@ -9,6 +9,7 @@ categories:
 date: 2016-08-21 10:52:13
 languages:
   en-US: https://ze3kr.com/2016/08/install-nginx-1-11-on-ubuntu/
+cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/e8b62e3d-921d-453e-1b56-20cd930fa500/large
 ---
 
 Ubuntu 16.04.01 自带的软件源中的是 Nginx 1.10.0，但是这个版本的 Nginx 的 HTTP/2 模块中存在 Bug，[具体见此](https://imququ.com/post/nginx-http2-post-bug.html)。现在 Nginx 1.12 Stable 已经推出，直接安装 Stable 版本即可。 2018-06 更新：如果你使用 Ubuntu 18.04 或者是以后的版本，那么系统默认的软件源的 Nginx 版本（1.14）就足够了。
