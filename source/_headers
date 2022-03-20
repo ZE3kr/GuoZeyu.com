@@ -1,6 +1,6 @@
 https://guozeyu.com/*
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-/*.html
+*/
   Link: </style/common/bulma.css>; rel=preload;
   Link: </style/base.css>; rel=preload;
   Link: </style/common/helper.css>; rel=preload;
