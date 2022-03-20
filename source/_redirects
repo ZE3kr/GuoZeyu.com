@@ -1,1 +1,2 @@
-/feed/* /atom.xml 301
+/feed/ /feed.atom 301
+/atom.xml /feed.atom 301
