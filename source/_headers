@@ -1,6 +1,9 @@
 https://guozeyu.com/*
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
 /
   Cache-Control: public, max-age=60, must-revalidate
   Link: </style/common/bulma.css>; rel=preload; as=style
