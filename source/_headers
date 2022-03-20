@@ -6,7 +6,7 @@ https://guozeyu.com/*
   Link: </style/base.css>; rel=preload; as=style
   Link: </style/common/helper.css>; rel=preload; as=style
   Link: </style/post.css>; rel=preload; as=style
-  Link: </style/widget-header.css; rel=preload; as=style
+  Link: </style/widget-header.css>; rel=preload; as=style
   Link: </style/widget-post-list.css>; rel=preload; as=style
   Link: </style/themes/highlight-theme-light.css>; rel=preload; as=style
   Link: </js/common.js>; rel=preload; as=script
@@ -18,7 +18,7 @@ https://guozeyu.com/*
   Link: </style/base.css>; rel=preload; as=style
   Link: </style/common/helper.css>; rel=preload; as=style
   Link: </style/post.css>; rel=preload; as=style
-  Link: </style/widget-header.css; rel=preload; as=style
+  Link: </style/widget-header.css>; rel=preload; as=style
   Link: </style/widget-post-list.css>; rel=preload; as=style
   Link: </style/themes/highlight-theme-light.css>; rel=preload; as=style
   Link: </js/common.js>; rel=preload; as=script
