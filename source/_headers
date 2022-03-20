@@ -2,6 +2,7 @@ https://guozeyu.com/*
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 
 /
+  Cache-Control: public, max-age=60, must-revalidate
   Link: </style/common/bulma.css>; rel=preload; as=style
   Link: </style/base.css>; rel=preload; as=style
   Link: </style/common/helper.css>; rel=preload; as=style
@@ -14,6 +15,7 @@ https://guozeyu.com/*
   Link: </js/post.js>; rel=preload; as=script
 
 /*/
+  Cache-Control: public, max-age=60, must-revalidate
   Link: </style/common/bulma.css>; rel=preload; as=style
   Link: </style/base.css>; rel=preload; as=style
   Link: </style/common/helper.css>; rel=preload; as=style
@@ -24,3 +26,9 @@ https://guozeyu.com/*
   Link: </js/common.js>; rel=preload; as=script
   Link: </js/sdk.latest.js>; rel=preload; as=script
   Link: </js/post.js>; rel=preload; as=script
+
+/*.js
+  Cache-Control: public, max-age=86400
+
+/*.css
+  Cache-Control: public, max-age=86400
