@@ -52,13 +52,13 @@ languages:
 
 对比一下不同对焦系统在 F8 下的对焦能力： 
 
-![EOS 80D G组](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/929405a5-aa33-4814-18e9-cddd268fce00/large)
+![EOS 80D G组](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/929405a5-aa33-4814-18e9-cddd268fce00/large)
 
-![EOS 1DX Mark II](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/0c78d331-558b-4800-a84c-632878a03000/large)
+![EOS 1DX Mark II](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/0c78d331-558b-4800-a84c-632878a03000/large)
 
-![EOS 1DX/5D Mark III/5DS/5DR](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/9ccffa2b-3271-4c05-8f4c-215bf037cc00/large)
+![EOS 1DX/5D Mark III/5DS/5DR](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/9ccffa2b-3271-4c05-8f4c-215bf037cc00/large)
 
-![EOS 7D Mark II](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/d8a6beae-00ac-45e5-6f38-a031f3411100/large)
+![EOS 7D Mark II](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/d8a6beae-00ac-45e5-6f38-a031f3411100/large)
 
 哇塞！80D 好厉害，不过有哪些镜头支持它的 G组的自动对焦呢？
 
@@ -67,7 +67,7 @@ languages:
 
 额，感觉被忽悠了。那不支持的镜头在 F8 下有几个对焦点呢？
 
-![EOS 80D H组](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/9f658ef2-b515-4222-421b-49bf896ad600/large)
+![EOS 80D H组](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/9f658ef2-b515-4222-421b-49bf896ad600/large)
 
 一个，只有一个，连辅助对焦点都没有，不过至少相比 70D 已经好了些了。 除此之外，全新的 45 点全十字对焦应该是各方面都不如 65 点全十字对焦了。
 
@@ -95,21 +95,21 @@ languages:
 
 佳能在EOS的2位数机型上首次配备了视野率约为100%的光学取景器，这个功能还是很重要的。而且 80D 取景器里也多了些新元素，我称其为 “（伪）电子水准仪”
 
-![电子水准仪](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/61c004f3-2833-4e6d-cd67-09c7cdf25e00/large)
+![电子水准仪](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/61c004f3-2833-4e6d-cd67-09c7cdf25e00/large)
 
 为什么是伪呢？因为它的能力有限：
 
-![电子水准仪显示标准](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/a463a069-a087-4e57-ba06-7ef12e73bc00/large)
+![电子水准仪显示标准](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/a463a069-a087-4e57-ba06-7ef12e73bc00/large)
  
 正版是这样的，看见正上方的水准仪了吗？双轴的。
 
-![EOS 7D Mark II 上的水准仪](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/86aeaa58-f702-49e4-db82-5ed472483300/large)
+![EOS 7D Mark II 上的水准仪](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/86aeaa58-f702-49e4-db82-5ed472483300/large)
 
 ### 特殊场景模式
 
 看到这个模式我就呵呵了，再一次印证了 80D 不会是专业或准专业水准的相机。
 
-![特殊场景模式](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/df796ebf-bd24-4e1f-6d77-a5ce19915400/large)
+![特殊场景模式](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/df796ebf-bd24-4e1f-6d77-a5ce19915400/large)
 
 > 特殊场景模式中汇集了一些有代表性的拍摄场景，相机可以配合具体场景进行相应拍摄设置。可选场景有手持夜景、烛光、儿童等共10种。拍摄时操作简便，只要像使用智能手机一样，通过在液晶监视器上滑动手指，触摸选择图标，相机就可以根据被摄体及拍摄环境的特点找到合适的设置拍出好照片。
 

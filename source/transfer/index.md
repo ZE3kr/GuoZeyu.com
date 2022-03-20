@@ -28,6 +28,6 @@ layout: post
 
 ## 收款码
 
-![微信收款码](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/9c618cf5-2892-4405-d5f1-488c5e4b7d00/extra)
+![微信收款码](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/9c618cf5-2892-4405-d5f1-488c5e4b7d00/extra)
 
-![支付宝收款码](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/f7e6612d-227f-4765-3967-8e00b4621300/extra)
+![支付宝收款码](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/f7e6612d-227f-4765-3967-8e00b4621300/extra)

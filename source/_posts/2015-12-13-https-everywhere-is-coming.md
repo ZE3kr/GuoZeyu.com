@@ -38,25 +38,25 @@ HTTPS 能够加密数据传输，防止中间人截取或是修改。能够实�
 
 对于站点下所有资源都使用 HTTPS 协议的页面，很多浏览器都会有加密提示，以告知用户这个站点是加密的，让整个网站更高大上。不过我想在此提醒用户，并不是所有使用 HTTPS 的页面就是安全的，任何网站都能轻易申请到 SSL 证书，所以仍然需要辨别域名本身。但是对于直接显示其公司名称的 HTTPS 站点就更值得被信任，因为这种证书是需要纸质证明材料的验证的。下方为使用 Mac 版 Chrome 访问一些 HTTPS 站点的加密提示，Chrome 的加密提示菜单中分为两部分，前一部分验证，后一部分是加密，通常可以分为以下 4 种：
 
-![1. 显示公司名称的 HTTPS 站点](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/84826781-f6b9-478d-aefd-bf9dc2d31000/large)
+![1. 显示公司名称的 HTTPS 站点](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/84826781-f6b9-478d-aefd-bf9dc2d31000/large)
 
-![2. 普通 HTTPS 站点](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/c842a56d-da61-4705-e2f7-92deb3b83600/large)
+![2. 普通 HTTPS 站点](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/c842a56d-da61-4705-e2f7-92deb3b83600/large)
 
 其中第一种和第二种情况代表使用了足够安全的加密方式（但是第二种没有提供任何 Certificate Transparency 信息），只是证书的签名等级不同，与加密方式以及验证的安全性无关，这两种情况下都能保证证书不是伪造的。
 
-![3. 包含不安全资源的 HTTPS 站点](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/2fd32ff5-0e94-4bdc-49d8-432568887d00/large)
+![3. 包含不安全资源的 HTTPS 站点](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/2fd32ff5-0e94-4bdc-49d8-432568887d00/large)
 
 第三种情况是包含不安全资源，网站的外观可能会被改变，但 HTML 文本本身是可靠的。
 
-![4. 使用过时验证方式的 HTTPS 站点](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/1c40117a-2710-4bc5-e9a3-e35fa1fa1b00/large)
+![4. 使用过时验证方式的 HTTPS 站点](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/1c40117a-2710-4bc5-e9a3-e35fa1fa1b00/large)
 
 第四种情况是使用了 SHA-1 签名的证书，由于 SHA-1 不是足够的安全，也就是说验证的安全性不够，由于这种证书伪造的成本越来越低，所以可能不安全。这种站点的加密仍然是足够的。
 
-![5. 加密协议有问题的 HTTPS 站点](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/1e3aad9e-45ec-4e04-f534-70f6268d7c00/large)
+![5. 加密协议有问题的 HTTPS 站点](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/1e3aad9e-45ec-4e04-f534-70f6268d7c00/large)
 
 第五种情况代表当前可能正在被中间人攻击（因为没有提供任何 Certificate Transparency 信息，而且还使用了 SHA-1）。
 
-![6. 使用不被信任的根证书签发的证书的 HTTPS 站点](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/d582e2e0-2993-49d9-32a7-ed3f1fe77700/large)
+![6. 使用不被信任的根证书签发的证书的 HTTPS 站点](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/d582e2e0-2993-49d9-32a7-ed3f1fe77700/large)
 
 第六种情况表示这个网站使用不被信任的根证书签发的证书（或者证书中不包含当前域名）。 [关于 Chrome 的加密提示](https://support.google.com/chrome/answer/95617) 无论如何，我都不推荐你使用 SHA-1 签名的证书，值得注意的是最新版 Safari 也可以选择不信任 SHA-1 签名的证书了，SHA-1 即将淘汰。
 
@@ -113,9 +113,9 @@ Header set Strict-Transport-Security "max-age=315360000; preload; includeSubDoma
 
 前往 [SSL Server Test](https://www.ssllabs.com/ssltest/index.html)，就能给你的服务器的 SSL 配置给出一个评分。 哎，这差距
 
-![ze3kr.com 的评分](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/d603c2a4-3e7d-4434-699e-c311b375c900/large)
+![ze3kr.com 的评分](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/d603c2a4-3e7d-4434-699e-c311b375c900/large)
 
-![12306.com 的评分](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/0acd3783-6399-43af-89eb-59ef7db4cf00/large)
+![12306.com 的评分](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/0acd3783-6399-43af-89eb-59ef7db4cf00/large)
 
 ## 小提示
 

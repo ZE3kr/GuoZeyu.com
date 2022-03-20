@@ -20,30 +20,30 @@ languages:
 
 Cloudflare 的节点很多，但是节点太多有时不是一件好事——**大多数 CDN 之间的节点是相对独立的**。首先要先明白 CDN 的工作原理，CDN 通常不会预先缓存内容，而是在访客访问时充当代理的同时对可缓存的内容缓存。就拿本站来说，本站用的是[香港虚拟主机](https://domain.tloxygen.com/web-hosting/index.php)，如果有英国伦敦的访客访问了我的网站，那么由于我的网站是可被缓存的，他就会连接到伦敦的节点并被缓存在这个节点。那么如果是英国曼彻斯特的访客访问了呢？由于 CDN 在曼彻斯特另有节点，访客会直接连接到曼彻斯特节点，然而曼彻斯特上并没有缓存，所以该节点会回源到香港。而显然的是，如果曼彻斯特回源到伦敦，使用伦敦的缓存会更快。 综上，如果能选择性的从其他节点上获取资源，TTFB 会更低，缓存命中率也会相应提高。但是一般的 CDN 不会去这样做，因为节点相互独立，节点之间并不知道对方是否已经缓存。一般的解决方法是节点与源站之间先经过为数不多的几个节点，这几个节点可能只是分布在几个州，比如整个欧洲就只有一个这种节点。这样的话，伦敦的访客访问后，同时也被欧洲的那个节点缓存。这样，当再有欧洲其他地区的访客连接到一个没有缓存的节点时，这些节点会直接提供欧洲的那个节点的缓存。CloudFront 和 KeyCDN 就利用了这样的技术。 Cloudflare 是如何实现的他们官方没有详细说明。然而在实际测试时，并没有观察到缓存率上有明显提升，远比不过 CloudFront 的效果。下图是通过这些节点测试的 TTFB，请求是逐个发起的。
 
-![Cloudflare 上可被缓存的内容的首次访问测试，启用了 Argo](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/8de6cedb-1c45-4213-70ad-1ddcdd41fe00/large)
+![Cloudflare 上可被缓存的内容的首次访问测试，启用了 Argo](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/8de6cedb-1c45-4213-70ad-1ddcdd41fe00/large)
 
-![CloudFront 对比，比 Cloudflare 要强](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/f8f3f0a4-e1b0-4f56-8b44-f2edca0f3900/large)
+![CloudFront 对比，比 Cloudflare 要强](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/f8f3f0a4-e1b0-4f56-8b44-f2edca0f3900/large)
 
 ## 降低 TTFB，Argo Smart Routing
 
 通常情况下，节点与源站的连接是直接的，这之间的网络很大程度上取决于主机的网络接入。然而，有了 Argo Smart Routing，Cloudflare 会使用自己的线路。图片来自 Cloudflare.com。
 
-![Argo Smart Routing 动态图](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/e391b842-4665-4aa5-b14a-02bcf8153300/large)
+![Argo Smart Routing 动态图](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/e391b842-4665-4aa5-b14a-02bcf8153300/large)
 
 国外请求测试地址，其中的 via 字段就是 Cloudflare 与本站建立的连接的 IP 地址。通过 GeoIP 服务查询，发现是香港的 IP。Cloudflare 将自己的节点之间都建立了长连接，并在离源站最近的服务器上与源站也提前建立了连接。这样，就能大大降低首次连接所需要的时间。如果回源是 HTTPS 的，那么效果更明显。我的另一个测试地址是没有开启这个功能的，用来对比，它的回源与本站建立的 IP 就不是香港的。
 
 ### 使用 Flexible SSL 的 TTFB 对比
 
-![没有启用 Argo](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/b914afdf-b3a1-4116-6f3c-ef8bf6de6500/large)
+![没有启用 Argo](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/b914afdf-b3a1-4116-6f3c-ef8bf6de6500/large)
 
-![启用了 Argo](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/96b667b0-8f12-4dfc-ad2a-ae9e6fe16900/large)
+![启用了 Argo](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/96b667b0-8f12-4dfc-ad2a-ae9e6fe16900/large)
 
 ### 使用 Full SSL 的 TTFB 对比
 
 
-![没有启用 Argo 并且是 Full SSL](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/effedd42-2a20-49bf-083c-7d4ac1bd7500/large)
+![没有启用 Argo 并且是 Full SSL](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/effedd42-2a20-49bf-083c-7d4ac1bd7500/large)
 
-![启用了 Argo 并且是 Full SSL](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/7951369b-666a-4073-ffe1-5e754b050600/large)
+![启用了 Argo 并且是 Full SSL](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/7951369b-666a-4073-ffe1-5e754b050600/large)
 
 速度的确有一定的提升，但是不是特别明显，而且似乎开启了之后一些节点反而更不稳定——原本都是比较稳定的一个速度，开了这个之后一些节点反而忽快忽慢。看来提速的最佳方法还是半程加密。
 
@@ -51,11 +51,11 @@ Cloudflare 的节点很多，但是节点太多有时不是一件好事——**�
 
 Railgun 是 Cloudflare 专门为 Business 和 Enterprise 企业级客户提供的终极加速方案。要使用它，先需要升级网站套餐为 Business 或 Enterprise，然后还需要在服务器上安装必要软件并在 Cloudflare 上完成配置。这相当于是一个双边加速的软件，其实现原理是让服务器与 Cloudflare 建立一个长久的 TCP 加密连接，使用 Railgun 独有协议而不是 HTTP 协议，这样显然能减少连接延迟。此外，它还会对动态页面缓存：考虑到大多动态页面都包含了大量相同的 HTML 信息，在用户请求一个新的页面时，服务器将只发送那些变化了的内容。这相当于一种多次的 Gzip 压缩。
 
-![开启 Argo 截图](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/f82ebb62-e26e-4073-ec26-1ba0c4082700/large)
+![开启 Argo 截图](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/f82ebb62-e26e-4073-ec26-1ba0c4082700/large)
 
 官方宣称，使用 Railgun 能够实现 99.6% 的压缩率，并实现两倍的速度。实际体验也确实如此：
 
-![启用了 Railgun 并且是 Full SSL](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/19978f5e-0671-42c4-6555-313c7400c100/large)
+![启用了 Railgun 并且是 Full SSL](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/19978f5e-0671-42c4-6555-313c7400c100/large)
 
 Railgun 的加速效果还是非常之明显的，明显强于 Argo。
 

@@ -8,7 +8,7 @@ categories:
 date: 2016-10-04 09:26:00
 languages:
   en-US: https://ze3kr.com/2016/10/build-a-anycast-network-gce/
-cover: https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5058d61b-4d56-41f8-fbe5-301aff832000/large
+cover: https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/5058d61b-4d56-41f8-fbe5-301aff832000/large
 ---
 
 Cloudflare 在 2016 年末终于增加了两个重磅的功能，分别是：
@@ -27,11 +27,11 @@ Load Balancing 支持更加高级的负载均衡功能，并终于支持了大�
 
 负载均衡的功能是在 Cloudflare 的边缘服务器上实现，是通过第 7 层反代的方式实现，其实很类似于原本的 CDN 功能，不过回源可以高度定制。源站可以配置多个地区（需手动设置服务器的位置），每个地区也可以配置多个服务器，可以将这些众多服务器设置为一个 Group。将域名指向这个 Group，然后 Cloudflare 的边缘服务器的回源可以根据服务器的地区来**自动**选择最近的源站服务器。这样可以非常有效的降低首字节的延迟，对动态资源速度的提升会有很大的帮助。
 
-![可配置服务器的地区（两种方式一样）](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/aea1c03b-6097-4ecc-51ff-66abf1014500/large)
+![可配置服务器的地区（两种方式一样）](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/aea1c03b-6097-4ecc-51ff-66abf1014500/large)
 
 此外，Cloudflare 还自带了 Health Check 功能，可以当服务器宕机后能够自动更改回源。虽然通过 DNS 的方式也可以实现宕机后切换，但是 DNS 方式毕竟会收到缓存时长影响，若使用 CDN 切换，则可以实现秒级切换。 我的一个 WordPress 站点 tlo.xyz 就使用了这个功能，默认是美国东部和亚洲东部跨区域负载均衡，两者有一者宕机自动切换。如果全部宕机，则 fallback 到 Google Cloud Storage 上的静态页面。你可以观察 https://tlo.xyz 上的 TLO-Hostname 的 Header 来判断是哪一个服务器做的响应。 
 
-![Load Balancing 截图](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/5058d61b-4d56-41f8-fbe5-301aff832000/large)
+![Load Balancing 截图](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/5058d61b-4d56-41f8-fbe5-301aff832000/large)
 
 ### 通过 DNS 实现（GeoDNS + 权重）
 

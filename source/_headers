@@ -1,0 +1,13 @@
+https://guozeyu.com/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+/*.html
+  Link: </style/common/bulma.css>; rel=preload;
+  Link: </style/base.css>; rel=preload;
+  Link: </style/common/helper.css>; rel=preload;
+  Link: </style/post.css>; rel=preload;
+  Link: </style/widget-header.css; rel=preload;
+  Link: </style/widget-post-list.css>; rel=preload;
+  Link: </style/themes/highlight-theme-light.css>; rel=preload;
+  Link: </js/common.js>; rel=preload;
+  Link: </js/sdk.latest.js>; rel=preload;
+  Link: </js/post.js>; rel=preload;

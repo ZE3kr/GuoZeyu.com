@@ -27,7 +27,7 @@ WordPress 5.0 正式版已于 2018-12-07 发布，自建 WordPress 用户可以�
 
 新版编辑器兼容老板编辑器。要想使用老款的编辑模式，可以通过插入一个或多个经典块（Classic Block）来实现。这个经典块与新编辑器中的其他块（如自然段块、副标题块等）同等级别。经典块中能包含一个或多个自然段、副标题，对于简单的排版，它可以代替最新的块编辑器。在使用经典块时，你依然能够看到你所熟悉的工具条。
 
-![经典块](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/3c1dd583-f116-4d73-dadf-b81986f82b00/large)
+![经典块](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/3c1dd583-f116-4d73-dadf-b81986f82b00/large)
 
 经典块截图
 
@@ -80,13 +80,13 @@ WordPress 5.0 正式版已于 2018-12-07 发布，自建 WordPress 用户可以�
 
 为了更好的配合新的编辑器的所有排版功能，WordPress 同时推出了全新的 2019 默认主题。[详情](https://make.wordpress.org/core/2018/10/16/introducing-twenty-nineteen/)
 
-![文章界面截图](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/b26e6735-e9c6-46a4-3c61-63dfb9f93d00/large)
+![文章界面截图](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/b26e6735-e9c6-46a4-3c61-63dfb9f93d00/large)
 
 主题首页截图
 
 正如以往的默认主题一样，新的 WordPress 主题也是十分通用的。然而我感觉新的 2019 主题不如上一个 2017 主题（即本 Blog 正在使用的主题）简洁。
 
-![文章界面截图](https://imagedelivery.net/6T-behmofKYLsxlrK0l_MQ/691e4199-50da-4c57-d46a-1399b5801b00/large)
+![文章界面截图](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/691e4199-50da-4c57-d46a-1399b5801b00/large)
 
 ## 是否应该升级？该如何升级？
 
