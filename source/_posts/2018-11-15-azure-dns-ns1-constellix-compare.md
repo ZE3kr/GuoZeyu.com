@@ -6,7 +6,7 @@ tags:
   - 网络
 id: '3718'
 categories:
-  - 短文
+  - 科技
 date: 2018-11-15 11:45:54
 languages:
   en-US: https://ze3kr.com/2018/11/azure-dns-ns1-constellix-compare/

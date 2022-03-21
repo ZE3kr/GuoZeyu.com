@@ -1,6 +1,7 @@
 ---
 title: SSD U盘、Windows To Go 与 Mac
-tags: []
+tags:
+ - 硬件
 id: '3776'
 categories:
   - 科技
