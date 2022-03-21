@@ -123,7 +123,7 @@ languages:
 ![三指手势配置屏幕截图](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/3d44d880-d321-4319-6309-215ac3cb4800/large)
 
 <figure>
-  <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://iframe.videodelivery.net/5f6b04e0879e5840ff556e22c066dabd?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://cdn.ze3kr.com/iframe/5f6b04e0879e5840ff556e22c066dabd?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>三指手势 屏幕录制</figcaption>
 </figure>
 
@@ -134,24 +134,24 @@ languages:
 若开启**指针动画**，当移动到按钮上方时，指针会消失，取而代之的是按钮高亮的吸附效果。此功能可以关闭，关闭后更接近在 macOS 上的使用体验。
 
 <figure>
-  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://iframe.videodelivery.net/b0f6489638fab333b9767877fbf92a8c?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://cdn.ze3kr.com/iframe/b0f6489638fab333b9767877fbf92a8c?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>开启指针动画</figcaption>
 </figure>
 
 <figure>
-  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://iframe.videodelivery.net/8fe64137c49bc848add5dc89e2ffb2c6?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://cdn.ze3kr.com/iframe/8fe64137c49bc848add5dc89e2ffb2c6?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>关闭指针动画</figcaption>
 </figure>
 
 同样的，默认 iPadOS 会开启触摸板惯性，关闭此功能会更接近在 macOS 上的使用体验。
 
 <figure>
-  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://iframe.videodelivery.net/26a655bb13c602c45ade0bc57c12eb64?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://cdn.ze3kr.com/iframe/26a655bb13c602c45ade0bc57c12eb64?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>开启触摸板惯性</figcaption>
 </figure>
 
 <figure>
-  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://iframe.videodelivery.net/465c56565c440f3271f2b8ee4352df8a?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://cdn.ze3kr.com/iframe/465c56565c440f3271f2b8ee4352df8a?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>关闭触摸板惯性</figcaption>
 </figure>
 
