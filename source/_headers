@@ -6,29 +6,13 @@ https://:project.pages.dev/*
 
 /
   Cache-Control: public, max-age=60, must-revalidate
-  Link: </style/common/bulma.css>; rel=preload; as=style
   Link: </style/base.css>; rel=preload; as=style
-  Link: </style/common/helper.css>; rel=preload; as=style
-  Link: </style/post.css>; rel=preload; as=style
-  Link: </style/widget-header.css>; rel=preload; as=style
-  Link: </style/widget-post-list.css>; rel=preload; as=style
-  Link: </style/themes/highlight-theme-light.css>; rel=preload; as=style
   Link: </js/common.js>; rel=preload; as=script
-  Link: </js/sdk.latest.js>; rel=preload; as=script
-  Link: </js/post.js>; rel=preload; as=script
 
 /*/
   Cache-Control: public, max-age=60, must-revalidate
-  Link: </style/common/bulma.css>; rel=preload; as=style
   Link: </style/base.css>; rel=preload; as=style
-  Link: </style/common/helper.css>; rel=preload; as=style
-  Link: </style/post.css>; rel=preload; as=style
-  Link: </style/widget-header.css>; rel=preload; as=style
-  Link: </style/widget-post-list.css>; rel=preload; as=style
-  Link: </style/themes/highlight-theme-light.css>; rel=preload; as=style
   Link: </js/common.js>; rel=preload; as=script
-  Link: </js/sdk.latest.js>; rel=preload; as=script
-  Link: </js/post.js>; rel=preload; as=script
 
 /*.js
   Cache-Control: public, max-age=86400
