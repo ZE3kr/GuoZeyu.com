@@ -28,7 +28,7 @@ categories:
 + 目录自动生成
 + 现代化的设计语言
 
-![Claudia 主题封面](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/6a4ff3fe-9196-4213-3786-231e2ee98100/extra)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/6a4ff3fe-9196-4213-3786-231e2ee98100/extra" alt="Claudia 主题封面" width="3168" height="2455"/>
 
 我对其增加的功能主要如下：
 
@@ -187,7 +187,7 @@ AVIF 格式比 WebP 的压缩效率更好，而 WebP 格式比 JPEG 的压缩效
 
 本站使用[自建的 Matomo](/2016/01/piwik-wordpress/)网站统计。Matomo 是一个基于 PHP 和 MySQL 的非常强大的开源统计软件。
 
-![Matomo 后台管理界面截屏](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/ca0956f1-59f1-4f16-712a-ecdd7c808c00/extra)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/ca0956f1-59f1-4f16-712a-ecdd7c808c00/extra" alt="Matomo 后台管理界面截屏" width="2722" height="1716"/>
 
 除此之外，本站还通过 JavaScript 实现了对视频播放，图像查看和搜索的统计。本站还使用了 Nginx 的 post_action 功能实现了异步发送统计，具体在 `server` 中的配置如下：
 
@@ -213,7 +213,10 @@ location @tracker {
 
 ![仅启用 HTTP/2，首屏耗时 1.48 秒](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/9566e452-56ce-4ed2-a31f-5bfc0344c200/extra)
 
-![启用 HTTP/2 Server Push，首屏耗时 1.20 秒](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/cc555174-d1c3-4432-e72a-ec7407faa900/extra)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/9566e452-56ce-4ed2-a31f-5bfc0344c200/extra" alt="仅启用 HTTP/2，首屏耗时 1.48 秒" width="1376" height="1012"/>
+
+
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/cc555174-d1c3-4432-e72a-ec7407faa900/extra" alt="启用 HTTP/2 Server Push，首屏耗时 1.20 秒" width="1376" height="1012"/>
 
 具体 Nginx 中 `server` 的配置如下
 

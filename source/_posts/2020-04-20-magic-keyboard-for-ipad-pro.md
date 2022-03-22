@@ -98,7 +98,7 @@ languages:
 
 ## 图片
 
-![外包装，非常紧凑](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/4d67c3b3-0c12-4a49-5378-2093229ada00/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/4d67c3b3-0c12-4a49-5378-2093229ada00/large" alt="外包装，非常紧凑" width="2560" height="1920"/>
 
 ![很简洁的使用说明](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/05d1ee81-be9e-47b9-0df5-02a4f1f0ac00/large)
 

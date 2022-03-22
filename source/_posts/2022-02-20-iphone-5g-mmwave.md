@@ -17,11 +17,11 @@ excerpt: 本文对比了中频 5G 和毫米波 5G 的速度差异，提供了判
 
 <!-- more -->
 
-![毫米波 5G (28 GHz)](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/a8a88cbe-db0b-4d74-442d-7fedd95d2600/extra)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/a8a88cbe-db0b-4d74-442d-7fedd95d2600/extra" alt="毫米波 5G (28 GHz)" width="1125" height="2436"/>
 
 可以看到，毫米波 5G (高频，mmWave) 轻松跑到了 2000Mbps。理论上毫米波是可以达到 3000Mbps 的，但我试了多次最高 “也就” 2000Mbps。
 
-![中频 5G (3.7 GHz)](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/0e1f4e4b-93b8-4807-273c-35d6de27fe00/extra)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/0e1f4e4b-93b8-4807-273c-35d6de27fe00/extra" alt="中频 5G (3.7 GHz)" width="1170" height="2532"/>
 
 中频 5G (Mid-Band) “只” 跑到了 929Mbps。
 
