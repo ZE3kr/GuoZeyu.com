@@ -32,6 +32,6 @@ Activité Pop 有震动闹钟功能，不仅如此，它还拥有智能唤醒功
 
 ## 视频
 
-<figure>
+<figure class="my-video">
   <div style="position: relative; padding-top: 56.25%;"><iframe src="https://cdn.ze3kr.com/iframe/12d9fb47f8bf1560187d3b57c26816f1?preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
 </figure>

@@ -15,7 +15,7 @@ https://:project.pages.dev/*
   Link: </js/common.js>; rel=preload; as=script
 
 /*.js
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=604800
 
 /*.css
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=604800
