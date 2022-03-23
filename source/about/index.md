@@ -21,17 +21,27 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 
 ## 订阅
 
+### RSS
+
 你可以使用 RSS 阅读器订阅本站 (推荐)，本站的 RSS 地址是:
 
 [`https://guozeyu.com/feed.atom`](https://guozeyu.com/feed.atom)
 
-[在阅读器中打开](feed://guozeyu.com/feed.atom)
+[在 RSS 阅读器中打开](feed://guozeyu.com/feed.atom)
+
+### Telegram
 
 你也可以在 Telegram 上订阅本站的频道: [ZE3krChannel](https://t.me/ZE3krChannel)
+
+### 微信公众号
 
 或者，你也可以订阅本站对应的微信订阅号: `ZE3kr_service`
 
 ![微信订阅号](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/c4acb834-d4ae-41a1-d9b0-bf7f0be40700/extra)
+
+### 邮件列表
+
+你也可以订阅我们的邮件列表。只需要发送一个空邮件到 [`cn-subscribe@ze3kr.com`](mailto:cn-subscribe@ze3kr.com)，然后你会收到回信，询问你是否要接受订阅，请按照回信的提示进行操作即可。请将 `ze3kr.com` 添加至信任的联系人，以防止邮件被归类为垃圾邮件。
 
 ## 隐私策略
 
