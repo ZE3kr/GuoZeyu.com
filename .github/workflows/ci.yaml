@@ -10,9 +10,9 @@ jobs:
     - name: executing remote ssh commands using ssh key
       uses: appleboy/ssh-action@master
       with:
-        host: us1-buyvm.tloxygen.com
+        host: us2-gcp.tloxygen.com
         username: ze3kr
         key: ${{ secrets.KEY }}
-        fingerprint: SHA256:mE3DP8yWRkRX+NIPZzDo6APiN7gINvp4l4gz6lbAw3c
+        fingerprint: SHA256:HPpFfjEmCHsGE3SENZkV4aDlBQlty+6wLI4AULeyrKE
         script: |-
           /usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull
