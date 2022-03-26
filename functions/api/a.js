@@ -4,12 +4,12 @@ export async function onRequest({ request, waitUntil }) {
     url.protocol = 'https:'
     url.hostname = 'matomo.tlo.xyz'
     url.pathname = '/matomo.php'
-    url.searchParams.append('dimension1', request.cf?.colo)
+    url.searchParams.append('dimension2', 'CF-' + request.cf?.colo)
     const ip = request.headers.get('CF-Connecting-IP')
     request.headers.set('TLO-Connecting-IP', ip)
-	  waitUntil(fetch(url.href, request))
+    waitUntil(fetch(url.href, request))
 
-	  return new Response('', { status: 204 })
+    return new Response('', { status: 204 })
   } catch (err) {
     return new Response(`${err.message}\n${err.stack}`, { status: 500 })
   }
