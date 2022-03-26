@@ -4,7 +4,7 @@ export async function onRequest({ request, waitUntil }) {
     url.protocol = 'https:'
     url.hostname = 'matomo.tlo.xyz'
     url.pathname = '/matomo.php'
-    url.searchParams.append('dimension2', 'CF-' + request.cf?.colo)
+    url.searchParams.append('dimension2', 'CFL-' + request.cf?.colo)
     const ip = request.headers.get('CF-Connecting-IP')
     request.headers.set('TLO-Connecting-IP', ip)
     waitUntil(fetch(url.href, request))
