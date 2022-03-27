@@ -211,8 +211,6 @@ location @tracker {
 
 本站还启用了 HTTP/2 Server Push，用户在访问网站时，服务器会一次性直接推送首屏渲染必要的 CSS 和 JS 文件，由于用户不需要在获取到 HTML 页面后再去获取 CSS 和 JS 文件，首屏渲染的时间大大缩短。实测在模拟 Fast 3G 环境下，启用 HTTP/2 Server Push 后首屏时间减少了约 0.3 秒：
 
-![仅启用 HTTP/2，首屏耗时 1.48 秒](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/9566e452-56ce-4ed2-a31f-5bfc0344c200/extra)
-
 <img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/9566e452-56ce-4ed2-a31f-5bfc0344c200/extra" alt="仅启用 HTTP/2，首屏耗时 1.48 秒" width="1376" height="1012"/>
 
 
