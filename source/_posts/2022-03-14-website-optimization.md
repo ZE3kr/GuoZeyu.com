@@ -57,7 +57,7 @@ categories:
 
 ## 分区解析与 CDN
 
-我的网站目前同时部署在国内外多个主机上，使用着相同的配置。域名使用 Route 53 的延迟记录进行分区解析，并开启了 “运行状况检查” 实现宕机后自动切换服务器。目前本站使用了 5 个服务器，分别部署在北京、香港和拉斯维加斯 (美国)、伯克利县 (美国) 和法兰克福 (德国)。
+我的网站目前同时部署在国内外多个主机上，使用着相同的配置。域名使用 Route 53 的延迟记录进行分区解析，并开启了 “运行状况检查” 实现宕机后自动切换服务器。<del>目前本站使用了 5 个服务器，分别部署在北京、香港和拉斯维加斯 (美国)、伯克利县 (美国) 和法兰克福 (德国)。</del>本站目前会将国内用户解析到北京 (已备案域名) 或东京 (未备案域名)，将海外用户解析到 Cloudflare Pages。
 
 选择使用 Route 53 作为解析服务器的原因是：
 
@@ -70,11 +70,11 @@ categories:
 
 ### 视频 CDN
 
-本站视频虽然是使用 Cloudflare Stream 存储和转码，但实际分发使用的是 CloudFront 和 UPYUN。主要是 Cloudflare 的视频是按量计费，其单价比 CloudFront 要贵。其次是 Cloudflare Stream 不提供国内节点，因此为国内提使用 UPYUN。
+本站视频虽然是使用 Cloudflare Stream 存储和转码，但实际分发使用的是 CloudFront 和阿里云 CDN。主要是 Cloudflare 的视频是按量计费，其单价比 CloudFront 要贵。其次是 Cloudflare Stream 不提供国内节点，因此为国内提使用阿里云 CDN。
 
-#### 双 CDN 配置
+#### 双 CDN 配置——Nginx 替换 CDN URL
 
-我双 CDN 并没有使用分区解析，因为如果用户配置的 DNS 服务器非用户所在地服务器，分区解析会导致错误的结果。因此，我采用了 Nginx 根据客户端 IP 的国家进行 CDN 域名的替换，具体配置——在 `http` 中：
+实现双 CDN 有两种方法，第一种是使用 Nginx 根据访客国家替换 CDN URL。这样做相比分区解析的好处是即便用户配置的 DNS 服务器非用户所在地服务器，替换 CDN URL 方式依然会让用户使用正确的 CDN。可以采用了 Nginx 根据客户端 IP 的国家进行 CDN 域名的替换，具体配置——在 `http` 中：
 
 ```
 geoip2 /usr/share/GeoIP/GeoLite2-Country.mmdb {
@@ -94,11 +94,17 @@ map $geoip2_data_country_code $tlo_domain {
 sub_filter '//videodelivery.net/' "//video.${tlo_domain}/";
 ```
 
-这样一来，用户访问本站时，服务器会根据用户访问网站时的 IP 地址（而非 DNS 提供的 IP 地址）来选择合适的 CDN。
+这样一来，用户访问网站时，服务器会根据用户访问网站时的 IP 地址（而非 DNS 提供的 IP 地址）来选择合适的 CDN。
+
+#### 双 CDN 配置——分区解析
+
+这就不用多说了，将两个 CDN 绑定在一个域名上，使用 GeoDNS 对不同地区的访客返回不同的结果。目前本站由于在国外地区使用 Cloudflare Pages，不方便根据访客国家替换 CDN URL 了，所以目前换用了分区解析的方式。
 
 ### 图像 CDN
 
 本站的图片均使用 Cloudflare Images 进行压缩与存储，并通过 Nginx 进行代理与缓存。Nginx 配置如下，实现了根据设备兼容性优先提供 AVIF、WebP 和 JPEG。这是因为 Cloudflare Images 在国内的速度不佳。此外 Cloudflare Images 可以在访问时自动将图片调整分辨率和格式。当用户访问相对路径 `/cdn-cgi/imagedelivery/` 时，网站就会加载相应的图片，还省去了与新的域名建立 HTTP 连接的时间。
+
+> 注：由于 Cloudflare Pages 的 `/cdn-cgi/imagedelivery/` [不支持 AVIF (已反馈)](https://github.com/cloudflare/cloudflare-docs/issues/3794)，加之阿里云 ECS 流量比较贵，以及本站所有图片均是 Lazy Load，目前本站使用了跨域的 CDN（和视频一样，是 CloudFront 和阿里云 CDN），详见下文。
 
 #### Nginx 配置
 
@@ -179,9 +185,17 @@ location @proxy {
 
 AVIF 格式比 WebP 的压缩效率更好，而 WebP 格式比 JPEG 的压缩效率更好。然而对于兼容性而言，JPEG > WebP > AVIF。尽量不要在网站上使用 GIF，如果需要展示动画，可以使用静音自动循环播放的 `<video>` 代替。
 
+#### WebP/AVIF 自适应之 CDN 配置
+
+如果原站支持 WebP/AVIF 自适应，那么在配置 CDN 的时候，需要选择根据客户端的 Accept 头进行缓存。CloudFront 和阿里云 CDN 的配置分别如下：
+
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/7f9e5347-4fe6-4af1-fde4-77a6cd962801/extra" alt="CloudFront Accept 配置" width="1602" height="1022"/>
+
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/d64345ba-b229-4f19-8426-9005f7fe6001/extra" alt="阿里云 CDN Accept 配置" width="1588" height="1456"/>
+
 ## 自动部署
 
-本站[使用 GitHub Action 在服务器上运行 SSH 脚本](https://github.com/ZE3kr/GuoZeyu.com/blob/17ec424703392867527f85aa9ce198a45859b4e9/.github/workflows/ci.yaml)实现自动部署。在服务器上配置了 `post-merge` 的 git hooks，在有改动后自动运行脚本。
+本站[使用 GitHub Action 在服务器上运行 SSH 脚本](https://github.com/ZE3kr/GuoZeyu.com/blob/17ec424703392867527f85aa9ce198a45859b4e9/.github/workflows/ci.yaml)实现自动部署。在服务器上配置了 `post-merge` 的 git hooks，在有改动后自动运行脚本。具体来讲，是在一个部署专用的服务器上生成静态页面，然后将这些静态页面分发到对应的服务器。
 
 ## 统计
 
