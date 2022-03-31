@@ -14,13 +14,16 @@ layout: post
 + 微信: `13370183318`
 + 支付宝: `zfb@ze3kr.com`
 
-收款人: `郭泽宇`
+收款人姓名: `郭泽宇`
+
+收款人手机号: `13370183318`
 
 你也可以使用文章末尾的收款码进行转账。
 
 ## 美元
 
 + Zelle: `regions@tlo.xyz`
++ PayPal: `james@tloxygen.com` 或 [@ZE3kr1](https://www.paypal.com/paypalme/ZE3kr0)
 
 收款人 First Name: `Zeyu`
 
