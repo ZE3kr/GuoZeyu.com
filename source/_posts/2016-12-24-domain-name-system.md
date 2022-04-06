@@ -9,7 +9,7 @@ categories:
 date: 2016-12-24 20:18:24
 languages:
   en-US: https://ze3kr.com/2016/12/domain-name-system/
-cover: https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/0068a9ee-7456-4512-25fe-e16929f99700/large
+cover: <img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/5ccb3159-475f-4fce-ab8e-37a758f7d101/extra" alt="全球 DNS 拓扑图" width="2000" height="1467"/>
 ---
 
 DNS（域名解析系统）的工作使命，就是服务于与域名相关的内容的底层。是域名（如：`example.com`）的核心组成部分。绝大多数与域名相关的东西，都离不开它。比如：
@@ -43,7 +43,7 @@ DNS（域名解析系统）的工作使命，就是服务于与域名相关的�
 
 它就定义了 `localhost` 域名对应 `127.0.0.1` 这个 IP（第二行是 IPv6 地址）。这样，当你从浏览器里访问这个域名，或者是在终端中执行 Ping 的时候，会自动的查询这个 `hosts` 文件，就从文件中得到了这个 IP 地址。此外，`hosts` 文件还可以控制其他域名所对应的 IP 地址，并可以 override 其在全球 DNS 或本地网络 DNS 中的值。但是，`hosts` 文件只能控制本地的域名解析。`hosts` 文件出现的时候，还没有 DNS，但它可以说是 DNS 的前身。 如果需要在一个网络中，公用同一个 DNS，那么就需要使用 IP 数据包向某个服务器去获取 DNS 记录。 在一个网络里（此处主要指本地的网络，比如家庭里一个路由器下连接的所有设备和这个路由器组成的网络），会有很多主机。在与这些主机通信的时候，使用域名会更加的方便。通常，连接到同一个路由器的设备会被设置到路由器自己的一个 DNS 服务器上。这样，解析域名就不仅可以从 hosts 去获取，还可以从这个服务器上去获取。从另一个 IP 上去获取 DNS 记录通过 DNS 查询，DNS 查询通常基于 UDP 或者 TCP 这种 IP 数据包，来实现远程的查询。我的个人电脑的网络配置如下，这是在我的电脑连接了路由器之后自动就设置上的：
 
-![网络配置截图](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/228ba536-02e2-40af-c0c4-760d74c0ce00/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/254f4cff-4c10-42f4-9985-7ac7ef27d101/extra" alt="网络配置截图" width="754" height="444"/>
 
 重点是在路由器和搜索域上。 我的电脑的主机名（也是电脑名）设置的是 `ze3kr`，这个内容在连接路由器时也被路由器知道了，于是路由器就给我的主机分配了一个域名 `ze3kr.local`，`local` 这个一级域名专门供本地使用。在这个网络内所有主机通过访问 `ze3kr.local` 这个域名时，路由器（`10.0.1.1`）就会告知这个域名对应的 IP 地址，于是这些主机够获得到我的电脑的 IP 地址。至于搜索域的作用，其实是可以省去输入完整的域名，比如：
 
@@ -67,7 +67,7 @@ round-trip min/avg/max/stddev = 0.053/0.053/0.053/0.000 ms
 
 在全球 DNS 中，一个完整域名通常包含多级，比如 `example.com.` 就是个二级域名， `www.example.com.` 就是个三级域名。通常我们常见到的域名都是完整的域名。
 
-![全球 DNS 拓扑图](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/0068a9ee-7456-4512-25fe-e16929f99700/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/5ccb3159-475f-4fce-ab8e-37a758f7d101/extra" alt="全球 DNS 拓扑图" width="2000" height="1467"/>
  
  一级域名被分为以下三个部分：
 
