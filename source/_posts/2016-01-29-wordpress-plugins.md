@@ -76,7 +76,7 @@ WordPress #1 的**安全防御**插件，可限制密码尝试次数防止暴力
 
 ## Slimpack
 
-![Slimpack 截图](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/60c81119-cf51-482d-8603-17a82c163800/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/7d249f7d-3af2-4b01-e0c0-fa15f5508401/extra" alt="Slimpack 截图" width="1910" height="1414"/>
 
 这是 Jetpack 的简化版，没有 Jetpack 那一堆没用的特性，不需要登录到 wordpress.com，功能齐全，使用起来也非常简便。
 
@@ -86,7 +86,7 @@ WordPress #1 的**安全防御**插件，可限制密码尝试次数防止暴力
 
 ## WP-Piwik
 
-![WP-Piwik 截图](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/86f98b39-867f-4be9-4c16-6ffc480f2200/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/7b6a9445-3301-4439-f287-67c86b1c3a01/extra" alt="WP-Piwik 截图" width="2114" height="968"/>
 
 这个插件能够让你的整个网站拥有统计功能，支持 WordPress 的多站点，推荐在整个网络上启用。关于 Piwik 配合 WordPress，请参见这篇文章：[Piwik 与 WordPress 配合使用，建立强大统计系统](https://guozeyu.com/2016/01/piwik-wordpress/)。
 
@@ -94,7 +94,7 @@ WordPress #1 的**安全防御**插件，可限制密码尝试次数防止暴力
 
 这个插件能够让你的 WordPress 生成一个 Podcast Feed，让你有一个播客平台，你也可以把这个 Feed 直接提交到 iTunes 等地方。
 
-![iOS 上播客软件的截图](https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/4688a970-5350-4c93-f6ff-e1579be7ea00/large)
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/20918d5d-5a40-4cc8-97b7-13f1e871f901/extra" alt="iOS 上播客软件的截图" width="750" height="1334"/>
 
 ## Exif Caption
 
