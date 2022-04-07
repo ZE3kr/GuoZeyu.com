@@ -110,7 +110,7 @@ languages:
 
 <img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/bec8af8f-2142-4423-a257-39eeef5b3b01/extra" alt="与 15-inch MacBook Pro 和 Magic Trackpad for Mac 对比（无标注）" width="2560" height="1920"/>
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/0bf6fc87-6d38-4b8d-06d2-1c4a98760e01/extra" alt="与 2018 15-inch MacBook Pro 对比（标注后可以清晰看出，iPad 版本大致**小四倍**）" width="2560" height="1920"/>
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/0bf6fc87-6d38-4b8d-06d2-1c4a98760e01/extra" alt="与 2018 15-inch MacBook Pro 对比（标注后可以清晰看出，iPad 版本大致小四倍）" width="2560" height="1920"/>
 
 <img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/0a87e0c7-9b14-475b-acfe-e5e9e688d801/extra" alt="背光对比，均开启最大亮度，亮度相近。" width="2560" height="1440"/>
 
@@ -129,7 +129,7 @@ languages:
 
 ### 指针动画和触摸板惯性
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/9734cbed-55bb-431d-66f3-5ba4ad293001/extra" alt="设两个设置位于辅助功能、指针控制中" width="2388" height="1668"/>
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/9734cbed-55bb-431d-66f3-5ba4ad293001/extra" alt="两个设置位于辅助功能、指针控制中" width="2388" height="1668"/>
 
 若开启**指针动画**，当移动到按钮上方时，指针会消失，取而代之的是按钮高亮的吸附效果。此功能可以关闭，关闭后更接近在 macOS 上的使用体验。
 

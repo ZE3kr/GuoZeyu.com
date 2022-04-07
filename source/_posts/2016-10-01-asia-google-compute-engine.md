@@ -8,8 +8,6 @@ id: '1933'
 categories:
   - - 开发
 date: 2016-10-01 11:00:48
-languages:
-  en-US: https://ze3kr.com/2016/10/asia-google-compute-engine/
 cover: <img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/9d10b075-445a-4efd-03ea-3320f46e0f01/extra" alt="一些基本的配置" width="1526" height="1204"/>
 ---
 

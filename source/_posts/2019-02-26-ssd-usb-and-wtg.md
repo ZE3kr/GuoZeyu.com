@@ -26,8 +26,7 @@ TL;DR：固态硬盘（SSD）的性能比机械硬盘（HDD）高 10 倍左右�
 
 **我是否需要 SSD？**要看是否有高性能需求。比如，**操作系统和软件就适合安装在 SSD 上**，这样启动时间会大大缩短。一些文档、图片和视频等数据则可能不是那么需要 SSD。如果你是图像/视频工作者，需要存储高画质的图像/视频，那么 SSD 就会很有用，它可以大大缩短文件的加载时间；当然很多软件也为低性能设备做了优化，比如 Lightroom Classic CC 可以生成预览（Preview）以减少文件大小；Final Cut Pro 和 Premiere CC 可以为原始素材生成代理（Proxy）以减少文件大小，你可以将预览或代理存储在 SSD 上，原始文件存储在 HDD 上以节省成本。此外，一些访问频率很低的数据也可以存储在 HDD 上以节省成本，如数据备份、监控视频、日志等。
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/93412ae0-8a11-4eb6-9436-e0cb9fef4201/extra" alt="mSATA mini 型的 SSD（来自 amazon.com）  
-3.0cm * 2.7cm * 0.4cm" width="620" height="558"/>
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/93412ae0-8a11-4eb6-9436-e0cb9fef4201/extra" alt="mSATA mini 型的 SSD（来自 amazon.com）3.0cm * 2.7cm * 0.4cm" width="620" height="558"/>
 
 此外，SSD 能有更轻的重量，更小的体积，以至于 SSD 可以做成 U 盘大小。而 HDD 就会大很多。以现在常用的最小的 2.5英寸 HDD 为例，其长度为 10cm，宽度为 7cm，这还不包含外壳部分。上图所示的 SSD 的长宽高仅有 3.0cm \* 2.7cm \* 0.4cm，重量也不到 40g。其长度不到 HDD 的三分之一。
 

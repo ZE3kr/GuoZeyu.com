@@ -67,7 +67,7 @@ CloudFront 作为全站 CDN 的特性：
 
 注意，创建后可能要等不到一小时才能被访问到。 为了根域名和 CloudFront 配合使用，我还得换 Route 53 这个 DNS 解析。由于这是精度非常高的 GeoDNS，是需要将解析服务器向各大 DNS 缓存服务器去提交，让这些缓存服务器去针对你的 DNS 缓存服务器加入到启用 EDNS Client Subnet 的白名单中。还好 Route 53 是最流行的 GeoDNS 之一，所以如果你用它给的 NS 记录，而不去自定义，就不用操心这个了。在配置根域名时，直接选择 A 记录，然后开启 Alias，填写 CloudFront 域名就行。如果想要支持 IPv6，那就再建一个 AAAA 记录即可。这样的话如果你从外部解析，你会直接解析到 A 记录和 AAAA 记录，而不是 CNAME 了！
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/038eaa27-0a36-4ae0-9a29-f0b5207b1401/extra" alt="CloudFront 配合 Route 53 使用截图 1" width="812" height="590"/>
+<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/038eaa27-0a36-4ae0-9a29-f0b5207b1401/extra" alt="CloudFront 配合 Route 53 使用截图" width="812" height="590"/>
 
 此时，CloudFront 就配置完了。现在 CloudFront 会自动缓存页面约一周的时间，所以需要配置文章更新时清理缓存。我写了一个插件，可以在有文章更新/主题修改/内核更新时清理所有缓存，新评论时清理文章页面，控制刷新频率为 10 分钟（这是由于 CloudFront 刷新缓存的速度是出奇的慢，而且刷新缓存只有前一千次免费）。欢迎[使用我制作的插件](https://wordpress.org/plugins/full-site-cache-cf/)。 不过，CloudFront 在国内的访问速度还不如我之前用的 GCE，这可怎么办？没关系，Route 53 可以 GeoDNS，我把中国和台湾还是解析到了原本的 GCE 上，这样速度其实只提不减。注意，若要这样做，原本的服务器也要有有效证书（同理，你要是域名已经备案，则可以设置为国内的 CDN 的 IP，达到国内外 CDN 混用的效果）。CloudFront 会影响 Let's Encrypt 的签发，所以需要通过设置 Behaviors 和多个源站服务器，来继续实现 80 端口的文件认证。实际测试 Route 53 为中国解析的 IPv4 识别率为 100%，IPv6 的识别率欠佳。
 
