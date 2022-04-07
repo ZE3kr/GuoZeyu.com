@@ -143,6 +143,7 @@ theme_config:
     - tag
     - category
     - profile
+    - adsense
 
   iframe: https://ze3kr.com/widget/
 
