@@ -6,8 +6,6 @@ id: '2031'
 categories:
   - - 开发
 date: 2016-10-04 09:26:00
-languages:
-  en-US: https://ze3kr.com/2016/10/build-a-anycast-network-gce/
 cover: <img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/643d7c6c-859b-4f5f-42e3-44bd338c1101/extra" alt="Load Balancing 截图" width="1600" height="877"/>
 ---
 
