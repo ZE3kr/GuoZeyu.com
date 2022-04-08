@@ -143,7 +143,7 @@ theme_config:
     - tag
     - category
     - profile
-    # - adsense
+    - adsense
 
   ads:
     - title: TlOxygen 域名注册
@@ -173,6 +173,10 @@ theme_config:
 
   links_title: 支持本站
   links:
+    - title: 关闭广告屏蔽/内容过滤
+      url: /ads/
+      domain: 谢谢
+      tloA: true
     - title: 在本站注册/转移域名
       url: https://tloxygen.com
       domain: TlO.xyz
@@ -183,7 +187,7 @@ theme_config:
       tloB: true
     - title: 支付宝/微信/Zelle
       url: /transfer/
-      domain: 转账
+      domain: 捐款
 
   # social config
   social:
