@@ -169,6 +169,11 @@ theme_config:
           <li>可选 $5.0/TB 存储</li>
         </ul>
 
+  adb: |-
+    <h3>哦不！😭你似乎拦截了本站的广告</h3>
+    <p>本站依赖广告进行创收，请考虑关闭广告拦截插件，以帮助本站持续发展。关闭后此内容将会自动消失。<a href="/ads/">了解更多</a></p>
+    <img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/803f08da-99e2-4f58-6575-2f03da76ab01/extra" alt="关闭广告屏蔽示例" width="1148" height="752"/>
+
   iframe: https://ze3kr.com/widget/
 
   links_title: 支持本站
