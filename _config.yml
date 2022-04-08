@@ -181,7 +181,7 @@ theme_config:
     - title: 关闭广告屏蔽/内容过滤
       url: /ads/
       domain: 谢谢
-      tloA: true
+      tloC: true
     - title: 在本站注册/转移域名
       url: https://tloxygen.com
       domain: TlO.xyz
