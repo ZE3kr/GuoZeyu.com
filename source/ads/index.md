@@ -21,7 +21,11 @@ adb: false
 
 通常，你需要点击广告屏蔽器的图标，然后关闭/禁用对此网站的拦截。在移动设备上，你可能需要选择 更多——网站设置——内容拦截器，然后将其关闭。
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/803f08da-99e2-4f58-6575-2f03da76ab01/extra" alt="关闭广告屏蔽示例" width="1148" height="752"/>
+<picture>
+  <source src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/c6419187-0e06-4245-82bb-5142f277f501/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
+  <source src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
+  <img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" alt="关闭广告屏蔽示例" width="1152" height="756" data-raw="true"/>
+</picture>
 
 当然，关闭广告屏蔽属于自愿行为，本站不强制用户关闭广告拦截器，启用广告拦截器后浏览也不会受限制。
 
