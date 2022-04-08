@@ -11,7 +11,7 @@ adb: false
 
 本站使用 Google AdSense 广告服务创收。如果您启用了广告屏蔽插件/内容过滤器，本站将无法从中获得收益。
 
-<div class="tloA is-hidden">
+<div class="tloC is-hidden">
 
 ## 哦不！😭你拦截了本站的广告
 
@@ -27,7 +27,7 @@ adb: false
 
 </div>
 
-<div class="tloB">
+<div class="tloD">
 
 ## 真棒！🎉你已经关闭了广告屏蔽
 
