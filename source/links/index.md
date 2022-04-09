@@ -5,6 +5,7 @@ categories: []
 comments: false
 date: false
 layout: post
+adb: false
 ---
 
 + [烧饼博客](https://u.sb/)

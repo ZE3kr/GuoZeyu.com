@@ -9,6 +9,7 @@ date: false
 layout: post
 languages:
   en-US: https://ze3kr.com/about/
+adb: false
 ---
 
 ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、摄影为主的原创精选文章、视频、图片、短文和 App 推荐。
