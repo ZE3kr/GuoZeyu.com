@@ -146,27 +146,16 @@ theme_config:
     - adsense
 
   ads:
-    - title: TlOxygen 域名注册
+    - title: 域名注册
       link: https://tloxygen.com
       content: |-
+        <img class="mb-1" src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/53f2e58c-bb33-4840-6c42-5c974c021001/medium" width="800" height="667"/>
         <ul>
-          <li>本站站长亲自建立</li>
           <li>500 余种域名后缀</li>
           <li>微信/PayPal/银行卡支付</li>
-          <li>免实名 + 隐私保护</li>
-          <li>企业邮箱与全局转发</li>
+          <li>免实名 + 免费隐私保护</li>
+          <li>免费企业邮箱与全局转发</li>
           <li>DNSSEC 的 DS 记录配置</li>
-        </ul>
-    - title: BuyVM 独立服务器
-      link: https://my.frantech.ca/aff.php?aff=5211
-      content: |-
-        <ul>
-          <li>本站所用服务器</li>
-          <li>3.50+ GHz CPU</li>
-          <li>1000 Mbps 无限流量</li>
-          <li>IPv4/IPv6/AnyCast</li>
-          <li>1024MB 内存 @ $3.5/月</li>
-          <li>可选 $5.0/TB 存储</li>
         </ul>
 
   adb: |-
@@ -186,13 +175,9 @@ theme_config:
       url: /ads/
       domain: 谢谢
       tloC: true
-    - title: 在本站注册/转移域名
+    - title: 域名注册
       url: https://tloxygen.com
-      domain: TlO.xyz
-      tloB: true
-    - title: VPS Referral
-      url: https://my.frantech.ca/aff.php?aff=5211
-      domain: BuyVM.net
+      domain: 免费企业邮箱
       tloB: true
     - title: 支付宝/微信/Zelle
       url: /transfer/
