@@ -41,9 +41,9 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 
 <img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/5e3d710c-ad7a-4992-d98a-1ae0dedc1901/extra" alt="微信订阅号" width="430" height="430"/>
 
-### 邮件列表
+<!-- ### 邮件列表
 
-你也可以订阅我们的邮件列表。只需要发送一个空邮件到 [`cn-subscribe@ze3kr.com`](mailto:cn-subscribe@ze3kr.com)，然后你会收到回信，询问你是否要接受订阅，请按照回信的提示进行操作即可。请将 `ze3kr.com` 添加至信任的联系人，以防止邮件被归类为垃圾邮件。
+你也可以订阅我们的邮件列表。只需要发送一个空邮件到 [`cn-subscribe@ze3kr.com`](mailto:cn-subscribe@ze3kr.com)，然后你会收到回信，询问你是否要接受订阅，请按照回信的提示进行操作即可。请将 `ze3kr.com` 添加至信任的联系人，以防止邮件被归类为垃圾邮件。 -->
 
 ## 隐私策略
 
