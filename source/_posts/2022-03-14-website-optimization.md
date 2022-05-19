@@ -57,7 +57,7 @@ categories:
 
 ## 分区解析与 CDN
 
-我的网站目前同时部署在国内外多个主机上，使用着相同的配置。域名使用 Route 53 的延迟记录进行分区解析，并开启了 “运行状况检查” 实现宕机后自动切换服务器。<del>目前本站使用了 5 个服务器，分别部署在北京、香港和拉斯维加斯 (美国)、伯克利县 (美国) 和法兰克福 (德国)。</del>本站目前会将国内用户解析到北京 (已备案域名) 或东京 (未备案域名)，将海外用户解析到 Cloudflare Pages。
+我的网站目前同时部署在国内外多个主机上，使用着相同的配置。域名使用 Route 53 的延迟记录进行分区解析，并开启了 “运行状况检查” 实现宕机后自动切换服务器目前本站使用了 5 个服务器，分别部署在北京、东京（日本）和拉斯维加斯 (美国)、蒙特利尔 (加拿大) 和法兰克福 (德国)。
 
 选择使用 Route 53 作为解析服务器的原因是：
 
@@ -98,13 +98,11 @@ sub_filter '//videodelivery.net/' "//video.${tlo_domain}/";
 
 #### 双 CDN 配置——分区解析
 
-这就不用多说了，将两个 CDN 绑定在一个域名上，使用 GeoDNS 对不同地区的访客返回不同的结果。目前本站由于在国外地区使用 Cloudflare Pages，不方便根据访客国家替换 CDN URL 了，所以目前换用了分区解析的方式。
+这就不用多说了，将两个 CDN 绑定在一个域名上，使用 GeoDNS 对不同地区的访客返回不同的结果。
 
 ### 图像 CDN
 
 本站的图片均使用 Cloudflare Images 进行压缩与存储，并通过 Nginx 进行代理与缓存。Nginx 配置如下，实现了根据设备兼容性优先提供 AVIF、WebP 和 JPEG。这是因为 Cloudflare Images 在国内的速度不佳。此外 Cloudflare Images 可以在访问时自动将图片调整分辨率和格式。当用户访问相对路径 `/cdn-cgi/imagedelivery/` 时，网站就会加载相应的图片，还省去了与新的域名建立 HTTP 连接的时间。
-
-> 注：由于 Cloudflare Pages 的 `/cdn-cgi/imagedelivery/` [不支持 AVIF (已反馈)](https://github.com/cloudflare/cloudflare-docs/issues/3794)，加之阿里云 ECS 流量比较贵，以及本站所有图片均是 Lazy Load，目前本站使用了跨域的 CDN（和视频一样，是 CloudFront 和阿里云 CDN），详见下文。
 
 #### Nginx 配置
 
