@@ -149,7 +149,7 @@ theme_config:
     - title: 域名注册
       link: https://tloxygen.com
       content: |-
-        <img class="mb-1" src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/53f2e58c-bb33-4840-6c42-5c974c021001/medium" width="800" height="667"/>
+        <img class="mb-1" src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/53f2e58c-bb33-4840-6c42-5c974c021001/medium" width="800" height="667"/>
         <ul>
           <li>500 余种域名后缀</li>
           <li>微信/PayPal/银行卡支付</li>
@@ -162,9 +162,9 @@ theme_config:
     <h3>哦不！😭你似乎拦截了本站的广告</h3>
     <p>本站依赖广告进行创收，请考虑关闭广告拦截插件，以帮助本站持续发展。关闭后此内容将会自动消失。<a href="/ads/">了解更多</a></p>
     <picture>
-      <source src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/c6419187-0e06-4245-82bb-5142f277f501/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
-      <source src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
-      <img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" alt="关闭广告屏蔽示例" width="1152" height="756" data-raw="true"/>
+      <source src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/c6419187-0e06-4245-82bb-5142f277f501/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
+      <source src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
+      <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" alt="关闭广告屏蔽示例" width="1152" height="756" data-raw="true"/>
     </picture>
 
   iframe: https://ze3kr.com/widget/
@@ -192,7 +192,7 @@ theme_config:
 
   user:
     name: 郭泽宇
-    avatar: https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/medium
+    avatar: https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/medium
     location: 圣路易斯
     description: 🎯 专注中
     footnotes: |-
@@ -221,8 +221,8 @@ theme_config:
   appearance: auto # Default value is auto
 
   # Miscellaneous
-  favicon: https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/thumbnail
+  favicon: https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/thumbnail
   favicon_svg: /favicon.svg
 
   # picture of about page
-  about_pic: https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/extra
+  about_pic: https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/extra

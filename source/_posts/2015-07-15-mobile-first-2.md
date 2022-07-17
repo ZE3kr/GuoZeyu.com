@@ -29,7 +29,7 @@ languages:
 
 浏览器会等待加载了最重要的依赖内容（也就是在 `head` 部分中的 CSS 和 JavaScript，之后会重点提到）加载完毕后，进行渲染。因为渲染时要依赖这些内容， CSS 也就是我们常说的样式表，这些样式表十分重要，比如百度这个网页：
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/09022b05-0350-4e22-f4cd-bc6559b30401/extra" alt="没有样式表的百度" width="2518" height="1410"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/09022b05-0350-4e22-f4cd-bc6559b30401/extra" alt="没有样式表的百度" width="2518" height="1410"/>
 
 没有 CSS 样式表后，整个网页的布局是 “失控” 的，页面不会以预期的方式被加载，这种体验十分糟糕。没有样式表与有样式表的网页通常是两种完全不同的样子。然而 JavaScript 通常与布局无关，可以放在之后加载，不影响页面样式。
 

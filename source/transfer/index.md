@@ -33,6 +33,6 @@ ads: false
 
 ## 收款码
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/768df28a-1af4-459d-464b-b9905f003601/extra" alt="微信收款码" width="1242" height="1686"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/768df28a-1af4-459d-464b-b9905f003601/extra" alt="微信收款码" width="1242" height="1686"/>
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/1611b327-dc1b-4655-ad91-a4cec0381201/extra" alt="支付宝收款码" width="1182" height="1772"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/1611b327-dc1b-4655-ad91-a4cec0381201/extra" alt="支付宝收款码" width="1182" height="1772"/>

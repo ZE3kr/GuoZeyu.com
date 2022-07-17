@@ -8,7 +8,7 @@ categories:
 date: 2019-02-26 16:49:52
 languages:
   en-US: https://ze3kr.com/2019/02/ssd-usb-and-wtg/
-cover: <img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/69a9a1ba-9671-4f8f-3fd7-50bed271db01/extra" alt="SSD 连接样式" width="3360" height="2240"/>
+cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/69a9a1ba-9671-4f8f-3fd7-50bed271db01/extra" alt="SSD 连接样式" width="3360" height="2240"/>
 ---
 
 最近，我先后购买了 SSD U盘和 SSD 硬盘。我在我的 SSD U盘上安装了 Windows To Go，并在 Mac 设备上良好使用。本文将分享一下我的体验。
@@ -26,7 +26,7 @@ TL;DR：固态硬盘（SSD）的性能比机械硬盘（HDD）高 10 倍左右�
 
 **我是否需要 SSD？**要看是否有高性能需求。比如，**操作系统和软件就适合安装在 SSD 上**，这样启动时间会大大缩短。一些文档、图片和视频等数据则可能不是那么需要 SSD。如果你是图像/视频工作者，需要存储高画质的图像/视频，那么 SSD 就会很有用，它可以大大缩短文件的加载时间；当然很多软件也为低性能设备做了优化，比如 Lightroom Classic CC 可以生成预览（Preview）以减少文件大小；Final Cut Pro 和 Premiere CC 可以为原始素材生成代理（Proxy）以减少文件大小，你可以将预览或代理存储在 SSD 上，原始文件存储在 HDD 上以节省成本。此外，一些访问频率很低的数据也可以存储在 HDD 上以节省成本，如数据备份、监控视频、日志等。
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/93412ae0-8a11-4eb6-9436-e0cb9fef4201/extra" alt="mSATA mini 型的 SSD（来自 amazon.com）3.0cm * 2.7cm * 0.4cm" width="620" height="558"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/93412ae0-8a11-4eb6-9436-e0cb9fef4201/extra" alt="mSATA mini 型的 SSD（来自 amazon.com）3.0cm * 2.7cm * 0.4cm" width="620" height="558"/>
 
 此外，SSD 能有更轻的重量，更小的体积，以至于 SSD 可以做成 U 盘大小。而 HDD 就会大很多。以现在常用的最小的 2.5英寸 HDD 为例，其长度为 10cm，宽度为 7cm，这还不包含外壳部分。上图所示的 SSD 的长宽高仅有 3.0cm \* 2.7cm \* 0.4cm，重量也不到 40g。其长度不到 HDD 的三分之一。
 
@@ -36,7 +36,7 @@ SSD 也可以做到很大的容量，比如 15英寸 MacBook Pro 甚至可以选
 
 SSD 外设有着如此之高的读写速度，以至于只有使用 5Gbps 的 USB3.0 和 USB3.1 Gen1，或者 10Gbps USB3.1 Gen2 才能体现出它的性能，这些接口的速度对于 SATA SSD 已经够了。然而，若要发挥出其全部性能，则需要使用 20Gbps Thunderbolt 2 或者 40Gbps Thunderbolt 3 接口，因为多数的 NVMe SSD 读写性能大于 10Gbps 而不超过 20Gbps。使用 480Mbps USB2.0 的 SSD 几乎是无意义的，所以你也很难找到这种产品。不同接口的 SSD 外设价格也区分的很明确，使用的接口越高端就越贵。使用 Thunderbolt 接口的移动 SSD 价格会比使用 USB 接口的贵 2~3 倍（速度快 2~4 倍）。
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/622b1ba8-5858-4ac1-de22-4d8e721bf701/extra" alt="接口协议对比图（来自 thunderbolttechnology.net）" width="3915" height="3000"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/622b1ba8-5858-4ac1-de22-4d8e721bf701/extra" alt="接口协议对比图（来自 thunderbolttechnology.net）" width="3915" height="3000"/>
 
 Thunderbolt3 接口的外形与 USB Type-C 外形完全一样，有些移动硬盘使用了 Type-C 接口，但不代表它就是 Thunderbolt3。你可能需要通过观察其是否有 Thunderbolt 的 ⚡️标志来判断是否支持 Thunderbolt。此外，使用 Thunderbolt3 接口的移动硬盘未必支持 USB 协议，例如我购买的 HP P800 移动硬盘，就不支持 USB 协议，且不能转接成 USB，同时也不能转接成 Thunderbolt2，所以其兼容性就大打折扣。而 USB3.x 的设备通常兼容 USB2.0，且 USB Type-A 与 Type-C 也能相互转接，所以 USB 设备有着更好的兼容性。
 
@@ -44,7 +44,7 @@ Thunderbolt3 接口的外形与 USB Type-C 外形完全一样，有些移动硬�
 
 **SSD U盘**相当于更小的 SSD 移动硬盘，其体积可能和普通的 U 盘相近。由于体积的减小，SSD U盘读写性能与散热性能通常不如 SSD 移动硬盘。且更少有支持 Thunderbolt 的 U 盘。
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/5204750b-f04c-4074-68ff-bec393072301/extra" alt="从左到右依次为 iPhone XS、HP P800 Thunderbolt3 SSD、CHIPFANCIER USB3.1 Gen2 Type-C SSD" width="3360" height="2240"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/5204750b-f04c-4074-68ff-bec393072301/extra" alt="从左到右依次为 iPhone XS、HP P800 Thunderbolt3 SSD、CHIPFANCIER USB3.1 Gen2 Type-C SSD" width="3360" height="2240"/>
 
 |  | HP P800 SSD | CHIPFANCIER SSD |
 | ----- | ----- | ----- |
@@ -57,7 +57,7 @@ Thunderbolt3 接口的外形与 USB Type-C 外形完全一样，有些移动硬�
 | 容量 | 256GB/512GB/1TB/2TB |
 | （2TB 版本尚未发布） | 128GB/256GB/512GB/1TB |
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/69a9a1ba-9671-4f8f-3fd7-50bed271db01/extra" alt="在 MacBook Pro 上，即使一个接口安装上了 CHIPFANCIER 的 SSD U盘，其旁边的接口仍然有空间连接其他 Type-C 设备。" width="3360" height="2240"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/69a9a1ba-9671-4f8f-3fd7-50bed271db01/extra" alt="在 MacBook Pro 上，即使一个接口安装上了 CHIPFANCIER 的 SSD U盘，其旁边的接口仍然有空间连接其他 Type-C 设备。" width="3360" height="2240"/>
 
 ## 磁盘格式的选择
 
@@ -103,7 +103,7 @@ macOS、Windows 和 Linux 都可以被安装在 U盘或者移动硬盘上。但 
 安装成功后，你可以在电脑启动时选择从 U 盘启动，或者在虚拟机里从 U 盘启动。这里展示一下在 Mac 上启动 WTG 以及 macOS 上的 VMware Fusion 中启动 WTG。
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://cdn.ze3kr.com/iframe/d99af30ada995905d245761ca8ea3fd9?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://cdn.tloxygen.com/iframe/d99af30ada995905d245761ca8ea3fd9?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>MacBook Pro 开机启动到 Windows To Go。</figcaption>
 </figure>
 
@@ -113,12 +113,12 @@ macOS、Windows 和 Linux 都可以被安装在 U盘或者移动硬盘上。但 
 
 你需要为 Windows 安装 Mac 的驱动。在 Mac 的 “启动转换”（Boot Camp）软件中的 “操作” 菜单里可以手动 “下载 Windows 支持软件”（驱动）。注意，不同型号的 Mac 的驱动不同，建议使用系统的软件下载。如果你需要在多个 Mac 上使用一个 WTG，你需要安装多个驱动。启动转换助理是帮助用户在 Mac 本地硬盘上安装 Windows 双系统的，**不能**用来安装 Windows To Go，这里**只是用它安装驱动**。
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/b3992268-7239-40c0-0174-7d54aff08201/extra" alt="BootCamp 下载 Windows 支持软件截图" width="1570" height="1144"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/b3992268-7239-40c0-0174-7d54aff08201/extra" alt="BootCamp 下载 Windows 支持软件截图" width="1570" height="1144"/>
 
 **建议将驱动保存在另一个 Windows 可以识别的 U盘上**（见本文的 “磁盘格式的选择”）。然后再次开机进入 WTG 后就能安装了。
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://cdn.ze3kr.com/iframe/aaf2fac6d0f2848c78c39c6e633b9af7?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://cdn.tloxygen.com/iframe/aaf2fac6d0f2848c78c39c6e633b9af7?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>macOS 使用 VMware Fusion 进入 WTG。</figcaption>
 </figure>
 
@@ -138,6 +138,6 @@ macOS、Windows 和 Linux 都可以被安装在 U盘或者移动硬盘上。但 
 
 我将 Windows 安装到了 CHIPFANCIER 出的 SSD U盘上，其特色是使用了 USB3.1 Gen2 Type-C 接口，这样不需要转接就能够在新 Mac 上使用。然后我又购买了绿联的 Type-C 转 Type-A 的转接头（USB 3.0），可以将此 U 盘转接到 Type-A 设备上。
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/9a968ae3-8c52-46aa-1384-db54746d4e01/extra" alt="绿联 Type-C 转 Type-A" width="3360" height="2240"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/9a968ae3-8c52-46aa-1384-db54746d4e01/extra" alt="绿联 Type-C 转 Type-A" width="3360" height="2240"/>
 
-<img src="https://cdn.ze3kr.com/6T-behmofKYLsxlrK0l_MQ/4ba97fd8-2ffe-49e5-e6fa-e7871e765001/extra" alt="绿联 Type-C 转 Type-A 连接后" width="3360" height="2240"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/4ba97fd8-2ffe-49e5-e6fa-e7871e765001/extra" alt="绿联 Type-C 转 Type-A 连接后" width="3360" height="2240"/>
