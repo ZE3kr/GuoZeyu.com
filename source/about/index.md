@@ -39,7 +39,7 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 
 或者，你也可以订阅本站对应的微信订阅号: `ZE3kr_service`
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/5e3d710c-ad7a-4992-d98a-1ae0dedc1901/extra" alt="微信订阅号" width="430" height="430"/>
+<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/5e3d710c-ad7a-4992-d98a-1ae0dedc1901/extra" alt="微信订阅号" width="430" height="430"/>
 
 <!-- ### 邮件列表
 

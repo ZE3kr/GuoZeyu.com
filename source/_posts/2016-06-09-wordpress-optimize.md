@@ -107,4 +107,4 @@ Google Font 在国内加载非常慢，而且加载完成之前页面会一直�
 
 做到上面几点，就能有效提速了，我的网站做到以上几点，在国内无缓存的 Wi-Fi 情况下本网站的时间线如下：
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/8385161e-4573-49ba-d052-edfde67e9d01/extra" alt="在 1 秒钟内完成包括图片在内的加载" width="2378" height="1468"/>
+<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/8385161e-4573-49ba-d052-edfde67e9d01/extra" alt="在 1 秒钟内完成包括图片在内的加载" width="2378" height="1468"/>
