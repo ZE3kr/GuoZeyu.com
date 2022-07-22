@@ -109,9 +109,9 @@ deploy:
     # local: ~/sync/GuoZeyu.com.git,main
     aliyun: ze3kr@bj1-aliyun.tloxygen.com:~/sync/GuoZeyu.com.git,main
     us1-buyvm: ze3kr@us1-buyvm.tloxygen.com:~/sync/GuoZeyu.com.git,main
-    us1-aws: ze3kr@us1-aws.tloxygen.com:~/sync/GuoZeyu.com.git,main
+    us1-aws: ze3kr@ca1-aws.tloxygen.com:~/sync/GuoZeyu.com.git,main
     jp1-aws: ze3kr@jp1-aws.tloxygen.com:~/sync/GuoZeyu.com.git,main
-    eu1-ovh: ze3kr@eu1-ovh.tloxygen.com:~/sync/GuoZeyu.com.git,main
+    eu1-ovh: ze3kr@de1-ovh.tloxygen.com:~/sync/GuoZeyu.com.git,main
 
 feed:
   enable: true
