@@ -185,10 +185,11 @@ theme_config:
 
   # social config
   social:
-    twitter: ZE3kr
-    instagram: ZE3kr
+    # twitter: ZE3kr
+    # instagram: ZE3kr
+    telegram: ZE3kr
     github: ZE3kr
-    email: james@tloxygen.com
+    email: i@ze3kr.com
 
   user:
     name: 郭泽宇
