@@ -19,22 +19,34 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 
 ## 联系我
 
-你可以通过这些方式与我端到端加密私聊:
+你可以通过这些方式与我私聊，以下方式均可启用端到端加密:
 
-+ 电子邮件: [i@ze3kr.com](mailto:i@ze3kr.com) 安装 [S/MIME 证书](/files/ze3kr.pem)
-+ Telegram: [@ZE3kr](https://t.me/ZE3kr) 启用 [Secret Chat](https://telegram.org/faq#q-how-do-i-start-a-secret-chat)
-+ Lark (飞书国际版): [i@ze3kr.com](https://www.larksuite.com/invitation/page/add_contact/?token=673u335b-b1bf-4127-8e78-1454bba2d9ft&unique_id=RIO3vNiUEPfCQyzQk3p9LA==) 启用密聊 (Secure Chat)
-+ iMessage: [i@ze3kr.com](imessage://i@ze3kr.com) 默认端到端加密
++ 电子邮件: [i@ze3kr.com](mailto:i@ze3kr.com)
+  + ⚠️ [安装 S/MIME 证书](/files/ze3kr.pem)
++ Telegram: [@ZE3kr](https://t.me/ZE3kr)
+  + ⚠️ [启用 Secret Chat](https://telegram.org/faq#q-how-do-i-start-a-secret-chat)
++ Lark (飞书国际版): [i@ze3kr.com](https://www.larksuite.com/invitation/page/add_contact/?token=673u335b-b1bf-4127-8e78-1454bba2d9ft&unique_id=RIO3vNiUEPfCQyzQk3p9LA==)
+  + ⚠️ 启用密聊 (Secure Chat)
++ iMessage: [i@ze3kr.com](imessage://i@ze3kr.com)
+  + ✅ 默认端到端加密
 
 如果你知道我的美国手机号，你也可以通过以下方式与我端到端加密私聊:
 
-+ WhatsApp: 默认端到端加密，可通过其他联系方式与我核验端到端加密安全代码 (Security Code)
-+ FaceTime/iMessage: 默认端到端加密
++ WhatsApp
+  + ✅ 默认端到端加密，可通过其他联系方式与我核验端到端加密安全代码 (Security Code)
++ FaceTime/iMessage
+  + ✅ 默认端到端加密
 
 本人将<strong>拒收</strong>以下可能<strong>不安全</strong>的聊天方式:
 
 + 微信或 WeChat
+  + ❌ 仅实行传输加密，没有启用端到端加密
+  + ❌ 没有披露加密系统技术细节
+  + ❌ 没有披露关于政府要求取得用户数据的详情
 + 腾讯 QQ
+  + ❌ 无法找到有关 QQ 加密的信息
+  + ❌ 没有披露加密系统技术细节
+  + ❌ 没有披露关于政府要求取得用户数据的详情
 
 ### 为什么要使用端到端加密?
 
