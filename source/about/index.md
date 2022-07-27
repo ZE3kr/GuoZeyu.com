@@ -26,7 +26,7 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 + Lark (飞书国际版): [i@ze3kr.com](https://www.larksuite.com/invitation/page/add_contact/?token=673u335b-b1bf-4127-8e78-1454bba2d9ft&unique_id=RIO3vNiUEPfCQyzQk3p9LA==) 启用密聊 (Secure Chat)
 + iMessage: [i@ze3kr.com](imessage://i@ze3kr.com) 默认端到端加密
 
-本人将<strong>拒收</strong>以下不安全的聊天方式:
+本人将<strong>拒收</strong>以下<strong>不安全</strong>的聊天方式:
 
 + 微信或 WeChat
 + 腾讯 QQ
