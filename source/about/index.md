@@ -28,10 +28,10 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 
 如果你知道我的美国手机号，你也可以通过以下方式与我端到端加密私聊:
 
-+ WhatsApp: 可通过其他联系方式与我核验端到端加密安全代码 (Security Code)
-+ FaceTime: 默认端到端加密
++ WhatsApp: 默认端到端加密，可通过其他联系方式与我核验端到端加密安全代码 (Security Code)
++ FaceTime/iMessage: 默认端到端加密
 
-本人将<strong>拒收</strong>以下<strong>不安全</strong>的聊天方式:
+本人将<strong>拒收</strong>以下可能<strong>不安全</strong>的聊天方式:
 
 + 微信或 WeChat
 + 腾讯 QQ
