@@ -147,7 +147,7 @@ theme_config:
 
   ads:
     - title: 域名注册
-      link: https://tloxygen.com
+      link: https://www.yangxi.tech
       content: |-
         <img class="mb-1" src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/53f2e58c-bb33-4840-6c42-5c974c021001/medium" width="800" height="667"/>
         <ul>
@@ -176,7 +176,7 @@ theme_config:
       domain: 谢谢
       tloC: true
     - title: 域名注册
-      url: https://tloxygen.com
+      url: https://www.yangxi.tech
       domain: 免费企业邮箱
       tloB: true
     - title: 支付宝/微信/Zelle
