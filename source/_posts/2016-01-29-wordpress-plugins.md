@@ -56,7 +56,7 @@ admin,mediaelement,wordfence,piwik,toolbar,dashicons,crayon-syntax-highlighter/t
 
 ## AMP
 
-插件作者是：Automattic ，为 Google 优化，搜索结果中展示超快的 AMP 页面。详情：[使用 AMP 构建超快的移动页面](https://guozeyu.com/2016/10/amp-html/)
+插件作者是：Automattic ，为 Google 优化，搜索结果中展示超快的 AMP 页面。详情：[使用 AMP 构建超快的移动页面](https://www.guozeyu.com/2016/10/amp-html/)
 
 ## Google Authenticator
 
@@ -88,7 +88,7 @@ WordPress #1 的**安全防御**插件，可限制密码尝试次数防止暴力
 
 <img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/7b6a9445-3301-4439-f287-67c86b1c3a01/extra" alt="WP-Piwik 截图" width="2114" height="968"/>
 
-这个插件能够让你的整个网站拥有统计功能，支持 WordPress 的多站点，推荐在整个网络上启用。关于 Piwik 配合 WordPress，请参见这篇文章：[Piwik 与 WordPress 配合使用，建立强大统计系统](https://guozeyu.com/2016/01/piwik-wordpress/)。
+这个插件能够让你的整个网站拥有统计功能，支持 WordPress 的多站点，推荐在整个网络上启用。关于 Piwik 配合 WordPress，请参见这篇文章：[Piwik 与 WordPress 配合使用，建立强大统计系统](https://www.guozeyu.com/2016/01/piwik-wordpress/)。
 
 ## Blubrry PowerPress
 

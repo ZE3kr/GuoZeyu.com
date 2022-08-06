@@ -13,7 +13,7 @@ languages:
 cover: <img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/7c2085b5-f7b7-42ba-bdb0-fb3ef4050901/extra" alt="缓存服务器的位置" width="1124" height="482"/>
 ---
 
-[在上一篇文章](https://guozeyu.com/2016/10/asia-google-compute-engine/)中，我简单的介绍了 Google Compute Engine（简称 GCE）的基础使用。这篇文章我将介绍如何利用 GCE 建立一个 Anycast 网络，并测试了其速度。 想要实现这个功能，就需要使用 [Cross-Region Load Balancing](https://cloud.google.com/compute/docs/load-balancing/http/cross-region-example)（跨地区的负载均衡），此功能就相当于一个 HTTP(S) 的反向代理，所以只能针对 HTTP/HTTPS 请求进行负载均衡。
+[在上一篇文章](https://www.guozeyu.com/2016/10/asia-google-compute-engine/)中，我简单的介绍了 Google Compute Engine（简称 GCE）的基础使用。这篇文章我将介绍如何利用 GCE 建立一个 Anycast 网络，并测试了其速度。 想要实现这个功能，就需要使用 [Cross-Region Load Balancing](https://cloud.google.com/compute/docs/load-balancing/http/cross-region-example)（跨地区的负载均衡），此功能就相当于一个 HTTP(S) 的反向代理，所以只能针对 HTTP/HTTPS 请求进行负载均衡。
 <!-- more -->
 
 ## 简要概述

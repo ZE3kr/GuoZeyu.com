@@ -65,7 +65,7 @@ Argo 并没有想象中的那么好用，而且 **$5/mo** 的起步价和 **$0.1
 
 ## 动态内容
 
-**延迟**：Google Cloud CDN 延迟最低，Cloudflare Railgun 仅次。 **流量**：对于普通的动态 CMS，Cloudflare Railgun 大约能节省 10 倍以上流量，Google Cloud CDN 是做不到的。 我在[国内外几家全站 CDN 对比](https://guozeyu.com/2017/01/wordpress-full-site-cdn/)中测试 Google Cloud CDN 时，其极低的 TTFB 令我惊讶，仔细研究后发现节点是与主机之间建立长连接，而且会保持很长一段时间，此外所有网络都走 Google 内网，本质上与 Argo 和 Railgun 类似。所以目前服务动态内容最快的应该还属 Google Cloud CDN 了，Railgun 基本与之相当。
+**延迟**：Google Cloud CDN 延迟最低，Cloudflare Railgun 仅次。 **流量**：对于普通的动态 CMS，Cloudflare Railgun 大约能节省 10 倍以上流量，Google Cloud CDN 是做不到的。 我在[国内外几家全站 CDN 对比](https://www.guozeyu.com/2017/01/wordpress-full-site-cdn/)中测试 Google Cloud CDN 时，其极低的 TTFB 令我惊讶，仔细研究后发现节点是与主机之间建立长连接，而且会保持很长一段时间，此外所有网络都走 Google 内网，本质上与 Argo 和 Railgun 类似。所以目前服务动态内容最快的应该还属 Google Cloud CDN 了，Railgun 基本与之相当。
 
 ## 静态内容
 

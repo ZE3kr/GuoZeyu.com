@@ -12,7 +12,7 @@ ads: false
 
 ## 我们是谁？
 
-我们的网址是: https://guozeyu.com. 此文章面向 guozeyu.com 的访客。
+我们的网址是: https://www.guozeyu.com. 此文章面向 guozeyu.com 的访客。
 
 ## 我们会收集什么样的数据？为什么？
 

@@ -28,7 +28,7 @@ $ dig -t AAAA `dig <domain> ns +short` +short
 
 <img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/754c0ab0-536b-4953-3c68-4e50bfcb4601/extra" alt="根域名 com 和一级域名 example.com 都正确配置了支持 IPv6 的 DNS 服务器" width="772" height="174"/>
 
-如果想要自建 DNS 服务器，可以参考[自建 PowerDNS 方法](https://guozeyu.com/2016/08/self-host-dns/)。 如果你的根域名不支持 IPv6，那么你可以联系根域名那里让他们去支持，或者换一个根域名。如果你的一级域名不支持 IPv6，那就联系 DNS 解析商让他们支持，或者直接换走。
+如果想要自建 DNS 服务器，可以参考[自建 PowerDNS 方法](https://www.guozeyu.com/2016/08/self-host-dns/)。 如果你的根域名不支持 IPv6，那么你可以联系根域名那里让他们去支持，或者换一个根域名。如果你的一级域名不支持 IPv6，那就联系 DNS 解析商让他们支持，或者直接换走。
 
 ## 让网站、API 等服务器支持 IPv6
 

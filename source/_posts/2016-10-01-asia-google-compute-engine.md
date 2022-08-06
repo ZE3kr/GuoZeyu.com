@@ -92,7 +92,7 @@ traceroute to google.com (64.233.189.113), 64 hops max
 
 ### 配置 Anycast
 
-**详细内容已在[下一篇文章](https://guozeyu.com/2016/10/build-a-anycast-network-gce/)中介绍**，通过 Load Balancing 可以分配到一个**独立的** IPv4 地址，还能够有原生的 IPv6，支持 CDN 和 HTTPS。Google 的 Anycast 有多快？和 Google 一样快。
+**详细内容已在[下一篇文章](https://www.guozeyu.com/2016/10/build-a-anycast-network-gce/)中介绍**，通过 Load Balancing 可以分配到一个**独立的** IPv4 地址，还能够有原生的 IPv6，支持 CDN 和 HTTPS。Google 的 Anycast 有多快？和 Google 一样快。
 
 ### 内部网络互通
 
@@ -130,4 +130,4 @@ GCE 虽然是提供独立 IP 的，但是当你执行 `ifconfig -a` 时，你�
 
 ### 不支持多 IP 与 IPv6
 
-GCE 上不能通过加钱的方式去购买多个 IPv4 地址，所以一个实例只能有一个 IPv4 地址，需要多个 IPv4 需求的可以尝试多个实例（或者可以通过 Load Balancing 来实现多个 IP 地址）。 同时，GCE 目前不支持 IPv6，这实在是很可惜的。目前已经可以[通过负载均衡器来实现 IPv6](https://guozeyu.com/2016/10/build-a-anycast-network-gce/)。
+GCE 上不能通过加钱的方式去购买多个 IPv4 地址，所以一个实例只能有一个 IPv4 地址，需要多个 IPv4 需求的可以尝试多个实例（或者可以通过 Load Balancing 来实现多个 IP 地址）。 同时，GCE 目前不支持 IPv6，这实在是很可惜的。目前已经可以[通过负载均衡器来实现 IPv6](https://www.guozeyu.com/2016/10/build-a-anycast-network-gce/)。

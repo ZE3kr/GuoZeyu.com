@@ -11,7 +11,7 @@ languages:
   en-US: https://ze3kr.com/2016/08/self-host-dns/
 ---
 
-最近我越来越喜欢自建一些东西，比如 GitLab。今天我又把 DNS 服务器改成自建的了，分享一下经验（PS：现在为了实现[根域名 CDN](https://guozeyu.com/2017/01/wordpress-full-site-cdn/)，我用换成了 Route 53）：
+最近我越来越喜欢自建一些东西，比如 GitLab。今天我又把 DNS 服务器改成自建的了，分享一下经验（PS：现在为了实现[根域名 CDN](https://www.guozeyu.com/2017/01/wordpress-full-site-cdn/)，我用换成了 Route 53）：
 
 本文的自建 DNS 是指的是权威 DNS，即给自己的域名配置的 DNS，而非在客户端配置的缓存 DNS。
 

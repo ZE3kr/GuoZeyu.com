@@ -236,7 +236,7 @@ UPYUN 和下面的 KeyCDN 签发的都是 Let's Encrypt 的独立证书，但都
 
 ### Google Cloud CDN
 
-有全球最密集的网络集群，最快的速度、较低的单价，主要提供负载均衡，SSL 卸载，当然还附带了 CDN。由于缓存命中率低，需要超大型访问量的网站才有效。正是因为这一点，Google 自己只是将用户量极大的搜索服务用上了这个 CDN 系统，其余的很多 CDN 用的是 Cloudflare 和 Fastly 的。Google 的网络和 Cloudflare 和 Fastly 的网络有内网链接。[详细介绍看本站的这篇文章](https://guozeyu.com/2016/10/build-a-anycast-network-gce/)
+有全球最密集的网络集群，最快的速度、较低的单价，主要提供负载均衡，SSL 卸载，当然还附带了 CDN。由于缓存命中率低，需要超大型访问量的网站才有效。正是因为这一点，Google 自己只是将用户量极大的搜索服务用上了这个 CDN 系统，其余的很多 CDN 用的是 Cloudflare 和 Fastly 的。Google 的网络和 Cloudflare 和 Fastly 的网络有内网链接。[详细介绍看本站的这篇文章](https://www.guozeyu.com/2016/10/build-a-anycast-network-gce/)
 
 *   国外速度：★★★★★，由于拥有众多的海外节点并支持 Anycast，给满分。
 *   国内速度：★★★☆☆，国内直连香港节点，几乎是速度最快的香港网络的，与国内几大运营商都有接入，但毕竟没有国内节点，比不过一些国内的速度。（但是目前所分配到的一些 IP，联通会绕道至美西了）
@@ -281,7 +281,7 @@ KeyCDN 作为全站 CDN 的特性：
 *   免费 SSL 证书
 *   可配置国内外 CDN 混用
 
-我为他写了一个插件可以实现完美清理缓存，[详情见此](https://guozeyu.com/2016/02/this-site-uses-keycdn-as-a-front-end-to-speed-up-instead-of-cloudflare/)
+我为他写了一个插件可以实现完美清理缓存，[详情见此](https://www.guozeyu.com/2016/02/this-site-uses-keycdn-as-a-front-end-to-speed-up-instead-of-cloudflare/)
 
 ## 关于 WordPress 动静分离的新方法
 
