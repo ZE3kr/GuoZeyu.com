@@ -28,7 +28,7 @@ categories:
 + 目录自动生成
 + 现代化的设计语言
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/1f3d2ac8-a17d-4d1a-7d16-41a1995ac401/extra" alt="Claudia 主题封面" width="3168" height="2455"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/1f3d2ac8-a17d-4d1a-7d16-41a1995ac401/extra" alt="Claudia 主题封面" width="3168" height="2455"/>
 
 我对其增加的功能主要如下：
 
@@ -50,7 +50,7 @@ categories:
 原本主题的搜索功能在电脑端只会在最右侧的边栏展示搜索结果，我对其进行了改进，实现了用户在搜索时搜索栏和搜索结果自动延长。各位可以直接前往首页体验，或者查看下方的效果视频：
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 62.24299065420561%;"><iframe src="https://iframe.cloudflarestream.com/beb50392b3f14f49b01fb75b20d4cef7?controls=false&muted=true&preload=metadata&loop=true&autoplay=true&poster=https%3A%2F%2Fcdn.yangxi.tech%2Fbeb50392b3f14f49b01fb75b20d4cef7%2Fthumbnails%2Fthumbnail.jpg%3Fheight%3D600" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 62.24299065420561%;"><iframe src="https://iframe.cloudflarestream.com/beb50392b3f14f49b01fb75b20d4cef7?controls=false&muted=true&preload=metadata&loop=true&autoplay=true&poster=https%3A%2F%2Fcdn.tloxygen.com%2Fbeb50392b3f14f49b01fb75b20d4cef7%2Fthumbnails%2Fthumbnail.jpg%3Fheight%3D600" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>网站搜索演示</figcaption>
 </figure>
 
@@ -171,9 +171,9 @@ location @proxy {
     proxy_hide_header Expect-CT;
     proxy_http_version 1.1;
     proxy_set_header Connection "";
-    if ($uri ~* '^https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/(.*)$') { 
+    if ($uri ~* '^https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/(.*)$') { 
         add_header X-Cache-Status "MISS";
-        proxy_pass https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/$1;
+        proxy_pass https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/$1;
         break;
     }
 }
@@ -187,9 +187,9 @@ AVIF 格式比 WebP 的压缩效率更好，而 WebP 格式比 JPEG 的压缩效
 
 如果原站支持 WebP/AVIF 自适应，那么在配置 CDN 的时候，需要选择根据客户端的 Accept 头进行缓存。CloudFront 和阿里云 CDN 的配置分别如下：
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/7f9e5347-4fe6-4af1-fde4-77a6cd962801/extra" alt="CloudFront Accept 配置" width="1602" height="1022"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/7f9e5347-4fe6-4af1-fde4-77a6cd962801/extra" alt="CloudFront Accept 配置" width="1602" height="1022"/>
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/d64345ba-b229-4f19-8426-9005f7fe6001/extra" alt="阿里云 CDN Accept 配置" width="1588" height="1456"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/d64345ba-b229-4f19-8426-9005f7fe6001/extra" alt="阿里云 CDN Accept 配置" width="1588" height="1456"/>
 
 ## 自动部署
 
@@ -199,7 +199,7 @@ AVIF 格式比 WebP 的压缩效率更好，而 WebP 格式比 JPEG 的压缩效
 
 本站使用[自建的 Matomo](/2016/01/piwik-wordpress/)网站统计。Matomo 是一个基于 PHP 和 MySQL 的非常强大的开源统计软件。
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/4285add5-3bcb-4cb8-168d-240bc55c0501/extra" alt="Matomo 后台管理界面截屏" width="2722" height="1716"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/4285add5-3bcb-4cb8-168d-240bc55c0501/extra" alt="Matomo 后台管理界面截屏" width="2722" height="1716"/>
 
 除此之外，本站还通过 JavaScript 实现了对视频播放，图像查看和搜索的统计。本站还使用了 Nginx 的 post_action 功能实现了异步发送统计，具体在 `server` 中的配置如下：
 
@@ -223,9 +223,9 @@ location @tracker {
 
 本站还启用了 HTTP/2 Server Push，用户在访问网站时，服务器会一次性直接推送首屏渲染必要的 CSS 和 JS 文件，由于用户不需要在获取到 HTML 页面后再去获取 CSS 和 JS 文件，首屏渲染的时间大大缩短。实测在模拟 Fast 3G 环境下，启用 HTTP/2 Server Push 后首屏时间减少了约 0.3 秒：
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/fe478b12-883e-4a9f-f3df-76a634c5a901/extra" alt="仅启用 HTTP/2，首屏耗时 1.48 秒" width="1376" height="1012"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/fe478b12-883e-4a9f-f3df-76a634c5a901/extra" alt="仅启用 HTTP/2，首屏耗时 1.48 秒" width="1376" height="1012"/>
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/a2192c1b-c769-4ff4-c759-084291df6101/extra" alt="启用 HTTP/2 Server Push，首屏耗时 1.20 秒" width="1376" height="1012"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/a2192c1b-c769-4ff4-c759-084291df6101/extra" alt="启用 HTTP/2 Server Push，首屏耗时 1.20 秒" width="1376" height="1012"/>
 
 具体 Nginx 中 `server` 的配置如下
 

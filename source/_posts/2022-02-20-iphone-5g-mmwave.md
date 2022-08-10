@@ -17,11 +17,11 @@ excerpt: 本文对比了中频 5G 和毫米波 5G 的速度差异，提供了判
 
 <!-- more -->
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/bf1266e2-c4fa-4e2b-6fa3-3fba29280001/extra" alt="毫米波 5G (28 GHz)" width="1125" height="2436"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/bf1266e2-c4fa-4e2b-6fa3-3fba29280001/extra" alt="毫米波 5G (28 GHz)" width="1125" height="2436"/>
 
 可以看到，毫米波 5G (高频，mmWave) 轻松跑到了 2000Mbps。理论上毫米波是可以达到 3000Mbps 的，但我试了多次最高 “也就” 2000Mbps。
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/b786139e-7ed3-4ba3-4bcb-a30f00afdc01/extra" alt="中频 5G (3.7 GHz)" width="1170" height="2532"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/b786139e-7ed3-4ba3-4bcb-a30f00afdc01/extra" alt="中频 5G (3.7 GHz)" width="1170" height="2532"/>
 
 中频 5G (Mid-Band) “只” 跑到了 929Mbps。
 
@@ -31,19 +31,19 @@ excerpt: 本文对比了中频 5G 和毫米波 5G 的速度差异，提供了判
 
 在系统的通话页面输入 `*3001#12345#*`，然后点击呼叫:
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/cd468b11-8d24-4919-a22f-1c411c840001/extra" alt="系统的通话界面" width="1170" height="2532"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/cd468b11-8d24-4919-a22f-1c411c840001/extra" alt="系统的通话界面" width="1170" height="2532"/>
 
 随后我们就可以看到下图所示的 Field Test Mode:
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/d9ef249f-8ece-4f5a-72fb-0e6afe7fdc01/extra" alt="iPhone Field Test Mode" width="1170" height="2532"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/d9ef249f-8ece-4f5a-72fb-0e6afe7fdc01/extra" alt="iPhone Field Test Mode" width="1170" height="2532"/>
 
 然后点击右上方更多，然后选择 5G 中的 Nr ConnectionStats。若看不到 5G，则说明当前没有 5G 信号。
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/0bfd16de-f2a5-41a1-50f8-2d3b7fa54701/extra" alt="进入 Field Test Mode 中的 5G 菜单" width="1170" height="2532"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/0bfd16de-f2a5-41a1-50f8-2d3b7fa54701/extra" alt="进入 Field Test Mode 中的 5G 菜单" width="1170" height="2532"/>
 
 然后看 Band 中的数字:
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/de78c1e9-ce9d-4955-78fa-069119620401/extra" alt="5G - Nr ConnectionStats - Band" width="1170" height="2532"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/de78c1e9-ce9d-4955-78fa-069119620401/extra" alt="5G - Nr ConnectionStats - Band" width="1170" height="2532"/>
 
 若数字小于 100 (如上图)，则说明没有使用毫米波。若显示大于 100 (常见的有 257-262)，则说明已经连接到了毫米波 5G。具体使用的频率可以参考[这个表格](https://en.wikipedia.org/wiki/5G_NR_frequency_bands#Frequency_bands)。
 
@@ -53,7 +53,7 @@ excerpt: 本文对比了中频 5G 和毫米波 5G 的速度差异，提供了判
 
 根据[苹果官网](https://support.apple.com/zh-cn/HT211828)，5G 是有多种图标的。如果只显示 5G，则是连接到了最普通的 5G，速度比较慢。若看到了 5G+、5G UW 和 5G UC，则说明可能连接到了毫米波 5G，速度更快。但实际上，显示 5G+、5G UW 和 5G UC 并不代表使用了毫米波 5G (也可能只是中频 5G)。此外，在美国之外的其他国家即使连接到了中频 5G，也只显示 5G。
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/535cb463-5945-436c-80c6-e2b94597f501/extra" alt="5G 图标一览" width="828" height="918"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/535cb463-5945-436c-80c6-e2b94597f501/extra" alt="5G 图标一览" width="828" height="918"/>
 
 ## 5G 常见的三种频段：低频、中频、毫米波
 
@@ -82,9 +82,9 @@ LTE-Advance，也叫 5G Evolution (AT&T)。是指使用了载波聚合、4x4 MIM
 
 还有一个更简单的方法：看 iPhone 右侧是否有毫米波天线的开口（图源 Apple）
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/a7e34af1-5d89-4f14-1d38-35fc8758a801/extra" alt="支持毫米波的 iPhone 的毫米波天线位置" width="2636" height="472"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/a7e34af1-5d89-4f14-1d38-35fc8758a801/extra" alt="支持毫米波的 iPhone 的毫米波天线位置" width="2636" height="472"/>
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/d8668aba-ce84-4436-57a9-4fbb9f11f301/extra" alt="不支持毫米波的 iPhone 则没有毫米波天线" width="2636" height="472"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/d8668aba-ce84-4436-57a9-4fbb9f11f301/extra" alt="不支持毫米波的 iPhone 则没有毫米波天线" width="2636" height="472"/>
 
 这个毫米波天线开口很像 iPad 系列 Apple Pencil 的无线充电开口，但他们确实不是一个东西，不要混淆。
 
