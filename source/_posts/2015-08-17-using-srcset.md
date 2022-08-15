@@ -8,7 +8,7 @@ categories:
   - - 开发
 date: 2015-08-17 09:07:34
 languages:
-  en-US: https://ze3kr.com/2015/08/using-srcset/
+  en-US: https://www.ze3kr.com/2015/08/using-srcset/
 ---
 
 使用 srcset 属性可以解决一切响应式图片问题，但这里分为两种情况，确定和不确定宽度的照片。相比之下，不确定宽度的照片更复杂些。

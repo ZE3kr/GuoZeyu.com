@@ -7,7 +7,7 @@ categories:
   - - 开发
 date: 2016-01-29 10:19:00
 languages:
-  en-US: https://ze3kr.com/2016/01/wordpress-plugins/
+  en-US: https://www.ze3kr.com/2016/01/wordpress-plugins/
 ---
 
 ## EWWW Image Optimizer

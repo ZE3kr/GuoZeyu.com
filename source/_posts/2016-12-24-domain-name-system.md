@@ -8,7 +8,7 @@ categories:
   - - 开发
 date: 2016-12-24 20:18:24
 languages:
-  en-US: https://ze3kr.com/2016/12/domain-name-system/
+  en-US: https://www.ze3kr.com/2016/12/domain-name-system/
 cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/5ccb3159-475f-4fce-ab8e-37a758f7d101/extra" alt="全球 DNS 拓扑图" width="2000" height="1467"/>
 ---
 

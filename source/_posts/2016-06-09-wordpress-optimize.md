@@ -11,7 +11,7 @@ categories:
   - - 开发
 date: 2016-06-09 17:36:00
 languages:
-  en-US: https://ze3kr.com/2016/06/wordpress-optimize/
+  en-US: https://www.ze3kr.com/2016/06/wordpress-optimize/
 ---
 
 WordPress 是目前最流行的内容管理系统，本网站正是使用着它。但对于一个全新安装的 WordPress 来说，它的性能并不是很高，当网站的访问量突然增加时，优化性能就显得十分重要了。通过实施以下几个方案，可以大大提升 WordPress 访问速度：

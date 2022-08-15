@@ -9,7 +9,7 @@ categories:
   - - 开发
 date: 2016-10-04 09:27:00
 languages:
-  en-US: https://ze3kr.com/2016/10/cloudflare-2016-new-feature/
+  en-US: https://www.ze3kr.com/2016/10/cloudflare-2016-new-feature/
 cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/7c2085b5-f7b7-42ba-bdb0-fb3ef4050901/extra" alt="缓存服务器的位置" width="1124" height="482"/>
 ---
 

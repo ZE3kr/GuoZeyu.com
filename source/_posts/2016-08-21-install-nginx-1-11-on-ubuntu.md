@@ -8,7 +8,7 @@ categories:
   - - 开发
 date: 2016-08-21 10:52:13
 languages:
-  en-US: https://ze3kr.com/2016/08/install-nginx-1-11-on-ubuntu/
+  en-US: https://www.ze3kr.com/2016/08/install-nginx-1-11-on-ubuntu/
 cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/80372c85-38b6-4615-7e9d-45873db43901/extra" alt="ECDSA 证书" width="1078" height="1220"/>
 ---
 

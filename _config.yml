@@ -132,7 +132,7 @@ theme_config:
     主页: /
     About: /about/
     友链: /links/
-    English: https://ze3kr.com/
+    English: https://www.ze3kr.com/
   # Archive: /archives
 
   license: |-
@@ -168,7 +168,7 @@ theme_config:
       <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" alt="关闭广告屏蔽示例" width="1152" height="756" data-raw="true"/>
     </picture>
 
-  iframe: https://ze3kr.com/widget/
+  iframe: https://www.ze3kr.com/widget/
 
   links_title: 支持本站
   links:

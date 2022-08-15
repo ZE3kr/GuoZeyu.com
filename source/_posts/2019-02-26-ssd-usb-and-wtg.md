@@ -7,7 +7,7 @@ categories:
   - 科技
 date: 2019-02-26 16:49:52
 languages:
-  en-US: https://ze3kr.com/2019/02/ssd-usb-and-wtg/
+  en-US: https://www.ze3kr.com/2019/02/ssd-usb-and-wtg/
 cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/69a9a1ba-9671-4f8f-3fd7-50bed271db01/extra" alt="SSD 连接样式" width="3360" height="2240"/>
 ---
 

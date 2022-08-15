@@ -8,7 +8,7 @@ categories:
   - - App 推荐
 date: 2015-05-22 17:03:14
 languages:
-  en-US: https://ze3kr.com/2015/05/procamera-review/
+  en-US: https://www.ze3kr.com/2015/05/procamera-review/
 cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/fb29c705-315f-43a9-1a88-8e3a9d11ea01/extra" alt="与 Apple Watch 配合使用" width="1280" height="1770"/>
 ---
 

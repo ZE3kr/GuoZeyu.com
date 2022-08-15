@@ -8,7 +8,7 @@ categories:
   - - 开发
 date: 2017-04-08 08:00:34
 languages:
-  en-US: https://ze3kr.com/2017/04/free-server-monitors/
+  en-US: https://www.ze3kr.com/2017/04/free-server-monitors/
 ---
 
 有了服务器监控服务，就能知道网站运行的情况以及在线时间。当服务器出现问题时，便能第一时间收到通知。个人网站运维需要这些服务来保证稳定性。但是，大量的此类服务都是面向企业，导致价格十分昂贵，而且并用不到其所提供的功能。本文就给各位站长推荐几个免费的服务器监控服务。

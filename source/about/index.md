@@ -8,7 +8,7 @@ comments: false
 date: false
 layout: post
 languages:
-  en-US: https://ze3kr.com/about/
+  en-US: https://www.ze3kr.com/about/
 adb: false
 ads: false
 ---

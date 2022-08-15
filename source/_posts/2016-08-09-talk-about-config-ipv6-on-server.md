@@ -7,7 +7,7 @@ categories:
   - - 开发
 date: 2016-08-09 20:32:16
 languages:
-  en-US: https://ze3kr.com/2016/08/talk-about-config-ipv6-on-server/
+  en-US: https://www.ze3kr.com/2016/08/talk-about-config-ipv6-on-server/
 cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/a654ab2c-cb09-4972-d070-23ab59807101/extra" alt="测试截图" width="1008" height="670"/>
 ---
 

@@ -10,7 +10,7 @@ date: 2015-11-20 17:27:29
 cover: https://cdn.tloxygen.com/12d9fb47f8bf1560187d3b57c26816f1/thumbnails/thumbnail.jpg?time=1m4s
 video: 12d9fb47f8bf1560187d3b57c26816f1
 languages:
-  en-US: https://ze3kr.com/2015/11/activite-pop/
+  en-US: https://www.ze3kr.com/2015/11/activite-pop/
 ---
 
 这个智能手表与众多现有智能手表不同的是，他拥有实体的指针。[在亚马逊上购买正品](https://www.amazon.cn/gp/product/B00S5I9H4O?tag=ze3kr-23)
