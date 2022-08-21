@@ -13,7 +13,7 @@ video: 578ea863a4354c8b11d218b9a4575578
 
 ## 基本概念
 
-这个视频介绍了__基本概念__，下方文字是这个视频的概要。如果你熟悉域名相关的概念，可以直接跳转到[操作步骤](#操作步骤)
+这个视频介绍了 “基本概念”，下方文字是这个视频的概要。如果你熟悉域名相关的概念，可以直接跳转到[操作步骤](#操作步骤)
 
 <figure class="my-video">
   <div style="position: relative; padding-top: 70.6058339566193%;"><iframe src="https://cdn.tloxygen.com/578ea863a4354c8b11d218b9a4575578/iframe?preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
@@ -38,7 +38,7 @@ video: 578ea863a4354c8b11d218b9a4575578
 
 ## 操作步骤
 
-这个视频介绍了__操作步骤__，下方文字是这个视频的概要。
+这个视频介绍了 “操作步骤”，下方文字是这个视频的概要。
 
 <figure class="my-video">
   <div style="position: relative; padding-top: 70.6058339566193%;"><iframe src="https://cdn.tloxygen.com/43c0c798e28489945b7da3cb92cd17bf/iframe?preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
