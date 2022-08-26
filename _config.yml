@@ -143,7 +143,7 @@ theme_config:
     - tag
     - category
     - profile
-    - adsense
+    # - adsense
 
   ads:
     - title: 域名注册
