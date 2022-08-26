@@ -144,7 +144,7 @@ theme_config:
     - tag
     - category
     - profile
-    # - adsense
+    - adsense
 
   ads:
     - title: 域名注册
@@ -153,11 +153,13 @@ theme_config:
         <img class="mb-1" src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/53f2e58c-bb33-4840-6c42-5c974c021001/medium" width="800" height="667"/>
         <ul>
           <li>500 余种域名后缀</li>
-          <li>微信/PayPal/银行卡支付</li>
+          <li>支付宝/微信/花呗 3 期免息</li>
           <li>免实名 + 免费隐私保护</li>
           <li>免费企业邮箱与全局转发</li>
           <li>DNSSEC 的 DS 记录配置</li>
         </ul>
+
+  # adsense: ca-pub-5523331422060800
 
   adb: |-
     <h3>哦不！😭你似乎拦截了本站的广告</h3>
@@ -172,17 +174,20 @@ theme_config:
 
   links_title: 支持本站
   links:
-    - title: 关闭广告屏蔽/内容过滤
-      url: /ads/
-      domain: 谢谢
-      tloC: true
-    - title: 域名注册
-      url: https://www.yangxi.tech
-      domain: 免费企业邮箱
-      tloB: true
-    - title: 支付宝/微信/Zelle
-      url: /transfer/
-      domain: 捐款
+    # - title: 关闭广告屏蔽/内容过滤
+    #   url: /ads/
+    #   domain: 谢谢
+    #   tloC: true
+    # - title: 域名注册
+    #   url: https://www.yangxi.tech
+    #   domain: 免费企业邮箱
+    #   tloB: true
+    - title: 香港 CN2 虚拟主机
+      url: https://www.yangxi.tech/web-hosting/index.php
+      domain: ¥9.6/月
+    - title: 2核2GB SSD VPS
+      url: https://www.yangxi.tech/virtualserverlinux-hosting.php
+      domain: ¥34.8/月
 
   # social config
   social:
