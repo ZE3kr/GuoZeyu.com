@@ -11,7 +11,7 @@ categories:
   - - 开发
 date: 2016-06-09 17:36:00
 languages:
-  en-US: https://ze3kr.com/2016/06/wordpress-optimize/
+  en-US: https://www.ze3kr.com/2016/06/wordpress-optimize/
 ---
 
 WordPress 是目前最流行的内容管理系统，本网站正是使用着它。但对于一个全新安装的 WordPress 来说，它的性能并不是很高，当网站的访问量突然增加时，优化性能就显得十分重要了。通过实施以下几个方案，可以大大提升 WordPress 访问速度：
@@ -79,7 +79,7 @@ PHP 脚本的处理速度是 WordPress 的一大瓶颈，使用最新版本的 P
 
 ### 响应式图片
 
-对于不同的设备加载不同的图片，比如在手机上加载的图片，就可以比视网膜屏幕的电脑上要加载的图片小的多。使用[本站曾经提到过的 srcset 技术](https://guozeyu.com/2015/08/using-srcset/)可以最简单的实现这个功能，只要你的主题支持就可以了（官方的最新默认主题已经支持），如果主题本身不支持，也可以通过插件实现。
+对于不同的设备加载不同的图片，比如在手机上加载的图片，就可以比视网膜屏幕的电脑上要加载的图片小的多。使用[本站曾经提到过的 srcset 技术](https://www.guozeyu.com/2015/08/using-srcset/)可以最简单的实现这个功能，只要你的主题支持就可以了（官方的最新默认主题已经支持），如果主题本身不支持，也可以通过插件实现。
 
 ## 禁用不需要的服务
 
@@ -107,4 +107,4 @@ Google Font 在国内加载非常慢，而且加载完成之前页面会一直�
 
 做到上面几点，就能有效提速了，我的网站做到以上几点，在国内无缓存的 Wi-Fi 情况下本网站的时间线如下：
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/8385161e-4573-49ba-d052-edfde67e9d01/extra" alt="在 1 秒钟内完成包括图片在内的加载" width="2378" height="1468"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/8385161e-4573-49ba-d052-edfde67e9d01/extra" alt="在 1 秒钟内完成包括图片在内的加载" width="2378" height="1468"/>

@@ -15,4 +15,4 @@ jobs:
         key: ${{ secrets.KEY }}
         fingerprint: SHA256:5OrD23nnTU5qLNBlQd+XCOUoY/U1AvBfMEYWwgH3waM
         script: |-
-          /usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull
+          /usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com reset --hard && /usr/bin/git -C /home/ze3kr/sync/GuoZeyu.com pull

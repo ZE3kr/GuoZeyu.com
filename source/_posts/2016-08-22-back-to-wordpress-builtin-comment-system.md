@@ -7,7 +7,7 @@ categories:
   - - 开发
 date: 2016-08-22 11:32:57
 languages:
-  en-US: https://ze3kr.com/2016/08/back-to-wordpress-builtin-comment-system/
+  en-US: https://www.ze3kr.com/2016/08/back-to-wordpress-builtin-comment-system/
 ---
 
 最近 Disqus 被某国的墙搞的十分不稳定，于是又用回了 WordPress 自带的评论系统，但是这个评论系统却不带评论者被回复时的邮件提醒。我有自己的发信服务器（AWS SES）系统，所以理论上可以配合插件实现这个效果。但是我看了很多插件，基本上操作页面都太复杂，而且回复的邮件通常不支持中文，我只需要一个简单的回复系统，不用那么麻烦，于是干脆自己开发一个，最终比较完美的实现了这个功能。
@@ -16,7 +16,7 @@ languages:
 
 邮件内容简洁，无额外无用的东西，不会被认定为 Spam。
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/1af77d8d-e266-4b68-78e2-9ee5bd3ff001/extra" alt="收件例子" width="1338" height="1302"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/1af77d8d-e266-4b68-78e2-9ee5bd3ff001/extra" alt="收件例子" width="1338" height="1302"/>
 
 所有代码已经放到 [GitHub Gist](https://gist.github.com/ZE3kr/8c51a6349462935cefd2e636e96e93f8) 上。
 

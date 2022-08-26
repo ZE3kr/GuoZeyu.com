@@ -8,10 +8,10 @@ categories:
   - - 开发
 date: 2016-08-03 09:24:21
 languages:
-  en-US: https://ze3kr.com/2016/08/self-host-dns/
+  en-US: https://www.ze3kr.com/2016/08/self-host-dns/
 ---
 
-最近我越来越喜欢自建一些东西，比如 GitLab。今天我又把 DNS 服务器改成自建的了，分享一下经验（PS：现在为了实现[根域名 CDN](https://guozeyu.com/2017/01/wordpress-full-site-cdn/)，我用换成了 Route 53）：
+最近我越来越喜欢自建一些东西，比如 GitLab。今天我又把 DNS 服务器改成自建的了，分享一下经验（PS：现在为了实现[根域名 CDN](https://www.guozeyu.com/2017/01/wordpress-full-site-cdn/)，我用换成了 Route 53）：
 
 本文的自建 DNS 是指的是权威 DNS，即给自己的域名配置的 DNS，而非在客户端配置的缓存 DNS。
 
@@ -181,7 +181,7 @@ domains:
 
 前往你的域名注册商，进入后台修改设置，给域名添加上子域名服务器记录，如图：
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/34ffd569-9fc0-4ae1-29f3-bfd3e2ed4001/extra" alt="添加子域名服务器记录" width="1406" height="892"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/34ffd569-9fc0-4ae1-29f3-bfd3e2ed4001/extra" alt="添加子域名服务器记录" width="1406" height="892"/>
 
 由于要设置的 NS 是在自己服务器下的，所以务必要在域名注册商上向上级域名（如 .com）注册你的 NS 服务器 IP 地址，这样上级域名就能解析道 NS 的 IP，自建 DNS 才能使用，比如 icann.org 下就有一个属于自己的 NS：
 

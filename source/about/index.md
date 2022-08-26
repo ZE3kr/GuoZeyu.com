@@ -8,7 +8,7 @@ comments: false
 date: false
 layout: post
 languages:
-  en-US: https://ze3kr.com/about/
+  en-US: https://www.ze3kr.com/about/
 adb: false
 ads: false
 ---
@@ -59,9 +59,9 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 
 你可以使用 RSS 阅读器订阅本站 (推荐)，本站的 RSS 地址是:
 
-[`https://guozeyu.com/feed.atom`](https://guozeyu.com/feed.atom)
+[`https://www.guozeyu.com/feed.atom`](https://www.guozeyu.com/feed.atom)
 
-[在 RSS 阅读器中打开](feed://guozeyu.com/feed.atom)
+[在 RSS 阅读器中打开](feed://www.guozeyu.com/feed.atom)
 
 ### Telegram
 
@@ -73,4 +73,4 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 
 ## 隐私策略
 
-本网站使用[自建的 Matomo](https://guozeyu.com/2016/01/piwik-wordpress/) 件进行统计，会使用一小段匿名 Cookie 以用于标识访客 ID，这段 Cookie 绝不会传送给第三方。
+本网站使用[自建的 Matomo](https://www.guozeyu.com/2016/01/piwik-wordpress/) 件进行统计，会使用一小段匿名 Cookie 以用于标识访客 ID，这段 Cookie 绝不会传送给第三方。

@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://guozeyu.com
+url: https://www.guozeyu.com
 permalink: :year/:month/:title/
 permalink_defaults:
 pretty_urls:
@@ -107,11 +107,12 @@ deploy:
   type: git
   repo:
     # local: ~/sync/GuoZeyu.com.git,main
-    aliyun: ze3kr@bj1-aliyun.tloxygen.com:~/sync/GuoZeyu.com.git,main
-    us1-buyvm: ze3kr@us1-buyvm.tloxygen.com:~/sync/GuoZeyu.com.git,main
-    us1-aws: ze3kr@ca1-aws.tloxygen.com:~/sync/GuoZeyu.com.git,main
-    jp1-aws: ze3kr@jp1-aws.tloxygen.com:~/sync/GuoZeyu.com.git,main
-    eu1-ovh: ze3kr@de1-ovh.tloxygen.com:~/sync/GuoZeyu.com.git,main
+    bj1-aws: ze3kr@bj1-aws.tloxygen.com:~/sync/GuoZeyu.com.git,main
+    hk1-ali: ze3kr@hk1-ali.tloxygen.com:~/sync/GuoZeyu.com.git,main
+    us1-bvm: ze3kr@us1-bvm.tloxygen.com:~/sync/GuoZeyu.com.git,main
+    ca1-aws: ze3kr@ca1-aws.tloxygen.com:~/sync/GuoZeyu.com.git,main
+    sg1-aws: ze3kr@sg1-aws.tloxygen.com:~/sync/GuoZeyu.com.git,main
+    de1-ovh: ze3kr@de1-ovh.tloxygen.com:~/sync/GuoZeyu.com.git,main
 
 feed:
   enable: true
@@ -131,7 +132,7 @@ theme_config:
     主页: /
     About: /about/
     友链: /links/
-    English: https://ze3kr.com/
+    English: https://www.ze3kr.com/
   # Archive: /archives
 
   license: |-
@@ -149,7 +150,7 @@ theme_config:
     - title: 域名注册
       link: https://www.yangxi.tech
       content: |-
-        <img class="mb-1" src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/53f2e58c-bb33-4840-6c42-5c974c021001/medium" width="800" height="667"/>
+        <img class="mb-1" src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/53f2e58c-bb33-4840-6c42-5c974c021001/medium" width="800" height="667"/>
         <ul>
           <li>500 余种域名后缀</li>
           <li>微信/PayPal/银行卡支付</li>
@@ -162,12 +163,12 @@ theme_config:
     <h3>哦不！😭你似乎拦截了本站的广告</h3>
     <p>本站依赖广告进行创收，请考虑关闭广告拦截插件，以帮助本站持续发展。关闭后此内容将会自动消失。<a href="/ads/">了解更多</a></p>
     <picture>
-      <source src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/c6419187-0e06-4245-82bb-5142f277f501/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
-      <source src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
-      <img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" alt="关闭广告屏蔽示例" width="1152" height="756" data-raw="true"/>
+      <source src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/c6419187-0e06-4245-82bb-5142f277f501/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
+      <source src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
+      <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" alt="关闭广告屏蔽示例" width="1152" height="756" data-raw="true"/>
     </picture>
 
-  iframe: https://ze3kr.com/widget/
+  iframe: https://www.ze3kr.com/widget/
 
   links_title: 支持本站
   links:
@@ -193,8 +194,8 @@ theme_config:
 
   user:
     name: 郭泽宇
-    avatar: https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/medium
-    location: 圣路易斯
+    avatar: https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/medium
+    location: 北京
     description: 🎯 专注中
     footnotes: |-
       <a href="https://beian.miit.gov.cn/" target="_blank" class="has-text-grey">京ICP备17005542号-3</a>
@@ -222,8 +223,8 @@ theme_config:
   appearance: auto # Default value is auto
 
   # Miscellaneous
-  favicon: https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/thumbnail
+  favicon: https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/thumbnail
   favicon_svg: /favicon.svg
 
   # picture of about page
-  about_pic: https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/extra
+  about_pic: https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/extra

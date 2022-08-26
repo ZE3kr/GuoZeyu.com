@@ -7,7 +7,7 @@ categories:
   - 开发
 date: 2018-12-07 07:14:57
 languages:
-  en-US: https://ze3kr.com/2018/12/wordpress-5-0-update/
+  en-US: https://www.ze3kr.com/2018/12/wordpress-5-0-update/
 ---
 
 WordPress 5.0 正式版已于 2018-12-07 发布，自建 WordPress 用户可以在 WordPress 后台的 Web 管理页面中进行升级。本次更新的最明显的两个特点就是：1. 后台管理使用了全新的编辑器，2. 新增了 2019 年的主题，该主题适配这个全新的编辑器。
@@ -27,7 +27,7 @@ WordPress 5.0 正式版已于 2018-12-07 发布，自建 WordPress 用户可以�
 
 新版编辑器兼容老板编辑器。要想使用老款的编辑模式，可以通过插入一个或多个经典块（Classic Block）来实现。这个经典块与新编辑器中的其他块（如自然段块、副标题块等）同等级别。经典块中能包含一个或多个自然段、副标题，对于简单的排版，它可以代替最新的块编辑器。在使用经典块时，你依然能够看到你所熟悉的工具条。
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/2508c60c-a30f-4bec-18b3-43ac6bca9a01/extra" alt="经典块" width="1678" height="866"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/2508c60c-a30f-4bec-18b3-43ac6bca9a01/extra" alt="经典块" width="1678" height="866"/>
 
 经典块截图
 
@@ -80,12 +80,12 @@ WordPress 5.0 正式版已于 2018-12-07 发布，自建 WordPress 用户可以�
 
 为了更好的配合新的编辑器的所有排版功能，WordPress 同时推出了全新的 2019 默认主题。[详情](https://make.wordpress.org/core/2018/10/16/introducing-twenty-nineteen/)
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/573a6371-4b7e-4a92-dce3-4f196e67a801/extra" alt="文章界面截图" width="2390" height="2200"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/573a6371-4b7e-4a92-dce3-4f196e67a801/extra" alt="文章界面截图" width="2390" height="2200"/>
 
 
 正如以往的默认主题一样，新的 WordPress 主题也是十分通用的。然而我感觉新的 2019 主题不如上一个 2017 主题（即本 Blog 正在使用的主题）简洁。
 
-<img src="https://cdn.yangxi.tech/6T-behmofKYLsxlrK0l_MQ/bfbd030e-cabc-41ef-564c-5308aa42fc01/extra" alt="文章界面截图" width="2390" height="2200"/>
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/bfbd030e-cabc-41ef-564c-5308aa42fc01/extra" alt="文章界面截图" width="2390" height="2200"/>
 
 ## 是否应该升级？该如何升级？
 
