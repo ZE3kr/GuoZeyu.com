@@ -65,11 +65,15 @@ BuyVM 还可以购买 Block Storage Slab，每 TB 仅需要 $5.00，最低每月
 
 > * 代表每个 CPU 的基线性能，均可 Burst，[Lightsail CPU 基线详情](https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-viewing-instance-burst-capacity)
 
-本网站就在使用 Lightsail，如果你从美国东部或者亚洲 (中国大陆外) 访问此页面，那就会使用 Lightsail 的服务器。
+本网站就在使用 Lightsail，如果你从美国东部或者亚洲 (中国大陆外) 访问此页面，那就会使用 Lightsail 的服务器。Lightsail 可以免费附加静态 IPv4；IPv6 则是随机器附带的，暂不可保留或迁移。此外，Lightsail 的自动快照功能是免费的，可以作为自动备份。
+
+#### 与其他同类产品对比
+
+Vultr/Linode/Digital Ocean 都是与 Lightsail 类似的产品，价格也与 Lightsail 十分接近。他们可能没有 CPU 基线的限制，但这也未必是好事，因为失去了限制更有可能受到邻居（同机器上其他用户）的影响。
 
 ### 大内存、多 IP: OVH VPS
 
-2GB RAM ，每月$3.5 ，限速 100Mbps 不限流量，法兰克福可直连中国，但美国可能绕欧洲。OVH 两欧就可以买一个 IPv4 ，IP 没有月费，只要机器在 IP 就一直是你的。一个账户可以买 16 个 IPv4。[美国区购买链接](https://us.ovhcloud.com/vps/)、[国际美元区购买链接](https://www.ovhcloud.com/en/vps/)、[国际欧元区购买链接](https://www.ovhcloud.com/en-ie/vps/)
+2GB RAM，每月 $3.5（或 3 欧元），限速 100Mbps 不限流量，法兰克福可直连中国，但美国可能绕欧洲。OVH 两欧就可以买一个额外 IPv4 ，该 IPv4 没有月费，只要机器在 IP 就一直是你的。一个账户可以买 16 个额外 IPv4。[美国区购买链接](https://us.ovhcloud.com/vps/)、[国际美元区购买链接](https://www.ovhcloud.com/en/vps/)、[国际欧元区购买链接](https://www.ovhcloud.com/en-ie/vps/)
 
 美国境内机器只有美国区可以购买，其他位置机器需去国际区购买。
 
@@ -84,7 +88,7 @@ BuyVM 还可以购买 Block Storage Slab，每 TB 仅需要 $5.00，最低每月
 
 本网站就在使用 OVH，如果你从欧洲访问此页面，那就会使用 OVH 的服务器。
 
-### 永久免费: Google Cloud
+### 永久免费: Google Cloud Compute Engine
 
 美国 `us-central-1`，`us-west-1`，`us-east-1` 区域，1GB RAM ，30GB 最基础的盘，仅 IPv4 ，出站流量自费。这个试用期过了也免费！
 
@@ -100,14 +104,36 @@ BuyVM 还可以购买 Block Storage Slab，每 TB 仅需要 $5.00，最低每月
 
 本网站就在使用 EC2 (中国区)，如果你从中国大陆访问此页面，那就会使用 EC2 的服务器。目前 AWS 中国区仅限企业注册。
 
+#### 与 Google Cloud 的 Compute Engine 和 Azure 的 VMs 对比
+
+Google Cloud 的按量付费可能是三者中的最便宜的，此外个人感觉 Google Cloud 的操作页面使用起来相比 Azure 和 AWS 更简单。这几家提供的产品都大同小异，此外他们也都可以预留实例一年到三年，实现最大化折扣
+
+#### 与阿里云、腾讯云对比
+
+最大的区别是计费模式。AWS 无论是国内版还是国际版，均默认使用后付费模式，即类似信用卡，每月支付上一个月结算的账单。而阿里云和腾讯云无论是个人用户还是企业用户，均使用预付费模式。哪怕使用的是按量付费的机器，竟然也需要提前充值；余额耗尽后会直接停机。所以用阿里云或腾讯云的按量计费服务之前，无比要保证有充足的余额，不然将欠费了将直接影响生产环境。
+
+此外，阿里云和腾讯云在 API 使用上没有 AWS 方便。虽然 AWS 国内版在国内没有阿里云那么大的占有率，但由于 AWS 国内版和国际版 API 保持了一致，因此 AWS 的文档资源要远比阿里云、腾讯云丰富的多。
+
+个人认为，AWS 国际版完胜阿里云、腾讯云的海外区域，AWS 国内版核心问题是支持的可用区太少，只支持北京和宁夏两个区域；Azure 国内版支持的区域比 AWS 国内版要多一点；阿里云和腾讯云在国内区域数量上是远多于 AWS 的。不过在网络方面，目前 AWS 国内版也是 BGP 接入，线路完全不比阿里云差。
+
+数据跨境方面（指中国大陆境内与境外之间的跨境），阿里云提供了香港精品网、云企业网，这是 AWS 所没有的。
+
+## 虚拟主机
+
+等待补充
+<!-- 这里推荐氧熙科技/TlOxygen 的虚拟主机，香港位置采用 CN2 GIA 线路，美国加州也是国内直连 -->
+
 ## CDN
 
-TODO
+等待补充
+<!-- ### CloudFront
+
+CloudFront 分为国内版和国际版，两者完全独立，并且国际版 -->
 
 ## DNS
 
-TODO
+等待补充
 
 ## 域名注册类
 
-TODO
+等待补充
