@@ -147,16 +147,26 @@ theme_config:
     - adsense
 
   ads:
-    - title: 域名注册
+    - title: 香港虚拟主机 ¥9.6/月
+      link: 
+      content: |-
+        <img class="mb-1" src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/06c2f2ed-b125-4fa2-8390-2876cd7c4c01/medium" width="800" height="676"/>
+        <ul>
+          <li>CN2 GIA 国内 <50ms</li>
+          <li>支付宝/微信/花呗 3 期免息</li>
+          <li>免实名/免备案/支持SSL</li>
+          <li>一键安装 WordPress</li>
+        </ul>
+    - title: 域名注册首年 ¥6.6
       link: https://www.yangxi.tech
       content: |-
-        <img class="mb-1" src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/53f2e58c-bb33-4840-6c42-5c974c021001/medium" width="800" height="667"/>
+        <!--<img class="mb-1" src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/53f2e58c-bb33-4840-6c42-5c974c021001/medium" width="800" height="667"/>-->
         <ul>
-          <li>500 余种域名后缀</li>
+          <li>.PW/.SITE 首年 ¥6.6</li>
+          <li>.TOP/.XYZ/.FUN 首年 ¥10.0</li>
           <li>支付宝/微信/花呗 3 期免息</li>
           <li>免实名 + 免费隐私保护</li>
           <li>免费企业邮箱与全局转发</li>
-          <li>DNSSEC 的 DS 记录配置</li>
         </ul>
 
   # adsense: ca-pub-5523331422060800
@@ -172,8 +182,8 @@ theme_config:
 
   iframe: https://www.ze3kr.com/widget/
 
-  links_title: 支持本站
-  links:
+  # links_title: 支持本站
+  # links:
     # - title: 关闭广告屏蔽/内容过滤
     #   url: /ads/
     #   domain: 谢谢
@@ -182,12 +192,12 @@ theme_config:
     #   url: https://www.yangxi.tech
     #   domain: 免费企业邮箱
     #   tloB: true
-    - title: 香港 CN2 虚拟主机
-      url: https://www.yangxi.tech/web-hosting/index.php
-      domain: ¥9.6/月
-    - title: 2核2GB SSD VPS
-      url: https://www.yangxi.tech/virtualserverlinux-hosting.php
-      domain: ¥34.8/月
+    # - title: 香港 CN2 虚拟主机
+    #   url: https://www.yangxi.tech/web-hosting/index.php
+    #   domain: ¥9.6/月
+    # - title: 2核2GB SSD VPS
+    #   url: https://www.yangxi.tech/virtualserverlinux-hosting.php
+    #   domain: ¥34.8/月
 
   # social config
   social:
