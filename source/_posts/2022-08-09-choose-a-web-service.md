@@ -72,7 +72,7 @@ BuyVM 还可以购买 Block Storage Slab，每 TB 仅需要 $5.00，最低每月
 Vultr/Linode/Digital Ocean 都是与 Lightsail 类似的产品，价格也与 Lightsail 十分接近。他们可能没有 CPU 基线的限制，但这也未必是好事，因为失去了限制更有可能受到邻居（同机器上其他用户）的影响。这里有一些优惠码：
 
 + [Vultr $100 优惠码](https://www.vultr.com/?ref=8963265-8H): 赠金 14 日内有效
-+ [Digital Ocean $100 优惠码](https://m.do.co/c/3676c36d032c): 赠金 60 日内有效
++ [DigitalOcean $100 优惠码](https://m.do.co/c/3676c36d032c): 赠金 60 日内有效
 
 ### 大内存、多 IP: OVH VPS
 
