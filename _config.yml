@@ -148,7 +148,7 @@ theme_config:
 
   ads:
     - title: 香港虚拟主机 ¥9.6/月
-      link: 
+      link: https://www.yangxi.tech/web-hosting/index.php
       content: |-
         <img class="mb-1" src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/06c2f2ed-b125-4fa2-8390-2876cd7c4c01/medium" width="800" height="676"/>
         <ul>
