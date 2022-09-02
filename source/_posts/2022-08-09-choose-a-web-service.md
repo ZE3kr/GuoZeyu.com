@@ -35,14 +35,14 @@ scw instance server create type=STARDUST1-S zone=fr-par-1 image=ubuntu_jammy roo
 
 ### 性价比: BuyVM
 
-1GB RAM ，每月 CA$3.50 ，1Gbps 不限流量（约¥17.77 ）。[购买链接](https://my.frantech.ca/aff.php?aff=5211)
+1GB RAM ，每月 CA$3.50 ，1Gbps 不限流量（约¥17.77 ）。[购买链接](https://my.frantech.ca/aff.php?aff=5211)。注意，BuyVM 的计费周期是每月 1 日，所以若购买时不是 1 日，那么首月的价格会有所变化（因为到下个月或下下个月的 1 日不是整一个月）。
 
 | 内存 | 存储 | CPU 核心数 | CPU 基线* | 带宽 | 价格 |
 | --- | --- | --- | --- | --- | --- |
-| 1GB | 20GB SSD | 1 | N/A | 1000Mbps | $3.50 |
-| 2GB | 20GB SSD | 1 | N/A | 1000Mbps | $7.00 |
-| 4GB | 20GB SSD | 1 | 100% | 1000Mbps | $15.00 |
-| 8GB | 20GB SSD | 2 | 100% | 1000Mbps | $30.00 |
+| 1GB | 20GB SSD | 1 | N/A | 1000Mbps | CA$3.50 |
+| 2GB | 40GB SSD | 1 | N/A | 1000Mbps | CA$7.00 |
+| 4GB | 80GB SSD | 1 | 100% | 1000Mbps | CA$15.00 |
+| 8GB | 160GB SSD | 2 | 100% | 1000Mbps | CA$30.00 |
 
 > * N/A 代表共享核心，100% 代表每个核心均为独立核心
 
@@ -60,8 +60,8 @@ BuyVM 还可以购买 Block Storage Slab，每 TB 仅需要 $5.00，最低每月
 | --- | --- | --- | --- | --- | --- |
 | 0.5GB | 20GB SSD | 1 | 5% | 1TB | $3.50 |
 | 1GB | 40GB SSD | 1 | 10% | 2TB | $5.00 |
-| 2GB | 40GB SSD | 1 | 20% | 3TB | $10.00 |
-| 4GB | 40GB SSD | 2 | 20% | 4TB | $20.00 |
+| 2GB | 60GB SSD | 1 | 20% | 3TB | $10.00 |
+| 4GB | 80GB SSD | 2 | 20% | 4TB | $20.00 |
 
 > * 代表每个 CPU 的基线性能，均可 Burst，[Lightsail CPU 基线详情](https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-viewing-instance-burst-capacity)
 
@@ -69,7 +69,10 @@ BuyVM 还可以购买 Block Storage Slab，每 TB 仅需要 $5.00，最低每月
 
 #### 与其他同类产品对比
 
-Vultr/Linode/Digital Ocean 都是与 Lightsail 类似的产品，价格也与 Lightsail 十分接近。他们可能没有 CPU 基线的限制，但这也未必是好事，因为失去了限制更有可能受到邻居（同机器上其他用户）的影响。
+Vultr/Linode/Digital Ocean 都是与 Lightsail 类似的产品，价格也与 Lightsail 十分接近。他们可能没有 CPU 基线的限制，但这也未必是好事，因为失去了限制更有可能受到邻居（同机器上其他用户）的影响。这里有一些优惠码：
+
++ [Vultr $100 优惠码](https://www.vultr.com/?ref=8963265-8H): 赠金 14 日内有效
++ [DigitalOcean $100 优惠码](https://m.do.co/c/3676c36d032c): 赠金 60 日内有效
 
 ### 大内存、多 IP: OVH VPS
 
