@@ -69,8 +69,12 @@ LTE-Advance，也叫 5G Evolution (AT&T)。是指使用了载波聚合、4x4 MIM
 
 ## iPhone 不同型号支持的 5G 一览
 
-在[苹果官网](https://www.apple.com.cn/iphone/cellular/)搜索你的手机型号（如 A2629、A2634、A2639、A2644 则为中国大陆及港澳地区的 iPhone 13 系列的型号），然后查看是否支持 n257-262 中的任何一个频段。截止到目前，只有在美国销售的 iPhone 12/13 支持了毫米波。你可以在机身背面看到型号。目前支持毫米波的型号有：
+在[苹果官网](https://www.apple.com.cn/iphone/cellular/)搜索你的手机型号（如 A2629、A2634、A2639、A2644 则为中国大陆及港澳地区的 iPhone 13 系列的型号），然后查看是否支持 n257-262 中的任何一个频段。截止到目前，只有在美国销售的 iPhone 12/13/14 支持了毫米波。你可以在机身背面看到型号。目前支持毫米波的型号有：
 
++ A2650: iPhone 14 Pro
++ A2651: iPhone 14 Pro Max
++ A2649: iPhone 14
++ A2632: iPhone 14 Plus
 + A2483: iPhone 13 Pro
 + A2484: iPhone 13 Pro Max
 + A2482: iPhone 13
@@ -87,6 +91,8 @@ LTE-Advance，也叫 5G Evolution (AT&T)。是指使用了载波聚合、4x4 MIM
 <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/d8668aba-ce84-4436-57a9-4fbb9f11f301/extra" alt="不支持毫米波的 iPhone 则没有毫米波天线" width="2636" height="472"/>
 
 这个毫米波天线开口很像 iPad 系列 Apple Pencil 的无线充电开口，但他们确实不是一个东西，不要混淆。
+
+其次，如果你手持 iPhone 14，判断方法更为简单，只要没有实体 SIM 卡槽，就是支持毫米波的美版。
 
 ## iPad 不同型号支持的 5G 一览
 
