@@ -45,9 +45,9 @@ excerpt: 本文对比了中频 5G 和毫米波 5G 的速度差异，提供了判
 
 <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/de78c1e9-ce9d-4955-78fa-069119620401/extra" alt="5G - Nr ConnectionStats - Band" width="1170" height="2532"/>
 
-若数字小于 100 (如上图)，则说明没有使用毫米波。若显示大于 100 (常见的有 257-262)，则说明已经连接到了毫米波 5G。具体使用的频率可以参考[这个表格](https://en.wikipedia.org/wiki/5G_NR_frequency_bands#Frequency_bands)。
+若数字小于 200 (如上图)，则说明没有使用毫米波。若显示大于 200 (常见的有 257-262)，则说明已经连接到了毫米波 5G。具体使用的频率可以参考[这个表格](https://en.wikipedia.org/wiki/5G_NR_frequency_bands#Frequency_bands)。
 
-并非所有支持 5G 的 iPhone 都支持毫米波 5G。目前只有在美国购买的 iPhone 12 和 13 系列在美国才能使用毫米波 5G 网络。
+并非所有支持 5G 的 iPhone 都支持毫米波 5G。目前只有在美国购买的 iPhone 12、13、14 系列在美国才能使用毫米波 5G 网络。
 
 ## 5G 图标
 
