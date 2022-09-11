@@ -31,8 +31,8 @@ excerpt: 本文对比了中频 5G 和毫米波 5G 的速度差异，提供了判
 
 在系统的通话页面输入 `*3001#12345#*`，然后点击呼叫。随后我们就可以看到下方视频所示的 Field Test Mode。选择 5G 中的 Nr ConnectionStats。若看不到 5G 相关选项，则说明当前没有 5G 信号，或机型/运营商不支持 5G。然后看 Band 中的数字。该视频中 band 数字为 78，为中频 5G。
 
-<figure class="my-video">
-  <div style="position: relative; padding-top: 216.21621621621622%;"><iframe src="https://cdn.tloxygen.com/ce4c0e7c2f71466f9c7b4ee55034e687/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+<figure class="my-video" style="max-width: 600px; max-height: 600px">
+  <div style="position: relative; padding-top: 100%;"><iframe src="https://cdn.tloxygen.com/ce4c0e7c2f71466f9c7b4ee55034e687/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>查询当前使用的 5G 频段</figcaption>
 </figure>
 
