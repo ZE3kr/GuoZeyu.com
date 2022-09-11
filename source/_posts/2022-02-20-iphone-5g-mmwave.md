@@ -29,21 +29,12 @@ excerpt: 本文对比了中频 5G 和毫米波 5G 的速度差异，提供了判
 
 ## 如何判断 iPhone 是否使用毫米波？
 
-在系统的通话页面输入 `*3001#12345#*`，然后点击呼叫:
+在系统的通话页面输入 `*3001#12345#*`，然后点击呼叫。随后我们就可以看到下方视频所示的 Field Test Mode。选择 5G 中的 Nr ConnectionStats。若看不到 5G 相关选项，则说明当前没有 5G 信号，或机型/运营商不支持 5G。然后看 Band 中的数字。该视频中 band 数字为 78，为中频 5G。
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/cd468b11-8d24-4919-a22f-1c411c840001/extra" alt="系统的通话界面" width="1170" height="2532"/>
-
-随后我们就可以看到下图所示的 Field Test Mode:
-
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/d9ef249f-8ece-4f5a-72fb-0e6afe7fdc01/extra" alt="iPhone Field Test Mode" width="1170" height="2532"/>
-
-然后点击右上方更多，然后选择 5G 中的 Nr ConnectionStats。若看不到 5G，则说明当前没有 5G 信号。
-
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/0bfd16de-f2a5-41a1-50f8-2d3b7fa54701/extra" alt="进入 Field Test Mode 中的 5G 菜单" width="1170" height="2532"/>
-
-然后看 Band 中的数字:
-
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/de78c1e9-ce9d-4955-78fa-069119620401/extra" alt="5G - Nr ConnectionStats - Band" width="1170" height="2532"/>
+<figure class="my-video">
+  <div style="position: relative; padding-top: 216.21621621621622%;"><iframe src="https://cdn.tloxygen.com/ce4c0e7c2f71466f9c7b4ee55034e687/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <figcaption>查询当前使用的 5G 频段</figcaption>
+</figure>
 
 若数字小于 200 (如上图)，则说明没有使用毫米波。若显示大于 200 (常见的有 257-262)，则说明已经连接到了毫米波 5G。具体使用的频率可以参考[这个表格](https://en.wikipedia.org/wiki/5G_NR_frequency_bands#Frequency_bands)。
 
