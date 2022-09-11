@@ -19,7 +19,11 @@ excerpt: 本文对比了中频 5G 和毫米波 5G 的速度差异，提供了判
 
 <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/bf1266e2-c4fa-4e2b-6fa3-3fba29280001/extra" alt="毫米波 5G (28 GHz)" width="1125" height="2436"/>
 
-可以看到，毫米波 5G (高频，mmWave) 轻松跑到了 2000Mbps。理论上毫米波是可以达到 3000Mbps 的，但我试了多次最高 “也就” 2000Mbps。
+可以看到，毫米波 5G (高频，mmWave) 轻松跑到了 2000Mbps。
+
+<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/bd940f5a-1577-4f10-c090-c51783e80b01/extra" alt="最高也可以跑到 4000Mbps" width="750" height="400"/>
+
+如上图所示，[也有人在 Reddit 上](https://www.reddit.com/r/verizon/comments/sv5eit/fastest_5g_uw_and_4g_lte_speeds_known_to_man/)跑出了接近理论峰值的 4000Mbps。但我试了多次最高 “也就” 2000Mbps。
 
 <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/b786139e-7ed3-4ba3-4bcb-a30f00afdc01/extra" alt="中频 5G (3.7 GHz)" width="1170" height="2532"/>
 
