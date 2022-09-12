@@ -148,7 +148,7 @@ theme_config:
     - title: 香港虚拟主机 ¥9.6/月
       link: https://www.yangxi.tech/web-hosting/index.php
       content: |-
-        <img class="mb-1" src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/06c2f2ed-b125-4fa2-8390-2876cd7c4c01/medium" width="800" height="676"/>
+        <img class="mb-1" src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/06c2f2ed-b125-4fa2-8390-2876cd7c4c01/medium" width="800" height="676"/>
         <ul>
           <li>CN2 GIA 国内 <50ms</li>
           <li>支付宝/微信/花呗 3 期免息</li>
@@ -158,7 +158,7 @@ theme_config:
     - title: 域名注册首年 ¥6.6
       link: https://www.yangxi.tech
       content: |-
-        <!--<img class="mb-1" src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/53f2e58c-bb33-4840-6c42-5c974c021001/medium" width="800" height="667"/>-->
+        <!--<img class="mb-1" src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/53f2e58c-bb33-4840-6c42-5c974c021001/medium" width="800" height="667"/>-->
         <ul>
           <li>.PW/.SITE 首年 ¥6.6</li>
           <li>.TOP/.XYZ/.FUN 首年 ¥10.0</li>
@@ -173,9 +173,9 @@ theme_config:
     <h3>哦不！😭你似乎拦截了本站的广告</h3>
     <p>本站依赖广告进行创收，请考虑关闭广告拦截插件，以帮助本站持续发展。关闭后此内容将会自动消失。<a href="/ads/">了解更多</a></p>
     <picture>
-      <source src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/c6419187-0e06-4245-82bb-5142f277f501/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
-      <source src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
-      <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" alt="关闭广告屏蔽示例" width="1152" height="756" data-raw="true"/>
+      <source src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/c6419187-0e06-4245-82bb-5142f277f501/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
+      <source src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
+      <img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/c31a88d5-dd23-448d-4742-a0c2dc67c001/extra" alt="关闭广告屏蔽示例" width="1152" height="756" data-raw="true"/>
     </picture>
 
   iframe: https://www.ze3kr.com/widget/
@@ -207,7 +207,7 @@ theme_config:
 
   user:
     name: 郭泽宇
-    avatar: https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/medium
+    avatar: https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/medium
     location: 北京
     description: 🎯 专注中
     footnotes: |-
@@ -236,8 +236,8 @@ theme_config:
   appearance: auto # Default value is auto
 
   # Miscellaneous
-  favicon: https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/thumbnail
+  favicon: https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/thumbnail
   favicon_svg: /favicon.svg
 
   # picture of about page
-  about_pic: https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/extra
+  about_pic: https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/4c3b6ecd-c2ad-42e7-0e3e-3077ef7de401/extra

@@ -8,7 +8,7 @@ categories:
 date: 2016-08-09 20:32:16
 languages:
   en-US: https://www.ze3kr.com/2016/08/talk-about-config-ipv6-on-server/
-cover: <img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/a654ab2c-cb09-4972-d070-23ab59807101/extra" alt="测试截图" width="1008" height="670"/>
+cover: <img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/a654ab2c-cb09-4972-d070-23ab59807101/extra" alt="测试截图" width="1008" height="670"/>
 ---
 
 在今年 5 月 4 日，Apple 就开始要求新的应用程序支持 IPv6 DNS64/NAT64 网络，这意味着苹果开始力推 IPv6 网络，在[苹果的官网上](https://developer.apple.com/library/mac/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#//apple_ref/doc/uid/TP40010220-CH213-SW1)就有介绍一些 IPv6 的优势，主要来说就是对移动网络更加友好，并能提高一些性能，减少一些传输上的开销。 最近，我也将我的所有服务器全面部署 IPv6，完全支持 IPv6-Only 网络。
@@ -26,7 +26,7 @@ $ dig -t AAAA `dig <domain> ns +short` +short
 
 然后查看输出的 IP 中是否全是 IPv6 地址，如果什么也没有输出，说明 DNS 服务器不支持 IPv6。 正确配置 IPv6 的例子：
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/754c0ab0-536b-4953-3c68-4e50bfcb4601/extra" alt="根域名 com 和一级域名 example.com 都正确配置了支持 IPv6 的 DNS 服务器" width="772" height="174"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/754c0ab0-536b-4953-3c68-4e50bfcb4601/extra" alt="根域名 com 和一级域名 example.com 都正确配置了支持 IPv6 的 DNS 服务器" width="772" height="174"/>
 
 如果想要自建 DNS 服务器，可以参考[自建 PowerDNS 方法](https://www.guozeyu.com/2016/08/self-host-dns/)。 如果你的根域名不支持 IPv6，那么你可以联系根域名那里让他们去支持，或者换一个根域名。如果你的一级域名不支持 IPv6，那就联系 DNS 解析商让他们支持，或者直接换走。
 
@@ -85,6 +85,6 @@ $ dig -t AAAA `dig <domain> ns +short` +short
 
 当你配置好后，你可以[在 IPv6 Test 上测试你的网站](http://ipv6-test.com/validate.php)。
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/a654ab2c-cb09-4972-d070-23ab59807101/extra" alt="测试截图" width="1008" height="670"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/a654ab2c-cb09-4972-d070-23ab59807101/extra" alt="测试截图" width="1008" height="670"/>
 
 直至现在，支持 IPv6-Only 网络访问在生产中仍然不是必须的，因为实际上很少存在 IPv6-Only 的网络，一般都兼容 IPv4，很多大网站也完全不支持 IPv6。苹果所说的要求支持 IPv6-Only，只是程序内部要使用 IPv6 通信，程序中不能有 IPv4 地址，能够在只分配了 IPv6 地址的运营商使用（然而实际上这些运营商还是支持 IPv4 的）。

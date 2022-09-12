@@ -7,7 +7,7 @@
     "clean": "hexo clean",
     "deploy": "hexo clean && hexo deploy",
     "server": "hexo server -p 4100",
-    "install": "git submodule update --init --recursive && curl -s 'https://cloudflarestream.com/embed/sdk-iframe-integration.fla9.latest.js' | sed 's/\"cloudflarestream.com\\/\"/\"cdn.tloxygen.com\\/\"/g' > ./themes/hexo-theme-claudia/source/js/sdk-iframe-integration.fla9.latest.js"
+    "install": "git submodule update --init --recursive && curl -s 'https://cloudflarestream.com/embed/sdk-iframe-integration.fla9.latest.js' | sed 's/\"cloudflarestream.com\\/\"/\"cdn.tlo.xyz\\/\"/g' > ./themes/hexo-theme-claudia/source/js/sdk-iframe-integration.fla9.latest.js"
   },
   "hexo": {
     "version": "6.2.0"

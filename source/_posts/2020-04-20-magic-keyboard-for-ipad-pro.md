@@ -98,21 +98,21 @@ languages:
 
 ## 图片
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/3baeccde-3058-49b8-2cee-2c962ba56d01/extra" alt="外包装，非常紧凑" width="2560" height="1920"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/3baeccde-3058-49b8-2cee-2c962ba56d01/extra" alt="外包装，非常紧凑" width="2560" height="1920"/>
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/776acd49-214d-4dd2-d9f6-c4474c32af01/extra" alt="很简洁的使用说明" width="2560" height="1920"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/776acd49-214d-4dd2-d9f6-c4474c32af01/extra" alt="很简洁的使用说明" width="2560" height="1920"/>
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/1f1a5d91-264c-4049-1b21-e40337049d01/extra" alt="悬浮高度实测为 10mm - 23mm" width="2560" height="1920"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/1f1a5d91-264c-4049-1b21-e40337049d01/extra" alt="悬浮高度实测为 10mm - 23mm" width="2560" height="1920"/>
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/868320b1-bd06-4aa1-facd-3beea83a9f01/extra" alt="新的凹陷 Apple Logo 设计" width="2560" height="1920"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/868320b1-bd06-4aa1-facd-3beea83a9f01/extra" alt="新的凹陷 Apple Logo 设计" width="2560" height="1920"/>
 
 <img src="平放时 Logo 若隐若现（安装 iPad Pro 2018 的效果，兼容但不完美）" alt="keyboard-5.jpeg" width="2560" height="1920"/>
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/bec8af8f-2142-4423-a257-39eeef5b3b01/extra" alt="与 15-inch MacBook Pro 和 Magic Trackpad for Mac 对比（无标注）" width="2560" height="1920"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/bec8af8f-2142-4423-a257-39eeef5b3b01/extra" alt="与 15-inch MacBook Pro 和 Magic Trackpad for Mac 对比（无标注）" width="2560" height="1920"/>
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/0bf6fc87-6d38-4b8d-06d2-1c4a98760e01/extra" alt="与 2018 15-inch MacBook Pro 对比（标注后可以清晰看出，iPad 版本大致小四倍）" width="2560" height="1920"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/0bf6fc87-6d38-4b8d-06d2-1c4a98760e01/extra" alt="与 2018 15-inch MacBook Pro 对比（标注后可以清晰看出，iPad 版本大致小四倍）" width="2560" height="1920"/>
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/0a87e0c7-9b14-475b-acfe-e5e9e688d801/extra" alt="背光对比，均开启最大亮度，亮度相近。" width="2560" height="1440"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/0a87e0c7-9b14-475b-acfe-e5e9e688d801/extra" alt="背光对比，均开启最大亮度，亮度相近。" width="2560" height="1440"/>
 
 ## 功能配置
 
@@ -120,38 +120,38 @@ languages:
 
 我的触摸板默认没有开启三指切换多任务的手势。需要进入设置、主屏幕与程序坞、多任务中找到 “手势” 开关开启。开启后在屏幕上四指也会出发多任务。
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/d34df181-d9db-46e2-14e2-788ee19f6b01/extra" alt="三指手势配置屏幕截图" width="2388" height="1668"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/d34df181-d9db-46e2-14e2-788ee19f6b01/extra" alt="三指手势配置屏幕截图" width="2388" height="1668"/>
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://cdn.tloxygen.com/5f6b04e0879e5840ff556e22c066dabd/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://cdn.tlo.xyz/5f6b04e0879e5840ff556e22c066dabd/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>三指手势 屏幕录制</figcaption>
 </figure>
 
 ### 指针动画和触摸板惯性
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/9734cbed-55bb-431d-66f3-5ba4ad293001/extra" alt="两个设置位于辅助功能、指针控制中" width="2388" height="1668"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/9734cbed-55bb-431d-66f3-5ba4ad293001/extra" alt="两个设置位于辅助功能、指针控制中" width="2388" height="1668"/>
 
 若开启**指针动画**，当移动到按钮上方时，指针会消失，取而代之的是按钮高亮的吸附效果。此功能可以关闭，关闭后更接近在 macOS 上的使用体验。
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://cdn.tloxygen.com/b0f6489638fab333b9767877fbf92a8c/iframe?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://cdn.tlo.xyz/b0f6489638fab333b9767877fbf92a8c/iframe?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>开启指针动画</figcaption>
 </figure>
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://cdn.tloxygen.com/8fe64137c49bc848add5dc89e2ffb2c6/iframe?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://cdn.tlo.xyz/8fe64137c49bc848add5dc89e2ffb2c6/iframe?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>关闭指针动画</figcaption>
 </figure>
 
 同样的，默认 iPadOS 会开启触摸板惯性，关闭此功能会更接近在 macOS 上的使用体验。
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://cdn.tloxygen.com/26a655bb13c602c45ade0bc57c12eb64/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://cdn.tlo.xyz/26a655bb13c602c45ade0bc57c12eb64/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>开启触摸板惯性</figcaption>
 </figure>
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://cdn.tloxygen.com/465c56565c440f3271f2b8ee4352df8a/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://cdn.tlo.xyz/465c56565c440f3271f2b8ee4352df8a/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>关闭触摸板惯性</figcaption>
 </figure>
 

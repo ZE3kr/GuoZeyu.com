@@ -18,9 +18,9 @@ date: 2015-08-18 23:10:44
 
 ## 截图证据
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/9aad2807-55a3-4145-d395-86c3b29e0d01/extra" alt="重新排版后去掉了网站名" width="750" height="1334"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/9aad2807-55a3-4145-d395-86c3b29e0d01/extra" alt="重新排版后去掉了网站名" width="750" height="1334"/>
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/0b4c44ce-46ec-4e66-c9b9-a4d7481ae001/extra" alt="重新排版后加上了广告" width="750" height="1334"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/0b4c44ce-46ec-4e66-c9b9-a4d7481ae001/extra" alt="重新排版后加上了广告" width="750" height="1334"/>
 
 ## 屏蔽好搜
 
@@ -41,7 +41,7 @@ Deny from env=bad_bot
 
 嗯，很成功，图片加载不了了，但是并没有完全屏蔽它。
 
-<img src="https://cdn.tloxygen.com/6T-behmofKYLsxlrK0l_MQ/b0350c2b-2914-440a-d814-48cf25deca01/extra" alt="利用 Referer 屏蔽" width="750" height="1334"/>
+<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/b0350c2b-2914-440a-d814-48cf25deca01/extra" alt="利用 Referer 屏蔽" width="750" height="1334"/>
 
 ### 利用好搜缺陷屏蔽它
 
