@@ -23,6 +23,7 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 
 + 电子邮件: [i@ze3kr.com](mailto:i@ze3kr.com)
   + ⚠️ [安装我的 S/MIME 公钥](/files/ze3kr.pem)并[加密邮件](https://support.apple.com/zh-cn/HT202345)
++ Matrix: [@james:matrix.tlo.xyz](https://matrix.to/#/@james:matrix.tlo.xyz)
 + Telegram: [@ZE3kr](https://t.me/ZE3kr)
   + ⚠️ [启用 Secret Chat](https://telegram.org/faq#q-how-do-i-start-a-secret-chat)
 + Lark (飞书国际版): [i@ze3kr.com](https://www.larksuite.com/invitation/page/add_contact/?token=673u335b-b1bf-4127-8e78-1454bba2d9ft&unique_id=RIO3vNiUEPfCQyzQk3p9LA==)
