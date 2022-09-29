@@ -108,7 +108,6 @@ deploy:
   repo:
     bj1-aws: ze3kr@bj1-aws.s.tlo.xyz:~/sync/GuoZeyu.com.git,main
     hk1-ali: ze3kr@hk1-ali.s.tlo.xyz:~/sync/GuoZeyu.com.git,main
-    sg1-aws: ze3kr@sg1-aws.s.tlo.xyz:~/sync/GuoZeyu.com.git,main
     us1-gcp: ~/sync/GuoZeyu.com.git,main
     de1-ovh: ze3kr@de1-ovh.s.tlo.xyz:~/sync/GuoZeyu.com.git,main
 
