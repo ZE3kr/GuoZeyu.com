@@ -12,7 +12,9 @@ categories:
 
 ## 市面云存储价格对比
 
-我们来对比一下目前市面上的几个存储方案，这里只对比面向个人的存储方案。Google Workspace、Apple Business 等面向企业的存储方案往往溢价更高，这里不再做对比。这里所展示的价格为美国区不含税的价格。一些服务会对其他国家有价格歧视 (低价区)，这不是本文所讨论的范围。
+> TL;DR 考虑到成本和最大容量问题，我使用 iCloud 作为小数据的 “热备份”，使用 S3 作为大文件的 “冷备份”
+
+在进入正题前，我们来对比一下目前市面上的几个存储方案，这里只对比面向个人的存储方案；你也可以直接[跳到 Nextcloud 章节](#Nextcloud)。Google Workspace、Apple Business 等面向企业的存储方案往往溢价更高，这里不再做对比。这里所展示的价格为美国区不含税的价格。一些服务会对其他国家有价格歧视 (低价区)，这不是本文所讨论的范围。
 
 <table>
    <thead>
@@ -160,19 +162,19 @@ Google Workspace、Dropbox Teams 则提供了所谓 “无限容量” 的套餐
 
 如果 2TB 对你而言足够，且在可预见的未来也不会很快超过 2TB 的存储需求，那么直接选苹果、谷歌、微软、Dropbox 中的一个就行了。如果有大量的 RAW 照片需要存储，那么 Adobe Lightroom CC 则是不错的选择，$9.99/月的 Lightroom 就包含了 1TB 存储空间，加到 $19.99/月就可以有 3TB 存储空间，能随时随地访问到整个图库还是很方便的。
 
-我就有在用苹果的 2TB 套餐，用 iCloud 同步一些小，但经常访问的文件还是很方便的。我也用 iCloud Photos 来同步 iPhone 拍摄的照片和视频，以及导出的全尺寸的 JPEG 和剪辑后的视频。此外，我还用 iCloud 对我的 iOS 设备进行备份。iCloud 是我的 “热备份”。
+我就有在用苹果的 2TB 套餐，用 iCloud 同步一些小，但经常访问的文件还是很方便的。我也用 iCloud Photos 来同步 iPhone 拍摄的照片和视频，以及导出的全尺寸的 JPEG 和剪辑后的视频。此外，我还用 iCloud 对我的 iOS 设备进行备份。**iCloud 是我的 “热备份”**。
 
 此时我还需要备份相机录制的 MP4、RAW 视频和 RAW 图片，这些文件有数 TB，并且每年还会以几百 GB 的速度增长。这些文件通常不需要随时访问，此时就需要 “冷备份” 了。我体验过一年 1TB 的 Lightroom CC，1TB 的容量对我而言虽然够用，但我的存储量还是会持续增长，不想将来不停的升级到越来越贵的套餐。因此最近又换成了同样价格的 Photography Plan，少了 1TB 的云存储，但多了 Photoshop。
 
 我没有怎么体验过 Mega，但 Mega 确实也曾在我的考虑范围内。最终我没有选择 Mega 的原因是因为它不够便宜。的确，$2.03/TB/月的 16TB 套餐是很便宜了，但如果你只需要用 9TB 呢？此时还是得订阅 16TB 的套餐。而且哪怕用到 16TB，它还是比 S3 Glacier Deep Archive 贵了一倍多。
 
-因此我选择了部署在 Lightsail 上的 Nextcloud 作为冷备份的系统，S3 作为存储后端。同时通过 S3 桶生命周期，实现智能调整文件的存储级别，实现了最低 $0.99/TB/月的云存储。Nextcloud 可以选择开启试验性功能 “Virtual File Support”，可以有选择性的同步文件。（Mac 上需要修改 `~/Library/Preferences/Nextcloud/nextcloud.cfg`，在 `[General]` 下增加 `showExperimentalOptions=true`）
+因此我选择了**部署在 Lightsail 上的 Nextcloud 作为冷备份**的系统，S3 作为存储后端。同时通过 S3 桶生命周期，实现智能调整文件的存储级别，实现了最低 $0.99/TB/月的云存储。Nextcloud 可以选择开启试验性功能 “Virtual File Support”，可以有选择性的同步文件。（Mac 上需要修改 `~/Library/Preferences/Nextcloud/nextcloud.cfg`，在 `[General]` 下增加 `showExperimentalOptions=true`）
 
 我使用的图像编辑软件是 Adobe Lightroom Classic，我的所有 RAW 照片都是用 Lightroom 管理，原图存储在 Nextcloud 同步的文件夹中。我使用 Lightroom 对所有图像生成了 Smart Preview。在本地空间不足，Nextcloud 清除了老文件时，仍可以使用 Smart Preview 预览和编辑图片，并导出小尺寸的图片。Lightroom Classic 也可以通过 Adobe Creative Cloud，将 Smart Preview 同步到支持移动端的 Lightroom CC 上。这部分的 Smart Preview 是不占用 Adobe 的云空间的。Lightroom Catalog 我存放在本地的默认位置，但其备份存储在 iCloud。
 
 视频剪辑软件我使用的是 Final Cut Pro，我的相机产生的所有视频都使用 Final Cut Pro 管理。Final Cut Pro 可以配置资料库中媒体的存放位置，我将其设置为 Nextcloud 的文件夹。这也是主要占空间的文件。Final Cut Pro 的资料库我存放在本地，其备份存储在 iCloud。
 
-## NAS
+## 为什么不用 NAS？
 
 前年的时候，我在[Mac mini 有什么用？组建家庭服务器！](/2021/11/mac-mini/) 里提到我使用 Mac mini 作为 NAS 使用。但当时我只是用它来进行备份，而非云存储。如果用自建 NAS 做云存储的话，出门在外访问则很成问题：最主要的就是受到 NAS 所在网络的上传速度限制，从而体验很差。在我的印象里，哪怕是成熟的 NAS 解决方案，也没有一个 NAS 能提供像 Dropbox 这样好用的全平台客户端。此外，单个的 NAS 并不可靠，因为它没有在物理上跨区域。NAS 中的硬盘也有购置成本，硬盘老化后也有更换成本，自己维护起来还有时间成本，最终未必划算。
 
