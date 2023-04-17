@@ -19,6 +19,12 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 
 ## 联系我
 
+### 社交网络
+
+我使用去中心化的 Mastodon: [`@ZE3kr@tlo.xyz`](https://mastodon.tlo.xyz/@ZE3kr)
+
+### 私聊
+
 你可以通过这些方式与我私聊:
 
 + 电子邮件: [i@ze3kr.com](mailto:i@ze3kr.com)
