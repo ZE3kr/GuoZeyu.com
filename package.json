@@ -10,7 +10,7 @@
     "install": "git submodule update --init --recursive && curl -s 'https://cloudflarestream.com/embed/sdk-iframe-integration.fla9.latest.js' | sed 's/\"cloudflarestream.com\\/\"/\"cdn.tlo.xyz\\/\"/g' > ./themes/hexo-theme-claudia/source/js/sdk-iframe-integration.fla9.latest.js"
   },
   "hexo": {
-    "version": "6.2.0"
+    "version": "6.3.0"
   },
   "dependencies": {
     "hexo": "^6.1.0",
