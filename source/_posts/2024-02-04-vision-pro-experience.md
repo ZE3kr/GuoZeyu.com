@@ -5,6 +5,8 @@ tags:
  - 智能设备
 categories:
  - 科技
+languages:
+  en-US: https://www.ze3kr.com/2024/02/vision-pro-experience/
 ---
 
 美东时间 2.2 日早上 8:00 自提的设备，本人不佩戴眼镜，因此已经使用了完整两天，这里更新下自己的一些发现。
