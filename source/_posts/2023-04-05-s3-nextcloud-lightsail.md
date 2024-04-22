@@ -117,7 +117,7 @@ categories:
          <td>2.03</td>
       </tr>
       <tr>
-         <td>Pay-as-you-go <sup>4</sup></td>
+         <td>Pay-as-you-go <sup>3</sup></td>
          <td>16.27/3TB 起</td>
          <td>2.71</td>
       </tr>
