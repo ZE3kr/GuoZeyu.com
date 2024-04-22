@@ -27,7 +27,7 @@ categories:
    </thead>
    <tbody>
       <tr>
-         <td rowspan="3">iCloud</td>
+         <td rowspan="5">iCloud</td>
          <td>50GB</td>
          <td>0.99</td>
          <td>19.80</td>
@@ -40,6 +40,16 @@ categories:
       <tr>
          <td>2TB</td>
          <td>9.99</td>
+         <td>5.00</td>
+      </tr>
+      <tr>
+         <td>6TB</td>
+         <td>29.99</td>
+         <td>5.00</td>
+      </tr>
+      <tr>
+         <td>12TB</td>
+         <td>59.99</td>
          <td>5.00</td>
       </tr>
       <tr>
