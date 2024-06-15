@@ -27,16 +27,12 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 
 你可以通过这些方式与我私聊。以下方式均可启用端到端加密：
 
-+ 电子邮件: [i@ze3kr.com](mailto:i@ze3kr.com)
-  + ⚠️ [安装我的 S/MIME 公钥](/files/ze3kr.pem)并[加密邮件](https://support.apple.com/zh-cn/HT202345)
-+ Matrix: [@james:matrix.tlo.xyz](https://matrix.to/#/@james:matrix.tlo.xyz)
-  + ✅ 默认端到端加密
 + iMessage: [i@ze3kr.com](imessage://i@ze3kr.com)
   + ✅ 默认端到端加密
++ 电子邮件: [i@ze3kr.com](mailto:i@ze3kr.com)
+  + ⚠️ [安装我的 S/MIME 公钥](/files/ze3kr.pem)并[加密邮件](https://support.apple.com/zh-cn/HT202345)
 + Telegram: [@ZE3kr](https://t.me/ZE3kr)
   + ⚠️ [启用 Secret Chat](https://telegram.org/faq#q-how-do-i-start-a-secret-chat)
-+ Lark (飞书国际版): [i@ze3kr.com](https://www.larksuite.com/invitation/page/add_contact/?token=673u335b-b1bf-4127-8e78-1454bba2d9ft&unique_id=RIO3vNiUEPfCQyzQk3p9LA==)
-  + ⚠️ 启用密聊 (仅国际版支持)
 
 如果你知道我的<strong>美国手机号</strong>，你也可以通过以下方式与我端到端加密私聊:
 
@@ -50,8 +46,10 @@ ZE3kr 是郭泽宇用于发布内容的 ID，发布的内容汇集以科技、�
 + SMS (短信)/MMS (彩信)/电话
   + ❌ 非端到端加密
   + ⚠️ 可能有运营商资费
-+ 微信或 WeChat
-  + ❌ 非端到端加密
+
+### 微信?
+
+我不使用微信。
 
 ### 为什么要使用端到端加密?
 

@@ -201,8 +201,8 @@ theme_config:
     # twitter: ZE3kr
     # instagram: ZE3kr
     mastodon: https://mastodon.tlo.xyz/@ZE3kr
-    matrix: https://matrix.to/#/@james:matrix.tlo.xyz
-    # telegram: ZE3kr
+    # matrix: https://matrix.to/#/@james:matrix.tlo.xyz
+    telegram: ZE3kr
     github: ZE3kr
     email: i@ze3kr.com
 
