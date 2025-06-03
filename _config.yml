@@ -200,8 +200,9 @@ theme_config:
   social:
     # twitter: ZE3kr
     # instagram: ZE3kr
-    mastodon: https://mastodon.tlo.xyz/@ZE3kr
+    # mastodon: https://mastodon.tlo.xyz/@ZE3kr
     # matrix: https://matrix.to/#/@james:matrix.tlo.xyz
+    bluesky: https://bsky.app/profile/ze3kr.com
     telegram: ZE3kr
     github: ZE3kr
     email: i@ze3kr.com
