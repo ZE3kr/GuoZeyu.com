@@ -3,19 +3,3 @@ https://www.guozeyu.com/*
 
 https://:project.pages.dev/*
   X-Robots-Tag: noindex
-
-/
-  Cache-Control: public, max-age=60, must-revalidate
-  Link: </style/base.css>; rel=preload; as=style
-  Link: </js/common.js>; rel=preload; as=script
-
-/*/
-  Cache-Control: public, max-age=60, must-revalidate
-  Link: </style/base.css>; rel=preload; as=style
-  Link: </js/common.js>; rel=preload; as=script
-
-/*.js
-  Cache-Control: public, max-age=604800
-
-/*.css
-  Cache-Control: public, max-age=604800
