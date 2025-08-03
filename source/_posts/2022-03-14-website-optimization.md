@@ -50,7 +50,7 @@ categories:
 原本主题的搜索功能在电脑端只会在最右侧的边栏展示搜索结果，我对其进行了改进，实现了用户在搜索时搜索栏和搜索结果自动延长。各位可以直接前往首页体验，或者查看下方的效果视频：
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 62.24299065420561%;"><iframe src="https://cdn.tlo.xyz/beb50392b3f14f49b01fb75b20d4cef7/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true&poster=https%3A%2F%2Fcdn.tlo.xyz%2Fbeb50392b3f14f49b01fb75b20d4cef7%2Fthumbnails%2Fthumbnail.jpg%3Fheight%3D600" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 62.24299065420561%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/beb50392b3f14f49b01fb75b20d4cef7/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true&poster=https%3A%2F%2Fcdn.tlo.xyz%2Fbeb50392b3f14f49b01fb75b20d4cef7%2Fthumbnails%2Fthumbnail.jpg%3Fheight%3D600" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>网站搜索演示</figcaption>
 </figure>
 

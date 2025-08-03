@@ -123,7 +123,7 @@ languages:
 <img src="https://cdn.tloxygen.com/images/7b922a79-0c52-4620-c46e-42c30933b600/extra" alt="三指手势配置屏幕截图" width="2388" height="1668"/>
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://cdn.tlo.xyz/5f6b04e0879e5840ff556e22c066dabd/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/5f6b04e0879e5840ff556e22c066dabd/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>三指手势 屏幕录制</figcaption>
 </figure>
 
@@ -134,24 +134,24 @@ languages:
 若开启**指针动画**，当移动到按钮上方时，指针会消失，取而代之的是按钮高亮的吸附效果。此功能可以关闭，关闭后更接近在 macOS 上的使用体验。
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://cdn.tlo.xyz/b0f6489638fab333b9767877fbf92a8c/iframe?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/b0f6489638fab333b9767877fbf92a8c/iframe?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>开启指针动画</figcaption>
 </figure>
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://cdn.tlo.xyz/8fe64137c49bc848add5dc89e2ffb2c6/iframe?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.38629283489096%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/8fe64137c49bc848add5dc89e2ffb2c6/iframe?muted=true&preload=metadata&loop=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>关闭指针动画</figcaption>
 </figure>
 
 同样的，默认 iPadOS 会开启触摸板惯性，关闭此功能会更接近在 macOS 上的使用体验。
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://cdn.tlo.xyz/26a655bb13c602c45ade0bc57c12eb64/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/26a655bb13c602c45ade0bc57c12eb64/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>开启触摸板惯性</figcaption>
 </figure>
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://cdn.tlo.xyz/465c56565c440f3271f2b8ee4352df8a/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.30252100840336%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/465c56565c440f3271f2b8ee4352df8a/iframe?controls=false&muted=true&preload=metadata&loop=true&autoplay=true" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
   <figcaption>关闭触摸板惯性</figcaption>
 </figure>
 
