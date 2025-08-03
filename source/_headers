@@ -3,3 +3,9 @@ https://www.guozeyu.com/*
 
 https://:project.pages.dev/*
   X-Robots-Tag: noindex
+
+/*.js
+  Cache-Control: public, max-age=86400
+
+/*.css
+  Cache-Control: public, max-age=86400
