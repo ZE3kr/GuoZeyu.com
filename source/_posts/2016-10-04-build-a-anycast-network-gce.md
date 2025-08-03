@@ -10,7 +10,7 @@ categories:
 date: 2016-10-04 09:27:00
 languages:
   en-US: https://www.ze3kr.com/2016/10/cloudflare-2016-new-feature/
-cover: <img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/04e0bbc3-4b73-4cde-7c0f-2bb2b35f5e00/extra" alt="缓存服务器的位置" width="1124" height="482"/>
+cover: <img src="https://cdn.tloxygen.com/images/04e0bbc3-4b73-4cde-7c0f-2bb2b35f5e00/extra" alt="缓存服务器的位置" width="1124" height="482"/>
 ---
 
 [在上一篇文章](https://www.guozeyu.com/2016/10/asia-google-compute-engine/)中，我简单的介绍了 Google Compute Engine（简称 GCE）的基础使用。这篇文章我将介绍如何利用 GCE 建立一个 Anycast 网络，并测试了其速度。 想要实现这个功能，就需要使用 [Cross-Region Load Balancing](https://cloud.google.com/compute/docs/load-balancing/http/cross-region-example)（跨地区的负载均衡），此功能就相当于一个 HTTP(S) 的反向代理，所以只能针对 HTTP/HTTPS 请求进行负载均衡。
@@ -29,7 +29,7 @@ GCE 上所实现的这个功能是基于第七层的网络代理，所以其拓�
 
 此外，目前使用负载均衡是唯一能让其原生支持 IPv6 的方法。具体可以参见其文档：[IPv6 Termination for HTTP(S), SSL Proxy, and TCP Proxy Load Balancing](https://cloud.google.com/compute/docs/load-balancing/ipv6)
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/05526956-c779-4a8f-95d8-80ae5b59b700/extra" alt="预留 IPv6 地址的截图" width="1604" height="1056"/>
+<img src="https://cdn.tloxygen.com/images/05526956-c779-4a8f-95d8-80ae5b59b700/extra" alt="预留 IPv6 地址的截图" width="1604" height="1056"/>
 
 ## 配置方法
 
@@ -37,7 +37,7 @@ GCE 上所实现的这个功能是基于第七层的网络代理，所以其拓�
 
 首先，需要前往到 GCE 后台，建立至少两个不同地区的实例，我专门为测试 Anycast 功能建立了两个新的实例：
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/27dca1a3-238f-4656-8f06-0047b0b74b00/extra" alt="为 Anycast 建立的两个实例" width="1700" height="298"/>
+<img src="https://cdn.tloxygen.com/images/27dca1a3-238f-4656-8f06-0047b0b74b00/extra" alt="为 Anycast 建立的两个实例" width="1700" height="298"/>
 
 每个地区也可以建立多个实例以提高可用性，而我只给每个地区建立了一个实例，这两个实例分别叫 anycast-asia 和 anycast-us。
 
@@ -45,7 +45,7 @@ GCE 上所实现的这个功能是基于第七层的网络代理，所以其拓�
 
 然后，需要给每个地区的实例[建立一个实例组](https://console.cloud.google.com/compute/instanceGroups/add)：
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/bb687697-6b3c-47d7-ed89-d134d8d95000/extra" alt="实例组配置页面" width="962" height="1588"/>
+<img src="https://cdn.tloxygen.com/images/bb687697-6b3c-47d7-ed89-d134d8d95000/extra" alt="实例组配置页面" width="962" height="1588"/>
 
 需要注意的是，实例组配置页面中位置里的 “多地区（Multi-zone）” 是指同一个**地区**（Region）的不同**可用区域**（Zone），而不是多个不同的地区，所以这实际上是翻译的错误，应该叫做 “多可用区域” 才对。
 
@@ -61,19 +61,19 @@ GCE 上所实现的这个功能是基于第七层的网络代理，所以其拓�
 
 完成前两步之后，就需要建立负载均衡的规则了，需要选择 “HTTP(S) 负载平衡” 来实现 Anycast 的功能。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/82658e9b-c6cb-4d62-d457-07b768625800/extra" alt="三种负载均衡模式" width="1998" height="686"/>
+<img src="https://cdn.tloxygen.com/images/82658e9b-c6cb-4d62-d457-07b768625800/extra" alt="三种负载均衡模式" width="1998" height="686"/>
 
 在负载均衡的配置界面，把这两个实例组都添加到 “后端” 中。 该功能还需要创建一个运行状态检查（相当于监控功能），当主机宕机后能实现切换。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/e2f53c4f-53b7-44a4-bc27-84bd5114f400/extra" alt="暂时先不开启 CDN 功能" width="2488" height="1918"/>
+<img src="https://cdn.tloxygen.com/images/e2f53c4f-53b7-44a4-bc27-84bd5114f400/extra" alt="暂时先不开启 CDN 功能" width="2488" height="1918"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/2a0a01bf-5f9a-4fca-d774-a752d3b7cb00/extra" alt="保留默认的 “主机路径和规则”" width="1398" height="500"/>
+<img src="https://cdn.tloxygen.com/images/2a0a01bf-5f9a-4fca-d774-a752d3b7cb00/extra" alt="保留默认的 “主机路径和规则”" width="1398" height="500"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/71d21649-5c89-4c70-9c69-efe892560f00/extra" alt="目前是需要 HTTP 的例子，如果需要 HTTPS，还需要指定一个证书。" width="1400" height="448"/>
+<img src="https://cdn.tloxygen.com/images/71d21649-5c89-4c70-9c69-efe892560f00/extra" alt="目前是需要 HTTP 的例子，如果需要 HTTPS，还需要指定一个证书。" width="1400" height="448"/>
 
 创建成功后，可以看到如下界面，其中的 IP 地址就是 Anycast IP 了。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/3c917e4d-66c7-462a-ed17-f81f9d74b100/extra" alt="成功创建了一个 Anycast IP" width="1612" height="1064"/>
+<img src="https://cdn.tloxygen.com/images/3c917e4d-66c7-462a-ed17-f81f9d74b100/extra" alt="成功创建了一个 Anycast IP" width="1612" height="1064"/>
 
 ### Nginx 的配置
 
@@ -133,17 +133,17 @@ Via: 1.1 google
 
 Ping 测试发现速度很快，看来反代的操作是放在 Google 的边缘服务器上了。**速度堪比 Google 啊！**
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/2536da17-6a82-4483-6102-f3fc24958c00/extra" alt="对 Anycast IP 的国外速度测试" width="1868" height="944"/>
+<img src="https://cdn.tloxygen.com/images/2536da17-6a82-4483-6102-f3fc24958c00/extra" alt="对 Anycast IP 的国外速度测试" width="1868" height="944"/>
 
 中国的速度那更是一流的快，Google 有香港的边缘节点，所以基本上是直接走的香港节点，比原本的连接台湾可用区快不少。（只有部分 IP 段是完全直连的）
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/4bd11bf9-cabc-4d5b-b416-7d9012261900/extra" alt="对 Anycast IP 的国内速度测试" width="2410" height="1208"/>
+<img src="https://cdn.tloxygen.com/images/4bd11bf9-cabc-4d5b-b416-7d9012261900/extra" alt="对 Anycast IP 的国内速度测试" width="2410" height="1208"/>
 
 ### HTTP GET 测试
 
 在开启 CDN 功能之前，负载均衡器是不会对任何内容缓存的，所以会发现 Connect 的速度很快，但是 TTFB 延迟还是有不少。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/8ac73308-2f5f-4374-5877-77a2481c5f00/extra" alt="对 Anycast IP 进行 HTTP GET 测试" width="1918" height="1048"/>
+<img src="https://cdn.tloxygen.com/images/8ac73308-2f5f-4374-5877-77a2481c5f00/extra" alt="对 Anycast IP 进行 HTTP GET 测试" width="1918" height="1048"/>
 
 可以预测，如果启用了 HTTPS 功能，其 TLS 所需要的等待时间也会很短，TTFB 时间不变，总时长不会延长太多。
 
@@ -159,11 +159,11 @@ Age: 10
 
 经过多次执行这个指令，会发现有一定几率 Age 字段消失，这可能是流量指到了同一个地区的不同可用区上。但总之，是缓存命中率不高，即使之前曾访问过了。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/433f5e12-3475-4a92-4b0e-fd4bbb43e200/extra" alt="开启 CDN 后进行 HTTP GET 测试" width="1946" height="1046"/>
+<img src="https://cdn.tloxygen.com/images/433f5e12-3475-4a92-4b0e-fd4bbb43e200/extra" alt="开启 CDN 后进行 HTTP GET 测试" width="1946" height="1046"/>
 
 多次运行测试确保有缓存之后，发现速度似乎并没有太多明显的提升。能够明显的看出改善的是：巴黎和阿姆斯特丹的 TTFB 延迟从 200ms 减少到了 100ms，然而还是不尽人意。可能的原因是：Google 并没有将内容缓存到离访客最近的边缘节点上，而是别的节点上。 [CDN 缓存服务器的位置列表](https://cloud.google.com/cdn/docs/locations) 
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/04e0bbc3-4b73-4cde-7c0f-2bb2b35f5e00/extra" alt="缓存服务器的位置" width="1124" height="482"/>
+<img src="https://cdn.tloxygen.com/images/04e0bbc3-4b73-4cde-7c0f-2bb2b35f5e00/extra" alt="缓存服务器的位置" width="1124" height="482"/>
 
 ## 统计与日志
 
@@ -173,15 +173,15 @@ Age: 10
 
 在网页后台的 Network，Load balancing，advanced menu 的 Backend service 下，可以查看实时的流量情况： 
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/c2cabc9e-0789-4d47-81eb-b59b92462400/extra" alt="图形还是很漂亮的" width="2274" height="1238"/>
+<img src="https://cdn.tloxygen.com/images/c2cabc9e-0789-4d47-81eb-b59b92462400/extra" alt="图形还是很漂亮的" width="2274" height="1238"/>
 
 ### 延迟日志
 
 在网页后台的 Stackdriver，Trace 下，可以看到延迟日志： 
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/49721dc7-25c6-4aa6-a291-9995f254ef00/extra" alt="延迟日志截图 1" width="2354" height="1470"/>
+<img src="https://cdn.tloxygen.com/images/49721dc7-25c6-4aa6-a291-9995f254ef00/extra" alt="延迟日志截图 1" width="2354" height="1470"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/f90d5a7a-df1e-4bc2-2b2f-3a9eaf724400/extra" alt="延迟日志截图 2" width="2082" height="1474"/>
+<img src="https://cdn.tloxygen.com/images/f90d5a7a-df1e-4bc2-2b2f-3a9eaf724400/extra" alt="延迟日志截图 2" width="2082" height="1474"/>
 
 这里的延迟包含了网络延迟和服务器响应延迟
 

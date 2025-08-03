@@ -20,7 +20,7 @@ languages:
 
 StatusCake 同时提供免费和付费的监控服务。免费版本可以创建无限多个 HTTP(s)、TCP、DNS、SMTP、SSH、Ping 和 Push 的协议监控，监控周期最短为 5 分钟，提醒主要支持 E-mail 和 Webhook 两种方式。免费版本不支持监控服务器配置信息，所以也无需在服务器上安装任何软件。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/93db5287-8f3b-4f3e-40f7-570470575f00/extra" alt="StatusCake 面板截图" width="2244" height="1232"/>
+<img src="https://cdn.tloxygen.com/images/93db5287-8f3b-4f3e-40f7-570470575f00/extra" alt="StatusCake 面板截图" width="2244" height="1232"/>
 
 此外，StatusCake 支持 Public Reporting，你可以利用 StatusCake 建立一个监控页面。它还支持将在线率图像及网页嵌入在你自己的网页中，十分方便。
 
@@ -30,7 +30,7 @@ StatusCake 同时提供免费和付费的监控服务。免费版本可以创建
 
 UptimeRobot 也提供免费的监控服务，支持 HTTP(s)、端口检测、Ping，监控周期最短为 5 分钟。同样不支持监控服务器配置信息，所以也无需在服务器上安装任何软件。最多只能创建 50 个监控，支持 E-mail 提醒。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/15ebe1ec-7d54-4be2-bcb2-7564c834bf00/extra" alt="UptimeRobot 面板截图" width="2906" height="1264"/>
+<img src="https://cdn.tloxygen.com/images/15ebe1ec-7d54-4be2-bcb2-7564c834bf00/extra" alt="UptimeRobot 面板截图" width="2906" height="1264"/>
 
 相比 StatusCake，它的监控功能要少，但是 Public Reporting 的页面要漂亮一些。由于 StatusCake 所多的那些功能个人站长也几乎用不到，所以 UptimeRobot 也是 StatusCake 的一个良好的替代。
 
@@ -48,7 +48,7 @@ UptimeRobot 也提供免费的监控服务，支持 HTTP(s)、端口检测、Pin
 
 最后，就要介绍我最近开始使用的强大的 Stackdriver。Stackdriver 是 Google Cloud Platform（下文简称 GCP）旗下的服务器监控服务，支持监控、调试、跟踪、日志。其中的 Uptime Check 支持 HTTP(s) 和 TCP，监控周期最短为 **1 分钟**。它支持 E-mail 、手机短信和 APP 内告警。它的 Uptime Check 是从全球 6 个地区同时监控，可以看到每一个地区的延迟。用来检测 CDN 的速度肯定会很不错。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/6e4bccc4-c6cc-4f37-53d9-a3c66b59a600/extra" alt="Stackdriver 面板截图" width="2580" height="1248"/>
+<img src="https://cdn.tloxygen.com/images/6e4bccc4-c6cc-4f37-53d9-a3c66b59a600/extra" alt="Stackdriver 面板截图" width="2580" height="1248"/>
 
 如果你正在使用 Google Compute Engine（下文简称 GCE） 或者其他 GCP 的服务，那么这个服务还可以帮你记录服务器日志，每月有 5 GB 额度，超出后每 $0.5/GB。此外，它还能进行服务器性能监控，监控服务器各项指标。虽然原本 GCE 面板也能提供 CPU 等信息，但是这个是需要在服务器上安装 Agent，于是就能提供更丰富更准确的信息。安装过程如下：
 
@@ -65,6 +65,6 @@ sudo bash install-logging-agent.sh # 谨慎安装，见下文
 
 [Observium](http://observium.org/) 通过 snmp 可以用来监控服务器的各项指标，包括内存、储存、网卡等。它可以[免费安装](http://observium.org/wiki/Installation)在自己的服务器上，需要 MySQL 和 PHP 环境。官网给的是 Apache 的范例，如果你用 Nginx 就不需要安装 Apache。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/050a7711-4b36-466b-5976-389ca7e52f00/extra" alt="Observium 面板截图" width="2590" height="1548"/>
+<img src="https://cdn.tloxygen.com/images/050a7711-4b36-466b-5976-389ca7e52f00/extra" alt="Observium 面板截图" width="2590" height="1548"/>
  
 它通过在服务端生成 PNG 来显示图表，所以图表很漂亮精致，但是由于不是矢量图，所以很难做到实时增量更新而且不能精细看到某一个时刻的数值。 Observium 可以轻松的管理许多个服务器。你可以体验[在线 Demo](http://demo.observium.org)。

@@ -98,21 +98,21 @@ languages:
 
 ## 图片
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/f6948209-9e13-4ad2-83dc-b5fd144f5300/extra" alt="外包装，非常紧凑" width="2560" height="1920"/>
+<img src="https://cdn.tloxygen.com/images/f6948209-9e13-4ad2-83dc-b5fd144f5300/extra" alt="外包装，非常紧凑" width="2560" height="1920"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/1e54c4ff-fce8-46e7-d0cf-8786803a4000/extra" alt="很简洁的使用说明" width="2560" height="1920"/>
+<img src="https://cdn.tloxygen.com/images/1e54c4ff-fce8-46e7-d0cf-8786803a4000/extra" alt="很简洁的使用说明" width="2560" height="1920"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/12672f68-74ef-405c-d198-d80090540f00/extra" alt="悬浮高度实测为 10mm - 23mm" width="2560" height="1920"/>
+<img src="https://cdn.tloxygen.com/images/12672f68-74ef-405c-d198-d80090540f00/extra" alt="悬浮高度实测为 10mm - 23mm" width="2560" height="1920"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/145c3c87-4dbb-444a-0116-76c2c3988900/extra" alt="新的凹陷 Apple Logo 设计" width="2560" height="1920"/>
+<img src="https://cdn.tloxygen.com/images/145c3c87-4dbb-444a-0116-76c2c3988900/extra" alt="新的凹陷 Apple Logo 设计" width="2560" height="1920"/>
 
 <img src="平放时 Logo 若隐若现（安装 iPad Pro 2018 的效果，兼容但不完美）" alt="keyboard-5.jpeg" width="2560" height="1920"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/0371ce2b-63aa-4771-0d03-412279dcc800/extra" alt="与 15-inch MacBook Pro 和 Magic Trackpad for Mac 对比（无标注）" width="2560" height="1920"/>
+<img src="https://cdn.tloxygen.com/images/0371ce2b-63aa-4771-0d03-412279dcc800/extra" alt="与 15-inch MacBook Pro 和 Magic Trackpad for Mac 对比（无标注）" width="2560" height="1920"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/110a21c4-c75d-4737-8a15-318da7f53000/extra" alt="与 2018 15-inch MacBook Pro 对比（标注后可以清晰看出，iPad 版本大致小四倍）" width="2560" height="1920"/>
+<img src="https://cdn.tloxygen.com/images/110a21c4-c75d-4737-8a15-318da7f53000/extra" alt="与 2018 15-inch MacBook Pro 对比（标注后可以清晰看出，iPad 版本大致小四倍）" width="2560" height="1920"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/c7f87af2-251b-408b-d276-79564d38f900/extra" alt="背光对比，均开启最大亮度，亮度相近。" width="2560" height="1440"/>
+<img src="https://cdn.tloxygen.com/images/c7f87af2-251b-408b-d276-79564d38f900/extra" alt="背光对比，均开启最大亮度，亮度相近。" width="2560" height="1440"/>
 
 ## 功能配置
 
@@ -120,7 +120,7 @@ languages:
 
 我的触摸板默认没有开启三指切换多任务的手势。需要进入设置、主屏幕与程序坞、多任务中找到 “手势” 开关开启。开启后在屏幕上四指也会出发多任务。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/7b922a79-0c52-4620-c46e-42c30933b600/extra" alt="三指手势配置屏幕截图" width="2388" height="1668"/>
+<img src="https://cdn.tloxygen.com/images/7b922a79-0c52-4620-c46e-42c30933b600/extra" alt="三指手势配置屏幕截图" width="2388" height="1668"/>
 
 <figure class="my-video">
   <div style="position: relative; padding-top: 69.84375%;"><iframe src="https://cdn.tlo.xyz/5f6b04e0879e5840ff556e22c066dabd/iframe?muted=true&preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
@@ -129,7 +129,7 @@ languages:
 
 ### 指针动画和触摸板惯性
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/360068e1-7ae2-473c-3c06-9e7afe6ad600/extra" alt="两个设置位于辅助功能、指针控制中" width="2388" height="1668"/>
+<img src="https://cdn.tloxygen.com/images/360068e1-7ae2-473c-3c06-9e7afe6ad600/extra" alt="两个设置位于辅助功能、指针控制中" width="2388" height="1668"/>
 
 若开启**指针动画**，当移动到按钮上方时，指针会消失，取而代之的是按钮高亮的吸附效果。此功能可以关闭，关闭后更接近在 macOS 上的使用体验。
 

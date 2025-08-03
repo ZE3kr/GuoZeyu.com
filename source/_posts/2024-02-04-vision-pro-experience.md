@@ -53,7 +53,7 @@ languages:
 
 软件我感觉只做到了苹果的后期 Beta 水平，还算不上正式版。首先就是目前只能输入英文，其他任何语言的输入（比如中文）都不支持，包括键盘和 Siri 语音。其次就是我发现 visionOS 1.0.2 并不支持 iOS 17.2 推出的 [iMessage 信息联系人密钥验证](https://support.apple.com/zh-cn/HT213465)。这点其实 Xcode 也已经暗示了：如果在 Xcode 15.2 中将软件的 Minimum Deployment 设置为 17.2，那软件将无法在 visionOS 1.0.2 中运行。因此得出结论：visionOS 1.0.2 = iOS 7.1。这点就可以看出 Apple 发布 Vision Pro 还是很急的，或许是苹果觉得 visionOS 1.1 的 Bug 太多了，所以苹果就没有发布，导致了现在功能不匹配。顺便一提：iOS 17.1 发布时间是 2023 年 10 月 25 日，iOS 17.2 发布时间是 2023 年 12 月 11 日。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/c3f57a0e-ada0-4837-2280-a56e8c55f400/extra" alt="IMG_0002 2.jpeg" width="782" height="586"/>
+<img src="https://cdn.tloxygen.com/images/c3f57a0e-ada0-4837-2280-a56e8c55f400/extra" alt="IMG_0002 2.jpeg" width="782" height="586"/>
 
 ## 外接 USB 设备
 

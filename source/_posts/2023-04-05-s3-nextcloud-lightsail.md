@@ -234,7 +234,7 @@ Nextcloud 可以选择将 S3 作为 Primary Storage。我不推荐这种做法�
 
 Nextcloud 还提供 External Storage 功能，安装完毕后，通过 External Storage 挂载的 S3，其文件结构是保留的，也就是说此时 S3 的存储桶是可以直接访问的。我觉得这个还是很重要的，省去了我备份 Nextcloud 数据库的烦恼。此时就算 Nextcloud 整个实例挂了，我的所有文件都可以在 S3 存储桶里访问。如果将 External Storage 的挂载点配置为 `/`，那么根目录下所有文件和文件夹都是和 S3 同步的，十分方便。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/96360818-7d9c-4137-3ba4-5eee308ede00/extra" alt="Nextcloud External Storage 挂载配置" width="2842" height="996"/>
+<img src="https://cdn.tloxygen.com/images/96360818-7d9c-4137-3ba4-5eee308ede00/extra" alt="Nextcloud External Storage 挂载配置" width="2842" height="996"/>
 
 此外，我会关闭 Nextcloud 的 Deleted Files 功能，并通过 [S3 Versioning](https://apps.nextcloud.com/apps/files_versions_s3) 实现版本管理。因为 Deleted Files 开启后，删除文件时，Nextcloud 会将 External Storage 中的文件移动到本地，这样会费时、费钱且占用本地空间。
 

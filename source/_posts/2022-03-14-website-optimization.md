@@ -28,7 +28,7 @@ categories:
 + 目录自动生成
 + 现代化的设计语言
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/b4c174ff-3ca4-4193-a2b4-b9acb72fcf00/extra" alt="Claudia 主题封面" width="3168" height="2455"/>
+<img src="https://cdn.tloxygen.com/images/b4c174ff-3ca4-4193-a2b4-b9acb72fcf00/extra" alt="Claudia 主题封面" width="3168" height="2455"/>
 
 我对其增加的功能主要如下：
 
@@ -171,9 +171,9 @@ location @proxy {
     proxy_hide_header Expect-CT;
     proxy_http_version 1.1;
     proxy_set_header Connection "";
-    if ($uri ~* '^https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/(.*)$') { 
+    if ($uri ~* '^https://cdn.tloxygen.com/images/(.*)$') { 
         add_header X-Cache-Status "MISS";
-        proxy_pass https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/$1;
+        proxy_pass https://cdn.tloxygen.com/images/$1;
         break;
     }
 }
@@ -187,9 +187,9 @@ AVIF 格式比 WebP 的压缩效率更好，而 WebP 格式比 JPEG 的压缩效
 
 如果原站支持 WebP/AVIF 自适应，那么在配置 CDN 的时候，需要选择根据客户端的 Accept 头进行缓存。CloudFront 和阿里云 CDN 的配置分别如下：
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/3f2a5359-78ab-4092-d993-e60f5a5f1500/extra" alt="CloudFront Accept 配置" width="1602" height="1022"/>
+<img src="https://cdn.tloxygen.com/images/3f2a5359-78ab-4092-d993-e60f5a5f1500/extra" alt="CloudFront Accept 配置" width="1602" height="1022"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/1952ba4a-e094-449d-bfaa-f582a6f0e400/extra" alt="阿里云 CDN Accept 配置" width="1588" height="1456"/>
+<img src="https://cdn.tloxygen.com/images/1952ba4a-e094-449d-bfaa-f582a6f0e400/extra" alt="阿里云 CDN Accept 配置" width="1588" height="1456"/>
 
 ## 自动部署
 
@@ -199,7 +199,7 @@ AVIF 格式比 WebP 的压缩效率更好，而 WebP 格式比 JPEG 的压缩效
 
 本站使用[自建的 Matomo](/2016/01/piwik-wordpress/)网站统计。Matomo 是一个基于 PHP 和 MySQL 的非常强大的开源统计软件。
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/d750995b-2ae0-4372-2c2a-364765b19800/extra" alt="Matomo 后台管理界面截屏" width="2722" height="1716"/>
+<img src="https://cdn.tloxygen.com/images/d750995b-2ae0-4372-2c2a-364765b19800/extra" alt="Matomo 后台管理界面截屏" width="2722" height="1716"/>
 
 除此之外，本站还通过 JavaScript 实现了对视频播放，图像查看和搜索的统计。本站还使用了 Nginx 的 post_action 功能实现了异步发送统计，具体在 `server` 中的配置如下：
 
@@ -223,9 +223,9 @@ location @tracker {
 
 本站还启用了 HTTP/2 Server Push，用户在访问网站时，服务器会一次性直接推送首屏渲染必要的 CSS 和 JS 文件，由于用户不需要在获取到 HTML 页面后再去获取 CSS 和 JS 文件，首屏渲染的时间大大缩短。实测在模拟 Fast 3G 环境下，启用 HTTP/2 Server Push 后首屏时间减少了约 0.3 秒：
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/b5292287-26ce-4b8c-c394-c04bbd559100/extra" alt="仅启用 HTTP/2，首屏耗时 1.48 秒" width="1376" height="1012"/>
+<img src="https://cdn.tloxygen.com/images/b5292287-26ce-4b8c-c394-c04bbd559100/extra" alt="仅启用 HTTP/2，首屏耗时 1.48 秒" width="1376" height="1012"/>
 
-<img src="https://cdn.tlo.xyz/6T-behmofKYLsxlrK0l_MQ/dd4dc6b8-4c88-4378-9422-0fa874515900/extra" alt="启用 HTTP/2 Server Push，首屏耗时 1.20 秒" width="1376" height="1012"/>
+<img src="https://cdn.tloxygen.com/images/dd4dc6b8-4c88-4378-9422-0fa874515900/extra" alt="启用 HTTP/2 Server Push，首屏耗时 1.20 秒" width="1376" height="1012"/>
 
 具体 Nginx 中 `server` 的配置如下
 
