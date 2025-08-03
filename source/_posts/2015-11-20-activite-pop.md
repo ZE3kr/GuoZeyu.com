@@ -7,7 +7,7 @@ id: 220
 categories:
   - - 科技
 date: 2015-11-20 17:27:29
-cover: https://cdn.tlo.xyz/12d9fb47f8bf1560187d3b57c26816f1/thumbnails/thumbnail.jpg?time=1m4s
+cover: https://customer-qz3v4c7e4vfly110.cloudflarestream.com/12d9fb47f8bf1560187d3b57c26816f1/thumbnails/thumbnail.jpg?time=1m4s
 video: 12d9fb47f8bf1560187d3b57c26816f1
 languages:
   en-US: https://www.ze3kr.com/2015/11/activite-pop/
@@ -33,5 +33,5 @@ Activité Pop 有震动闹钟功能，不仅如此，它还拥有智能唤醒功
 ## 视频
 
 <figure class="my-video">
-  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://cdn.tlo.xyz/12d9fb47f8bf1560187d3b57c26816f1/iframe?preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <div style="position: relative; padding-top: 56.25%;"><iframe src="https://customer-qz3v4c7e4vfly110.cloudflarestream.com/12d9fb47f8bf1560187d3b57c26816f1/iframe?preload=metadata" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
 </figure>
