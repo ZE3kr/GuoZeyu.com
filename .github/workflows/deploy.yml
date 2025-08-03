@@ -32,11 +32,6 @@ jobs:
     - name: Build site
       run: npm run build
 
-    - name: Replace URLs for S3 deployment
-      run: |
-        find public/ -type f -name "*.html" -o -name "*.xml" | xargs sed -i 's|https://customer-qz3v4c7e4vfly110.cloudflarestream.com/|https://cdn.yangxi.tech/|g'
-        find public/ -type f -name "*.html" -o -name "*.xml" | xargs sed -i 's|https://cdn.tloxygen.com/images/|https://cdn.yangxi.tech/images/|g'
-
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v4
       with:
@@ -46,9 +41,7 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        aws s3 sync public/ s3://${{ env.S3_BUCKET }} --delete --cache-control "max-age=31536000,public"
-        aws s3 cp public/ s3://${{ env.S3_BUCKET }} --recursive --exclude "*" --include "*.html" --include "*.xml" --include "*.txt" --cache-control "max-age=0,no-cache,no-store,must-revalidate"
-
+        aws s3 sync public/ s3://${{ env.S3_BUCKET }} --delete
     - name: Invalidate CloudFront cache
       if: env.CLOUDFRONT_DISTRIBUTION_ID != ''
       run: |

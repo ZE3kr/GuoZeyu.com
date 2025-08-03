@@ -16,7 +16,7 @@ languages:
 
 邮件内容简洁，无额外无用的东西，不会被认定为 Spam。
 
-<img src="https://cdn.tloxygen.com/images/79965147-7feb-4117-97d0-6a3fb3ca1e00/extra" alt="收件例子" width="1338" height="1302"/>
+<img src="https://cdn.tlo.xyz/images/79965147-7feb-4117-97d0-6a3fb3ca1e00/extra" alt="收件例子" width="1338" height="1302"/>
 
 所有代码已经放到 [GitHub Gist](https://gist.github.com/ZE3kr/8c51a6349462935cefd2e636e96e93f8) 上。
 

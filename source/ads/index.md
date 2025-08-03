@@ -22,9 +22,9 @@ adb: false
 通常，你需要点击广告屏蔽器的图标，然后关闭/禁用对此网站的拦截。在移动设备上，你可能需要选择 更多——网站设置——内容拦截器，然后将其关闭。
 
 <picture>
-  <source src="https://cdn.tloxygen.com/images/e0b21a7c-3c1a-4632-7316-da4e9e6c8900/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
-  <source src="https://cdn.tloxygen.com/images/46591fcd-e30c-4cfa-66d9-795b18c11000/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
-  <img src="https://cdn.tloxygen.com/images/46591fcd-e30c-4cfa-66d9-795b18c11000/extra" alt="关闭广告屏蔽示例" width="1152" height="756" data-raw="true"/>
+  <source src="https://cdn.tlo.xyz/images/e0b21a7c-3c1a-4632-7316-da4e9e6c8900/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
+  <source src="https://cdn.tlo.xyz/images/46591fcd-e30c-4cfa-66d9-795b18c11000/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
+  <img src="https://cdn.tlo.xyz/images/46591fcd-e30c-4cfa-66d9-795b18c11000/extra" alt="关闭广告屏蔽示例" width="1152" height="756" data-raw="true"/>
 </picture>
 
 当然，关闭广告屏蔽属于自愿行为，本站不强制用户关闭广告拦截器，启用广告拦截器后浏览也不会受限制。

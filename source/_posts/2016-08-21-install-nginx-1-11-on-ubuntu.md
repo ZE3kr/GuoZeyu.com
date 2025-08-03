@@ -9,7 +9,7 @@ categories:
 date: 2016-08-21 10:52:13
 languages:
   en-US: https://www.ze3kr.com/2016/08/install-nginx-1-11-on-ubuntu/
-cover: <img src="https://cdn.tloxygen.com/images/1fc7ff44-15e1-46f8-574c-9e8d04499500/extra" alt="ECDSA 证书" width="1078" height="1220"/>
+cover: <img src="https://cdn.tlo.xyz/images/1fc7ff44-15e1-46f8-574c-9e8d04499500/extra" alt="ECDSA 证书" width="1078" height="1220"/>
 ---
 
 Ubuntu 16.04.01 自带的软件源中的是 Nginx 1.10.0，但是这个版本的 Nginx 的 HTTP/2 模块中存在 Bug，[具体见此](https://imququ.com/post/nginx-http2-post-bug.html)。现在 Nginx 1.12 Stable 已经推出，直接安装 Stable 版本即可。 2018-06 更新：如果你使用 Ubuntu 18.04 或者是以后的版本，那么系统默认的软件源的 Nginx 版本（1.14）就足够了。
@@ -147,8 +147,8 @@ ssl_stapling_verify on;
 
 最后不要忘了 `nginx -s reload`，然后 [前往 SSL Labs](https://www.ssllabs.com/ssltest/index.html) 检查配置，可以看到旧的浏览器使用了 RSA 证书（我的服务器有独立 IP，所以无 SNI 支持的也能访问）：
 
-<img src="https://cdn.tloxygen.com/images/306c9988-ed39-40fe-9246-273aeed6da00/extra" alt="支持的客户端" width="1048" height="1446"/>
+<img src="https://cdn.tlo.xyz/images/306c9988-ed39-40fe-9246-273aeed6da00/extra" alt="支持的客户端" width="1048" height="1446"/>
 
 至此，ECDSA/RSA 双证书配置完成，你可以在浏览器里查看到证书类型：
 
-<img src="https://cdn.tloxygen.com/images/1fc7ff44-15e1-46f8-574c-9e8d04499500/extra" alt="ECDSA 证书" width="1078" height="1220"/>
+<img src="https://cdn.tlo.xyz/images/1fc7ff44-15e1-46f8-574c-9e8d04499500/extra" alt="ECDSA 证书" width="1078" height="1220"/>

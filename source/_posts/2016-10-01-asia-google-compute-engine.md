@@ -8,7 +8,7 @@ id: '1933'
 categories:
   - - 开发
 date: 2016-10-01 11:00:48
-cover: <img src="https://cdn.tloxygen.com/images/c3c14a40-2f52-4401-a62d-b0975cc88c00/extra" alt="一些基本的配置" width="1526" height="1204"/>
+cover: <img src="https://cdn.tlo.xyz/images/c3c14a40-2f52-4401-a62d-b0975cc88c00/extra" alt="一些基本的配置" width="1526" height="1204"/>
 ---
 
 2017 年 4 月更新：由于 GCE 在国内经常不稳定，本站主机已经换到了 [TlOxygen 的虚拟主机](https://domain.tloxygen.com/web-hosting/index.php)上了。 最近想要寻找按流量计费、连接中国速度比较快的 VPS，最终选择了 Google Compute Engine（下文简称 GCE）的亚洲区。GCE 的后台配置页面虽不能在中国访问，但是其 GCE 实例是可以在中国访问的。 创建一个新的 GCE 的流程十分简单，只需要自定义配置、选择操作系统、配置 SSH Key，然后选择创建就好了，整个流程十分像 VPS，但是可自定义的功能却远比 VPS 多。
@@ -22,7 +22,7 @@ cover: <img src="https://cdn.tloxygen.com/images/c3c14a40-2f52-4401-a62d-b0975cc
 
 f1-micro（0.6 GB）和 g1-small（1.7GB）这两个版本使用的是共享核心（其余配置都是独立核心），根据 Google 的说明，0.60GB 是 0.2 vCPU，1.70GB 是 0.5 vCPU。但是却支持 Bursting，也就是短时间内最高能使用到 1.0 vCPU。 那么 1.0 vCPU 是多少呢？查 cpuinfo，是 Intel(R) Xeon(R) CPU @ 2.50GHz。也就是说这两个版本最高能占用到 2.5GHz。但是假如长时间占用，速度就会压缩到 0.5GHz 和 1.75 GHz。 
 
-<img src="https://cdn.tloxygen.com/images/e164b6b1-f90f-4f51-b705-a2fb91c50800/extra" alt="监控图" width="1364" height="482"/>
+<img src="https://cdn.tlo.xyz/images/e164b6b1-f90f-4f51-b705-a2fb91c50800/extra" alt="监控图" width="1364" height="482"/>
 
 我的 f1-micro 装了监控软件，对比 GCE 给的 CPU 占用率（深蓝色）和系统自己监控到的占用率（浅蓝色），发现 GCE 图表上统计的 CPU 占用率正好是本地统计的 5 倍，也就是说如果本地看到的 CPU 占用是 20%，GCE 图表上显示的就正好是 100%，本地为 20~100%，GCE 图表上就是 100~500%，这时就算作 Bursting 了。 和其他 VPS 对比，其他的 VPS 也几乎都是共享核心，但你却无从判断是否超售。比如有 10 个用户共用一个核心，如果那 10 个人都在不停的占用 CPU，那么你的 CPU 速度会低于单核的十分之一。而 Google 的共享核心，保证了一个最低的速度（0.2 vCPU 和 0.5 vCPU），就算其他用户用的再狠，也能给你保证一定的速度。
 
@@ -32,7 +32,7 @@ f1-micro（0.6 GB）和 g1-small（1.7GB）这两个版本使用的是共享核�
 
 ### 基础配置
 
-<img src="https://cdn.tloxygen.com/images/c3c14a40-2f52-4401-a62d-b0975cc88c00/extra" alt="一些基本的配置" width="1526" height="1204"/>
+<img src="https://cdn.tlo.xyz/images/c3c14a40-2f52-4401-a62d-b0975cc88c00/extra" alt="一些基本的配置" width="1526" height="1204"/>
 
 ### 其他一些选项配置介绍
 
@@ -42,23 +42,23 @@ f1-micro（0.6 GB）和 g1-small（1.7GB）这两个版本使用的是共享核�
 *   **IP 转发**：建议关闭，几乎不会用得着此功能，关闭有助于提高安全性
 *   **SSH**：这可能不同于其他一些 VPS，它默认不自动生成用户密码，所以为了远程登录必须配置好公钥私钥。而且所填写的公钥末尾的用户名是有作用的，所填写的用户名就是所需要登录的用户名，默认不支持 root 登陆，除非你将用户名设置成了 root。
 
-<img src="https://cdn.tloxygen.com/images/52cfe5e9-c089-4610-cd74-10f615514f00/extra" alt="SSH 配置截图" width="860" height="358"/>
+<img src="https://cdn.tlo.xyz/images/52cfe5e9-c089-4610-cd74-10f615514f00/extra" alt="SSH 配置截图" width="860" height="358"/>
 
 ### 防火墙配置
 
 GCE 默认开启了防火墙且不能关闭，只能允许你自己指定的协议和端口的流量；经过我自己的实际测试，GCE 能够自动过滤相当的 DDOS 攻击流量。 由于防火墙不能关闭，所以不能配置类似 IPv6 Tunnel 的服务，所以导致目前的 GCE 是不能够支持 IPv6 的，不过相信以后 Google 还是会启用 IPv6 支持。 在 “网络” 里，可以找到[防火墙规则](https://console.cloud.google.com/networking/firewalls/list)，然后可以[添加防火墙规则](https://console.cloud.google.com/networking/firewalls/add)。 默认已经允许了 SSH 和 ICMP 等（以 default 开头的）
 
-<img src="https://cdn.tloxygen.com/images/c64b9397-a7d7-45b3-cf9d-650f7b1fd300/extra" alt="我所启用的所有规则列表" width="1378" height="876"/>
+<img src="https://cdn.tlo.xyz/images/c64b9397-a7d7-45b3-cf9d-650f7b1fd300/extra" alt="我所启用的所有规则列表" width="1378" height="876"/>
 
-<img src="https://cdn.tloxygen.com/images/757dde15-414d-4809-7380-d1e3067b2700/extra" alt="SNMP 监控配置" width="968" height="908"/>
+<img src="https://cdn.tlo.xyz/images/757dde15-414d-4809-7380-d1e3067b2700/extra" alt="SNMP 监控配置" width="968" height="908"/>
 
 我只需要另一个主机去访问 SNMP 监控，不需要将其公开到互联网上，所以限制了 IP。 
 
-<img src="https://cdn.tloxygen.com/images/bfc7ce68-e6c8-4f79-6482-83e1d2fc6900/extra" alt="用做权威 DNS 服务器的配置" width="968" height="908"/>
+<img src="https://cdn.tlo.xyz/images/bfc7ce68-e6c8-4f79-6482-83e1d2fc6900/extra" alt="用做权威 DNS 服务器的配置" width="968" height="908"/>
 
 有的 DNS 请求是通过 TCP 发送的，所以需要同样启用 TCP 请求。 如果配置了目标标记，那么就不是默认应用到所有实例的防火墙规则，还需要在实例上配置好同样的标记才可以。
 
-<img src="https://cdn.tloxygen.com/images/23490937-e0fe-4094-e125-52f4ac361c00/extra" alt="添加上相同的标记" width="952" height="140"/>
+<img src="https://cdn.tlo.xyz/images/23490937-e0fe-4094-e125-52f4ac361c00/extra" alt="添加上相同的标记" width="952" height="140"/>
 
 ## 网络——如同 Google 自身一样棒
 
