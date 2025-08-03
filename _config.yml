@@ -144,27 +144,10 @@ theme_config:
     - adsense
 
   ads:
-    - title: 域名注册首年 ¥16.5
+    - title: 域名注册
       link: https://www.yangxi.tech
       content: |-
         <img class="mb-1" src="https://cdn.tlo.xyz/images/08ff3118-aaaa-49dc-5a5a-4eec02607400/medium" width="800" height="667"/>
-        <ul>
-          <li>.SHOP 首年 ¥14.3</li>
-          <li>.COM ¥93.6/年</li>
-          <li>支付宝/微信/花呗 3 期免息</li>
-          <li>免实名 + 免费隐私保护</li>
-          <li>免费企业邮箱与全局转发</li>
-        </ul>
-    - title: 虚拟主机 ¥13.2/月
-      link: https://www.yangxi.tech/web-hosting/index.php
-      content: |-
-        <!--<img class="mb-1" src="https://cdn.tlo.xyz/images/0cc92be8-8ca0-4693-a9da-0b901641b100/medium" width="800" height="676"/> -->
-        <ul>
-          <li>为中国大陆访问优化</li>
-          <li>支付宝/微信/花呗 3 期免息</li>
-          <li>免实名/免备案/支持SSL</li>
-          <li>一键安装 WordPress</li>
-        </ul>
 
   # adsense: ca-pub-5523331422060800
 
