@@ -552,7 +552,7 @@ HR 面试问的问题都是常规问题，具体如下：
 
 当天晚上收到通知，通过实习面试，短信发放了 Offer。
 
-<img src="https://cdn.tlo.xyz/images/3f7389a0-570c-4f26-377b-362ef4c38d00/extra" alt="不知道是什么的 ???" width="901" height="442"/>
+<img src="https://cdn.yangxi.tech/images/3f7389a0-570c-4f26-377b-362ef4c38d00/extra" alt="不知道是什么的 ???" width="901" height="442"/>
 
 ## 前端学习推荐
 

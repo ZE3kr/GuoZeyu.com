@@ -18,9 +18,9 @@ date: 2015-08-18 23:10:44
 
 ## 截图证据
 
-<img src="https://cdn.tlo.xyz/images/7f7d2392-1676-4c49-e784-c36b09950c00/extra" alt="重新排版后去掉了网站名" width="750" height="1334"/>
+<img src="https://cdn.yangxi.tech/images/7f7d2392-1676-4c49-e784-c36b09950c00/extra" alt="重新排版后去掉了网站名" width="750" height="1334"/>
 
-<img src="https://cdn.tlo.xyz/images/a93e1de7-dd5d-4fa8-9eca-9ec36f35f300/extra" alt="重新排版后加上了广告" width="750" height="1334"/>
+<img src="https://cdn.yangxi.tech/images/a93e1de7-dd5d-4fa8-9eca-9ec36f35f300/extra" alt="重新排版后加上了广告" width="750" height="1334"/>
 
 ## 屏蔽好搜
 
@@ -41,7 +41,7 @@ Deny from env=bad_bot
 
 嗯，很成功，图片加载不了了，但是并没有完全屏蔽它。
 
-<img src="https://cdn.tlo.xyz/images/603514e1-6ef4-453f-f32c-7d05bc020900/extra" alt="利用 Referer 屏蔽" width="750" height="1334"/>
+<img src="https://cdn.yangxi.tech/images/603514e1-6ef4-453f-f32c-7d05bc020900/extra" alt="利用 Referer 屏蔽" width="750" height="1334"/>
 
 ### 利用好搜缺陷屏蔽它
 

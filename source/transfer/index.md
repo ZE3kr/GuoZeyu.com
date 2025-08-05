@@ -33,6 +33,6 @@ ads: false
 
 ## 收款码
 
-<img src="https://cdn.tlo.xyz/images/45666a7a-5d2b-41b0-4fc0-d10fe1936900/extra" alt="微信收款码" width="1242" height="1686"/>
+<img src="https://cdn.yangxi.tech/images/45666a7a-5d2b-41b0-4fc0-d10fe1936900/extra" alt="微信收款码" width="1242" height="1686"/>
 
-<img src="https://cdn.tlo.xyz/images/38c914d2-ad19-4cee-7dfd-eec989fee700/extra" alt="支付宝收款码" width="1182" height="1772"/>
+<img src="https://cdn.yangxi.tech/images/38c914d2-ad19-4cee-7dfd-eec989fee700/extra" alt="支付宝收款码" width="1182" height="1772"/>

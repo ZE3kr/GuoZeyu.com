@@ -52,13 +52,13 @@ languages:
 
 对比一下不同对焦系统在 F8 下的对焦能力： 
 
-<img src="https://cdn.tlo.xyz/images/42bff62f-8386-4eb8-a033-bac7ff7a6e00/extra" alt="EOS 80D G组" width="1182" height="628"/>
+<img src="https://cdn.yangxi.tech/images/42bff62f-8386-4eb8-a033-bac7ff7a6e00/extra" alt="EOS 80D G组" width="1182" height="628"/>
 
-<img src="https://cdn.tlo.xyz/images/efad0fdb-3caf-493b-4b94-29dd5facf900/extra" alt="EOS 1DX Mark II" width="1184" height="632"/>
+<img src="https://cdn.yangxi.tech/images/efad0fdb-3caf-493b-4b94-29dd5facf900/extra" alt="EOS 1DX Mark II" width="1184" height="632"/>
 
-<img src="https://cdn.tlo.xyz/images/2aacf5aa-d767-4847-025a-1ae0015f3800/extra" alt="EOS 1DX/5D Mark III/5DS/5DR" width="1182" height="628"/>
+<img src="https://cdn.yangxi.tech/images/2aacf5aa-d767-4847-025a-1ae0015f3800/extra" alt="EOS 1DX/5D Mark III/5DS/5DR" width="1182" height="628"/>
 
-<img src="https://cdn.tlo.xyz/images/27d5aa82-0328-4fce-6453-e9159583a200/extra" alt="EOS 7D Mark II" width="1180" height="626"/>
+<img src="https://cdn.yangxi.tech/images/27d5aa82-0328-4fce-6453-e9159583a200/extra" alt="EOS 7D Mark II" width="1180" height="626"/>
 
 哇塞！80D 好厉害，不过有哪些镜头支持它的 G组的自动对焦呢？
 
@@ -67,7 +67,7 @@ languages:
 
 额，感觉被忽悠了。那不支持的镜头在 F8 下有几个对焦点呢？
 
-<img src="https://cdn.tlo.xyz/images/bbd703ee-c187-41c9-d740-fbbec2e62000/extra" alt="EOS 80D H组" width="1180" height="626"/>
+<img src="https://cdn.yangxi.tech/images/bbd703ee-c187-41c9-d740-fbbec2e62000/extra" alt="EOS 80D H组" width="1180" height="626"/>
 
 一个，只有一个，连辅助对焦点都没有，不过至少相比 70D 已经好了些了。 除此之外，全新的 45 点全十字对焦应该是各方面都不如 65 点全十字对焦了。
 
@@ -95,21 +95,21 @@ languages:
 
 佳能在EOS的2位数机型上首次配备了视野率约为100%的光学取景器，这个功能还是很重要的。而且 80D 取景器里也多了些新元素，我称其为 “（伪）电子水准仪”
 
-<img src="https://cdn.tlo.xyz/images/0b780835-5ac5-4f9a-9f93-bbfb89582800/extra" alt="电子水准仪" width="320" height="241"/>
+<img src="https://cdn.yangxi.tech/images/0b780835-5ac5-4f9a-9f93-bbfb89582800/extra" alt="电子水准仪" width="320" height="241"/>
 
 为什么是伪呢？因为它的能力有限：
 
-<img src="https://cdn.tlo.xyz/images/c6ae13af-09db-4047-274f-c41712ee5800/extra" alt="电子水准仪显示标准" width="235" height="115"/>
+<img src="https://cdn.yangxi.tech/images/c6ae13af-09db-4047-274f-c41712ee5800/extra" alt="电子水准仪显示标准" width="235" height="115"/>
  
 正版是这样的，看见正上方的水准仪了吗？双轴的。
 
-<img src="https://cdn.tlo.xyz/images/782f4878-41ac-4867-76bb-669531f21c00/extra" alt="EOS 7D Mark II 上的水准仪" width="670" height="290"/>
+<img src="https://cdn.yangxi.tech/images/782f4878-41ac-4867-76bb-669531f21c00/extra" alt="EOS 7D Mark II 上的水准仪" width="670" height="290"/>
 
 ### 特殊场景模式
 
 看到这个模式我就呵呵了，再一次印证了 80D 不会是专业或准专业水准的相机。
 
-<img src="https://cdn.tlo.xyz/images/fcdb6721-2cea-4289-ef38-48d9570a3600/extra" alt="特殊场景模式" width="320" height="290"/>
+<img src="https://cdn.yangxi.tech/images/fcdb6721-2cea-4289-ef38-48d9570a3600/extra" alt="特殊场景模式" width="320" height="290"/>
 
 > 特殊场景模式中汇集了一些有代表性的拍摄场景，相机可以配合具体场景进行相应拍摄设置。可选场景有手持夜景、烛光、儿童等共10种。拍摄时操作简便，只要像使用智能手机一样，通过在液晶监视器上滑动手指，触摸选择图标，相机就可以根据被摄体及拍摄环境的特点找到合适的设置拍出好照片。
 
