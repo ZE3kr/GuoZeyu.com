@@ -24,7 +24,7 @@ Activité Pop 可以自动的检测走路、跑步、游泳以及睡眠。你根
 
 Activité Pop 有震动闹钟功能，不仅如此，它还拥有智能唤醒功能，当即将到已经设定的时间，并且它检测到你已经醒来后或者进入浅睡眠时就提前唤醒你。
 
-<img src="https://cdn.yangxi.tech/images/683b12e6-04ce-4251-9d82-64885ece8d00/extra" alt="智能闹钟" width="750" height="1334"/>
+<img src="https://cdn.tloxygen.com/images/683b12e6-04ce-4251-9d82-64885ece8d00/extra" alt="智能闹钟" width="750" height="1334"/>
 
 ## 超长续航
 

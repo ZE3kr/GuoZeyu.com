@@ -55,23 +55,23 @@ CloudFront 作为全站 CDN 的特性：
 
 先去 [CloudFront 控制面板](https://console.aws.amazon.com/cloudfront/home)，点击 “Create Distribution”，选择 “Web”，然后进行类似如下的配置。**源站配置**注意 Origin Domain Name 必须是完整域名，而且如果用了 HTTPS，那么那个域名下必须有配置有效证书。
 
-<img src="https://cdn.yangxi.tech/images/00ca9fca-856b-4f4e-6540-e74474b9e400/extra" alt="CloudFront 基础配置截图" width="1370" height="1032"/>
+<img src="https://cdn.tloxygen.com/images/00ca9fca-856b-4f4e-6540-e74474b9e400/extra" alt="CloudFront 基础配置截图" width="1370" height="1032"/>
 
 **缓存配置**，我把 Host 加入了 Header 白名单，Cookie 要添加 `wordpress*` 和 `wp*` 到白名单。
 
-<img src="https://cdn.yangxi.tech/images/54288b7e-e5e9-4790-7ec0-d2f5000b6a00/extra" alt="CloudFront 详细配置截图" width="1832" height="2304"/>
+<img src="https://cdn.tloxygen.com/images/54288b7e-e5e9-4790-7ec0-d2f5000b6a00/extra" alt="CloudFront 详细配置截图" width="1832" height="2304"/>
 
 然后**前端配置**，证书点 “Request or Import a Certificate with ACM” 就能申请 Amazon 颁发的证书了。CNAMEs 下填写你的网站的域名。
 
-<img src="https://cdn.yangxi.tech/images/86808e70-4b60-4657-edf3-cd5cb410bf00/extra" alt="CloudFront 前端配置截图" width="1298" height="2254"/>
+<img src="https://cdn.tloxygen.com/images/86808e70-4b60-4657-edf3-cd5cb410bf00/extra" alt="CloudFront 前端配置截图" width="1298" height="2254"/>
 
 注意，创建后可能要等不到一小时才能被访问到。 为了根域名和 CloudFront 配合使用，我还得换 Route 53 这个 DNS 解析。由于这是精度非常高的 GeoDNS，是需要将解析服务器向各大 DNS 缓存服务器去提交，让这些缓存服务器去针对你的 DNS 缓存服务器加入到启用 EDNS Client Subnet 的白名单中。还好 Route 53 是最流行的 GeoDNS 之一，所以如果你用它给的 NS 记录，而不去自定义，就不用操心这个了。在配置根域名时，直接选择 A 记录，然后开启 Alias，填写 CloudFront 域名就行。如果想要支持 IPv6，那就再建一个 AAAA 记录即可。这样的话如果你从外部解析，你会直接解析到 A 记录和 AAAA 记录，而不是 CNAME 了！
 
-<img src="https://cdn.yangxi.tech/images/d3bee9b4-96f5-4f97-79a0-351c1c6cb900/extra" alt="CloudFront 配合 Route 53 使用截图" width="812" height="590"/>
+<img src="https://cdn.tloxygen.com/images/d3bee9b4-96f5-4f97-79a0-351c1c6cb900/extra" alt="CloudFront 配合 Route 53 使用截图" width="812" height="590"/>
 
 此时，CloudFront 就配置完了。现在 CloudFront 会自动缓存页面约一周的时间，所以需要配置文章更新时清理缓存。我写了一个插件，可以在有文章更新/主题修改/内核更新时清理所有缓存，新评论时清理文章页面，控制刷新频率为 10 分钟（这是由于 CloudFront 刷新缓存的速度是出奇的慢，而且刷新缓存只有前一千次免费）。欢迎[使用我制作的插件](https://wordpress.org/plugins/full-site-cache-cf/)。 不过，CloudFront 在国内的访问速度还不如我之前用的 GCE，这可怎么办？没关系，Route 53 可以 GeoDNS，我把中国和台湾还是解析到了原本的 GCE 上，这样速度其实只提不减。注意，若要这样做，原本的服务器也要有有效证书（同理，你要是域名已经备案，则可以设置为国内的 CDN 的 IP，达到国内外 CDN 混用的效果）。CloudFront 会影响 Let's Encrypt 的签发，所以需要通过设置 Behaviors 和多个源站服务器，来继续实现 80 端口的文件认证。实际测试 Route 53 为中国解析的 IPv4 识别率为 100%，IPv6 的识别率欠佳。
 
-<img src="https://cdn.yangxi.tech/images/d6a3265d-75ae-412d-5d53-0f6fab6f1000/extra" alt="CloudFront 配合 Route 53 使用截图 2" width="1600" height="497"/>
+<img src="https://cdn.tloxygen.com/images/d6a3265d-75ae-412d-5d53-0f6fab6f1000/extra" alt="CloudFront 配合 Route 53 使用截图 2" width="1600" height="497"/>
 
 ### 实际使用情况
 
@@ -124,17 +124,17 @@ $ dig @8.8.8.8 +short guozeyu.com aaaa
 
 这里只对比国外的速度
 
-<img src="https://cdn.yangxi.tech/images/a8950e73-d111-472d-6fd3-e94bd9360700/extra" alt="源站速度" width="1600" height="802"/>
+<img src="https://cdn.tloxygen.com/images/a8950e73-d111-472d-6fd3-e94bd9360700/extra" alt="源站速度" width="1600" height="802"/>
 
-<img src="https://cdn.yangxi.tech/images/969d4fce-c4d5-460c-a244-72f26c233200/extra" alt="CDN 速度" width="1600" height="809"/>
+<img src="https://cdn.tloxygen.com/images/969d4fce-c4d5-460c-a244-72f26c233200/extra" alt="CDN 速度" width="1600" height="809"/>
 
 #### HTTPs Get 启动前后对比
 
 这里也是只对比国外的速度
 
-<img src="https://cdn.yangxi.tech/images/c9c20391-3342-4fe1-17ad-ada3cdd65900/extra" alt="源站速度" width="1503" height="1600"/>
+<img src="https://cdn.tloxygen.com/images/c9c20391-3342-4fe1-17ad-ada3cdd65900/extra" alt="源站速度" width="1503" height="1600"/>
 
-<img src="https://cdn.yangxi.tech/images/f5c9c5e0-9ce4-46b7-dbc6-a162b2e76d00/extra" alt="CDN 速度" width="1503" height="1600"/>
+<img src="https://cdn.tloxygen.com/images/f5c9c5e0-9ce4-46b7-dbc6-a162b2e76d00/extra" alt="CDN 速度" width="1503" height="1600"/>
 
 启动 CDN 后的 TTFB 几乎全面绿色，建立 TCP 和 TLS 的时间显著降低。
 
@@ -142,7 +142,7 @@ $ dig @8.8.8.8 +short guozeyu.com aaaa
 
 CloudFront 免费签发的 SSL 证书是**多域名通配符证书**（Wildcard SAN），并且主要名称是自定的，要比 Cloudflare 的共享证书高级。此类证书在 Cloudflare 上需要花费每月 10 美元。此类证书在市面上很难买到，而且价格取决于域名数量，在一年几千到几万不等。 然而，这个证书只能在 AWS 的 CloudFront 和负载均衡器上使用。
 
-<img src="https://cdn.yangxi.tech/images/0c471dcc-4bc4-4ef4-37af-d5ccbd6fa900/extra" alt="Amazon 证书" width="1174" height="1072"/>
+<img src="https://cdn.tloxygen.com/images/0c471dcc-4bc4-4ef4-37af-d5ccbd6fa900/extra" alt="Amazon 证书" width="1174" height="1072"/>
 
 CloudFront 的证书链较长，会影响 TLS 时间，不过由于它同时也是 CDN，这样 TLS 时间几乎减少到了可以忽略不计的程度。主要还是因为 macOS 上还没有直接信任 Amazon Root CA，如果直接信任了，就用不着这样了。
 
@@ -180,7 +180,7 @@ Cloudflare 作为全站 CDN 的特性：
 
 有一点不同的是，Cloudflare 签发的是共享证书，证书样式如下：
 
-<img src="https://cdn.yangxi.tech/images/dc9ebdd3-b542-47b0-e2d6-32559a429d00/extra" alt="Cloudflare 共享证书" width="1176" height="750"/>
+<img src="https://cdn.tloxygen.com/images/dc9ebdd3-b542-47b0-e2d6-32559a429d00/extra" alt="Cloudflare 共享证书" width="1176" height="750"/>
 
 我觉得 Cloudflare 签发共享证书有两个原因，一是历史遗留问题：Cloudflare 专业版的 SSL 证书服务是支持无 SNI 的客户端的，而为了支持无 SNI 的客户端，一个 IP 就只能配置一个证书，所以就使用了共享证书节约 IP 资源。而现在免费版也有了 SSL，虽然免费版使用了 SNI 技术，但是证书总不能比付费版本还要高级吧，于是还是使用了共享 SSL 证书；二是为了增加更多的增值服务，现在 Cloudflare 上可以购买 Dedicated SSL Certificates，实现独立的证书（如果是付费版本启用，不支持 SNI 的客户端仍然 Fall back 到共享证书，所以仍然兼容不支持 SNI 的设备）。
 

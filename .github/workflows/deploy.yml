@@ -32,6 +32,10 @@ jobs:
     - name: Build site
       run: npm run build
 
+    - name: Replace URLs for S3 deployment
+      run: |
+        find public/ -type f -name "*.html" -o -name "*.xml" | xargs sed -i 's|https://cdn.tloxygen.com/images/|https://cdn.yangxi.tech/images/|g'
+
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v4
       with:

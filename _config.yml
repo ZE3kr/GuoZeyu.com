@@ -147,7 +147,7 @@ theme_config:
     - title: 域名注册
       link: https://www.yangxi.tech
       content: |-
-        <img class="mb-1" src="https://cdn.yangxi.tech/images/08ff3118-aaaa-49dc-5a5a-4eec02607400/medium" width="800" height="667"/>
+        <img class="mb-1" src="https://cdn.tloxygen.com/images/08ff3118-aaaa-49dc-5a5a-4eec02607400/medium" width="800" height="667"/>
 
   # adsense: ca-pub-5523331422060800
 
@@ -155,9 +155,9 @@ theme_config:
     <h3>哦不！😭你似乎拦截了本站的广告</h3>
     <p>本站依赖广告进行创收，请考虑关闭广告拦截插件，以帮助本站持续发展。关闭后此内容将会自动消失。<a href="/ads/">了解更多</a></p>
     <picture>
-      <source src="https://cdn.yangxi.tech/images/e0b21a7c-3c1a-4632-7316-da4e9e6c8900/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
-      <source src="https://cdn.yangxi.tech/images/46591fcd-e30c-4cfa-66d9-795b18c11000/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
-      <img src="https://cdn.yangxi.tech/images/46591fcd-e30c-4cfa-66d9-795b18c11000/extra" alt="关闭广告屏蔽示例" width="1152" height="756" data-raw="true"/>
+      <source src="https://cdn.tloxygen.com/images/e0b21a7c-3c1a-4632-7316-da4e9e6c8900/extra" media="(prefers-color-scheme: dark)" width="1148" height="752">
+      <source src="https://cdn.tloxygen.com/images/46591fcd-e30c-4cfa-66d9-795b18c11000/extra" media="(prefers-color-scheme: light)" width="1152" height="756">
+      <img src="https://cdn.tloxygen.com/images/46591fcd-e30c-4cfa-66d9-795b18c11000/extra" alt="关闭广告屏蔽示例" width="1152" height="756" data-raw="true"/>
     </picture>
 
   iframe: https://www.ze3kr.com/widget/
@@ -192,7 +192,7 @@ theme_config:
 
   user:
     name: 郭泽宇
-    avatar: https://cdn.yangxi.tech/images/95dfd986-381d-47fa-4942-c57cf3f27900/medium
+    avatar: https://cdn.tloxygen.com/images/95dfd986-381d-47fa-4942-c57cf3f27900/medium
     location: 美国 西雅图
     description: 🎯 专注中
     footnotes: |-
@@ -221,8 +221,8 @@ theme_config:
   appearance: auto # Default value is auto
 
   # Miscellaneous
-  favicon: https://cdn.yangxi.tech/images/95dfd986-381d-47fa-4942-c57cf3f27900/thumbnail
+  favicon: https://cdn.tloxygen.com/images/95dfd986-381d-47fa-4942-c57cf3f27900/thumbnail
   favicon_svg: /favicon.svg
 
   # picture of about page
-  about_pic: https://cdn.yangxi.tech/images/95dfd986-381d-47fa-4942-c57cf3f27900/extra
+  about_pic: https://cdn.tloxygen.com/images/95dfd986-381d-47fa-4942-c57cf3f27900/extra
