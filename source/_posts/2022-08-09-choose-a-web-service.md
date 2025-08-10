@@ -121,13 +121,6 @@ Google Cloud 的按量付费可能是三者中的最便宜的，此外个人感�
 
 数据跨境方面（指中国大陆境内与境外之间的跨境），阿里云提供了香港精品网、云企业网，这是 AWS 所没有的。
 
-## 虚拟主机
-
-这里推荐氧熙科技/TlOxygen 的虚拟主机，香港位置采用 CN2 GIA 线路，美国加州也是国内直连；均无需备案，购买后即用。相比之下，美国加州提供更多的流量和存储，带宽也更大。他们的虚拟主机还支持 SSH 访问、Let’s Encrypt 证书自动签发（不可 root）。[香港/加州虚拟主机购买链接](https://www.yangxi.tech/web-hosting/index.php)
-
-
-<img src="https://cdn.tloxygen.com/images/0cc92be8-8ca0-4693-a9da-0b901641b100/extra" alt="氧熙科技的香港 CN2 GIA 虚拟主机测速" width="2436" height="2060"/>
-
 ## CDN
 
 等待补充
