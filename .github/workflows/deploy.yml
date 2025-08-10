@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  AWS_REGION: cn-north-1
+  AWS_REGION: cn-northwest-1
   S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
   CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
 
@@ -45,7 +45,22 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        aws s3 sync public/ s3://${{ env.S3_BUCKET }} --delete
+        # Sync all files except Cloudflare-only files and assets we will set headers for separately
+        aws s3 sync public/ s3://${{ env.S3_BUCKET }} --delete \
+          --exclude "_redirects" --exclude "_headers" \
+          --exclude "*.js" --exclude "*.css"
+        # Upload JS with Cache-Control header
+        aws s3 cp public/ s3://${{ env.S3_BUCKET }} --recursive \
+          --exclude "*" --include "*.js" \
+          --cache-control "public, max-age=86400"
+        # Upload CSS with Cache-Control header
+        aws s3 cp public/ s3://${{ env.S3_BUCKET }} --recursive \
+          --exclude "*" --include "*.css" \
+          --cache-control "public, max-age=86400"
+    - name: Create S3 website redirects
+      run: |
+        aws s3api put-object --bucket ${{ env.S3_BUCKET }} --key "atom.xml" --website-redirect-location "/feed.atom"
+        aws s3api put-object --bucket ${{ env.S3_BUCKET }} --key "feed/index.html" --website-redirect-location "/feed.atom"
     - name: Invalidate CloudFront cache
       if: env.CLOUDFRONT_DISTRIBUTION_ID != ''
       run: |
