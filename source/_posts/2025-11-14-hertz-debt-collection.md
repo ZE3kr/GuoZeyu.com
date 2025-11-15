@@ -9,7 +9,7 @@ categories:
 
 > 免责声明：本文不是法律建议。本文信息仅适用起诉讨债公司违反 FDCPA，其他类型诉讼请咨询专业律师。文中所有金额近似到了最近的 $100。
 
-既然 Court filling 也是公开的，那我就公布这一页草稿好了，好奇讨债公司/律所的直接看这张图：
+既然 Court filing 也是公开的，那我就公布这一页草稿好了，好奇讨债公司/律所的直接看这张图：
 
 <img src="https://cdn.tloxygen.com/images/f04deb4b-554b-4511-3220-72616b1fba00/extra" alt="Complaint" width="1700" height="2200"/>
 
