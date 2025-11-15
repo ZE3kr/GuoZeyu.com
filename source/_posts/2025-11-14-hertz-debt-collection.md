@@ -95,3 +95,7 @@ languages:
 ### 能拿多少钱？
 
 我无法公开我的和解条款，因此**我无法透露我拿到了多少钱**。这件事因案而异，很多案件以和解收尾。对于达成和解这种情况，对方给的和解金通常考虑到了律师费。我的律师收费是和解金的 45%，其中诉讼的费用（大约 $500）我来承担（换言之我可以拿到 X \* 55% - $500）。需要注意的是如果是达成和解，对方的赔偿金需要全额纳税，律师费和诉讼费不一定能抵税（[Commissioner v. Banks, 543 U.S. 426 (2005)](https://en.wikipedia.org/wiki/Commissioner_v._Banks)）。因此如果当年税率高的话，存在被 IRS 返薅的可能！（**非税务建议**）
+
+## 附件：我寄出的挂号信
+
+<img src="https://cdn.tloxygen.com/images/f41e13cf-bf60-4655-1013-207eab3fa700/extra" alt="Debt Verification" width="3935" height="2414"/>
