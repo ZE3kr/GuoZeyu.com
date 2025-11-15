@@ -9,7 +9,7 @@ description: '这里发布以科技、编程、摄影为主的原创文章、视
 keywords:
 author: James Guo
 language: zh-CN
-timezone: 'Asia/Shanghai'
+timezone: 'Asia/Shanghai' # use this https://time.is/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
