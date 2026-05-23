@@ -64,21 +64,10 @@ jobs:
         run: |
           aws s3 sync public/ "s3://${S3_BUCKET}" --delete \
             --exclude "_redirects" --exclude "_headers" \
+            --exclude "atom.xml" --exclude "feed/index.html" \
             --exclude "*.js" --exclude "*.css" \
             --cli-connect-timeout 60 --cli-read-timeout 300 &
           sync_pid=$!
-
-          aws s3 cp public/ "s3://${S3_BUCKET}" --recursive \
-            --exclude "*" --include "*.js" \
-            --cache-control "public, max-age=86400" \
-            --cli-connect-timeout 60 --cli-read-timeout 300 &
-          js_pid=$!
-
-          aws s3 cp public/ "s3://${S3_BUCKET}" --recursive \
-            --exclude "*" --include "*.css" \
-            --cache-control "public, max-age=86400" \
-            --cli-connect-timeout 60 --cli-read-timeout 300 &
-          css_pid=$!
 
           aws s3api put-object --bucket "${S3_BUCKET}" --key "atom.xml" \
             --website-redirect-location "/feed.atom" &
@@ -88,11 +77,23 @@ jobs:
             --website-redirect-location "/feed.atom" &
           feed_redirect_pid=$!
 
+          aws s3 sync public/ "s3://${S3_BUCKET}" --delete \
+            --exclude "*" --include "*.js" \
+            --cache-control "public, max-age=86400" \
+            --cli-connect-timeout 60 --cli-read-timeout 300 &
+          js_pid=$!
+
+          aws s3 sync public/ "s3://${S3_BUCKET}" --delete \
+            --exclude "*" --include "*.css" \
+            --cache-control "public, max-age=86400" \
+            --cli-connect-timeout 60 --cli-read-timeout 300 &
+          css_pid=$!
+
           wait "$sync_pid"
-          wait "$js_pid"
-          wait "$css_pid"
           wait "$atom_redirect_pid"
           wait "$feed_redirect_pid"
+          wait "$js_pid"
+          wait "$css_pid"
 
   invalidate:
     runs-on: ubuntu-latest
