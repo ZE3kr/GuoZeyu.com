@@ -5,133 +5,115 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
-env:
-  AWS_REGION: cn-northwest-1
-  S3_BUCKET: ${{ vars.AWS_S3_BUCKET }}
-  CLOUDFRONT_DISTRIBUTION_ID: ${{ vars.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
-  AWS_MAX_ATTEMPTS: 10
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      with:
-        submodules: recursive
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        cache: 'npm'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
 
-    - name: Install dependencies
-      run: npm ci
+      - run: npm ci
 
-    - name: Build site
-      run: npm run build
+      - run: npm run build
 
-    - name: Replace URLs for S3 deployment
-      run: |
-        find public/ -type f \( -name "*.html" -o -name "*.xml" \) -print0 | xargs -0 sed -i 's|https://cdn.tloxygen.com/images/|https://cdn.yangxi.tech/images/|g'
+      - name: Replace URLs for S3 deployment
+        run: |
+          find public/ -type f \( -name "*.html" -o -name "*.xml" \) \
+            -exec sed -i 's|https://cdn.tloxygen.com/images/|https://cdn.yangxi.tech/images/|g' {} +
 
-    - name: Upload built site
-      uses: actions/upload-artifact@v4
-      with:
-        name: public-site
-        path: public/
-        if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: public-site
+          path: public/
+          if-no-files-found: error
 
   deploy:
     runs-on: ubuntu-latest
     needs: build
 
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [www, cn]
+
+    env:
+      AWS_REGION: cn-northwest-1
+      AWS_MAX_ATTEMPTS: 10
+      S3_BUCKET: ${{ matrix.target == 'www' && vars.AWS_S3_BUCKET_WWW || vars.AWS_S3_BUCKET_CN }}
+
     steps:
-    - name: Download built site
-      uses: actions/download-artifact@v4
-      with:
-        name: public-site
-        path: public/
+      - uses: actions/download-artifact@v4
+        with:
+          name: public-site
+          path: public/
 
-    - name: Configure AWS credentials
-      uses: aws-actions/configure-aws-credentials@v4
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: ${{ env.AWS_REGION }}
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
 
-    - name: Deploy to S3
-      run: |
-        # Sync all files except Cloudflare-only files and assets we set headers for separately.
-        aws s3 sync public/ s3://${{ env.S3_BUCKET }} --delete \
-          --exclude "_redirects" --exclude "_headers" \
-          --exclude "*.js" --exclude "*.css" \
-          --exclude "feed.atom" \
-          --cli-connect-timeout 60 --cli-read-timeout 300
+      - name: Deploy to S3
+        run: |
+          aws s3 sync public/ "s3://${S3_BUCKET}" --delete \
+            --exclude "_redirects" --exclude "_headers" \
+            --exclude "*.js" --exclude "*.css" \
+            --cli-connect-timeout 60 --cli-read-timeout 300 &
+          sync_pid=$!
 
-        # Upload JS with Cache-Control header
-        aws s3 cp public/ s3://${{ env.S3_BUCKET }} --recursive \
-          --exclude "*" --include "*.js" \
-          --cache-control "public, max-age=86400" \
-          --cli-connect-timeout 60 --cli-read-timeout 300
+          aws s3 cp public/ "s3://${S3_BUCKET}" --recursive \
+            --exclude "*" --include "*.js" \
+            --cache-control "public, max-age=86400" \
+            --cli-connect-timeout 60 --cli-read-timeout 300 &
+          js_pid=$!
 
-        # Upload CSS with Cache-Control header
-        aws s3 cp public/ s3://${{ env.S3_BUCKET }} --recursive \
-          --exclude "*" --include "*.css" \
-          --cache-control "public, max-age=86400" \
-          --cli-connect-timeout 60 --cli-read-timeout 300
+          aws s3 cp public/ "s3://${S3_BUCKET}" --recursive \
+            --exclude "*" --include "*.css" \
+            --cache-control "public, max-age=86400" \
+            --cli-connect-timeout 60 --cli-read-timeout 300 &
+          css_pid=$!
 
-    - name: Upload Atom feed aliases
-      run: |
-        aws s3 cp public/feed.atom s3://${{ env.S3_BUCKET }}/feed.atom \
-          --content-type "application/atom+xml; charset=utf-8" \
-          --cache-control "public, max-age=3600" \
-          --cli-connect-timeout 60 --cli-read-timeout 300
-        aws s3 cp public/feed.atom s3://${{ env.S3_BUCKET }}/atom.xml \
-          --content-type "application/atom+xml; charset=utf-8" \
-          --cache-control "public, max-age=3600" \
-          --cli-connect-timeout 60 --cli-read-timeout 300
-        aws s3api put-object \
-          --bucket "${{ env.S3_BUCKET }}" \
-          --key "feed/" \
-          --body public/feed.atom \
-          --content-type "application/atom+xml; charset=utf-8" \
-          --cache-control "public, max-age=3600" \
-          --cli-connect-timeout 60 \
-          --cli-read-timeout 300
+          aws s3api put-object --bucket "${S3_BUCKET}" --key "atom.xml" \
+            --website-redirect-location "/feed.atom" &
+          atom_redirect_pid=$!
 
-    - name: Upload clean URL objects
-      run: |
-        find public/ -type f -name "index.html" | while IFS= read -r file; do
-          rel="${file#public/}"
-          if [ "$rel" = "index.html" ]; then
-            continue
-          fi
+          aws s3api put-object --bucket "${S3_BUCKET}" --key "feed/index.html" \
+            --website-redirect-location "/feed.atom" &
+          feed_redirect_pid=$!
 
-          path="${rel%/index.html}"
-          aws s3api put-object \
-            --bucket "${{ env.S3_BUCKET }}" \
-            --key "${path}/" \
-            --body "$file" \
-            --content-type "text/html; charset=utf-8" \
-            --cache-control "public, max-age=3600" \
-            --cli-connect-timeout 60 \
-            --cli-read-timeout 300
-          aws s3api put-object \
-            --bucket "${{ env.S3_BUCKET }}" \
-            --key "${path}" \
-            --body "$file" \
-            --content-type "text/html; charset=utf-8" \
-            --cache-control "public, max-age=3600" \
-            --cli-connect-timeout 60 \
-            --cli-read-timeout 300
-        done
+          wait "$sync_pid"
+          wait "$js_pid"
+          wait "$css_pid"
+          wait "$atom_redirect_pid"
+          wait "$feed_redirect_pid"
 
-    - name: Invalidate CloudFront cache
-      if: env.CLOUDFRONT_DISTRIBUTION_ID != ''
-      run: |
-        aws cloudfront create-invalidation \
-          --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID }} \
-          --paths "/*"
+  invalidate:
+    runs-on: ubuntu-latest
+    needs: deploy
+
+    env:
+      AWS_REGION: cn-northwest-1
+      AWS_MAX_ATTEMPTS: 10
+      CLOUDFRONT_DISTRIBUTION_ID: ${{ vars.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+
+    steps:
+      - uses: aws-actions/configure-aws-credentials@v4
+        if: env.CLOUDFRONT_DISTRIBUTION_ID != ''
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Invalidate CloudFront cache
+        if: env.CLOUDFRONT_DISTRIBUTION_ID != ''
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "${CLOUDFRONT_DISTRIBUTION_ID}" \
+            --paths "/*"
