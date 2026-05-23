@@ -6,19 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-
-    strategy:
-      fail-fast: false
-      matrix:
-        target: [www, cn]
-
-    env:
-      AWS_REGION: cn-northwest-1
-      AWS_MAX_ATTEMPTS: 10
-      S3_BUCKET: ${{ matrix.target == 'www' && vars.AWS_S3_BUCKET_WWW || vars.AWS_S3_BUCKET_CN }}
-      CLOUDFRONT_DISTRIBUTION_ID: ${{ vars.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
 
     steps:
       - uses: actions/checkout@v4
@@ -39,6 +28,32 @@ jobs:
           find public/ -type f \( -name "*.html" -o -name "*.xml" \) \
             -exec sed -i 's|https://cdn.tloxygen.com/images/|https://cdn.yangxi.tech/images/|g' {} +
 
+      - uses: actions/upload-artifact@v4
+        with:
+          name: public-site
+          path: public/
+          if-no-files-found: error
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [www, cn]
+
+    env:
+      AWS_REGION: cn-northwest-1
+      AWS_MAX_ATTEMPTS: 10
+      S3_BUCKET: ${{ matrix.target == 'www' && vars.AWS_S3_BUCKET_WWW || vars.AWS_S3_BUCKET_CN }}
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: public-site
+          path: public/
+
       - uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -50,24 +65,51 @@ jobs:
           aws s3 sync public/ "s3://${S3_BUCKET}" --delete \
             --exclude "_redirects" --exclude "_headers" \
             --exclude "*.js" --exclude "*.css" \
-            --cli-connect-timeout 60 --cli-read-timeout 300
+            --cli-connect-timeout 60 --cli-read-timeout 300 &
+          sync_pid=$!
 
           aws s3 cp public/ "s3://${S3_BUCKET}" --recursive \
             --exclude "*" --include "*.js" \
             --cache-control "public, max-age=86400" \
-            --cli-connect-timeout 60 --cli-read-timeout 300
+            --cli-connect-timeout 60 --cli-read-timeout 300 &
+          js_pid=$!
 
           aws s3 cp public/ "s3://${S3_BUCKET}" --recursive \
             --exclude "*" --include "*.css" \
             --cache-control "public, max-age=86400" \
-            --cli-connect-timeout 60 --cli-read-timeout 300
+            --cli-connect-timeout 60 --cli-read-timeout 300 &
+          css_pid=$!
 
-      - name: Create S3 website redirects
-        run: |
           aws s3api put-object --bucket "${S3_BUCKET}" --key "atom.xml" \
-            --website-redirect-location "/feed.atom"
+            --website-redirect-location "/feed.atom" &
+          atom_redirect_pid=$!
+
           aws s3api put-object --bucket "${S3_BUCKET}" --key "feed/index.html" \
-            --website-redirect-location "/feed.atom"
+            --website-redirect-location "/feed.atom" &
+          feed_redirect_pid=$!
+
+          wait "$sync_pid"
+          wait "$js_pid"
+          wait "$css_pid"
+          wait "$atom_redirect_pid"
+          wait "$feed_redirect_pid"
+
+  invalidate:
+    runs-on: ubuntu-latest
+    needs: deploy
+
+    env:
+      AWS_REGION: cn-northwest-1
+      AWS_MAX_ATTEMPTS: 10
+      CLOUDFRONT_DISTRIBUTION_ID: ${{ vars.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+
+    steps:
+      - uses: aws-actions/configure-aws-credentials@v4
+        if: env.CLOUDFRONT_DISTRIBUTION_ID != ''
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
 
       - name: Invalidate CloudFront cache
         if: env.CLOUDFRONT_DISTRIBUTION_ID != ''
