@@ -18,7 +18,7 @@ jobs:
       AWS_REGION: cn-northwest-1
       AWS_MAX_ATTEMPTS: 10
       S3_BUCKET: ${{ matrix.target == 'www' && vars.AWS_S3_BUCKET_WWW || vars.AWS_S3_BUCKET_CN }}
-      CLOUDFRONT_DISTRIBUTION_ID: ${{ matrix.target == 'www' && vars.AWS_CLOUDFRONT_DISTRIBUTION_ID_WWW || vars.AWS_CLOUDFRONT_DISTRIBUTION_ID_CN }}
+      CLOUDFRONT_DISTRIBUTION_ID: ${{ vars.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
 
     steps:
       - uses: actions/checkout@v4
